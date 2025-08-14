@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://science-news-publishing.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
