@@ -33,6 +33,7 @@ const CategoryPage = () => {
   const getArticleLink = (article) => {
     if (article.id === 8) return "/article/ancient-forest";
     if (article.id === 11) return "/article/florida-panther";
+    if (article.id === 12) return "/article/zombie-virus";
     return `/article/${article.id}`;
   };
 

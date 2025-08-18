@@ -2,6 +2,7 @@ import { spacecraftArticle } from './articles/Spacecraft_Black_Hole.js';
 import { einsteinRingArticle } from './articles/Einstein_Ring_Black_Hole.js';
 import { ancientForestArticle } from './articles/Ancient_Forest_Discovered_Under_Melting_Arctic_Ice.js';
 import floridaPantherArticle from './articles/FloridaPantherArticlePage.js';
+import zombieVirusArticle from './articles/Zombie_Virus_Rabbits.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -278,5 +279,6 @@ export const articles = [
   carbonCaptureArticle,
   ancientForestArticle,
   quantumComputingArticle,
-  floridaPantherArticle
+  floridaPantherArticle,
+  zombieVirusArticle
 ];

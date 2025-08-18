@@ -5,6 +5,7 @@ import ArticlePage from './components/ArticlePage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
 import AncientForestArticlePage from './components/articles/AncientForestArticlePage.jsx';
 import FloridaPantherArticlePage from './components/articles/FloridaPantherArticlePage.jsx';
+import ZombieVirusArticlePage from './components/articles/ZombieVirusArticlePage.jsx';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="/article/ancient-forest" element={<AncientForestArticlePage />} />
         <Route path="/article/florida-panther" element={<FloridaPantherArticlePage />} />
+        <Route path="/article/zombie-virus" element={<ZombieVirusArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
