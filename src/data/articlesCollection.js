@@ -4,6 +4,7 @@ import { ancientForestArticle } from './articles/Ancient_Forest_Discovered_Under
 import floridaPantherArticle from './articles/FloridaPantherArticlePage.js';
 import zombieVirusArticle from './articles/Zombie_Virus_Rabbits.js';
 import { Sony_Humanoid_Robots_Weaknesses } from './articles/Sony_Humanoid_Robots_Weaknesses.js';
+import { Orange_Shark_Discovery } from './articles/Orange_Shark_Discovery.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -282,5 +283,6 @@ export const articles = [
   quantumComputingArticle,
   floridaPantherArticle,
   zombieVirusArticle,
-  Sony_Humanoid_Robots_Weaknesses
+  Sony_Humanoid_Robots_Weaknesses,
+  Orange_Shark_Discovery
 ];
