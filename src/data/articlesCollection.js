@@ -5,6 +5,7 @@ import floridaPantherArticle from './articles/FloridaPantherArticlePage.js';
 import zombieVirusArticle from './articles/Zombie_Virus_Rabbits.js';
 import { Sony_Humanoid_Robots_Weaknesses } from './articles/Sony_Humanoid_Robots_Weaknesses.js';
 import { Orange_Shark_Discovery } from './articles/Orange_Shark_Discovery.js';
+import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery";
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -272,6 +273,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  Uranus_New_Moon_Discovery, // Placing it first in the array makes it appear first on the home page
   spacecraftArticle,
   einsteinRingArticle,
   brainWeightLossArticle,

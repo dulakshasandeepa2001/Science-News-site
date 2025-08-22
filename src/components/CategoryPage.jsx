@@ -36,6 +36,7 @@ const CategoryPage = () => {
     if (article.id === 12) return "/article/zombie-virus";
     if (article.id === "Sony_Humanoid_Robots_Weaknesses") return "/article/sony-robots";
     if (article.id === "Orange_Shark_Discovery") return "/article/orange-shark";
+    if (article.id === "Uranus_New_Moon_Discovery") return "/article/uranus-moon";
     return `/article/${article.id}`;
   };
 

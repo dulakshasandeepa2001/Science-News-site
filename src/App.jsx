@@ -8,6 +8,7 @@ import FloridaPantherArticlePage from './components/articles/FloridaPantherArtic
 import ZombieVirusArticlePage from './components/articles/ZombieVirusArticlePage.jsx';
 import SonyRobotsArticlePage from './components/articles/SonyRobotsArticlePage.jsx';
 import OrangeSharkArticlePage from './components/articles/OrangeSharkArticlePage.jsx';
+import UranusNewMoonArticlePage from './components/articles/UranusNewMoonArticlePage.jsx';
 import './App.css';
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/article/zombie-virus" element={<ZombieVirusArticlePage />} />
         <Route path="/article/sony-robots" element={<SonyRobotsArticlePage />} />
         <Route path="/article/orange-shark" element={<OrangeSharkArticlePage />} />
+        <Route path="/article/uranus-moon" element={<UranusNewMoonArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
