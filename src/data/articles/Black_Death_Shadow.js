@@ -3,12 +3,12 @@ import blackDeathImage from "/assets/344.jpg";
 export const Black_Death_Shadow = {
   id: "Black_Death_Shadow",
   title: "The Shadows of the 'Black Death' That Occasionally Emerge",
-  category: "Environment & Health",
+  category: "Health & Medicine",
   date: "August 25, 2025",
   image: blackDeathImage,
   readTime: "4 min read",
   summary: "The Yersinia pestis bacterium that caused the medieval 'Black Death' pandemic continues to appear in rare isolated cases, with a recent infection confirmed in California.",
-  author: "Health & Environment Correspondent",
+  author: "Medical Correspondent",
   content: {
     sections: [
       {

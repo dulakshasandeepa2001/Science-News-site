@@ -38,8 +38,8 @@ const BlackDeathShadowArticlePage = () => {
   };
 
   const handleBackToHome = () => {
-    // Navigate to the Environment & Health category page
-    navigate('/category/Environment-Health');
+    // Navigate to the Health & Medicine category page
+    navigate('/category/Health-Medicine');
     
     // Reset page title and meta description
     document.title = 'Science News Publishing - Latest Scientific Discoveries';
@@ -61,7 +61,7 @@ const BlackDeathShadowArticlePage = () => {
           className="mb-6 hover:bg-muted"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
-          Back to Environment & Health Articles
+          Back to Health & Medicine Articles
         </Button>
 
         <article className="space-y-8">
@@ -155,7 +155,7 @@ const BlackDeathShadowArticlePage = () => {
                   You've reached the end of this article.
                 </p>
                 <Button onClick={handleBackToHome} variant="outline">
-                  Back to Environment & Health Articles
+                  Back to Health & Medicine Articles
                 </Button>
               </div>
             )}
