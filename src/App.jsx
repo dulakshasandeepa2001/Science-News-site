@@ -14,6 +14,7 @@ import BlackDeathShadowArticlePage from './components/articles/BlackDeathShadowA
 import ChinaARHelmetArticlePage from './components/articles/ChinaARHelmetArticlePage.jsx';
 import AspirinReplacementArticlePage from './components/articles/AspirinReplacementArticlePage.jsx';
 import AtlasCometArticlePage from './components/articles/AtlasCometArticlePage.jsx';
+import ChanganNevoA06ArticlePage from './components/articles/ChanganNevoA06ArticlePage.jsx';
 import './App.css';
 
 
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
+        <Route path="/article/changan-nevo-a06" element={<ChanganNevoA06ArticlePage />} />
         <Route path="/article/atlas-comet" element={<AtlasCometArticlePage />} />
         <Route path="/article/ancient-forest" element={<AncientForestArticlePage />} />
         <Route path="/article/florida-panther" element={<FloridaPantherArticlePage />} />

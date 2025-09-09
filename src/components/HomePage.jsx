@@ -61,6 +61,7 @@ const HomePage = () => {
     
     // First check the article ID
     // For articles with string IDs (most newer articles)
+    if (article.id === "Changan_Nevo_A06") return "/article/changan-nevo-a06";
     if (article.id === "Sony_Humanoid_Robots_Weaknesses") return "/article/sony-robots";
     if (article.id === "Orange_Shark_Discovery") return "/article/orange-shark";
     if (article.id === "Uranus_New_Moon_Discovery") return "/article/uranus-moon";
@@ -133,7 +134,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <Link 
-                  to={featuredArticle.id === "Atlas_Comet_Confirmation" ? "/article/atlas-comet" : getArticleLink(featuredArticle)}
+                  to={getArticleLink(featuredArticle)}
                   className="inline-flex items-center justify-center rounded-md text-sm font-medium bg-primary text-white hover:bg-primary/90 h-10 px-4 py-2 w-fit"
                 >
                   Read Full Article
