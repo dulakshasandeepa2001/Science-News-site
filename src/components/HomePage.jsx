@@ -55,14 +55,28 @@ const HomePage = () => {
   
   // Function to get the correct link for an article
   const getArticleLink = (article) => {
-    if (article.id === 8) return "/article/ancient-forest";
-    if (article.id === 11) return "/article/florida-panther";
-    if (article.id === 12) return "/article/zombie-virus";
+    // Log article info for debugging
+    console.log('Article ID:', article.id);
+    console.log('Article Title:', article.title);
+    
+    // First check the article ID
+    // For articles with string IDs (most newer articles)
     if (article.id === "Sony_Humanoid_Robots_Weaknesses") return "/article/sony-robots";
     if (article.id === "Orange_Shark_Discovery") return "/article/orange-shark";
     if (article.id === "Uranus_New_Moon_Discovery") return "/article/uranus-moon";
-  if (article.id === "Space_Plane_Mission") return "/article/space-plane";
-  if (article.id === "Black_Death_Shadow") return "/article/black-death";
+    if (article.id === "Space_Plane_Mission") return "/article/space-plane";
+    if (article.id === "Black_Death_Shadow") return "/article/black-death";
+    if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
+    if (article.id === "Aspirin_Replacement_Clopidogrel") return "/article/aspirin-replacement";
+    if (article.id === "Atlas_Comet_Confirmation") return "/article/atlas-comet";
+    
+    // For articles with numeric IDs (older articles)
+    if (article.id === 8) return "/article/ancient-forest";
+    if (article.id === 11) return "/article/florida-panther";
+    if (article.id === 12) return "/article/zombie-virus";
+    if (article.id === 16) return "/article/aspirin-replacement";
+    
+    // For any other articles, use the generic route
     return `/article/${article.id}`;
   };
 
@@ -119,7 +133,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <Link 
-                  to={getArticleLink(featuredArticle)} 
+                  to={featuredArticle.id === "Atlas_Comet_Confirmation" ? "/article/atlas-comet" : getArticleLink(featuredArticle)}
                   className="inline-flex items-center justify-center rounded-md text-sm font-medium bg-primary text-white hover:bg-primary/90 h-10 px-4 py-2 w-fit"
                 >
                   Read Full Article

@@ -6,9 +6,12 @@ import zombieVirusArticle from './articles/Zombie_Virus_Rabbits.js';
 import { Sony_Humanoid_Robots_Weaknesses } from './articles/Sony_Humanoid_Robots_Weaknesses.js';
 import { Orange_Shark_Discovery } from './articles/Orange_Shark_Discovery.js';
 import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery";
+import { Aspirin_Replacement_Clopidogrel } from './articles/Aspirin_Replacement_Clopidogrel.js';
+import { Atlas_Comet_Confirmation } from './articles/Atlas_Comet_Confirmation.js';
 
 import { Space_Plane_Mission } from './articles/Space_Plane_Mission.js';
 import { Black_Death_Shadow } from './articles/Black_Death_Shadow.js';
+import { China_AR_Helmet } from './articles/China_AR_Helmet.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -276,7 +279,10 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Black_Death_Shadow, // Newest article first (current date)
+  Atlas_Comet_Confirmation, // Newest article first (current date)
+  Aspirin_Replacement_Clopidogrel,
+  China_AR_Helmet,
+  Black_Death_Shadow,
   Space_Plane_Mission,
   Uranus_New_Moon_Discovery, 
   spacecraftArticle,

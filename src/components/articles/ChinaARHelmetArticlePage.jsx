@@ -1,43 +1,26 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button.jsx';
 import { Card, CardContent } from '@/components/ui/card.jsx';
 import { ArrowLeft, Clock, User, ChevronDown, ChevronUp } from 'lucide-react';
-import { articles } from '../data/articlesCollection.js';
-import Header from './Header.jsx';
-import Footer from './Footer.jsx';
+import { China_AR_Helmet } from '../../data/articles/China_AR_Helmet';
+import Header from '../Header.jsx';
+import Footer from '../Footer.jsx';
 
-const ArticlePage = ({ article: propArticle }) => {
-  const { articleId } = useParams();
+const ChinaARHelmetArticlePage = () => {
   const navigate = useNavigate();
-  const [article, setArticle] = useState(propArticle || null);
   const [visibleSections, setVisibleSections] = useState([0]); // First section is always visible
   
+  const article = China_AR_Helmet; // Direct import from the individual file
+  
   useEffect(() => {
-    // If we have a prop article, use it
-    if (propArticle) {
-      setArticle(propArticle);
-      document.title = `${propArticle.title} - Science News Publishing`;
-      const metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute('content', propArticle.summary);
-      }
+    // Update page title and meta description for SEO
+    document.title = `${article.title} - Science News Publishing`;
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', article.summary);
     }
-    // Otherwise try to find the article by ID
-    else if (articleId) {
-      const foundArticle = articles.find(art => art.id.toString() === articleId);
-      if (foundArticle) {
-        setArticle(foundArticle);
-        document.title = `${foundArticle.title} - Science News Publishing`;
-        const metaDescription = document.querySelector('meta[name="description"]');
-        if (metaDescription) {
-          metaDescription.setAttribute('content', foundArticle.summary);
-        }
-      } else {
-        navigate('/');
-      }
-    }
-  }, [articleId, navigate, propArticle]);
+  }, [article.title, article.summary]);
 
   const toggleSection = (index) => {
     if (visibleSections.includes(index)) {
@@ -48,7 +31,6 @@ const ArticlePage = ({ article: propArticle }) => {
   };
 
   const showNextSection = () => {
-    if (!article) return;
     const nextIndex = Math.max(...visibleSections) + 1;
     if (nextIndex < article.content.sections.length) {
       setVisibleSections([...visibleSections, nextIndex]);
@@ -56,7 +38,8 @@ const ArticlePage = ({ article: propArticle }) => {
   };
 
   const handleBackToHome = () => {
-    navigate('/');
+    // Navigate to the Technology category page
+    navigate('/category/Technology');
     
     // Reset page title and meta description
     document.title = 'Science News Publishing - Latest Scientific Discoveries';
@@ -66,11 +49,7 @@ const ArticlePage = ({ article: propArticle }) => {
     }
   };
 
-  const isLastVisibleSection = article ? Math.max(...visibleSections) === article.content.sections.length - 1 : false;
-
-  if (!article) {
-    return <div>Loading...</div>;
-  }
+  const isLastVisibleSection = Math.max(...visibleSections) === article.content.sections.length - 1;
 
   return (
     <div className="min-h-screen bg-background">
@@ -82,7 +61,7 @@ const ArticlePage = ({ article: propArticle }) => {
           className="mb-6 hover:bg-muted"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
-          Back to Articles
+          Back to Technology Articles
         </Button>
 
         <article className="space-y-8">
@@ -176,7 +155,7 @@ const ArticlePage = ({ article: propArticle }) => {
                   You've reached the end of this article.
                 </p>
                 <Button onClick={handleBackToHome} variant="outline">
-                  Back to Articles
+                  Back to Technology Articles
                 </Button>
               </div>
             )}
@@ -188,5 +167,4 @@ const ArticlePage = ({ article: propArticle }) => {
   );
 };
 
-export default ArticlePage;
-
+export default ChinaARHelmetArticlePage;

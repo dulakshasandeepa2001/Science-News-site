@@ -39,6 +39,7 @@ const CategoryPage = () => {
     if (article.id === "Uranus_New_Moon_Discovery") return "/article/uranus-moon";
   if (article.id === "Space_Plane_Mission") return "/article/space-plane";
   if (article.id === "Black_Death_Shadow") return "/article/black-death";
+  if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
     return `/article/${article.id}`;
   };
 
