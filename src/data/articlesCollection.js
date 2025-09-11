@@ -9,6 +9,7 @@ import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery"
 import { Aspirin_Replacement_Clopidogrel } from './articles/Aspirin_Replacement_Clopidogrel.js';
 import { Atlas_Comet_Confirmation } from './articles/Atlas_Comet_Confirmation.js';
 import { Changan_Nevo_A06 } from './articles/Changan_Nevo_A06.js';
+import { Russia_Enteromix_Vaccine } from './articles/Russia_Enteromix_Vaccine.js';
 
 import { Space_Plane_Mission } from './articles/Space_Plane_Mission.js';
 import { Black_Death_Shadow } from './articles/Black_Death_Shadow.js';
@@ -280,7 +281,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Changan_Nevo_A06, // Newest article first (current date)
+  Russia_Enteromix_Vaccine, // Newest article first (current date)
+  Changan_Nevo_A06,
   Atlas_Comet_Confirmation,
   Aspirin_Replacement_Clopidogrel,
   China_AR_Helmet,
