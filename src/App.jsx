@@ -16,6 +16,8 @@ import AspirinReplacementArticlePage from './components/articles/AspirinReplacem
 import AtlasCometArticlePage from './components/articles/AtlasCometArticlePage.jsx';
 import ChanganNevoA06ArticlePage from './components/articles/ChanganNevoA06ArticlePage.jsx';
 import RussiaEnteromixVaccineArticlePage from './components/articles/RussiaEnteromixVaccineArticlePage.jsx';
+import CyanobacteriaMarsOxygenArticlePage from './components/articles/CyanobacteriaMarsOxygenArticlePage.jsx';
+import MarsLifeDiscoveryArticlePage from './components/articles/MarsLifeDiscoveryArticlePage.jsx';
 import './App.css';
 
 
@@ -25,6 +27,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
+        <Route path="/article/mars-life-discovery" element={<MarsLifeDiscoveryArticlePage />} />
+        <Route path="/article/cyanobacteria-mars-oxygen" element={<CyanobacteriaMarsOxygenArticlePage />} />
         <Route path="/article/russia-enteromix-vaccine" element={<RussiaEnteromixVaccineArticlePage />} />
         <Route path="/article/changan-nevo-a06" element={<ChanganNevoA06ArticlePage />} />
         <Route path="/article/atlas-comet" element={<AtlasCometArticlePage />} />

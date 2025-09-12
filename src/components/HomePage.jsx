@@ -61,6 +61,8 @@ const HomePage = () => {
     
     // First check the article ID
     // For articles with string IDs (most newer articles)
+    if (article.id === "Mars_Life_Discovery") return "/article/mars-life-discovery";
+    if (article.id === "Cyanobacteria_Mars_Oxygen") return "/article/cyanobacteria-mars-oxygen";
     if (article.id === "Russia_Enteromix_Vaccine") return "/article/russia-enteromix-vaccine";
     if (article.id === "Changan_Nevo_A06") return "/article/changan-nevo-a06";
     if (article.id === "Sony_Humanoid_Robots_Weaknesses") return "/article/sony-robots";
