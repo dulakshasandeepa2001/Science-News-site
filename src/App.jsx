@@ -18,6 +18,9 @@ import ChanganNevoA06ArticlePage from './components/articles/ChanganNevoA06Artic
 import RussiaEnteromixVaccineArticlePage from './components/articles/RussiaEnteromixVaccineArticlePage.jsx';
 import CyanobacteriaMarsOxygenArticlePage from './components/articles/CyanobacteriaMarsOxygenArticlePage.jsx';
 import MarsLifeDiscoveryArticlePage from './components/articles/MarsLifeDiscoveryArticlePage.jsx';
+import MilitaryDroneMotherShipArticlePage from './components/articles/MilitaryDroneMotherShipArticlePage.jsx';
+import BritishPilotMarsSimulationArticlePage from './components/articles/BritishPilotMarsSimulationArticlePage.jsx';
+import OldestMummiesSoutheastAsiaArticlePage from './components/articles/OldestMummiesSoutheastAsiaArticlePage.jsx';
 import './App.css';
 
 
@@ -27,6 +30,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
+        <Route path="/article/oldest-mummies-southeast-asia" element={<OldestMummiesSoutheastAsiaArticlePage />} />
+        <Route path="/article/british-pilot-mars-simulation" element={<BritishPilotMarsSimulationArticlePage />} />
+        <Route path="/article/military-drone-mothership" element={<MilitaryDroneMotherShipArticlePage />} />
         <Route path="/article/mars-life-discovery" element={<MarsLifeDiscoveryArticlePage />} />
         <Route path="/article/cyanobacteria-mars-oxygen" element={<CyanobacteriaMarsOxygenArticlePage />} />
         <Route path="/article/russia-enteromix-vaccine" element={<RussiaEnteromixVaccineArticlePage />} />

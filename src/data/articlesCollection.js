@@ -12,6 +12,9 @@ import { Changan_Nevo_A06 } from './articles/Changan_Nevo_A06.js';
 import { Russia_Enteromix_Vaccine } from './articles/Russia_Enteromix_Vaccine.js';
 import { Cyanobacteria_Mars_Oxygen } from './articles/Cyanobacteria_Mars_Oxygen.js';
 import { Mars_Life_Discovery } from './articles/Mars_Life_Discovery.js';
+import { Military_Drone_Mother_Ship } from './articles/Military_Drone_Mother_Ship.js';
+import { British_Pilot_Mars_Simulation } from './articles/British_Pilot_Mars_Simulation.js';
+import { Oldest_Mummies_Southeast_Asia } from './articles/Oldest_Mummies_Southeast_Asia.js';
 
 import { Space_Plane_Mission } from './articles/Space_Plane_Mission.js';
 import { Black_Death_Shadow } from './articles/Black_Death_Shadow.js';
@@ -283,7 +286,10 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Mars_Life_Discovery, // Newest article first (current date)
+  Oldest_Mummies_Southeast_Asia, // Newest article first (current date)
+  British_Pilot_Mars_Simulation,
+  Military_Drone_Mother_Ship,
+  Mars_Life_Discovery,
   Cyanobacteria_Mars_Oxygen,
   Russia_Enteromix_Vaccine, 
   Changan_Nevo_A06,

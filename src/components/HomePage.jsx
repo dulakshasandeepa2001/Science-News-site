@@ -53,7 +53,7 @@ const HomePage = () => {
   const usedArticleIds = new Set([featuredArticle.id, ...latestArticles.map(a => a.id)]);
   const remainingArticles = sortedArticles.filter(article => !usedArticleIds.has(article.id));
   
-  // Function to get the correct link for an article
+    // Function to get the correct link for an article
   const getArticleLink = (article) => {
     // Log article info for debugging
     console.log('Article ID:', article.id);
@@ -61,6 +61,9 @@ const HomePage = () => {
     
     // First check the article ID
     // For articles with string IDs (most newer articles)
+    if (article.id === "Oldest_Mummies_Southeast_Asia") return "/article/oldest-mummies-southeast-asia";
+    if (article.id === "British_Pilot_Mars_Simulation") return "/article/british-pilot-mars-simulation";
+    if (article.id === "Military_Drone_Mother_Ship") return "/article/military-drone-mothership";
     if (article.id === "Mars_Life_Discovery") return "/article/mars-life-discovery";
     if (article.id === "Cyanobacteria_Mars_Oxygen") return "/article/cyanobacteria-mars-oxygen";
     if (article.id === "Russia_Enteromix_Vaccine") return "/article/russia-enteromix-vaccine";
@@ -72,9 +75,7 @@ const HomePage = () => {
     if (article.id === "Black_Death_Shadow") return "/article/black-death";
     if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
     if (article.id === "Aspirin_Replacement_Clopidogrel") return "/article/aspirin-replacement";
-    if (article.id === "Atlas_Comet_Confirmation") return "/article/atlas-comet";
-    
-    // For articles with numeric IDs (older articles)
+    if (article.id === "Atlas_Comet_Confirmation") return "/article/atlas-comet";    // For articles with numeric IDs (older articles)
     if (article.id === 8) return "/article/ancient-forest";
     if (article.id === 11) return "/article/florida-panther";
     if (article.id === 12) return "/article/zombie-virus";
