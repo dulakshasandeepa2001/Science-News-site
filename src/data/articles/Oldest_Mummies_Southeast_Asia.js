@@ -1,4 +1,4 @@
-import mummyImage from '../../assets/444 (3).jpg';
+import mummyImage from '../../assets/444 (1).jpg';
 
 export const Oldest_Mummies_Southeast_Asia = {
   id: 26, // Using a new ID

@@ -1,4 +1,4 @@
-import marsSimImage from '../../assets/444 (1).jpg';
+import marsSimImage from '../../assets/444 (3).jpg';
 
 export const British_Pilot_Mars_Simulation = {
   id: 25, // Using a new ID
