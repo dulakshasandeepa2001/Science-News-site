@@ -19,6 +19,9 @@ import { Oldest_Mummies_Southeast_Asia } from './articles/Oldest_Mummies_Southea
 import { Space_Plane_Mission } from './articles/Space_Plane_Mission.js';
 import { Black_Death_Shadow } from './articles/Black_Death_Shadow.js';
 import { China_AR_Helmet } from './articles/China_AR_Helmet.js';
+import Silverpit_Crater_Asteroid_Impact from './articles/Silverpit_Crater_Asteroid_Impact.js';
+import Prehistoric_Insects_South_America_Amber from './articles/Prehistoric_Insects_South_America_Amber.js';
+import Artemis_2_Astronauts_Ready_Mission from './articles/Artemis_2_Astronauts_Ready_Mission.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -286,7 +289,10 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Oldest_Mummies_Southeast_Asia, // Newest article first (current date)
+  Artemis_2_Astronauts_Ready_Mission, // Newest article first (September 26, 2025)
+  Silverpit_Crater_Asteroid_Impact, // September 24, 2025
+  Prehistoric_Insects_South_America_Amber, // September 23, 2025
+  Oldest_Mummies_Southeast_Asia,
   British_Pilot_Mars_Simulation,
   Military_Drone_Mother_Ship,
   Mars_Life_Discovery,
