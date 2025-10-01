@@ -15,6 +15,7 @@ import { Mars_Life_Discovery } from './articles/Mars_Life_Discovery.js';
 import { Military_Drone_Mother_Ship } from './articles/Military_Drone_Mother_Ship.js';
 import { British_Pilot_Mars_Simulation } from './articles/British_Pilot_Mars_Simulation.js';
 import { Oldest_Mummies_Southeast_Asia } from './articles/Oldest_Mummies_Southeast_Asia.js';
+import { Cleopatra_Sunken_Port_Discovery } from './articles/Cleopatra_Sunken_Port_Discovery.js';
 
 import { Space_Plane_Mission } from './articles/Space_Plane_Mission.js';
 import { Black_Death_Shadow } from './articles/Black_Death_Shadow.js';
@@ -293,6 +294,7 @@ export const articles = [
   Silverpit_Crater_Asteroid_Impact, // September 24, 2025
   Prehistoric_Insects_South_America_Amber, // September 23, 2025
   Oldest_Mummies_Southeast_Asia,
+  Cleopatra_Sunken_Port_Discovery,
   British_Pilot_Mars_Simulation,
   Military_Drone_Mother_Ship,
   Mars_Life_Discovery,

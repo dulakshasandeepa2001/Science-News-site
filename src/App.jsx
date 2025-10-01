@@ -21,6 +21,7 @@ import MarsLifeDiscoveryArticlePage from './components/articles/MarsLifeDiscover
 import MilitaryDroneMotherShipArticlePage from './components/articles/MilitaryDroneMotherShipArticlePage.jsx';
 import BritishPilotMarsSimulationArticlePage from './components/articles/BritishPilotMarsSimulationArticlePage.jsx';
 import OldestMummiesSoutheastAsiaArticlePage from './components/articles/OldestMummiesSoutheastAsiaArticlePage.jsx';
+import CleopatraSunkenPortArticlePage from './components/articles/CleopatraSunkenPortArticlePage.jsx';
 import './App.css';
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
         <Route path="/article/oldest-mummies-southeast-asia" element={<OldestMummiesSoutheastAsiaArticlePage />} />
+        <Route path="/article/cleopatra-sunken-port-discovery" element={<CleopatraSunkenPortArticlePage />} />
         <Route path="/article/british-pilot-mars-simulation" element={<BritishPilotMarsSimulationArticlePage />} />
         <Route path="/article/military-drone-mothership" element={<MilitaryDroneMotherShipArticlePage />} />
         <Route path="/article/mars-life-discovery" element={<MarsLifeDiscoveryArticlePage />} />
