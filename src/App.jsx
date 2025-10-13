@@ -22,6 +22,11 @@ import MilitaryDroneMotherShipArticlePage from './components/articles/MilitaryDr
 import BritishPilotMarsSimulationArticlePage from './components/articles/BritishPilotMarsSimulationArticlePage.jsx';
 import OldestMummiesSoutheastAsiaArticlePage from './components/articles/OldestMummiesSoutheastAsiaArticlePage.jsx';
 import CleopatraSunkenPortArticlePage from './components/articles/CleopatraSunkenPortArticlePage.jsx';
+import DinosaurFossilCrocodileBoneArticlePage from './components/articles/DinosaurFossilCrocodileBoneArticlePage.jsx';
+import NobelPrizeMedicine2025ArticlePage from './components/articles/NobelPrizeMedicine2025ArticlePage.jsx';
+import NobelPrizePhysics2025ArticlePage from './components/articles/NobelPrizePhysics2025ArticlePage.jsx';
+import NobelPrizeChemistry2025ArticlePage from './components/articles/NobelPrizeChemistry2025ArticlePage.jsx';
+import CelticMetalCoinsDiscoveryArticlePage from './components/articles/CelticMetalCoinsDiscoveryArticlePage.jsx';
 import './App.css';
 
 
@@ -50,6 +55,11 @@ function App() {
         <Route path="/article/black-death" element={<BlackDeathShadowArticlePage />} />
         <Route path="/article/china-ar-helmet" element={<ChinaARHelmetArticlePage />} />
         <Route path="/article/aspirin-replacement" element={<AspirinReplacementArticlePage />} />
+        <Route path="/article/dinosaur-fossil-crocodile-bone" element={<DinosaurFossilCrocodileBoneArticlePage />} />
+        <Route path="/article/nobel-prize-medicine-2025" element={<NobelPrizeMedicine2025ArticlePage />} />
+        <Route path="/article/nobel-prize-physics-2025" element={<NobelPrizePhysics2025ArticlePage />} />
+        <Route path="/article/nobel-prize-chemistry-2025" element={<NobelPrizeChemistry2025ArticlePage />} />
+        <Route path="/article/celtic-metal-coins-discovery" element={<CelticMetalCoinsDiscoveryArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

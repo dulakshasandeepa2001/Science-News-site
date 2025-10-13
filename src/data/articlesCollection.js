@@ -23,6 +23,11 @@ import { China_AR_Helmet } from './articles/China_AR_Helmet.js';
 import Silverpit_Crater_Asteroid_Impact from './articles/Silverpit_Crater_Asteroid_Impact.js';
 import Prehistoric_Insects_South_America_Amber from './articles/Prehistoric_Insects_South_America_Amber.js';
 import Artemis_2_Astronauts_Ready_Mission from './articles/Artemis_2_Astronauts_Ready_Mission.js';
+import { Dinosaur_Fossil_Crocodile_Bone } from './articles/Dinosaur_Fossil_Crocodile_Bone.js';
+import { Nobel_Prize_Medicine_2025 } from './articles/Nobel_Prize_Medicine_2025.js';
+import { Nobel_Prize_Physics_2025 } from './articles/Nobel_Prize_Physics_2025.js';
+import { Nobel_Prize_Chemistry_2025 } from './articles/Nobel_Prize_Chemistry_2025.js';
+import { Celtic_Metal_Coins_Discovery } from './articles/Celtic_Metal_Coins_Discovery.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -319,5 +324,10 @@ export const articles = [
   floridaPantherArticle,
   zombieVirusArticle,
   Sony_Humanoid_Robots_Weaknesses,
-  Orange_Shark_Discovery
+  Orange_Shark_Discovery,
+  Dinosaur_Fossil_Crocodile_Bone,
+  Nobel_Prize_Medicine_2025,
+  Nobel_Prize_Physics_2025,
+  Nobel_Prize_Chemistry_2025,
+  Celtic_Metal_Coins_Discovery
 ];
