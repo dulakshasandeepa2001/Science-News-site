@@ -1,43 +1,43 @@
-import atlasImage from '../../assets/188.png';
+import atlasImage from '../../assets/720.jpg';
 
 const Atlas_Comet_Confirmation = {
   id: "Atlas_Comet_Confirmation", // Using string ID for consistency
-  title: "Crystal Clear Images Confirm Atlas is Indeed a Comet",
-  summary: "New high-resolution images from the Gemini South Observatory definitively show that the interstellar object 3I/ATLAS is a comet, not an alien spacecraft.",
+  title: "Atlas Unleashes Massive Volume of Water",
+  summary: "A new study has revealed that the comet 3I/ATLAS, which arrived from outside our solar system, is leaking water like \"a fire hose running at full blast.\"",
   image: atlasImage,
   category: "Space & Physics",
-  date: "September 9, 2025", // Current date
-  author: "Gemini Observatory Research Team",
-  readTime: "4 min read",
+  date: "October 13, 2025",
+  author: "NASA's Neil Gehrels Swift Observatory Research Team",
+  readTime: "5 min read",
   content: {
     sections: [
       {
-        title: "Breakthrough Observation",
-        content: "Scientists at the Gemini South Observatory in Chile have succeeded in capturing the clearest images yet of 3I/ATLAS, which is considered the third interstellar space object to pass through our solar system. These images, obtained on August 27th, are among the first multi-color photographs captured of this object."
+        title: "Unprecedented Water Detection",
+        content: "Using NASA's Neil Gehrels Swift Observatory, scientists have for the first time identified the chemical fingerprint of water leaking from 3I/ATLAS, the third object from another star system observed traveling through our solar system."
       },
       {
-        title: "Definitive Evidence",
-        content: "Upon careful study of these images, characteristics can be observed that can dismiss the hypothesis that Atlas is not a comet but an extraterrestrial craft. Namely, the solid ice nucleus characteristic of a comet and the gaseous and dusty envelope or coma surrounding it can be clearly seen. Additionally, a long tail extending in the direction opposite to the Sun can be clearly observed."
+        title: "Cosmic Measuring Stick",
+        content: "Water serves as a kind of cosmic measuring stick in comet studies, and carefully tracking it is important for measuring how sunlight drives a comet's activity and how it releases other gases. Identifying it in an interstellar visitor allows astronomers to directly compare 3I/ATLAS with comets native to our solar system."
       },
       {
-        title: "Expert Confirmation",
-        content: "\"These new images very clearly show that 3I/ATLAS is a comet,\" points out Dr. Mark Norris, an astronomer at Lancaster University in England. \"The structure and behavior are consistent with what we expect from cometary bodies, and these high-resolution images leave little room for alternative interpretations.\""
+        title: "Direct Chemical Comparison",
+        content: "This discovery provides a rare opportunity to study the chemistry of distant planetary systems. By analyzing the water signature from an interstellar comet, researchers can gain insights into the formation processes occurring around other stars."
       },
       {
-        title: "Previous Controversy",
-        content: "Although this interstellar object, identified on July 1, 2025, was initially believed to be a comet, a research report published by a team including Avi Loeb, a theoretical physicist at Harvard University, had expressed the opinion that it could be an extraterrestrial craft. That report, which spread rapidly like wildfire, had not undergone peer review, and appears to be refuted by the latest images."
+        title: "Observatory Findings",
+        content: "Denis Bodewits, a physics professor at Auburn University, and his team observed 3I/ATLAS in July and August 2025 using the Swift telescope, when it was located approximately 2.9 times the distance between Earth and the Sun. This distance is typically much farther than the zone where cometary water ice vaporizes."
       },
       {
-        title: "Interstellar Visitor",
-        content: "3I/ATLAS is only the third confirmed interstellar object to enter our solar system, following 'Oumuamua in 2017 and Borisov in 2019. Its hyperbolic trajectory indicates it originated from outside our solar system and will exit again after its closest approach to the sun in December 2025."
+        title: "Ultraviolet Detection",
+        content: "The study reports that even at this distance, the Swift telescope detected the ultraviolet glow of hydroxyl (OH), a condition resulting from water molecules being broken down by sunlight. This detection method provides crucial evidence of active water outgassing."
       },
       {
-        title: "Scientific Significance",
-        content: "The confirmation of Atlas as a comet provides astronomers with a rare opportunity to study the composition of a body formed around another star. Spectroscopic analysis already indicates some chemical differences from comets that originated in our own solar system, offering clues about the diversity of planetary formation processes."
+        title: "Fire Hose Comparison",
+        content: "As detailed in a paper published on September 30 in the Astrophysical Journal Letters, the results showed that 3I/ATLAS is ejecting water at a rate of approximately 40 kilograms per second. This is why it can be compared to a fire hose operating at full force."
       },
       {
-        title: "Ongoing Observation Campaign",
-        content: "Astronomers worldwide are now coordinating an intensive observation campaign to gather as much data as possible during Atlas's journey through our solar system. The James Webb Space Telescope is scheduled to observe the comet in October, potentially revealing even more details about its composition and structure."
+        title: "Exceptional Activity Level",
+        content: "Based on this outflow rate, the team estimates that at least 8% of the comet's surface must be active. The study notes that this is a surprisingly large value compared to the 3% to 5% typically seen in comets in our solar system, suggesting unique characteristics of this interstellar visitor."
       }
     ]
   }
