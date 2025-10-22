@@ -27,6 +27,7 @@ import NobelPrizeMedicine2025ArticlePage from './components/articles/NobelPrizeM
 import NobelPrizePhysics2025ArticlePage from './components/articles/NobelPrizePhysics2025ArticlePage.jsx';
 import NobelPrizeChemistry2025ArticlePage from './components/articles/NobelPrizeChemistry2025ArticlePage.jsx';
 import CelticMetalCoinsDiscoveryArticlePage from './components/articles/CelticMetalCoinsDiscoveryArticlePage.jsx';
+import VolcanicEruptionPredictionMountEtnaArticlePage from './components/articles/VolcanicEruptionPredictionMountEtnaArticlePage.jsx';
 import './App.css';
 
 
@@ -60,6 +61,7 @@ function App() {
         <Route path="/article/nobel-prize-physics-2025" element={<NobelPrizePhysics2025ArticlePage />} />
         <Route path="/article/nobel-prize-chemistry-2025" element={<NobelPrizeChemistry2025ArticlePage />} />
         <Route path="/article/celtic-metal-coins-discovery" element={<CelticMetalCoinsDiscoveryArticlePage />} />
+        <Route path="/article/volcanic-eruption-prediction-mount-etna" element={<VolcanicEruptionPredictionMountEtnaArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

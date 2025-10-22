@@ -28,6 +28,7 @@ import { Nobel_Prize_Medicine_2025 } from './articles/Nobel_Prize_Medicine_2025.
 import { Nobel_Prize_Physics_2025 } from './articles/Nobel_Prize_Physics_2025.js';
 import { Nobel_Prize_Chemistry_2025 } from './articles/Nobel_Prize_Chemistry_2025.js';
 import { Celtic_Metal_Coins_Discovery } from './articles/Celtic_Metal_Coins_Discovery.js';
+import { Volcanic_Eruption_Prediction_Mount_Etna } from './articles/Volcanic_Eruption_Prediction_Mount_Etna.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -329,5 +330,6 @@ export const articles = [
   Nobel_Prize_Medicine_2025,
   Nobel_Prize_Physics_2025,
   Nobel_Prize_Chemistry_2025,
-  Celtic_Metal_Coins_Discovery
+  Celtic_Metal_Coins_Discovery,
+  Volcanic_Eruption_Prediction_Mount_Etna
 ];
