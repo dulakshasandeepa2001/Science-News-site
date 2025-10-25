@@ -75,7 +75,10 @@ const HomePage = () => {
     if (article.id === "Black_Death_Shadow") return "/article/black-death";
     if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
     if (article.id === "Aspirin_Replacement_Clopidogrel") return "/article/aspirin-replacement";
-    if (article.id === "Atlas_Comet_Confirmation") return "/article/atlas-comet";    // For articles with numeric IDs (older articles)
+    if (article.id === "Atlas_Comet_Confirmation") return "/article/atlas-comet";
+    if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
+    
+    // For articles with numeric IDs (older articles)
     if (article.id === 8) return "/article/ancient-forest";
     if (article.id === 11) return "/article/florida-panther";
     if (article.id === 12) return "/article/zombie-virus";
