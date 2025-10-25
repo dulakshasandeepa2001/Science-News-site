@@ -8,6 +8,8 @@ import { Orange_Shark_Discovery } from './articles/Orange_Shark_Discovery.js';
 import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery";
 import { Aspirin_Replacement_Clopidogrel } from './articles/Aspirin_Replacement_Clopidogrel.js';
 import { Atlas_Comet_Confirmation } from './articles/Atlas_Comet_Confirmation.js';
+import { Comet_Lemmon_Tail_Disruption } from './articles/Comet_Lemmon_Tail_Disruption.js';
+import { Mosquitoes_Iceland_Discovery } from './articles/Mosquitoes_Iceland_Discovery.js';
 import { Changan_Nevo_A06 } from './articles/Changan_Nevo_A06.js';
 import { Russia_Enteromix_Vaccine } from './articles/Russia_Enteromix_Vaccine.js';
 import { Cyanobacteria_Mars_Oxygen } from './articles/Cyanobacteria_Mars_Oxygen.js';
@@ -307,6 +309,8 @@ export const articles = [
   Russia_Enteromix_Vaccine, 
   Changan_Nevo_A06,
   Atlas_Comet_Confirmation,
+  Comet_Lemmon_Tail_Disruption,
+  Mosquitoes_Iceland_Discovery,
   Aspirin_Replacement_Clopidogrel,
   China_AR_Helmet,
   Black_Death_Shadow,
