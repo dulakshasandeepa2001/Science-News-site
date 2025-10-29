@@ -29,6 +29,7 @@ import NobelPrizeChemistry2025ArticlePage from './components/articles/NobelPrize
 import CelticMetalCoinsDiscoveryArticlePage from './components/articles/CelticMetalCoinsDiscoveryArticlePage.jsx';
 import VolcanicEruptionPredictionMountEtnaArticlePage from './components/articles/VolcanicEruptionPredictionMountEtnaArticlePage.jsx';
 import JapanHTVXCargoISSArticlePage from './components/articles/JapanHTVXCargoISSArticlePage.jsx';
+import Asteroid2025TP5CloseApproachArticlePage from './components/articles/Asteroid2025TP5CloseApproachArticlePage.jsx';
 import './App.css';
 
 
@@ -64,6 +65,7 @@ function App() {
         <Route path="/article/celtic-metal-coins-discovery" element={<CelticMetalCoinsDiscoveryArticlePage />} />
         <Route path="/article/volcanic-eruption-prediction-mount-etna" element={<VolcanicEruptionPredictionMountEtnaArticlePage />} />
         <Route path="/article/japan-htv-x-cargo-iss" element={<JapanHTVXCargoISSArticlePage />} />
+        <Route path="/article/asteroid-2025-tp5-close-approach" element={<Asteroid2025TP5CloseApproachArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

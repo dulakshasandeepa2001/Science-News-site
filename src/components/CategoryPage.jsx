@@ -42,6 +42,7 @@ const CategoryPage = () => {
     if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
     if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
     if (article.id === "Japan_HTV_X_Cargo_ISS") return "/article/japan-htv-x-cargo-iss";
+    if (article.id === "Asteroid_2025_TP5_Close_Approach") return "/article/asteroid-2025-tp5-close-approach";
     return `/article/${article.id}`;
   };
 
