@@ -39,6 +39,8 @@ import { Nobel_Prize_Physics_2025 } from './articles/Nobel_Prize_Physics_2025.js
 import { Nobel_Prize_Chemistry_2025 } from './articles/Nobel_Prize_Chemistry_2025.js';
 import { Celtic_Metal_Coins_Discovery } from './articles/Celtic_Metal_Coins_Discovery.js';
 import { Volcanic_Eruption_Prediction_Mount_Etna } from './articles/Volcanic_Eruption_Prediction_Mount_Etna.js';
+import { Japan_HTV_X_Cargo_ISS } from './articles/Japan_HTV_X_Cargo_ISS.js';
+import { Asteroid_2025_TP5_Close_Approach } from './articles/Asteroid_2025_TP5_Close_Approach.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -306,7 +308,9 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Artemis_2_Astronauts_Ready_Mission, // Newest article first (September 26, 2025)
+  Asteroid_2025_TP5_Close_Approach, // Newest article first (October 27, 2025)
+  Japan_HTV_X_Cargo_ISS, // October 28, 2025
+  Artemis_2_Astronauts_Ready_Mission, // September 26, 2025
   Silverpit_Crater_Asteroid_Impact, // September 24, 2025
   Prehistoric_Insects_South_America_Amber, // September 23, 2025
   Oldest_Mummies_Southeast_Asia,
