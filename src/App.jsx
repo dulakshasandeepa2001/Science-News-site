@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage.jsx';
+import BlogPage from './components/BlogPage.jsx';
+import BlogPostPage from './components/BlogPostPage.jsx';
 import CategoryPage from './components/CategoryPage.jsx';
 import ArticlePage from './components/ArticlePage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
@@ -36,6 +38,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:blogId" element={<BlogPostPage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
         <Route path="/article/oldest-mummies-southeast-asia" element={<OldestMummiesSoutheastAsiaArticlePage />} />
         <Route path="/article/cleopatra-sunken-port-discovery" element={<CleopatraSunkenPortArticlePage />} />

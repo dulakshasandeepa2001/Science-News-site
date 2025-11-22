@@ -10,6 +10,14 @@ import { Aspirin_Replacement_Clopidogrel } from './articles/Aspirin_Replacement_
 import { Atlas_Comet_Confirmation } from './articles/Atlas_Comet_Confirmation.js';
 import { Comet_Lemmon_Tail_Disruption } from './articles/Comet_Lemmon_Tail_Disruption.js';
 import { Mosquitoes_Iceland_Discovery } from './articles/Mosquitoes_Iceland_Discovery.js';
+import { Ryugu_Asteroid_Water_Discovery } from './articles/Ryugu_Asteroid_Water_Discovery.js';
+import { Geomagnetic_Storm_Northern_Lights } from './articles/Geomagnetic_Storm_Northern_Lights.js';
+import { Mammoth_RNA_Discovery } from './articles/Mammoth_RNA_Discovery.js';
+import { Skydiver_Sun_Photography } from './articles/Skydiver_Sun_Photography.js';
+import { James_Watson_Passing } from './articles/James_Watson_Passing.js';
+import { Shenzhou_21_Capsule_Mission } from './articles/Shenzhou_21_Capsule_Mission.js';
+import { NASA_Atlas_Comet_Images } from './articles/NASA_Atlas_Comet_Images.js';
+import { Ancient_Crocodile_Ancestor_Discovery } from './articles/Ancient_Crocodile_Ancestor_Discovery.js';
 import { Changan_Nevo_A06 } from './articles/Changan_Nevo_A06.js';
 import { Russia_Enteromix_Vaccine } from './articles/Russia_Enteromix_Vaccine.js';
 import { Cyanobacteria_Mars_Oxygen } from './articles/Cyanobacteria_Mars_Oxygen.js';
@@ -312,6 +320,14 @@ export const articles = [
   Atlas_Comet_Confirmation,
   Comet_Lemmon_Tail_Disruption,
   Mosquitoes_Iceland_Discovery,
+  Ryugu_Asteroid_Water_Discovery,
+  Geomagnetic_Storm_Northern_Lights,
+  Mammoth_RNA_Discovery,
+  Skydiver_Sun_Photography,
+  James_Watson_Passing,
+  Shenzhou_21_Capsule_Mission,
+  NASA_Atlas_Comet_Images,
+  Ancient_Crocodile_Ancestor_Discovery,
   Aspirin_Replacement_Clopidogrel,
   China_AR_Helmet,
   Black_Death_Shadow,
