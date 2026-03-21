@@ -28,6 +28,7 @@ import { Nobel_Prize_Medicine_2025 } from './articles/Nobel_Prize_Medicine_2025.
 import { Nobel_Prize_Physics_2025 } from './articles/Nobel_Prize_Physics_2025.js';
 import { Nobel_Prize_Chemistry_2025 } from './articles/Nobel_Prize_Chemistry_2025.js';
 import { Celtic_Metal_Coins_Discovery } from './articles/Celtic_Metal_Coins_Discovery.js';
+import Ohio_Fireball_Meteor_Sonic_Boom_2026 from './articles/Ohio_Fireball_Meteor_Sonic_Boom_2026.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -295,6 +296,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  Ohio_Fireball_Meteor_Sonic_Boom_2026, // March 17, 2026
   Artemis_2_Astronauts_Ready_Mission, // Newest article first (September 26, 2025)
   Silverpit_Crater_Asteroid_Impact, // September 24, 2025
   Prehistoric_Insects_South_America_Amber, // September 23, 2025
