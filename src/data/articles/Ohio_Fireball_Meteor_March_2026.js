@@ -1,8 +1,8 @@
 export const Ohio_Fireball_Meteor_March_2026 = {
   id: "Ohio_Fireball_Meteor_March_2026",
   title: "NASA Confirms Massive Sonic Boom Over Ohio Caused by Fireball Meteor",
-  summary: "NASA has officially confirmed that a powerful sonic boom shook the state of Ohio on March 17, 2026, caused by a fireball meteor blazing through the sky at over 72,000 km/h.",
-  image: "https://www.vidusara.lk/wp-content/uploads/2026/03/fire-ball-meteor-card.png",
+  summary: "NASA has officially confirmed that a powerful sonic boom shook Ohio on March 17, 2026, caused by a fireball meteor blazing through the sky at over 72,000 km/h, with the event felt across Pennsylvania and New York.",
+  image: "https://www.vidusara.lk/wp-content/uploads/2026/03/8Ai8XEjwg496Aq3Ewpkvkg.jpg",
   category: "Space & Physics",
   date: "March 17, 2026",
   author: "NASA Space Division",
