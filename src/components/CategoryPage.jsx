@@ -37,9 +37,12 @@ const CategoryPage = () => {
     if (article.id === "Sony_Humanoid_Robots_Weaknesses") return "/article/sony-robots";
     if (article.id === "Orange_Shark_Discovery") return "/article/orange-shark";
     if (article.id === "Uranus_New_Moon_Discovery") return "/article/uranus-moon";
-  if (article.id === "Space_Plane_Mission") return "/article/space-plane";
-  if (article.id === "Black_Death_Shadow") return "/article/black-death";
-  if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
+    if (article.id === "Space_Plane_Mission") return "/article/space-plane";
+    if (article.id === "Black_Death_Shadow") return "/article/black-death";
+    if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
+    if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
+    if (article.id === "Japan_HTV_X_Cargo_ISS") return "/article/japan-htv-x-cargo-iss";
+    if (article.id === "Asteroid_2025_TP5_Close_Approach") return "/article/asteroid-2025-tp5-close-approach";
     return `/article/${article.id}`;
   };
 

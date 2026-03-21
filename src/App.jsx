@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage.jsx';
+import BlogPage from './components/BlogPage.jsx';
+import BlogPostPage from './components/BlogPostPage.jsx';
 import CategoryPage from './components/CategoryPage.jsx';
 import ArticlePage from './components/ArticlePage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
@@ -27,6 +29,9 @@ import NobelPrizeMedicine2025ArticlePage from './components/articles/NobelPrizeM
 import NobelPrizePhysics2025ArticlePage from './components/articles/NobelPrizePhysics2025ArticlePage.jsx';
 import NobelPrizeChemistry2025ArticlePage from './components/articles/NobelPrizeChemistry2025ArticlePage.jsx';
 import CelticMetalCoinsDiscoveryArticlePage from './components/articles/CelticMetalCoinsDiscoveryArticlePage.jsx';
+import VolcanicEruptionPredictionMountEtnaArticlePage from './components/articles/VolcanicEruptionPredictionMountEtnaArticlePage.jsx';
+import JapanHTVXCargoISSArticlePage from './components/articles/JapanHTVXCargoISSArticlePage.jsx';
+import Asteroid2025TP5CloseApproachArticlePage from './components/articles/Asteroid2025TP5CloseApproachArticlePage.jsx';
 import './App.css';
 
 
@@ -35,6 +40,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:blogId" element={<BlogPostPage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
         <Route path="/article/oldest-mummies-southeast-asia" element={<OldestMummiesSoutheastAsiaArticlePage />} />
         <Route path="/article/cleopatra-sunken-port-discovery" element={<CleopatraSunkenPortArticlePage />} />
@@ -60,6 +67,9 @@ function App() {
         <Route path="/article/nobel-prize-physics-2025" element={<NobelPrizePhysics2025ArticlePage />} />
         <Route path="/article/nobel-prize-chemistry-2025" element={<NobelPrizeChemistry2025ArticlePage />} />
         <Route path="/article/celtic-metal-coins-discovery" element={<CelticMetalCoinsDiscoveryArticlePage />} />
+        <Route path="/article/volcanic-eruption-prediction-mount-etna" element={<VolcanicEruptionPredictionMountEtnaArticlePage />} />
+        <Route path="/article/japan-htv-x-cargo-iss" element={<JapanHTVXCargoISSArticlePage />} />
+        <Route path="/article/asteroid-2025-tp5-close-approach" element={<Asteroid2025TP5CloseApproachArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

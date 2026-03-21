@@ -21,6 +21,9 @@ const Header = () => {
           <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">
             Home
           </Link>
+          <Link to="/blog" className="text-sm font-medium hover:text-primary transition-colors">
+            Blog
+          </Link>
           <Link to="/category/Space-Physics" className="text-sm font-medium hover:text-primary transition-colors">
             Space & Physics
           </Link>
