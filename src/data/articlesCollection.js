@@ -8,6 +8,16 @@ import { Orange_Shark_Discovery } from './articles/Orange_Shark_Discovery.js';
 import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery";
 import { Aspirin_Replacement_Clopidogrel } from './articles/Aspirin_Replacement_Clopidogrel.js';
 import { Atlas_Comet_Confirmation } from './articles/Atlas_Comet_Confirmation.js';
+import { Comet_Lemmon_Tail_Disruption } from './articles/Comet_Lemmon_Tail_Disruption.js';
+import { Mosquitoes_Iceland_Discovery } from './articles/Mosquitoes_Iceland_Discovery.js';
+import { Ryugu_Asteroid_Water_Discovery } from './articles/Ryugu_Asteroid_Water_Discovery.js';
+import { Geomagnetic_Storm_Northern_Lights } from './articles/Geomagnetic_Storm_Northern_Lights.js';
+import { Mammoth_RNA_Discovery } from './articles/Mammoth_RNA_Discovery.js';
+import { Skydiver_Sun_Photography } from './articles/Skydiver_Sun_Photography.js';
+import { James_Watson_Passing } from './articles/James_Watson_Passing.js';
+import { Shenzhou_21_Capsule_Mission } from './articles/Shenzhou_21_Capsule_Mission.js';
+import { NASA_Atlas_Comet_Images } from './articles/NASA_Atlas_Comet_Images.js';
+import { Ancient_Crocodile_Ancestor_Discovery } from './articles/Ancient_Crocodile_Ancestor_Discovery.js';
 import { Changan_Nevo_A06 } from './articles/Changan_Nevo_A06.js';
 import { Russia_Enteromix_Vaccine } from './articles/Russia_Enteromix_Vaccine.js';
 import { Cyanobacteria_Mars_Oxygen } from './articles/Cyanobacteria_Mars_Oxygen.js';
@@ -28,7 +38,6 @@ import { Nobel_Prize_Medicine_2025 } from './articles/Nobel_Prize_Medicine_2025.
 import { Nobel_Prize_Physics_2025 } from './articles/Nobel_Prize_Physics_2025.js';
 import { Nobel_Prize_Chemistry_2025 } from './articles/Nobel_Prize_Chemistry_2025.js';
 import { Celtic_Metal_Coins_Discovery } from './articles/Celtic_Metal_Coins_Discovery.js';
-import Ohio_Fireball_Meteor_Sonic_Boom_2026 from './articles/Ohio_Fireball_Meteor_Sonic_Boom_2026.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -296,7 +305,6 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Ohio_Fireball_Meteor_Sonic_Boom_2026, // March 17, 2026
   Artemis_2_Astronauts_Ready_Mission, // Newest article first (September 26, 2025)
   Silverpit_Crater_Asteroid_Impact, // September 24, 2025
   Prehistoric_Insects_South_America_Amber, // September 23, 2025
@@ -309,6 +317,16 @@ export const articles = [
   Russia_Enteromix_Vaccine, 
   Changan_Nevo_A06,
   Atlas_Comet_Confirmation,
+  Comet_Lemmon_Tail_Disruption,
+  Mosquitoes_Iceland_Discovery,
+  Ryugu_Asteroid_Water_Discovery,
+  Geomagnetic_Storm_Northern_Lights,
+  Mammoth_RNA_Discovery,
+  Skydiver_Sun_Photography,
+  James_Watson_Passing,
+  Shenzhou_21_Capsule_Mission,
+  NASA_Atlas_Comet_Images,
+  Ancient_Crocodile_Ancestor_Discovery,
   Aspirin_Replacement_Clopidogrel,
   China_AR_Helmet,
   Black_Death_Shadow,
@@ -331,5 +349,6 @@ export const articles = [
   Nobel_Prize_Medicine_2025,
   Nobel_Prize_Physics_2025,
   Nobel_Prize_Chemistry_2025,
-  Celtic_Metal_Coins_Discovery
+  Celtic_Metal_Coins_Discovery,
+  Volcanic_Eruption_Prediction_Mount_Etna
 ];
