@@ -5,7 +5,7 @@ import floridaPantherArticle from './articles/FloridaPantherArticlePage.js';
 import zombieVirusArticle from './articles/Zombie_Virus_Rabbits.js';
 import { Sony_Humanoid_Robots_Weaknesses } from './articles/Sony_Humanoid_Robots_Weaknesses.js';
 import { Orange_Shark_Discovery } from './articles/Orange_Shark_Discovery.js';
-import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery";
+import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery.js";
 import { Aspirin_Replacement_Clopidogrel } from './articles/Aspirin_Replacement_Clopidogrel.js';
 import { Atlas_Comet_Confirmation } from './articles/Atlas_Comet_Confirmation.js';
 import { Comet_Lemmon_Tail_Disruption } from './articles/Comet_Lemmon_Tail_Disruption.js';
@@ -38,6 +38,7 @@ import { Nobel_Prize_Medicine_2025 } from './articles/Nobel_Prize_Medicine_2025.
 import { Nobel_Prize_Physics_2025 } from './articles/Nobel_Prize_Physics_2025.js';
 import { Nobel_Prize_Chemistry_2025 } from './articles/Nobel_Prize_Chemistry_2025.js';
 import { Celtic_Metal_Coins_Discovery } from './articles/Celtic_Metal_Coins_Discovery.js';
+import { Volcanic_Eruption_Prediction_Mount_Etna } from './articles/Volcanic_Eruption_Prediction_Mount_Etna.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
