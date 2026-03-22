@@ -32,6 +32,7 @@ import CelticMetalCoinsDiscoveryArticlePage from './components/articles/CelticMe
 import VolcanicEruptionPredictionMountEtnaArticlePage from './components/articles/VolcanicEruptionPredictionMountEtnaArticlePage.jsx';
 import JapanHTVXCargoISSArticlePage from './components/articles/JapanHTVXCargoISSArticlePage.jsx';
 import Asteroid2025TP5CloseApproachArticlePage from './components/articles/Asteroid2025TP5CloseApproachArticlePage.jsx';
+import SpaceXStarlink10000SatellitesArticlePage from './components/articles/SpaceXStarlink10000SatellitesArticlePage.jsx';
 import './App.css';
 
 
@@ -70,6 +71,7 @@ function App() {
         <Route path="/article/volcanic-eruption-prediction-mount-etna" element={<VolcanicEruptionPredictionMountEtnaArticlePage />} />
         <Route path="/article/japan-htv-x-cargo-iss" element={<JapanHTVXCargoISSArticlePage />} />
         <Route path="/article/asteroid-2025-tp5-close-approach" element={<Asteroid2025TP5CloseApproachArticlePage />} />
+        <Route path="/article/spacex-starlink-10000-satellites" element={<SpaceXStarlink10000SatellitesArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
