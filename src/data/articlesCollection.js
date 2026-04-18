@@ -41,6 +41,7 @@ import { Celtic_Metal_Coins_Discovery } from './articles/Celtic_Metal_Coins_Disc
 import { Volcanic_Eruption_Prediction_Mount_Etna } from './articles/Volcanic_Eruption_Prediction_Mount_Etna.js';
 import { Ohio_Fireball_Meteor_March_2026 } from './articles/Ohio_Fireball_Meteor_March_2026.js';
 import { SpaceX_Starlink_10000_Satellites } from './articles/SpaceX_Starlink_10000_Satellites.js';
+import { Mexican_Government_Data_Theft_AI } from './articles/Mexican_Government_Data_Theft_AI.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -308,7 +309,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  SpaceX_Starlink_10000_Satellites, // Newest article first (March 22, 2026)
+  Mexican_Government_Data_Theft_AI, // April 17, 2026 - Newest article
+  SpaceX_Starlink_10000_Satellites, // March 22, 2026
   Ohio_Fireball_Meteor_March_2026, // March 17, 2026
   Artemis_2_Astronauts_Ready_Mission, // September 26, 2025
   Silverpit_Crater_Asteroid_Impact, // September 24, 2025

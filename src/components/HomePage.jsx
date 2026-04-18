@@ -236,6 +236,34 @@ const HomePage = () => {
                 <p className="text-muted-foreground">Stay informed about climate science and environmental issues</p>
               </div>
             </Link>
+
+            <Link to="/category/Earth" className="block">
+              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
+                <h3 className="text-xl font-semibold mb-2">Earth</h3>
+                <p className="text-muted-foreground">Discover insights into our planet's geology and natural systems</p>
+              </div>
+            </Link>
+
+            <Link to="/category/Life" className="block">
+              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
+                <h3 className="text-xl font-semibold mb-2">Life</h3>
+                <p className="text-muted-foreground">Explore biology, genetics, and the diversity of living organisms</p>
+              </div>
+            </Link>
+
+            <Link to="/category/Chemistry" className="block">
+              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
+                <h3 className="text-xl font-semibold mb-2">Chemistry</h3>
+                <p className="text-muted-foreground">Learn about chemical reactions and molecular science</p>
+              </div>
+            </Link>
+
+            <Link to="/category/Science-Society" className="block">
+              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
+                <h3 className="text-xl font-semibold mb-2">Science & Society</h3>
+                <p className="text-muted-foreground">Explore the intersection of science and social impact</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
