@@ -34,6 +34,8 @@ import JapanHTVXCargoISSArticlePage from './components/articles/JapanHTVXCargoIS
 import Asteroid2025TP5CloseApproachArticlePage from './components/articles/Asteroid2025TP5CloseApproachArticlePage.jsx';
 import SpaceXStarlink10000SatellitesArticlePage from './components/articles/SpaceXStarlink10000SatellitesArticlePage.jsx';
 import MexicanGovernmentDataTheftArticlePage from './components/articles/MexicanGovernmentDataTheftArticlePage.jsx';
+import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
+import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
 import './App.css';
 
 
@@ -74,6 +76,8 @@ function App() {
         <Route path="/article/asteroid-2025-tp5-close-approach" element={<Asteroid2025TP5CloseApproachArticlePage />} />
         <Route path="/article/spacex-starlink-10000-satellites" element={<SpaceXStarlink10000SatellitesArticlePage />} />
         <Route path="/article/mexican-government-data-theft-ai" element={<MexicanGovernmentDataTheftArticlePage />} />
+        <Route path="/article/atlantic-amoc-collapse-risk" element={<AtlanticAMOCCollapseRiskArticlePage />} />
+        <Route path="/article/tim-cook-apple-ceo-transition" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
