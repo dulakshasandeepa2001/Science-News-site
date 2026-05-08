@@ -49,6 +49,8 @@ import { Giant_Dam_Save_AMOC } from './articles/Giant_Dam_Save_AMOC.js';
 import { Interstellar_Comet_3I_ATLAS_Origin } from './articles/Interstellar_Comet_3I_ATLAS_Origin.js';
 import { Pluto_Reclassification_Planet_Effort } from './articles/Pluto_Reclassification_Planet_Effort.js';
 import { Global_Pandemic_Treaty_Delay } from './articles/Global_Pandemic_Treaty_Delay.js';
+import { Tiny_Object_Solar_System_Atmosphere } from './articles/Tiny_Object_Solar_System_Atmosphere.js';
+import { Wasp_Named_David_Attenborough_Birthday } from './articles/Wasp_Named_David_Attenborough_Birthday.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -316,7 +318,9 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Global_Pandemic_Treaty_Delay, // May 6, 2026 - Newest article
+  Wasp_Named_David_Attenborough_Birthday, // May 8, 2026 - Newest article
+  Tiny_Object_Solar_System_Atmosphere, // May 7, 2026
+  Global_Pandemic_Treaty_Delay, // May 6, 2026
   Pluto_Reclassification_Planet_Effort, // April 30, 2026
   Interstellar_Comet_3I_ATLAS_Origin, // April 29, 2026
   Giant_Dam_Save_AMOC, // April 28, 2026
