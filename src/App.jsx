@@ -36,6 +36,7 @@ import SpaceXStarlink10000SatellitesArticlePage from './components/articles/Spac
 import MexicanGovernmentDataTheftArticlePage from './components/articles/MexicanGovernmentDataTheftArticlePage.jsx';
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
+import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
 import './App.css';
 
 
@@ -78,6 +79,7 @@ function App() {
         <Route path="/article/mexican-government-data-theft-ai" element={<MexicanGovernmentDataTheftArticlePage />} />
         <Route path="/article/atlantic-amoc-collapse-risk" element={<AtlanticAMOCCollapseRiskArticlePage />} />
         <Route path="/article/tim-cook-apple-ceo-transition" element={<TimCookAppleCEOTransitionArticlePage />} />
+        <Route path="/article/water-paint-coating" element={<WaterPaintCoatingArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

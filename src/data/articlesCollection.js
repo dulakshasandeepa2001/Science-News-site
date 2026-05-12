@@ -51,6 +51,7 @@ import { Pluto_Reclassification_Planet_Effort } from './articles/Pluto_Reclassif
 import { Global_Pandemic_Treaty_Delay } from './articles/Global_Pandemic_Treaty_Delay.js';
 import { Tiny_Object_Solar_System_Atmosphere } from './articles/Tiny_Object_Solar_System_Atmosphere.js';
 import { Wasp_Named_David_Attenborough_Birthday } from './articles/Wasp_Named_David_Attenborough_Birthday.js';
+import { Water_Paint_Coating_Dewpoint } from './articles/Water_Paint_Coating_Dewpoint.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -318,6 +319,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  Water_Paint_Coating_Dewpoint, // May 12, 2026 - Newest article
   Wasp_Named_David_Attenborough_Birthday, // May 8, 2026 - Newest article
   Tiny_Object_Solar_System_Atmosphere, // May 7, 2026
   Global_Pandemic_Treaty_Delay, // May 6, 2026
