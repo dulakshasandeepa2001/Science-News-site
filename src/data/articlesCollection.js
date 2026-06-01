@@ -55,6 +55,7 @@ import { Water_Paint_Coating_Dewpoint } from './articles/Water_Paint_Coating_Dew
 import { BlueOriginNewGlennExplosion } from './articles/BlueOriginNewGlennExplosion.js';
 import { MoonBaseI_BlueOriginMission } from './articles/MoonBaseI_BlueOriginMission.js';
 import { Red_Dwarf_Stars_Swallowing_Planets } from './articles/Red_Dwarf_Stars_Swallowing_Planets.js';
+import { Psyche_Spacecraft_Mars_Gravity_Assist } from './articles/Psyche_Spacecraft_Mars_Gravity_Assist.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -325,6 +326,7 @@ export const articles = [
   Red_Dwarf_Stars_Swallowing_Planets, // June 1, 2026 - Newest article
   BlueOriginNewGlennExplosion, // May 29, 2026
   MoonBaseI_BlueOriginMission, // May 28, 2026
+  Psyche_Spacecraft_Mars_Gravity_Assist, // May 19, 2026
   Water_Paint_Coating_Dewpoint, // May 12, 2026
   Wasp_Named_David_Attenborough_Birthday, // May 8, 2026
   Tiny_Object_Solar_System_Atmosphere, // May 7, 2026
