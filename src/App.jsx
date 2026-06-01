@@ -37,6 +37,9 @@ import MexicanGovernmentDataTheftArticlePage from './components/articles/Mexican
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
 import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
+import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOriginNewGlennExplosionArticlePage.jsx';
+import MoonBaseIBlueOriginMissionArticlePage from './components/articles/MoonBaseIBlueOriginMissionArticlePage.jsx';
+import RedDwarfStarsSwallowingPlanetsArticlePage from './components/articles/RedDwarfStarsSwallowingPlanetsArticlePage.jsx';
 import './App.css';
 
 
@@ -80,6 +83,9 @@ function App() {
         <Route path="/article/atlantic-amoc-collapse-risk" element={<AtlanticAMOCCollapseRiskArticlePage />} />
         <Route path="/article/tim-cook-apple-ceo-transition" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/article/water-paint-coating" element={<WaterPaintCoatingArticlePage />} />
+        <Route path="/article/blue-origin-new-glenn-explosion" element={<BlueOriginNewGlennExplosionArticlePage />} />
+        <Route path="/article/moon-base-i-blue-origin-mission" element={<MoonBaseIBlueOriginMissionArticlePage />} />
+        <Route path="/article/red-dwarf-stars-swallowing-planets" element={<RedDwarfStarsSwallowingPlanetsArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
