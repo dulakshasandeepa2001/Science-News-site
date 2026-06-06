@@ -41,6 +41,8 @@ import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOr
 import MoonBaseIBlueOriginMissionArticlePage from './components/articles/MoonBaseIBlueOriginMissionArticlePage.jsx';
 import RedDwarfStarsSwallowingPlanetsArticlePage from './components/articles/RedDwarfStarsSwallowingPlanetsArticlePage.jsx';
 import TRexTinyArmsEvolutionarySacrificeArticlePage from './components/articles/TRexTinyArmsEvolutionarySacrificeArticlePage.jsx';
+import BritishParalympianJohnMcFallAstronautArticlePage from './components/articles/BritishParalympianJohnMcFallAstronautArticlePage.jsx';
+import HumpbackWhalesSoundDiscoveryArticlePage from './components/articles/HumpbackWhalesSoundDiscoveryArticlePage.jsx';
 import './App.css';
 
 
@@ -88,6 +90,8 @@ function App() {
         <Route path="/article/moon-base-i-blue-origin-mission" element={<MoonBaseIBlueOriginMissionArticlePage />} />
         <Route path="/article/red-dwarf-stars-swallowing-planets" element={<RedDwarfStarsSwallowingPlanetsArticlePage />} />
         <Route path="/article/t-rex-tiny-arms-evolutionary-sacrifice" element={<TRexTinyArmsEvolutionarySacrificeArticlePage />} />
+        <Route path="/article/british-paralympian-john-mcfall-astronaut" element={<BritishParalympianJohnMcFallAstronautArticlePage />} />
+        <Route path="/article/humpback-whales-sound-discovery" element={<HumpbackWhalesSoundDiscoveryArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
