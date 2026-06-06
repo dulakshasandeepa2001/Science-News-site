@@ -56,6 +56,7 @@ import { BlueOriginNewGlennExplosion } from './articles/BlueOriginNewGlennExplos
 import { MoonBaseI_BlueOriginMission } from './articles/MoonBaseI_BlueOriginMission.js';
 import { Red_Dwarf_Stars_Swallowing_Planets } from './articles/Red_Dwarf_Stars_Swallowing_Planets.js';
 import { Psyche_Spacecraft_Mars_Gravity_Assist } from './articles/Psyche_Spacecraft_Mars_Gravity_Assist.js';
+import { TRexTinyArmsEvolutionarySacrifice } from './articles/TRexTinyArmsEvolutionarySacrifice.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -385,5 +386,6 @@ export const articles = [
   Nobel_Prize_Physics_2025,
   Nobel_Prize_Chemistry_2025,
   Celtic_Metal_Coins_Discovery,
-  Volcanic_Eruption_Prediction_Mount_Etna
+  Volcanic_Eruption_Prediction_Mount_Etna,
+  TRexTinyArmsEvolutionarySacrifice
 ];

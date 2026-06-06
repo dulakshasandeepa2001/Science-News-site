@@ -6,6 +6,7 @@ import pantherImage from '../assets/1222.jpg';
 import cleopatraImage from '../assets/5644.jpg';
 import { Water_Paint_Coating_Dewpoint } from './articles/Water_Paint_Coating_Dewpoint';
 import { Psyche_Spacecraft_Mars_Gravity_Assist } from './articles/Psyche_Spacecraft_Mars_Gravity_Assist';
+import { TRexTinyArmsEvolutionarySacrifice } from './articles/TRexTinyArmsEvolutionarySacrifice';
 
 export const articles = [
   {
@@ -513,5 +514,6 @@ export const articles = [
       }
     ]
   }
-}
+},
+TRexTinyArmsEvolutionarySacrifice
 ];

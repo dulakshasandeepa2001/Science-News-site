@@ -40,6 +40,7 @@ import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatin
 import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOriginNewGlennExplosionArticlePage.jsx';
 import MoonBaseIBlueOriginMissionArticlePage from './components/articles/MoonBaseIBlueOriginMissionArticlePage.jsx';
 import RedDwarfStarsSwallowingPlanetsArticlePage from './components/articles/RedDwarfStarsSwallowingPlanetsArticlePage.jsx';
+import TRexTinyArmsEvolutionarySacrificeArticlePage from './components/articles/TRexTinyArmsEvolutionarySacrificeArticlePage.jsx';
 import './App.css';
 
 
@@ -86,6 +87,7 @@ function App() {
         <Route path="/article/blue-origin-new-glenn-explosion" element={<BlueOriginNewGlennExplosionArticlePage />} />
         <Route path="/article/moon-base-i-blue-origin-mission" element={<MoonBaseIBlueOriginMissionArticlePage />} />
         <Route path="/article/red-dwarf-stars-swallowing-planets" element={<RedDwarfStarsSwallowingPlanetsArticlePage />} />
+        <Route path="/article/t-rex-tiny-arms-evolutionary-sacrifice" element={<TRexTinyArmsEvolutionarySacrificeArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
