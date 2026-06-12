@@ -52,7 +52,13 @@ import { Global_Pandemic_Treaty_Delay } from './articles/Global_Pandemic_Treaty_
 import { Tiny_Object_Solar_System_Atmosphere } from './articles/Tiny_Object_Solar_System_Atmosphere.js';
 import { Wasp_Named_David_Attenborough_Birthday } from './articles/Wasp_Named_David_Attenborough_Birthday.js';
 import { Water_Paint_Coating_Dewpoint } from './articles/Water_Paint_Coating_Dewpoint.js';
+import { BlueOriginNewGlennExplosion } from './articles/BlueOriginNewGlennExplosion.js';
+import { MoonBaseI_BlueOriginMission } from './articles/MoonBaseI_BlueOriginMission.js';
+import { Red_Dwarf_Stars_Swallowing_Planets } from './articles/Red_Dwarf_Stars_Swallowing_Planets.js';
 import { Psyche_Spacecraft_Mars_Gravity_Assist } from './articles/Psyche_Spacecraft_Mars_Gravity_Assist.js';
+import { TRexTinyArmsEvolutionarySacrifice } from './articles/TRexTinyArmsEvolutionarySacrifice.js';
+import { British_Paralympian_John_McFall_Astronaut } from './articles/British_Paralympian_John_McFall_Astronaut.js';
+import { Humpback_Whales_Sound_Discovery } from './articles/Humpback_Whales_Sound_Discovery.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -320,9 +326,14 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Psyche_Spacecraft_Mars_Gravity_Assist, // May 19, 2026 - Newest article
-  Water_Paint_Coating_Dewpoint, // May 12, 2026 - Newest article
-  Wasp_Named_David_Attenborough_Birthday, // May 8, 2026 - Newest article
+  Humpback_Whales_Sound_Discovery, // June 4, 2026 - Newest article
+  British_Paralympian_John_McFall_Astronaut, // June 3, 2026
+  Red_Dwarf_Stars_Swallowing_Planets, // June 1, 2026
+  BlueOriginNewGlennExplosion, // May 29, 2026
+  MoonBaseI_BlueOriginMission, // May 28, 2026
+  Psyche_Spacecraft_Mars_Gravity_Assist, // May 19, 2026
+  Water_Paint_Coating_Dewpoint, // May 12, 2026
+  Wasp_Named_David_Attenborough_Birthday, // May 8, 2026
   Tiny_Object_Solar_System_Atmosphere, // May 7, 2026
   Global_Pandemic_Treaty_Delay, // May 6, 2026
   Pluto_Reclassification_Planet_Effort, // April 30, 2026
@@ -379,5 +390,6 @@ export const articles = [
   Nobel_Prize_Physics_2025,
   Nobel_Prize_Chemistry_2025,
   Celtic_Metal_Coins_Discovery,
-  Volcanic_Eruption_Prediction_Mount_Etna
+  Volcanic_Eruption_Prediction_Mount_Etna,
+  TRexTinyArmsEvolutionarySacrifice
 ];
