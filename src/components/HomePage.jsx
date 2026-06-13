@@ -55,12 +55,8 @@ const HomePage = () => {
   
     // Function to get the correct link for an article
   const getArticleLink = (article) => {
-    // Log article info for debugging
-    console.log('Article ID:', article.id);
-    console.log('Article Title:', article.title);
-    
-    // First check the article ID
-    // For articles with string IDs (most newer articles)
+    if (article.id === "MAVEN_Mars_Spacecraft_Final_Journey") return "/article/maven-mars-spacecraft-final-journey";
+    if (article.id === "Humpback_Whales_Sound_Discovery") return "/article/humpback-whales-sound-discovery";
     if (article.id === "Oldest_Mummies_Southeast_Asia") return "/article/oldest-mummies-southeast-asia";
     if (article.id === "British_Pilot_Mars_Simulation") return "/article/british-pilot-mars-simulation";
     if (article.id === "Military_Drone_Mother_Ship") return "/article/military-drone-mothership";

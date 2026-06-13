@@ -1,7 +1,8 @@
-import whaleSoundImage from '../../assets/Humpback_Whales_Sound.png';
+const whaleSoundImage =
+  "https://www.vidusara.lk/wp-content/uploads/2026/06/SEI_192557721.webp";
 
 export const Humpback_Whales_Sound_Discovery = {
-  id: 16,
+  id: "Humpback_Whales_Sound_Discovery",
   title: "Scientists Make New Discovery About the Mysterious Sound Patterns of Humpback Whales",
   summary: "Scientists have for the first time identified that the mysterious deep sounds heard from coastal areas are being produced by humpback whales, revealing that whale communication abilities are far broader than previously thought.",
   image: whaleSoundImage,

@@ -31,6 +31,8 @@ const CategoryPage = () => {
     
   // Function to get the correct link for an article
   const getArticleLink = (article) => {
+    if (article.id === "MAVEN_Mars_Spacecraft_Final_Journey") return "/article/maven-mars-spacecraft-final-journey";
+    if (article.id === "Humpback_Whales_Sound_Discovery") return "/article/humpback-whales-sound-discovery";
     if (article.id === 8) return "/article/ancient-forest";
     if (article.id === 11) return "/article/florida-panther";
     if (article.id === 12) return "/article/zombie-virus";
