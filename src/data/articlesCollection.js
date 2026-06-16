@@ -60,6 +60,8 @@ import { TRexTinyArmsEvolutionarySacrifice } from "./articles/TRexTinyArmsEvolut
 import { British_Paralympian_John_McFall_Astronaut } from "./articles/British_Paralympian_John_McFall_Astronaut.js";
 import { Humpback_Whales_Sound_Discovery } from "./articles/Humpback_Whales_Sound_Discovery.js";
 import { MAVEN_Mars_Spacecraft_Final_Journey } from "./articles/MAVEN_Mars_Spacecraft_Final_Journey.js";
+import { Artemis_III_Astronauts_Named } from "./articles/Artemis_III_Astronauts_Named.js";
+import { Global_Underground_Fungal_Network_Map_Revealed } from "./articles/Global_Underground_Fungal_Network_Map_Revealed.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -444,4 +446,6 @@ export const articles = [
   Celtic_Metal_Coins_Discovery,
   Volcanic_Eruption_Prediction_Mount_Etna,
   TRexTinyArmsEvolutionarySacrifice,
+  Artemis_III_Astronauts_Named,
+  Global_Underground_Fungal_Network_Map_Revealed,
 ];
