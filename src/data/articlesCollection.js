@@ -63,6 +63,7 @@ import { Exoplanet_WASP121b_GemstoneRain } from "./articles/Exoplanet_WASP121b_G
 import { MAVEN_Mars_Spacecraft_Final_Journey } from "./articles/MAVEN_Mars_Spacecraft_Final_Journey.js";
 import { Artemis_III_Astronauts_Named } from "./articles/Artemis_III_Astronauts_Named.js";
 import { Global_Underground_Fungal_Network_Map_Revealed } from "./articles/Global_Underground_Fungal_Network_Map_Revealed.js";
+import { M87_Black_Hole_Radiation_Jet_XRay } from "./articles/M87_Black_Hole_Radiation_Jet_XRay.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -380,7 +381,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Exoplanet_WASP121b_GemstoneRain, // June 17, 2026 - Newest article
+  M87_Black_Hole_Radiation_Jet_XRay, // June 18, 2026 - Newest article
+  Exoplanet_WASP121b_GemstoneRain, // June 17, 2026
   MAVEN_Mars_Spacecraft_Final_Journey, // June 5, 2026
   Humpback_Whales_Sound_Discovery, // June 4, 2026
   British_Paralympian_John_McFall_Astronaut, // June 3, 2026
