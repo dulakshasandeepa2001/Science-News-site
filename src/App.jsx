@@ -43,6 +43,7 @@ import RedDwarfStarsSwallowingPlanetsArticlePage from './components/articles/Red
 import TRexTinyArmsEvolutionarySacrificeArticlePage from './components/articles/TRexTinyArmsEvolutionarySacrificeArticlePage.jsx';
 import BritishParalympianJohnMcFallAstronautArticlePage from './components/articles/BritishParalympianJohnMcFallAstronautArticlePage.jsx';
 import HumpbackWhalesSoundDiscoveryArticlePage from './components/articles/HumpbackWhalesSoundDiscoveryArticlePage.jsx';
+import Exoplanet_WASP121b_GemstoneRainArticlePage from './components/articles/Exoplanet_WASP121b_GemstoneRainArticlePage.jsx';
 import './App.css';
 
 
@@ -92,6 +93,7 @@ function App() {
         <Route path="/article/t-rex-tiny-arms-evolutionary-sacrifice" element={<TRexTinyArmsEvolutionarySacrificeArticlePage />} />
         <Route path="/article/british-paralympian-john-mcfall-astronaut" element={<BritishParalympianJohnMcFallAstronautArticlePage />} />
         <Route path="/article/humpback-whales-sound-discovery" element={<HumpbackWhalesSoundDiscoveryArticlePage />} />
+        <Route path="/article/exoplanet-wasp-121b-gemstone-rain" element={<Exoplanet_WASP121b_GemstoneRainArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

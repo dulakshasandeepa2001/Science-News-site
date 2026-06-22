@@ -59,6 +59,7 @@ import { Psyche_Spacecraft_Mars_Gravity_Assist } from './articles/Psyche_Spacecr
 import { TRexTinyArmsEvolutionarySacrifice } from './articles/TRexTinyArmsEvolutionarySacrifice.js';
 import { British_Paralympian_John_McFall_Astronaut } from './articles/British_Paralympian_John_McFall_Astronaut.js';
 import { Humpback_Whales_Sound_Discovery } from './articles/Humpback_Whales_Sound_Discovery.js';
+import { Exoplanet_WASP121b_GemstoneRain } from './articles/Exoplanet_WASP121b_GemstoneRain.js';
 
 // Import other individual articles
 import labImage from '../assets/lab.jpg';
@@ -326,7 +327,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Humpback_Whales_Sound_Discovery, // June 4, 2026 - Newest article
+  Exoplanet_WASP121b_GemstoneRain, // June 17, 2026 - Newest article
+  Humpback_Whales_Sound_Discovery, // June 4, 2026
   British_Paralympian_John_McFall_Astronaut, // June 3, 2026
   Red_Dwarf_Stars_Swallowing_Planets, // June 1, 2026
   BlueOriginNewGlennExplosion, // May 29, 2026
