@@ -67,6 +67,7 @@ import { M87_Black_Hole_Radiation_Jet_XRay } from "./articles/M87_Black_Hole_Rad
 import { Earth_Black_Box_Tasmania } from "./articles/EarthBlackBoxTasmania.js";
 import { New_Air_Force_One_Service } from "./articles/NewAirForceOneService.js";
 import { Supernova_Remnant_Milky_Way } from "./articles/Supernova_Remnant_Milky_Way.js";
+import { Vaquita_Digital_Reconstruction } from "./articles/Vaquita_Digital_Reconstruction.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -384,7 +385,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Supernova_Remnant_Milky_Way, // June 23, 2026 - Newest article
+  Vaquita_Digital_Reconstruction, // June 24, 2026 - Newest article
+  Supernova_Remnant_Milky_Way, // June 23, 2026
   New_Air_Force_One_Service, // June 22, 2026
   Earth_Black_Box_Tasmania, // June 19, 2026
   M87_Black_Hole_Radiation_Jet_XRay, // June 18, 2026

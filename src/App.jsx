@@ -49,6 +49,7 @@ import M87_Black_Hole_Radiation_Jet_XRay_ArticlePage from './components/articles
 import EarthBlackBoxTasmaniaArticlePage from './components/articles/EarthBlackBoxTasmaniaArticlePage.jsx';
 import NewAirForceOneServiceArticlePage from './components/articles/NewAirForceOneServiceArticlePage.jsx';
 import SupernovaRemnantMilkyWayArticlePage from './components/articles/SupernovaRemnantMilkyWayArticlePage.jsx';
+import VaquitaDigitalReconstructionArticlePage from './components/articles/VaquitaDigitalReconstructionArticlePage.jsx';
 import './App.css';
 
 
@@ -104,6 +105,7 @@ function App() {
         <Route path="/article/earth-black-box-tasmania" element={<EarthBlackBoxTasmaniaArticlePage />} />
         <Route path="/article/new-air-force-one" element={<NewAirForceOneServiceArticlePage />} />
         <Route path="/article/supernova-remnant-milky-way" element={<SupernovaRemnantMilkyWayArticlePage />} />
+        <Route path="/article/vaquita-digital-reconstruction" element={<VaquitaDigitalReconstructionArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
