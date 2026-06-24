@@ -47,6 +47,8 @@ import Exoplanet_WASP121b_GemstoneRainArticlePage from './components/articles/Ex
 import MavenMarsSpacecraftFinalJourneyArticlePage from './components/articles/MavenMarsSpacecraftFinalJourneyArticlePage.jsx';
 import M87_Black_Hole_Radiation_Jet_XRay_ArticlePage from './components/articles/M87_Black_Hole_Radiation_Jet_XRay_ArticlePage.jsx';
 import EarthBlackBoxTasmaniaArticlePage from './components/articles/EarthBlackBoxTasmaniaArticlePage.jsx';
+import NewAirForceOneServiceArticlePage from './components/articles/NewAirForceOneServiceArticlePage.jsx';
+import SupernovaRemnantMilkyWayArticlePage from './components/articles/SupernovaRemnantMilkyWayArticlePage.jsx';
 import './App.css';
 
 
@@ -100,6 +102,8 @@ function App() {
         <Route path="/article/maven-mars-spacecraft-final-journey" element={<MavenMarsSpacecraftFinalJourneyArticlePage />} />
         <Route path="/article/m87-black-hole-radiation-jet-xray" element={<M87_Black_Hole_Radiation_Jet_XRay_ArticlePage />} />
         <Route path="/article/earth-black-box-tasmania" element={<EarthBlackBoxTasmaniaArticlePage />} />
+        <Route path="/article/new-air-force-one" element={<NewAirForceOneServiceArticlePage />} />
+        <Route path="/article/supernova-remnant-milky-way" element={<SupernovaRemnantMilkyWayArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

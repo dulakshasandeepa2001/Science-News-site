@@ -65,6 +65,8 @@ import { Artemis_III_Astronauts_Named } from "./articles/Artemis_III_Astronauts_
 import { Global_Underground_Fungal_Network_Map_Revealed } from "./articles/Global_Underground_Fungal_Network_Map_Revealed.js";
 import { M87_Black_Hole_Radiation_Jet_XRay } from "./articles/M87_Black_Hole_Radiation_Jet_XRay.js";
 import { Earth_Black_Box_Tasmania } from "./articles/EarthBlackBoxTasmania.js";
+import { New_Air_Force_One_Service } from "./articles/NewAirForceOneService.js";
+import { Supernova_Remnant_Milky_Way } from "./articles/Supernova_Remnant_Milky_Way.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -382,7 +384,9 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Earth_Black_Box_Tasmania, // June 19, 2026 - Newest article
+  Supernova_Remnant_Milky_Way, // June 23, 2026 - Newest article
+  New_Air_Force_One_Service, // June 22, 2026
+  Earth_Black_Box_Tasmania, // June 19, 2026
   M87_Black_Hole_Radiation_Jet_XRay, // June 18, 2026
   Exoplanet_WASP121b_GemstoneRain, // June 17, 2026
   MAVEN_Mars_Spacecraft_Final_Journey, // June 5, 2026

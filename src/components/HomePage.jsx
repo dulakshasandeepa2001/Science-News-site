@@ -78,6 +78,7 @@ const HomePage = () => {
     if (article.id === "Japan_HTV_X_Cargo_ISS") return "/article/japan-htv-x-cargo-iss";
     if (article.id === "Asteroid_2025_TP5_Close_Approach") return "/article/asteroid-2025-tp5-close-approach";
     if (article.id === "TRexTinyArmsEvolutionarySacrifice") return "/article/t-rex-tiny-arms-evolutionary-sacrifice";
+    if (article.id === "Supernova_Remnant_Milky_Way") return "/article/supernova-remnant-milky-way";
     
     // For articles with numeric IDs (older articles)
     if (article.id === 8) return "/article/ancient-forest";
