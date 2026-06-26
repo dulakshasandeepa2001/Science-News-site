@@ -50,6 +50,7 @@ import EarthBlackBoxTasmaniaArticlePage from './components/articles/EarthBlackBo
 import NewAirForceOneServiceArticlePage from './components/articles/NewAirForceOneServiceArticlePage.jsx';
 import SupernovaRemnantMilkyWayArticlePage from './components/articles/SupernovaRemnantMilkyWayArticlePage.jsx';
 import VaquitaDigitalReconstructionArticlePage from './components/articles/VaquitaDigitalReconstructionArticlePage.jsx';
+import ISSOceanCrashPlanArticlePage from './components/articles/ISSOceanCrashPlanArticlePage.jsx';
 import './App.css';
 
 
@@ -106,6 +107,7 @@ function App() {
         <Route path="/article/new-air-force-one" element={<NewAirForceOneServiceArticlePage />} />
         <Route path="/article/supernova-remnant-milky-way" element={<SupernovaRemnantMilkyWayArticlePage />} />
         <Route path="/article/vaquita-digital-reconstruction" element={<VaquitaDigitalReconstructionArticlePage />} />
+        <Route path="/article/iss-ocean-crash-plan" element={<ISSOceanCrashPlanArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
