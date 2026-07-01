@@ -69,6 +69,9 @@ import { New_Air_Force_One_Service } from "./articles/NewAirForceOneService.js";
 import { Supernova_Remnant_Milky_Way } from "./articles/Supernova_Remnant_Milky_Way.js";
 import { Vaquita_Digital_Reconstruction } from "./articles/Vaquita_Digital_Reconstruction.js";
 import { ISS_Ocean_Crash_Plan } from "./articles/ISS_Ocean_Crash_Plan.js";
+import { Euclid_Milky_Way_Center } from "./articles/Euclid_Milky_Way_Center.js";
+import { New_Marine_Species_Brazil } from "./articles/New_Marine_Species_Brazil.js";
+import { Swift_Telescope_Rescue } from "./articles/Swift_Telescope_Rescue.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -386,7 +389,10 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  ISS_Ocean_Crash_Plan, // June 25, 2026 - Newest article
+  Swift_Telescope_Rescue, // July 1, 2026 - Newest article
+  New_Marine_Species_Brazil, // June 30, 2026
+  Euclid_Milky_Way_Center, // June 26, 2026
+  ISS_Ocean_Crash_Plan, // June 25, 2026
   Vaquita_Digital_Reconstruction, // June 24, 2026
   Supernova_Remnant_Milky_Way, // June 23, 2026
   New_Air_Force_One_Service, // June 22, 2026

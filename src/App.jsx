@@ -51,6 +51,9 @@ import NewAirForceOneServiceArticlePage from './components/articles/NewAirForceO
 import SupernovaRemnantMilkyWayArticlePage from './components/articles/SupernovaRemnantMilkyWayArticlePage.jsx';
 import VaquitaDigitalReconstructionArticlePage from './components/articles/VaquitaDigitalReconstructionArticlePage.jsx';
 import ISSOceanCrashPlanArticlePage from './components/articles/ISSOceanCrashPlanArticlePage.jsx';
+import EuclidMilkyWayCenterArticlePage from './components/articles/EuclidMilkyWayCenterArticlePage.jsx';
+import NewMarineSpeciesBrazilArticlePage from './components/articles/NewMarineSpeciesBrazilArticlePage.jsx';
+import SwiftTelescopeRescueArticlePage from './components/articles/SwiftTelescopeRescueArticlePage.jsx';
 import './App.css';
 
 
@@ -108,6 +111,9 @@ function App() {
         <Route path="/article/supernova-remnant-milky-way" element={<SupernovaRemnantMilkyWayArticlePage />} />
         <Route path="/article/vaquita-digital-reconstruction" element={<VaquitaDigitalReconstructionArticlePage />} />
         <Route path="/article/iss-ocean-crash-plan" element={<ISSOceanCrashPlanArticlePage />} />
+        <Route path="/article/euclid-milky-way-center" element={<EuclidMilkyWayCenterArticlePage />} />
+        <Route path="/article/new-marine-species-brazil" element={<NewMarineSpeciesBrazilArticlePage />} />
+        <Route path="/article/swift-telescope-rescue" element={<SwiftTelescopeRescueArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

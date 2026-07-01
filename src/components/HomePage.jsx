@@ -81,6 +81,9 @@ const HomePage = () => {
     if (article.id === "Supernova_Remnant_Milky_Way") return "/article/supernova-remnant-milky-way";
     if (article.id === "Vaquita_Digital_Reconstruction") return "/article/vaquita-digital-reconstruction";
     if (article.id === "ISS_Ocean_Crash_Plan") return "/article/iss-ocean-crash-plan";
+    if (article.id === "Euclid_Milky_Way_Center") return "/article/euclid-milky-way-center";
+    if (article.id === "New_Marine_Species_Brazil") return "/article/new-marine-species-brazil";
+    if (article.id === "Swift_Telescope_Rescue") return "/article/swift-telescope-rescue";
     
     // For articles with numeric IDs (older articles)
     if (article.id === 8) return "/article/ancient-forest";
