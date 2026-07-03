@@ -49,6 +49,7 @@ const CategoryPage = () => {
     if (article.id === "New_Marine_Species_Brazil") return "/article/new-marine-species-brazil";
     if (article.id === "Swift_Telescope_Rescue") return "/article/swift-telescope-rescue";
     if (article.id === "Antarctic_Titanosaur_Fossil") return "/article/antarctic-titanosaur-fossil";
+    if (article.id === "LHC_Shutdown_Upgrade") return "/article/lhc-shutdown-upgrade";
     if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
     if (article.id === "Japan_HTV_X_Cargo_ISS") return "/article/japan-htv-x-cargo-iss";
     if (article.id === "Asteroid_2025_TP5_Close_Approach") return "/article/asteroid-2025-tp5-close-approach";

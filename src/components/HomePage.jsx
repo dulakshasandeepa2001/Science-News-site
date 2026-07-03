@@ -85,6 +85,7 @@ const HomePage = () => {
     if (article.id === "New_Marine_Species_Brazil") return "/article/new-marine-species-brazil";
     if (article.id === "Swift_Telescope_Rescue") return "/article/swift-telescope-rescue";
     if (article.id === "Antarctic_Titanosaur_Fossil") return "/article/antarctic-titanosaur-fossil";
+    if (article.id === "LHC_Shutdown_Upgrade") return "/article/lhc-shutdown-upgrade";
     
     // For articles with numeric IDs (older articles)
     if (article.id === 8) return "/article/ancient-forest";

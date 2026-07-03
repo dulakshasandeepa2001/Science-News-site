@@ -73,6 +73,7 @@ import { Euclid_Milky_Way_Center } from "./articles/Euclid_Milky_Way_Center.js";
 import { New_Marine_Species_Brazil } from "./articles/New_Marine_Species_Brazil.js";
 import { Swift_Telescope_Rescue } from "./articles/Swift_Telescope_Rescue.js";
 import { Antarctic_Titanosaur_Fossil } from "./articles/Antarctic_Titanosaur_Fossil.js";
+import { LHC_Shutdown_Upgrade } from "./articles/LHC_Shutdown_Upgrade.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -390,7 +391,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Antarctic_Titanosaur_Fossil, // July 2, 2026 - Newest article
+  LHC_Shutdown_Upgrade, // July 3, 2026 - Newest article
+  Antarctic_Titanosaur_Fossil, // July 2, 2026
   Swift_Telescope_Rescue, // July 1, 2026
   New_Marine_Species_Brazil, // June 30, 2026
   Euclid_Milky_Way_Center, // June 26, 2026

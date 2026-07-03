@@ -55,6 +55,7 @@ import EuclidMilkyWayCenterArticlePage from './components/articles/EuclidMilkyWa
 import NewMarineSpeciesBrazilArticlePage from './components/articles/NewMarineSpeciesBrazilArticlePage.jsx';
 import SwiftTelescopeRescueArticlePage from './components/articles/SwiftTelescopeRescueArticlePage.jsx';
 import AntarcticTitanosaurFossilArticlePage from './components/articles/AntarcticTitanosaurFossilArticlePage.jsx';
+import LHCShutdownUpgradeArticlePage from './components/articles/LHCShutdownUpgradeArticlePage.jsx';
 import './App.css';
 
 
@@ -116,6 +117,7 @@ function App() {
         <Route path="/article/new-marine-species-brazil" element={<NewMarineSpeciesBrazilArticlePage />} />
         <Route path="/article/swift-telescope-rescue" element={<SwiftTelescopeRescueArticlePage />} />
         <Route path="/article/antarctic-titanosaur-fossil" element={<AntarcticTitanosaurFossilArticlePage />} />
+        <Route path="/article/lhc-shutdown-upgrade" element={<LHCShutdownUpgradeArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
