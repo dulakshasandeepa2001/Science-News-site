@@ -74,6 +74,9 @@ import { New_Marine_Species_Brazil } from "./articles/New_Marine_Species_Brazil.
 import { Swift_Telescope_Rescue } from "./articles/Swift_Telescope_Rescue.js";
 import { Antarctic_Titanosaur_Fossil } from "./articles/Antarctic_Titanosaur_Fossil.js";
 import { LHC_Shutdown_Upgrade } from "./articles/LHC_Shutdown_Upgrade.js";
+import { GJ_3378b_Earth_Like_Planet } from "./articles/GJ_3378b_Earth_Like_Planet.js";
+import { Fermi_Paradox_AI_Explanation } from "./articles/Fermi_Paradox_AI_Explanation.js";
+import { Nuclear_Satellite_BOHR } from "./articles/Nuclear_Satellite_BOHR.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -391,7 +394,10 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  LHC_Shutdown_Upgrade, // July 3, 2026 - Newest article
+  Nuclear_Satellite_BOHR, // July 9, 2026 - Newest article
+  Fermi_Paradox_AI_Explanation, // July 8, 2026
+  GJ_3378b_Earth_Like_Planet, // July 6, 2026
+  LHC_Shutdown_Upgrade, // July 3, 2026
   Antarctic_Titanosaur_Fossil, // July 2, 2026
   Swift_Telescope_Rescue, // July 1, 2026
   New_Marine_Species_Brazil, // June 30, 2026

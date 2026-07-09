@@ -56,6 +56,9 @@ import NewMarineSpeciesBrazilArticlePage from './components/articles/NewMarineSp
 import SwiftTelescopeRescueArticlePage from './components/articles/SwiftTelescopeRescueArticlePage.jsx';
 import AntarcticTitanosaurFossilArticlePage from './components/articles/AntarcticTitanosaurFossilArticlePage.jsx';
 import LHCShutdownUpgradeArticlePage from './components/articles/LHCShutdownUpgradeArticlePage.jsx';
+import GJ3378bEarthLikePlanetArticlePage from './components/articles/GJ3378bEarthLikePlanetArticlePage.jsx';
+import FermiParadoxAIExplanationArticlePage from './components/articles/FermiParadoxAIExplanationArticlePage.jsx';
+import NuclearSatelliteBOHRArticlePage from './components/articles/NuclearSatelliteBOHRArticlePage.jsx';
 import './App.css';
 
 
@@ -118,6 +121,9 @@ function App() {
         <Route path="/article/swift-telescope-rescue" element={<SwiftTelescopeRescueArticlePage />} />
         <Route path="/article/antarctic-titanosaur-fossil" element={<AntarcticTitanosaurFossilArticlePage />} />
         <Route path="/article/lhc-shutdown-upgrade" element={<LHCShutdownUpgradeArticlePage />} />
+        <Route path="/article/gj-3378b-earth-like-planet" element={<GJ3378bEarthLikePlanetArticlePage />} />
+        <Route path="/article/fermi-paradox-ai-explanation" element={<FermiParadoxAIExplanationArticlePage />} />
+        <Route path="/article/nuclear-satellite-bohr" element={<NuclearSatelliteBOHRArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

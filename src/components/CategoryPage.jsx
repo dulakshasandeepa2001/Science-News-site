@@ -50,6 +50,9 @@ const CategoryPage = () => {
     if (article.id === "Swift_Telescope_Rescue") return "/article/swift-telescope-rescue";
     if (article.id === "Antarctic_Titanosaur_Fossil") return "/article/antarctic-titanosaur-fossil";
     if (article.id === "LHC_Shutdown_Upgrade") return "/article/lhc-shutdown-upgrade";
+    if (article.id === "GJ_3378b_Earth_Like_Planet") return "/article/gj-3378b-earth-like-planet";
+    if (article.id === "Fermi_Paradox_AI_Explanation") return "/article/fermi-paradox-ai-explanation";
+    if (article.id === "Nuclear_Satellite_BOHR") return "/article/nuclear-satellite-bohr";
     if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
     if (article.id === "Japan_HTV_X_Cargo_ISS") return "/article/japan-htv-x-cargo-iss";
     if (article.id === "Asteroid_2025_TP5_Close_Approach") return "/article/asteroid-2025-tp5-close-approach";
