@@ -89,6 +89,7 @@ const HomePage = () => {
     if (article.id === "GJ_3378b_Earth_Like_Planet") return "/article/gj-3378b-earth-like-planet";
     if (article.id === "Fermi_Paradox_AI_Explanation") return "/article/fermi-paradox-ai-explanation";
     if (article.id === "Nuclear_Satellite_BOHR") return "/article/nuclear-satellite-bohr";
+    if (article.id === "Pluto_Titan_Mystery_Substance") return "/article/pluto-titan-mystery-substance";
     
     // For articles with numeric IDs (older articles)
     if (article.id === 8) return "/article/ancient-forest";
