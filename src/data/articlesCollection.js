@@ -77,6 +77,7 @@ import { LHC_Shutdown_Upgrade } from "./articles/LHC_Shutdown_Upgrade.js";
 import { GJ_3378b_Earth_Like_Planet } from "./articles/GJ_3378b_Earth_Like_Planet.js";
 import { Fermi_Paradox_AI_Explanation } from "./articles/Fermi_Paradox_AI_Explanation.js";
 import { Nuclear_Satellite_BOHR } from "./articles/Nuclear_Satellite_BOHR.js";
+import { US_Space_Force_Meadowlands } from "./articles/US_Space_Force_Meadowlands.js";
 import { Pluto_Titan_Mystery_Substance } from "./articles/Pluto_Titan_Mystery_Substance.js";
 
 // Import other individual articles
@@ -395,7 +396,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Pluto_Titan_Mystery_Substance, // July 10, 2026 - Newest article
+  US_Space_Force_Meadowlands, // July 14, 2026 - Newest article
+  Pluto_Titan_Mystery_Substance, // July 10, 2026
   Nuclear_Satellite_BOHR, // July 9, 2026
   Fermi_Paradox_AI_Explanation, // July 8, 2026
   GJ_3378b_Earth_Like_Planet, // July 6, 2026

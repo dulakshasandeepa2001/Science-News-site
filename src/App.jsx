@@ -59,6 +59,7 @@ import LHCShutdownUpgradeArticlePage from './components/articles/LHCShutdownUpgr
 import GJ3378bEarthLikePlanetArticlePage from './components/articles/GJ3378bEarthLikePlanetArticlePage.jsx';
 import FermiParadoxAIExplanationArticlePage from './components/articles/FermiParadoxAIExplanationArticlePage.jsx';
 import NuclearSatelliteBOHRArticlePage from './components/articles/NuclearSatelliteBOHRArticlePage.jsx';
+import USSpaceForceMeadowlandsArticlePage from './components/articles/USSpaceForceMeadowlandsArticlePage.jsx';
 import PlutoTitanMysterySubstanceArticlePage from './components/articles/PlutoTitanMysterySubstanceArticlePage.jsx';
 import './App.css';
 
@@ -125,6 +126,7 @@ function App() {
         <Route path="/article/gj-3378b-earth-like-planet" element={<GJ3378bEarthLikePlanetArticlePage />} />
         <Route path="/article/fermi-paradox-ai-explanation" element={<FermiParadoxAIExplanationArticlePage />} />
         <Route path="/article/nuclear-satellite-bohr" element={<NuclearSatelliteBOHRArticlePage />} />
+        <Route path="/article/us-space-force-meadowlands" element={<USSpaceForceMeadowlandsArticlePage />} />
         <Route path="/article/pluto-titan-mystery-substance" element={<PlutoTitanMysterySubstanceArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
