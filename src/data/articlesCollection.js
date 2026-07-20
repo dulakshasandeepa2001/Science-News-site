@@ -77,6 +77,9 @@ import { LHC_Shutdown_Upgrade } from "./articles/LHC_Shutdown_Upgrade.js";
 import { GJ_3378b_Earth_Like_Planet } from "./articles/GJ_3378b_Earth_Like_Planet.js";
 import { Fermi_Paradox_AI_Explanation } from "./articles/Fermi_Paradox_AI_Explanation.js";
 import { Nuclear_Satellite_BOHR } from "./articles/Nuclear_Satellite_BOHR.js";
+import { India_Skyroot_Orbital_Rocket } from "./articles/India_Skyroot_Orbital_Rocket.js";
+import { Koala_Cryopreservation } from "./articles/Koala_Cryopreservation.js";
+import { First_Space_XRay } from "./articles/First_Space_XRay.js";
 import { US_Space_Force_Meadowlands } from "./articles/US_Space_Force_Meadowlands.js";
 import { Pluto_Titan_Mystery_Substance } from "./articles/Pluto_Titan_Mystery_Substance.js";
 
@@ -396,7 +399,10 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  US_Space_Force_Meadowlands, // July 14, 2026 - Newest article
+  India_Skyroot_Orbital_Rocket, // July 20, 2026 - Newest article
+  Koala_Cryopreservation, // July 17, 2026
+  First_Space_XRay, // July 16, 2026
+  US_Space_Force_Meadowlands, // July 14, 2026
   Pluto_Titan_Mystery_Substance, // July 10, 2026
   Nuclear_Satellite_BOHR, // July 9, 2026
   Fermi_Paradox_AI_Explanation, // July 8, 2026

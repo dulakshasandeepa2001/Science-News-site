@@ -53,6 +53,9 @@ const CategoryPage = () => {
     if (article.id === "GJ_3378b_Earth_Like_Planet") return "/article/gj-3378b-earth-like-planet";
     if (article.id === "Fermi_Paradox_AI_Explanation") return "/article/fermi-paradox-ai-explanation";
     if (article.id === "Nuclear_Satellite_BOHR") return "/article/nuclear-satellite-bohr";
+    if (article.id === "India_Skyroot_Orbital_Rocket") return "/article/india-skyroot-orbital-rocket";
+    if (article.id === "Koala_Cryopreservation") return "/article/koala-cryopreservation";
+    if (article.id === "First_Space_XRay") return "/article/first-space-xray";
     if (article.id === "US_Space_Force_Meadowlands") return "/article/us-space-force-meadowlands";
     if (article.id === "Pluto_Titan_Mystery_Substance") return "/article/pluto-titan-mystery-substance";
     if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
