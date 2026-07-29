@@ -59,6 +59,12 @@ import { Psyche_Spacecraft_Mars_Gravity_Assist } from "./articles/Psyche_Spacecr
 import { TRexTinyArmsEvolutionarySacrifice } from "./articles/TRexTinyArmsEvolutionarySacrifice.js";
 import { British_Paralympian_John_McFall_Astronaut } from "./articles/British_Paralympian_John_McFall_Astronaut.js";
 import { Humpback_Whales_Sound_Discovery } from "./articles/Humpback_Whales_Sound_Discovery.js";
+import { Orcas_Ramming_Sunfish } from "./articles/Orcas_Ramming_Sunfish.js";
+import { Double_Star_System_Both_Supernovae } from "./articles/Double_Star_System_Both_Supernovae.js";
+import { Pan_Am_Wreckage_Discovered } from "./articles/Pan_Am_Wreckage_Discovered.js";
+import { Little_Red_Dots_Early_Universe } from "./articles/Little_Red_Dots_Early_Universe.js";
+import { Earhart_Nikumaroro_Clue } from "./articles/Earhart_Nikumaroro_Clue.js";
+import { Jodrell_Bank_Observatory_Risk } from "./articles/Jodrell_Bank_Observatory_Risk.js";
 import { Exoplanet_WASP121b_GemstoneRain } from "./articles/Exoplanet_WASP121b_GemstoneRain.js";
 import { MAVEN_Mars_Spacecraft_Final_Journey } from "./articles/MAVEN_Mars_Spacecraft_Final_Journey.js";
 import { Artemis_III_Astronauts_Named } from "./articles/Artemis_III_Astronauts_Named.js";
@@ -399,7 +405,13 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  India_Skyroot_Orbital_Rocket, // July 20, 2026 - Newest article
+  Jodrell_Bank_Observatory_Risk, // July 29, 2026 - Newest article
+  Earhart_Nikumaroro_Clue, // July 28, 2026
+  Little_Red_Dots_Early_Universe, // July 27, 2026
+  Orcas_Ramming_Sunfish, // July 24, 2026
+  Pan_Am_Wreckage_Discovered, // July 23, 2026
+  Double_Star_System_Both_Supernovae, // July 22, 2026
+  India_Skyroot_Orbital_Rocket, // July 20, 2026
   Koala_Cryopreservation, // July 17, 2026
   First_Space_XRay, // July 16, 2026
   US_Space_Force_Meadowlands, // July 14, 2026

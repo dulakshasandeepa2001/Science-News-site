@@ -46,6 +46,12 @@ import HumpbackWhalesSoundDiscoveryArticlePage from './components/articles/Humpb
 import Exoplanet_WASP121b_GemstoneRainArticlePage from './components/articles/Exoplanet_WASP121b_GemstoneRainArticlePage.jsx';
 import MavenMarsSpacecraftFinalJourneyArticlePage from './components/articles/MavenMarsSpacecraftFinalJourneyArticlePage.jsx';
 import M87_Black_Hole_Radiation_Jet_XRay_ArticlePage from './components/articles/M87_Black_Hole_Radiation_Jet_XRay_ArticlePage.jsx';
+import OrcasRammingSunfishArticlePage from './components/articles/OrcasRammingSunfishArticlePage.jsx';
+import DoubleStarSystemBothSupernovaeArticlePage from './components/articles/DoubleStarSystemBothSupernovaeArticlePage.jsx';
+import PanAmWreckageDiscoveredArticlePage from './components/articles/PanAmWreckageDiscoveredArticlePage.jsx';
+import LittleRedDotsEarlyUniverseArticlePage from './components/articles/LittleRedDotsEarlyUniverseArticlePage.jsx';
+import EarhartNikumaroroClueArticlePage from './components/articles/EarhartNikumaroroClueArticlePage.jsx';
+import JodrellBankObservatoryRiskArticlePage from './components/articles/JodrellBankObservatoryRiskArticlePage.jsx';
 import EarthBlackBoxTasmaniaArticlePage from './components/articles/EarthBlackBoxTasmaniaArticlePage.jsx';
 import NewAirForceOneServiceArticlePage from './components/articles/NewAirForceOneServiceArticlePage.jsx';
 import SupernovaRemnantMilkyWayArticlePage from './components/articles/SupernovaRemnantMilkyWayArticlePage.jsx';
@@ -134,6 +140,12 @@ function App() {
         <Route path="/article/first-space-xray" element={<FirstSpaceXRayArticlePage />} />
         <Route path="/article/us-space-force-meadowlands" element={<USSpaceForceMeadowlandsArticlePage />} />
         <Route path="/article/pluto-titan-mystery-substance" element={<PlutoTitanMysterySubstanceArticlePage />} />
+        <Route path="/article/orcas-ramming-sunfish" element={<OrcasRammingSunfishArticlePage />} />
+        <Route path="/article/double-star-system-both-supernovae" element={<DoubleStarSystemBothSupernovaeArticlePage />} />
+        <Route path="/article/pan-am-wreckage-discovered" element={<PanAmWreckageDiscoveredArticlePage />} />
+        <Route path="/article/little-red-dots-early-universe" element={<LittleRedDotsEarlyUniverseArticlePage />} />
+        <Route path="/article/earhart-nikumaroro-clue" element={<EarhartNikumaroroClueArticlePage />} />
+        <Route path="/article/jodrell-bank-observatory-risk" element={<JodrellBankObservatoryRiskArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

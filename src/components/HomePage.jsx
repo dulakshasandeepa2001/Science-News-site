@@ -94,6 +94,12 @@ const HomePage = () => {
     if (article.id === "First_Space_XRay") return "/article/first-space-xray";
     if (article.id === "US_Space_Force_Meadowlands") return "/article/us-space-force-meadowlands";
     if (article.id === "Pluto_Titan_Mystery_Substance") return "/article/pluto-titan-mystery-substance";
+    if (article.id === "Orcas_Ramming_Sunfish") return "/article/orcas-ramming-sunfish";
+    if (article.id === "Double_Star_System_Both_Supernovae") return "/article/double-star-system-both-supernovae";
+    if (article.id === "Pan_Am_Wreckage_Discovered") return "/article/pan-am-wreckage-discovered";
+    if (article.id === "Little_Red_Dots_Early_Universe") return "/article/little-red-dots-early-universe";
+    if (article.id === "Earhart_Nikumaroro_Clue") return "/article/earhart-nikumaroro-clue";
+    if (article.id === "Jodrell_Bank_Observatory_Risk") return "/article/jodrell-bank-observatory-risk";
     
     // For articles with numeric IDs (older articles)
     if (article.id === 8) return "/article/ancient-forest";
