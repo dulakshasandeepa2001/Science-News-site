@@ -15,7 +15,7 @@ export default function ContactPage() {
     message: ''
   });
 
-  const EMAIL_ADDRESS = "dulakshasandeepa2001@gmail.com";
+  const EMAIL_ADDRESS = "sandeepadulaksha93@gmail.com";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(EMAIL_ADDRESS);
@@ -36,7 +36,7 @@ export default function ContactPage() {
     setLoading(true);
 
     try {
-      // Send form submission using free Web3Forms API to dulakshasandeepa2001@gmail.com
+      // Send form submission using free Web3Forms API to sandeepadulaksha93@gmail.com
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {

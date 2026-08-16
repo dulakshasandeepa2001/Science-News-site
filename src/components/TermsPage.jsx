@@ -66,7 +66,7 @@ export default function TermsPage() {
           <section className="space-y-3 bg-card border p-6 rounded-2xl">
             <h2 className="text-xl font-bold text-foreground">5. Governing Law &amp; Contact</h2>
             <p>
-              These terms shall be governed and construed in accordance with the laws applicable to digital publishing. For any questions regarding these Terms of Service, please contact us via email at <a href="mailto:dulakshasandeepa2001@gmail.com" className="text-primary hover:underline">dulakshasandeepa2001@gmail.com</a>.
+              These terms shall be governed and construed in accordance with the laws applicable to digital publishing. For any questions regarding these Terms of Service, please contact us via email at <a href="mailto:sandeepadulaksha93@gmail.com" className="text-primary hover:underline">sandeepadulaksha93@gmail.com</a>.
             </p>
           </section>
 
