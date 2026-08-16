@@ -1,6 +1,5 @@
-import { Clock, User, Sparkles, Calendar } from 'lucide-react';
+import { Clock, User, Sparkles, Calendar, ArrowRight } from 'lucide-react';
 
-// Temporary fallback if date-utils or UI components aren't working
 const getRelativeTimeString = (dateStr) => {
   try {
     const date = new Date(dateStr);
@@ -25,13 +24,12 @@ const getRelativeTimeString = (dateStr) => {
   }
 };
 
-// Check if article was published within the last 7 hours
 const isRecentlyPublished = (dateStr) => {
   try {
     const publishDate = new Date(dateStr);
     const now = new Date();
     const diffInHours = (now - publishDate) / (1000 * 60 * 60);
-    return diffInHours <= 7; // True if published within last 7 hours
+    return diffInHours <= 7;
   } catch {
     return false;
   }
@@ -39,60 +37,77 @@ const isRecentlyPublished = (dateStr) => {
 
 const NewsCard = ({ article, highlighted = false }) => {
   const relativeTime = getRelativeTimeString(article.date);
+
   return (
     <div 
-      className={`group cursor-pointer overflow-hidden bg-card border rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 h-full ${
-        highlighted ? 'border-primary/30 shadow-md' : ''
+      className={`group cursor-pointer overflow-hidden bg-card border rounded-2xl hover:shadow-xl transition-all duration-300 transform sm:hover:-translate-y-1 active:scale-[0.98] flex flex-col h-full ${
+        highlighted ? 'border-primary/40 shadow-lg ring-1 ring-primary/20' : 'border-border/60 hover:border-primary/30'
       }`}
     >
-      <div className="relative overflow-hidden">
+      {/* Article Image Container */}
+      <div className="relative overflow-hidden aspect-[16/9] sm:aspect-[16/10]">
         <img 
           src={article.image} 
           alt={article.title}
-          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        <button 
-          className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 bg-primary text-primary-foreground px-3 py-1 text-sm rounded-md"
-        >
-          Read More
-        </button>
-        <div className="absolute top-4 left-4">
-          <span className="bg-primary text-primary-foreground px-2 py-1 rounded-md text-xs font-medium">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+        
+        {/* Category Badges */}
+        <div className="absolute top-3 left-3 right-3 flex items-center justify-between gap-2 flex-wrap">
+          <span className="bg-primary/90 backdrop-blur-md text-primary-foreground px-2.5 py-1 rounded-full text-xs font-bold shadow-sm">
             {article.category}
           </span>
           {highlighted && isRecentlyPublished(article.date) && (
-            <span className="ml-2 bg-amber-500 text-white px-2 py-1 rounded-md text-xs font-medium flex items-center">
-              <Sparkles size={12} className="mr-1" /> Latest
+            <span className="bg-amber-500 text-white px-2.5 py-1 rounded-full text-xs font-bold flex items-center gap-1 shadow-sm animate-pulse">
+              <Sparkles size={12} /> Latest
             </span>
           )}
+        </div>
+
+        {/* Desktop Read Button Badge */}
+        <div className="absolute bottom-3 right-3 hidden sm:flex items-center gap-1 text-xs font-semibold bg-background/90 backdrop-blur-md px-3 py-1.5 rounded-full text-foreground shadow-md opacity-0 group-hover:opacity-100 transition-all transform translate-y-1 group-hover:translate-y-0">
+          <span>Read Story</span>
+          <ArrowRight size={13} className="text-primary" />
         </div>
       </div>
-      <div className="p-6">
-        <h3 className={`${highlighted ? 'text-2xl' : 'text-xl'} font-bold mb-3 line-clamp-2 group-hover:text-primary transition-colors duration-300`}>
-          {article.title}
-        </h3>
-        <p className="text-muted-foreground mb-4 line-clamp-3">
-          {article.summary}
-        </p>
-        <div className="flex items-center justify-between text-sm text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <User size={14} />
-            <span>{article.author}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <Clock size={14} />
-            <span>{article.readTime}</span>
-          </div>
+
+      {/* Article Body */}
+      <div className="p-5 sm:p-6 flex flex-col flex-1 justify-between space-y-4">
+        <div className="space-y-2.5">
+          <h3 className={`${highlighted ? 'text-xl sm:text-2xl' : 'text-lg sm:text-xl'} font-extrabold leading-snug line-clamp-2 text-foreground group-hover:text-primary transition-colors duration-200`}>
+            {article.title}
+          </h3>
+          <p className="text-sm text-muted-foreground line-clamp-3 leading-relaxed">
+            {article.summary}
+          </p>
         </div>
-        <div className="mt-2 text-xs flex items-center">
-          <Calendar size={12} className="mr-1 text-muted-foreground" />
-          <span className="text-muted-foreground">{article.date}</span>
-          {relativeTime && (
-            <span className={`ml-2 font-medium ${isRecentlyPublished(article.date) ? 'text-amber-500' : 'text-primary'}`}>
-              {relativeTime}
-            </span>
-          )}
+
+        {/* Footer Meta */}
+        <div className="pt-3 border-t border-border/50 flex flex-col gap-2 text-xs text-muted-foreground">
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-1.5 truncate max-w-[65%]">
+              <User size={13} className="text-primary shrink-0" />
+              <span className="truncate font-medium">{article.author}</span>
+            </div>
+            <div className="flex items-center gap-1.5 shrink-0">
+              <Clock size={13} className="text-muted-foreground shrink-0" />
+              <span>{article.readTime}</span>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between text-[11px]">
+            <div className="flex items-center gap-1">
+              <Calendar size={12} className="text-muted-foreground shrink-0" />
+              <span>{article.date}</span>
+            </div>
+            {relativeTime && (
+              <span className={`font-semibold ${isRecentlyPublished(article.date) ? 'text-amber-500' : 'text-primary'}`}>
+                {relativeTime}
+              </span>
+            )}
+          </div>
         </div>
       </div>
     </div>
@@ -100,4 +115,3 @@ const NewsCard = ({ article, highlighted = false }) => {
 };
 
 export default NewsCard;
-
