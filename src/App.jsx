@@ -70,6 +70,10 @@ import KoalaCryopreservationArticlePage from './components/articles/KoalaCryopre
 import FirstSpaceXRayArticlePage from './components/articles/FirstSpaceXRayArticlePage.jsx';
 import USSpaceForceMeadowlandsArticlePage from './components/articles/USSpaceForceMeadowlandsArticlePage.jsx';
 import PlutoTitanMysterySubstanceArticlePage from './components/articles/PlutoTitanMysterySubstanceArticlePage.jsx';
+import AboutPage from './components/AboutPage.jsx';
+import PrivacyPolicyPage from './components/PrivacyPolicyPage.jsx';
+import ContactPage from './components/ContactPage.jsx';
+import TermsPage from './components/TermsPage.jsx';
 import './App.css';
 
 
@@ -81,6 +85,10 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:blogId" element={<BlogPostPage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/terms" element={<TermsPage />} />
         <Route path="/article/oldest-mummies-southeast-asia" element={<OldestMummiesSoutheastAsiaArticlePage />} />
         <Route path="/article/cleopatra-sunken-port-discovery" element={<CleopatraSunkenPortArticlePage />} />
         <Route path="/article/british-pilot-mars-simulation" element={<BritishPilotMarsSimulationArticlePage />} />

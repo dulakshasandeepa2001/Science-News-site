@@ -21,11 +21,12 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
+    { name: 'About Us', path: '/about' },
+    { name: 'Contact', path: '/contact' },
     { name: 'Blog', path: '/blog' },
     { name: 'Space & Physics', path: '/category/space' },
     { name: 'Health & Medicine', path: '/category/health' },
     { name: 'Technology', path: '/category/technology' },
-    { name: 'Environment', path: '/category/environment' },
   ];
 
   const categoryLinks = [
