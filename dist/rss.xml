@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Science News Publishing</title>
+    <link>https://sciencenewshub.click</link>
+    <description>Latest Scientific Discoveries, Breakthroughs, Space Research, and Technology News</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Aug 2026 10:50:00 GMT</lastBuildDate>
+    <atom:link href="https://sciencenewshub.click/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SpaceX Starlink Surpasses 10,000 Satellites in Low Earth Orbit</title>
+      <link>https://sciencenewshub.click/article/spacex-starlink-10000-satellites</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/spacex-starlink-10000-satellites</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+      <author>SpaceX &amp; International Space Community</author>
+      <category>Space &amp; Technology</category>
+      <description>SpaceX's Starlink satellite internet constellation has crossed a remarkable threshold, surpassing 10,000 active satellites in low Earth orbit.</description>
+    </item>
+    <item>
+      <title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</title>
+      <link>https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Keele University &amp; RAS</author>
+      <category>Space &amp; Physics</category>
+      <description>Astronomers have discovered evidence that red dwarf stars are swallowing planets orbiting them, revealed by high levels of lithium.</description>
+    </item>
+    <item>
+      <title>Blue Origin Unveils Moon Base 1 Mission Strategy</title>
+      <link>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <author>Blue Origin &amp; Commercial Space Exploration</author>
+      <category>Space &amp; Physics</category>
+      <description>Blue Origin has revealed comprehensive mission plans for Moon Base 1, a permanent lunar human settlement framework.</description>
+    </item>
+  </channel>
+</rss>
