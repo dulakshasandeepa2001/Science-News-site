@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import NewsCard from './NewsCard.jsx';
+import SEOHead from './SEOHead.jsx';
 import { articles } from '../data/articlesCollection.js';
+import { getArticleLink } from '../lib/article-utils.js';
 import { Clock, User, Sparkles } from 'lucide-react';
 
 const HomePage = () => {
@@ -52,67 +54,16 @@ const HomePage = () => {
   // Remaining articles for the regular grid - exclude both featured and latest articles
   const usedArticleIds = new Set([featuredArticle.id, ...latestArticles.map(a => a.id)]);
   const remainingArticles = sortedArticles.filter(article => !usedArticleIds.has(article.id));
-  
-    // Function to get the correct link for an article
-  const getArticleLink = (article) => {
-    if (article.id === "MAVEN_Mars_Spacecraft_Final_Journey") return "/article/maven-mars-spacecraft-final-journey";
-    if (article.id === "Humpback_Whales_Sound_Discovery") return "/article/humpback-whales-sound-discovery";
-    if (article.id === "Oldest_Mummies_Southeast_Asia") return "/article/oldest-mummies-southeast-asia";
-    if (article.id === "British_Pilot_Mars_Simulation") return "/article/british-pilot-mars-simulation";
-    if (article.id === "Military_Drone_Mother_Ship") return "/article/military-drone-mothership";
-    if (article.id === "Mars_Life_Discovery") return "/article/mars-life-discovery";
-    if (article.id === "Cyanobacteria_Mars_Oxygen") return "/article/cyanobacteria-mars-oxygen";
-    if (article.id === "Russia_Enteromix_Vaccine") return "/article/russia-enteromix-vaccine";
-    if (article.id === "Changan_Nevo_A06") return "/article/changan-nevo-a06";
-    if (article.id === "Sony_Humanoid_Robots_Weaknesses") return "/article/sony-robots";
-    if (article.id === "Orange_Shark_Discovery") return "/article/orange-shark";
-    if (article.id === "Uranus_New_Moon_Discovery") return "/article/uranus-moon";
-    if (article.id === "Space_Plane_Mission") return "/article/space-plane";
-    if (article.id === "Black_Death_Shadow") return "/article/black-death";
-    if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
-    if (article.id === "Aspirin_Replacement_Clopidogrel") return "/article/aspirin-replacement";
-    if (article.id === "Atlas_Comet_Confirmation") return "/article/atlas-comet";
-    if (article.id === "Exoplanet_WASP121b_GemstoneRain") return "/article/exoplanet-wasp-121b-gemstone-rain";
-    if (article.id === "M87_Black_Hole_Radiation_Jet_XRay") return "/article/m87-black-hole-radiation-jet-xray";
-    if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
-    if (article.id === "Japan_HTV_X_Cargo_ISS") return "/article/japan-htv-x-cargo-iss";
-    if (article.id === "Asteroid_2025_TP5_Close_Approach") return "/article/asteroid-2025-tp5-close-approach";
-    if (article.id === "TRexTinyArmsEvolutionarySacrifice") return "/article/t-rex-tiny-arms-evolutionary-sacrifice";
-    if (article.id === "Supernova_Remnant_Milky_Way") return "/article/supernova-remnant-milky-way";
-    if (article.id === "Vaquita_Digital_Reconstruction") return "/article/vaquita-digital-reconstruction";
-    if (article.id === "ISS_Ocean_Crash_Plan") return "/article/iss-ocean-crash-plan";
-    if (article.id === "Euclid_Milky_Way_Center") return "/article/euclid-milky-way-center";
-    if (article.id === "New_Marine_Species_Brazil") return "/article/new-marine-species-brazil";
-    if (article.id === "Swift_Telescope_Rescue") return "/article/swift-telescope-rescue";
-    if (article.id === "Antarctic_Titanosaur_Fossil") return "/article/antarctic-titanosaur-fossil";
-    if (article.id === "LHC_Shutdown_Upgrade") return "/article/lhc-shutdown-upgrade";
-    if (article.id === "GJ_3378b_Earth_Like_Planet") return "/article/gj-3378b-earth-like-planet";
-    if (article.id === "Fermi_Paradox_AI_Explanation") return "/article/fermi-paradox-ai-explanation";
-    if (article.id === "Nuclear_Satellite_BOHR") return "/article/nuclear-satellite-bohr";
-    if (article.id === "India_Skyroot_Orbital_Rocket") return "/article/india-skyroot-orbital-rocket";
-    if (article.id === "Koala_Cryopreservation") return "/article/koala-cryopreservation";
-    if (article.id === "First_Space_XRay") return "/article/first-space-xray";
-    if (article.id === "US_Space_Force_Meadowlands") return "/article/us-space-force-meadowlands";
-    if (article.id === "Pluto_Titan_Mystery_Substance") return "/article/pluto-titan-mystery-substance";
-    if (article.id === "Orcas_Ramming_Sunfish") return "/article/orcas-ramming-sunfish";
-    if (article.id === "Double_Star_System_Both_Supernovae") return "/article/double-star-system-both-supernovae";
-    if (article.id === "Pan_Am_Wreckage_Discovered") return "/article/pan-am-wreckage-discovered";
-    if (article.id === "Little_Red_Dots_Early_Universe") return "/article/little-red-dots-early-universe";
-    if (article.id === "Earhart_Nikumaroro_Clue") return "/article/earhart-nikumaroro-clue";
-    if (article.id === "Jodrell_Bank_Observatory_Risk") return "/article/jodrell-bank-observatory-risk";
-    
-    // For articles with numeric IDs (older articles)
-    if (article.id === 8) return "/article/ancient-forest";
-    if (article.id === 11) return "/article/florida-panther";
-    if (article.id === 12) return "/article/zombie-virus";
-    if (article.id === 16) return "/article/aspirin-replacement";
-    
-    // For any other articles, use the generic route
-    return `/article/${article.id}`;
-  };
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title="Science News Publishing - Latest Scientific Discoveries & Insights"
+        description="Stay informed with cutting-edge scientific research, space exploration, physics breakthroughs, technology advancements, and health discoveries from around the world."
+        keywords="science news, scientific discoveries, space research, astronomy, physics, technology, health news, science daily"
+        canonicalUrl="https://sciencenewshub.click/"
+        ogType="website"
+      />
       <Header />
       
       {/* Hero Section */}

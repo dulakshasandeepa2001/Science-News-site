@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://sciencenewshub.click/article/spacex-starlink-10000-satellites</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-22T00:00:00Z</news:publication_date>
+      <news:title>SpaceX Starlink Surpasses 10,000 Satellites in Low Earth Orbit — A Historic Milestone With Growing Concerns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T00:00:00Z</news:publication_date>
+      <news:title>Blue Origin Unveils Moon Base 1 Mission Strategy</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-01T00:00:00Z</news:publication_date>
+      <news:title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T00:00:00Z</news:publication_date>
+      <news:title>Blue Origin New Glenn Rocket Test Investigation</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-20T00:00:00Z</news:publication_date>
+      <news:title>T-Rex Tiny Arms: Evolutionary Sacrifice Analysis</news:title>
+    </news:news>
+  </url>
+</urlset>

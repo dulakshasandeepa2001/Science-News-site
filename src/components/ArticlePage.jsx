@@ -4,8 +4,10 @@ import { Button } from '@/components/ui/button.jsx';
 import { Card, CardContent } from '@/components/ui/card.jsx';
 import { ArrowLeft, Clock, User, ChevronDown, ChevronUp } from 'lucide-react';
 import { articles } from '../data/articlesCollection.js';
+import { findArticleBySlugOrId, getArticleSlug } from '../lib/article-utils.js';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
+import SEOHead from './SEOHead.jsx';
 
 const ArticlePage = ({ article: propArticle }) => {
   const { articleId } = useParams();
@@ -14,25 +16,12 @@ const ArticlePage = ({ article: propArticle }) => {
   const [visibleSections, setVisibleSections] = useState([0]); // First section is always visible
   
   useEffect(() => {
-    // If we have a prop article, use it
     if (propArticle) {
       setArticle(propArticle);
-      document.title = `${propArticle.title} - Science News Publishing`;
-      const metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute('content', propArticle.summary);
-      }
-    }
-    // Otherwise try to find the article by ID
-    else if (articleId) {
-      const foundArticle = articles.find(art => art.id.toString() === articleId);
+    } else if (articleId) {
+      const foundArticle = findArticleBySlugOrId(articles, articleId);
       if (foundArticle) {
         setArticle(foundArticle);
-        document.title = `${foundArticle.title} - Science News Publishing`;
-        const metaDescription = document.querySelector('meta[name="description"]');
-        if (metaDescription) {
-          metaDescription.setAttribute('content', foundArticle.summary);
-        }
       } else {
         navigate('/');
       }
@@ -74,6 +63,17 @@ const ArticlePage = ({ article: propArticle }) => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title={`${article.title} - Science News Publishing`}
+        description={article.summary}
+        keywords={`${article.category}, science news, ${article.title.toLowerCase().split(' ').slice(0, 5).join(', ')}`}
+        canonicalUrl={`https://sciencenewshub.click/article/${getArticleSlug(article)}`}
+        ogType="article"
+        ogImage={article.image}
+        publishedTime={article.date}
+        author={article.author}
+        category={article.category}
+      />
       <Header />
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <Button 

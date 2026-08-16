@@ -2,7 +2,9 @@ import { useParams, Link } from 'react-router-dom';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import NewsCard from './NewsCard.jsx';
+import SEOHead from './SEOHead.jsx';
 import { articles } from '../data/articlesCollection.js';
+import { getArticleLink } from '../lib/article-utils.js';
 
 const CategoryPage = () => {
   const { categoryName } = useParams();
@@ -20,7 +22,8 @@ const CategoryPage = () => {
   const categoryArticles = articles
     .filter(
       article => article.category === formattedCategory || 
-                article.category === categoryName
+                article.category === categoryName ||
+                article.category.toLowerCase().includes(categoryName.toLowerCase())
     )
     // Sort by date (newest first)
     .sort((a, b) => {
@@ -28,50 +31,16 @@ const CategoryPage = () => {
       const dateB = new Date(b.date);
       return dateB - dateA;
     });
-    
-  // Function to get the correct link for an article
-  const getArticleLink = (article) => {
-    if (article.id === "MAVEN_Mars_Spacecraft_Final_Journey") return "/article/maven-mars-spacecraft-final-journey";
-    if (article.id === "Humpback_Whales_Sound_Discovery") return "/article/humpback-whales-sound-discovery";
-    if (article.id === 8) return "/article/ancient-forest";
-    if (article.id === 11) return "/article/florida-panther";
-    if (article.id === 12) return "/article/zombie-virus";
-    if (article.id === "Sony_Humanoid_Robots_Weaknesses") return "/article/sony-robots";
-    if (article.id === "Orange_Shark_Discovery") return "/article/orange-shark";
-    if (article.id === "Uranus_New_Moon_Discovery") return "/article/uranus-moon";
-    if (article.id === "Space_Plane_Mission") return "/article/space-plane";
-    if (article.id === "Black_Death_Shadow") return "/article/black-death";
-    if (article.id === "China_AR_Helmet") return "/article/china-ar-helmet";
-    if (article.id === "Supernova_Remnant_Milky_Way") return "/article/supernova-remnant-milky-way";
-    if (article.id === "Vaquita_Digital_Reconstruction") return "/article/vaquita-digital-reconstruction";
-    if (article.id === "ISS_Ocean_Crash_Plan") return "/article/iss-ocean-crash-plan";
-    if (article.id === "Euclid_Milky_Way_Center") return "/article/euclid-milky-way-center";
-    if (article.id === "New_Marine_Species_Brazil") return "/article/new-marine-species-brazil";
-    if (article.id === "Swift_Telescope_Rescue") return "/article/swift-telescope-rescue";
-    if (article.id === "Antarctic_Titanosaur_Fossil") return "/article/antarctic-titanosaur-fossil";
-    if (article.id === "LHC_Shutdown_Upgrade") return "/article/lhc-shutdown-upgrade";
-    if (article.id === "GJ_3378b_Earth_Like_Planet") return "/article/gj-3378b-earth-like-planet";
-    if (article.id === "Fermi_Paradox_AI_Explanation") return "/article/fermi-paradox-ai-explanation";
-    if (article.id === "Nuclear_Satellite_BOHR") return "/article/nuclear-satellite-bohr";
-    if (article.id === "India_Skyroot_Orbital_Rocket") return "/article/india-skyroot-orbital-rocket";
-    if (article.id === "Koala_Cryopreservation") return "/article/koala-cryopreservation";
-    if (article.id === "First_Space_XRay") return "/article/first-space-xray";
-    if (article.id === "US_Space_Force_Meadowlands") return "/article/us-space-force-meadowlands";
-    if (article.id === "Pluto_Titan_Mystery_Substance") return "/article/pluto-titan-mystery-substance";
-    if (article.id === "Orcas_Ramming_Sunfish") return "/article/orcas-ramming-sunfish";
-    if (article.id === "Double_Star_System_Both_Supernovae") return "/article/double-star-system-both-supernovae";
-    if (article.id === "Pan_Am_Wreckage_Discovered") return "/article/pan-am-wreckage-discovered";
-    if (article.id === "Little_Red_Dots_Early_Universe") return "/article/little-red-dots-early-universe";
-    if (article.id === "Earhart_Nikumaroro_Clue") return "/article/earhart-nikumaroro-clue";
-    if (article.id === "Jodrell_Bank_Observatory_Risk") return "/article/jodrell-bank-observatory-risk";
-    if (article.id === "volcanic-eruption-prediction-mount-etna") return "/article/volcanic-eruption-prediction-mount-etna";
-    if (article.id === "Japan_HTV_X_Cargo_ISS") return "/article/japan-htv-x-cargo-iss";
-    if (article.id === "Asteroid_2025_TP5_Close_Approach") return "/article/asteroid-2025-tp5-close-approach";
-    return `/article/${article.id}`;
-  };
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead 
+        title={`${formattedCategory} News & Latest Discoveries - Science News Publishing`}
+        description={`Explore the latest scientific news, research papers, and breakthrough developments in ${formattedCategory}.`}
+        keywords={`${formattedCategory} news, ${categoryName} discoveries, science research ${categoryName}`}
+        canonicalUrl={`https://sciencenewshub.click/category/${categoryName}`}
+        ogType="website"
+      />
       <Header />
       
       {/* Category Hero Section */}

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import SEOHead from './SEOHead';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Clock, User } from 'lucide-react';
@@ -36,6 +37,13 @@ const BlogPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEOHead 
+        title="Science Blog & In-Depth Research Analysis - Science News Publishing"
+        description="Explore in-depth scientific analysis, expert blog posts, educational articles, and research insights across mathematics, astronomy, technology, and science."
+        keywords="science blog, research analysis, scientific articles, astronomy blog, mathematics insights, physics commentary"
+        canonicalUrl="https://sciencenewshub.click/blog"
+        ogType="website"
+      />
       <Header />
       
       <main className="flex-1 container mx-auto px-4 py-8">
