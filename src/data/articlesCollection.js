@@ -88,6 +88,12 @@ import { Koala_Cryopreservation } from "./articles/Koala_Cryopreservation.js";
 import { First_Space_XRay } from "./articles/First_Space_XRay.js";
 import { US_Space_Force_Meadowlands } from "./articles/US_Space_Force_Meadowlands.js";
 import { Pluto_Titan_Mystery_Substance } from "./articles/Pluto_Titan_Mystery_Substance.js";
+import { Africa_First_Lunar_Mission_China_2029 } from "./articles/Africa_First_Lunar_Mission_China_2029.js";
+import { Pacific_Ring_Of_Fire_Volcanic_Cooling } from "./articles/Pacific_Ring_Of_Fire_Volcanic_Cooling.js";
+import { Dinosaur_Asteroid_Heat_17_Times } from "./articles/Dinosaur_Asteroid_Heat_17_Times.js";
+import { SpaceX_Rocket_Moon_Crash_2026 } from "./articles/SpaceX_Rocket_Moon_Crash_2026.js";
+import { World_Reservoirs_Sedimentation_2060 } from "./articles/World_Reservoirs_Sedimentation_2060.js";
+import { Inouye_Solar_Telescope_Clearest_Sun_Images } from "./articles/Inouye_Solar_Telescope_Clearest_Sun_Images.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -500,4 +506,10 @@ export const articles = [
   TRexTinyArmsEvolutionarySacrifice,
   Artemis_III_Astronauts_Named,
   Global_Underground_Fungal_Network_Map_Revealed,
+  Inouye_Solar_Telescope_Clearest_Sun_Images,
+  SpaceX_Rocket_Moon_Crash_2026,
+  World_Reservoirs_Sedimentation_2060,
+  Dinosaur_Asteroid_Heat_17_Times,
+  Pacific_Ring_Of_Fire_Volcanic_Cooling,
+  Africa_First_Lunar_Mission_China_2029,
 ];

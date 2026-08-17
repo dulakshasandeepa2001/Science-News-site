@@ -74,6 +74,12 @@ import AboutPage from './components/AboutPage.jsx';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage.jsx';
 import ContactPage from './components/ContactPage.jsx';
 import TermsPage from './components/TermsPage.jsx';
+import AfricaFirstLunarMissionArticlePage from './components/articles/AfricaFirstLunarMissionArticlePage.jsx';
+import PacificRingFireVolcanicCoolingArticlePage from './components/articles/PacificRingFireVolcanicCoolingArticlePage.jsx';
+import DinosaurAsteroidHeat17TimesArticlePage from './components/articles/DinosaurAsteroidHeat17TimesArticlePage.jsx';
+import SpaceXRocketMoonCrashArticlePage from './components/articles/SpaceXRocketMoonCrashArticlePage.jsx';
+import WorldReservoirsSedimentation2060ArticlePage from './components/articles/WorldReservoirsSedimentation2060ArticlePage.jsx';
+import InouyeSolarTelescopeArticlePage from './components/articles/InouyeSolarTelescopeArticlePage.jsx';
 import './App.css';
 
 
@@ -154,6 +160,12 @@ function App() {
         <Route path="/article/little-red-dots-early-universe" element={<LittleRedDotsEarlyUniverseArticlePage />} />
         <Route path="/article/earhart-nikumaroro-clue" element={<EarhartNikumaroroClueArticlePage />} />
         <Route path="/article/jodrell-bank-observatory-risk" element={<JodrellBankObservatoryRiskArticlePage />} />
+        <Route path="/article/africa-first-lunar-mission-china-2029" element={<AfricaFirstLunarMissionArticlePage />} />
+        <Route path="/article/pacific-ring-fire-volcanic-cooling" element={<PacificRingFireVolcanicCoolingArticlePage />} />
+        <Route path="/article/dinosaur-asteroid-heat-17-times" element={<DinosaurAsteroidHeat17TimesArticlePage />} />
+        <Route path="/article/spacex-rocket-moon-crash-2026" element={<SpaceXRocketMoonCrashArticlePage />} />
+        <Route path="/article/world-reservoirs-sedimentation-2060" element={<WorldReservoirsSedimentation2060ArticlePage />} />
+        <Route path="/article/inouye-solar-telescope-clearest-sun-images" element={<InouyeSolarTelescopeArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
