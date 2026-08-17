@@ -1,7 +1,8 @@
-import { useEffect } from 'react';
+﻿import { useEffect } from 'react';
 
 const DEFAULT_SITE_NAME = 'Science News Publishing';
 const DEFAULT_DOMAIN = 'https://sciencenewshub.click';
+const DEFAULT_FALLBACK_IMAGE = 'https://sciencenewshub.click/assets/lab.jpg';
 
 export default function SEOHead({
   title,
@@ -9,7 +10,7 @@ export default function SEOHead({
   keywords,
   canonicalUrl,
   ogType = 'website',
-  ogImage = 'https://sciencenewshub.click/assets/logo.png',
+  ogImage = DEFAULT_FALLBACK_IMAGE,
   publishedTime,
   modifiedTime,
   author = 'Science News Publishing',
@@ -41,49 +42,64 @@ export default function SEOHead({
       let element = document.querySelector(`link[rel="${rel}"]`);
       if (!element) {
         element = document.createElement('link');
-        element.setAttribute('rel', rel);
+        element.setAttribute(rel, rel);
         document.head.appendChild(element);
       }
       element.setAttribute('href', href);
     };
 
-    // 2. Base SEO Meta Tags
+    // 2. Base SEO Meta Tags (Google Discover & Google News Compliant)
     const metaDesc = description || 'Stay informed with cutting-edge research, breakthrough discoveries, and the latest developments in science and technology from around the world.';
     const metaKeys = keywords || 'science news, scientific discoveries, space research, astronomy, physics, technology, health';
     const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.href : DEFAULT_DOMAIN);
+    const imageUrl = ogImage || DEFAULT_FALLBACK_IMAGE;
 
     setMetaTag('meta[name="description"]', 'name', 'description', metaDesc);
     setMetaTag('meta[name="keywords"]', 'name', 'keywords', metaKeys);
+    // Google Discover Mandatory Robots Tag
     setMetaTag('meta[name="robots"]', 'name', 'robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+    setMetaTag('meta[name="googlebot"]', 'name', 'googlebot', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+    setMetaTag('meta[name="googlebot-news"]', 'name', 'googlebot-news', 'index, follow');
     setLinkTag('canonical', currentUrl);
 
-    // 3. Open Graph Tags
+    // 3. Open Graph Tags (High Resolution Image Specifications for Google Discover)
     setMetaTag('meta[property="og:title"]', 'property', 'og:title', fullTitle);
     setMetaTag('meta[property="og:description"]', 'property', 'og:description', metaDesc);
     setMetaTag('meta[property="og:type"]', 'property', 'og:type', ogType);
     setMetaTag('meta[property="og:url"]', 'property', 'og:url', currentUrl);
     setMetaTag('meta[property="og:site_name"]', 'property', 'og:site_name', DEFAULT_SITE_NAME);
-    if (ogImage) {
-      setMetaTag('meta[property="og:image"]', 'property', 'og:image', ogImage);
+    setMetaTag('meta[property="og:locale"]', 'property', 'og:locale', 'en_US');
+    if (imageUrl) {
+      setMetaTag('meta[property="og:image"]', 'property', 'og:image', imageUrl);
+      setMetaTag('meta[property="og:image:secure_url"]', 'property', 'og:image:secure_url', imageUrl);
+      setMetaTag('meta[property="og:image:width"]', 'property', 'og:image:width', '1200');
+      setMetaTag('meta[property="og:image:height"]', 'property', 'og:image:height', '675');
+      setMetaTag('meta[property="og:image:alt"]', 'property', 'og:image:alt', title || 'Science News Publishing');
     }
 
-    // 4. Twitter Card Tags
+    // 4. Twitter Card Tags (Large Image Card)
     setMetaTag('meta[name="twitter:card"]', 'name', 'twitter:card', 'summary_large_image');
+    setMetaTag('meta[name="twitter:site"]', 'name', 'twitter:site', '@ScienceNewsHub');
+    setMetaTag('meta[name="twitter:creator"]', 'name', 'twitter:creator', '@ScienceNewsHub');
     setMetaTag('meta[name="twitter:title"]', 'name', 'twitter:title', fullTitle);
     setMetaTag('meta[name="twitter:description"]', 'name', 'twitter:description', metaDesc);
-    if (ogImage) {
-      setMetaTag('meta[name="twitter:image"]', 'name', 'twitter:image', ogImage);
+    if (imageUrl) {
+      setMetaTag('meta[name="twitter:image"]', 'name', 'twitter:image', imageUrl);
+      setMetaTag('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', title || 'Science News Publishing');
     }
 
     // 5. Article-Specific Meta Tags
     if (ogType === 'article') {
-      if (publishedTime) setMetaTag('meta[property="article:published_time"]', 'property', 'article:published_time', new Date(publishedTime).toISOString());
-      if (modifiedTime) setMetaTag('meta[property="article:modified_time"]', 'property', 'article:modified_time', new Date(modifiedTime).toISOString());
-      if (author) setMetaTag('meta[property="article:author"]', 'property', 'article:author', author);
-      if (category) setMetaTag('meta[property="article:section"]', 'property', 'article:section', category);
+      const pubIso = publishedTime ? new Date(publishedTime).toISOString() : new Date().toISOString();
+      const modIso = modifiedTime ? new Date(modifiedTime).toISOString() : pubIso;
+      setMetaTag('meta[property="article:published_time"]', 'property', 'article:published_time', pubIso);
+      setMetaTag('meta[property="article:modified_time"]', 'property', 'article:modified_time', modIso);
+      setMetaTag('meta[property="article:author"]', 'property', 'article:author', author || 'Science News Publishing');
+      setMetaTag('meta[property="article:section"]', 'property', 'article:section', category || 'Science');
+      setMetaTag('meta[property="article:publisher"]', 'property', 'article:publisher', DEFAULT_DOMAIN);
     }
 
-    // 6. JSON-LD Structured Data (Schema.org)
+    // 6. JSON-LD Structured Data (Google Discover NewsArticle Schema)
     let jsonLdId = 'dynamic-seo-schema';
     let scriptTag = document.getElementById(jsonLdId);
     if (!scriptTag) {
@@ -96,31 +112,50 @@ export default function SEOHead({
     let schemaData = schema;
     if (!schemaData) {
       if (ogType === 'article') {
+        const pubIso = publishedTime ? new Date(publishedTime).toISOString() : new Date().toISOString();
+        const modIso = modifiedTime ? new Date(modifiedTime).toISOString() : pubIso;
+        
         schemaData = {
           "@context": "https://schema.org",
           "@type": "NewsArticle",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": currentUrl
+          },
           "headline": title || fullTitle,
           "description": metaDesc,
-          "image": [ogImage],
-          "datePublished": publishedTime ? new Date(publishedTime).toISOString() : new Date().toISOString(),
-          "dateModified": modifiedTime ? new Date(modifiedTime).toISOString() : (publishedTime ? new Date(publishedTime).toISOString() : new Date().toISOString()),
+          "image": [
+            imageUrl,
+            {
+              "@type": "ImageObject",
+              "url": imageUrl,
+              "width": 1200,
+              "height": 675
+            }
+          ],
+          "datePublished": pubIso,
+          "dateModified": modIso,
           "author": [{
-            "@type": "Organization",
-            "name": author || DEFAULT_SITE_NAME
+            "@type": "Person",
+            "name": author || "Science News Editorial Staff",
+            "jobTitle": "Science Journalist",
+            "url": `${DEFAULT_DOMAIN}/about`
           }],
           "publisher": {
-            "@type": "Organization",
+            "@type": "NewsMediaOrganization",
             "name": DEFAULT_SITE_NAME,
             "url": DEFAULT_DOMAIN,
             "logo": {
               "@type": "ImageObject",
-              "url": `${DEFAULT_DOMAIN}/favicon.ico`
+              "url": `${DEFAULT_DOMAIN}/favicon.ico`,
+              "width": 60,
+              "height": 60
             }
           },
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": currentUrl
-          }
+          "articleSection": category || "Science",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": "true",
+          "keywords": metaKeys
         };
       } else {
         schemaData = {
@@ -128,7 +163,13 @@ export default function SEOHead({
           "@type": "WebSite",
           "name": DEFAULT_SITE_NAME,
           "url": DEFAULT_DOMAIN,
-          "description": metaDesc
+          "description": metaDesc,
+          "inLanguage": "en-US",
+          "publisher": {
+            "@type": "NewsMediaOrganization",
+            "name": DEFAULT_SITE_NAME,
+            "url": DEFAULT_DOMAIN
+          }
         };
       }
     }

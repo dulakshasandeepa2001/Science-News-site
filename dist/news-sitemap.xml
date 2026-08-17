@@ -1,243 +1,753 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</loc>
+    <loc>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-29T18:30:00.000Z</news:publication_date>
-      <news:title>Africa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ai-designed-virus-stanford</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-09T18:30:00.000Z</news:publication_date>
-      <news:title>Artificial Intelligence Used to Create a Virus for the First Time in Stanford University Breakthrough</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ancient-crocodile-ancestor-discovery</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-11-20T18:30:00.000Z</news:publication_date>
-      <news:title>Ancient Ancestor of Modern Crocodiles from Over 240 Million Years Ago Discovered</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ancient-forest-under-arctic-ice</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-08-04T18:30:00.000Z</news:publication_date>
-      <news:title>Ancient Forest Discovered Under Melting Arctic Ice</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/antarctic-titanosaur-fossil</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-01T18:30:00.000Z</news:publication_date>
-      <news:title>The First Dinosaur Fossil from Antarctica, Hidden in a Drawer for Four Decades</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/artemis-2-astronauts-ready-mission</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-09-25T18:30:00.000Z</news:publication_date>
-      <news:title>Intensive Training for Historic Mission</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/artemis-3-astronauts-named</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-09T18:30:00.000Z</news:publication_date>
-      <news:title>Artemis III Astronauts Named</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/aspirin-replacement-clopidogrel</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-08-17T18:30:00.000Z</news:publication_date>
-      <news:title>New Aspirin Alternative Shows Promise in Reducing Cardiovascular Risk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/asteroid-2025-tp5-close-approach</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-10-26T18:30:00.000Z</news:publication_date>
-      <news:title>Newly Discovered Asteroid 2025 TP5 Passes Closer Than the Moon: Earth</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/atlantic-amoc-collapse-risk</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-04-19T18:30:00.000Z</news:publication_date>
-      <news:title>Risk of Atlantic Ocean Current System Collapse on the Rise</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/atlas-comet</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-10-28T18:30:00.000Z</news:publication_date>
-      <news:title>3I/ATLAS Interstellar Comet: Historic Visitor from Outer Space Reaches Solar System</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/black-death</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-08-24T18:30:00.000Z</news:publication_date>
-      <news:title>The Shadows of the </news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/black-hole-star-discovery</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
       <news:publication_date>2026-08-16T18:30:00.000Z</news:publication_date>
       <news:title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/Black-Hole-Star-Hed.webp</image:loc>
+      <image:title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</loc>
+    <loc>https://sciencenewshub.click/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-05-28T18:30:00.000Z</news:publication_date>
-      <news:title>Blue Origin</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-13T18:30:00.000Z</news:publication_date>
+      <news:title>SpaceX Gears Up for a Massive Shift Into Artificial Intelligence with Starmind Satellite Network</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/gSbSdisEFG8AZZ2kTdJGBV-scaled.jpg</image:loc>
+      <image:title>SpaceX Gears Up for a Massive Shift Into Artificial Intelligence with Starmind Satellite Network</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/british-fossil-collection-abu-dhabi</loc>
+    <loc>https://sciencenewshub.click/article/total-solar-eclipse-august-2026-greenland-iceland-spain</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T18:30:00.000Z</news:publication_date>
+      <news:title>Total Solar Eclipse August 2026 Crosses Greenland, Iceland, and Spain</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/260805-eclipse-texas-nasa-ch-1252-a1b785.webp</image:loc>
+      <image:title>Total Solar Eclipse August 2026 Crosses Greenland, Iceland, and Spain</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
       <news:publication_date>2026-08-10T18:30:00.000Z</news:publication_date>
       <news:title>One of Britain</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg</image:loc>
+      <image:title>One of Britain</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/15</loc>
+    <loc>https://sciencenewshub.click/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-02T18:30:00.000Z</news:publication_date>
-      <news:title>British Paralympian John McFall Prepares to Become the First Disabled Astronaut to Orbit Earth</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-09T18:30:00.000Z</news:publication_date>
+      <news:title>Artificial Intelligence Used to Create a Virus for the First Time in Stanford University Breakthrough</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg</image:loc>
+      <image:title>Artificial Intelligence Used to Create a Virus for the First Time in Stanford University Breakthrough</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/25</loc>
+    <loc>https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-09-16T18:30:00.000Z</news:publication_date>
-      <news:title>British National Pilot Joins Mars Simulation Mission Crew</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-06T18:30:00.000Z</news:publication_date>
+      <news:title>World</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/main-inouye-image-horizontal.jpg</image:loc>
+      <image:title>World</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/celtic-metal-coins-discovery</loc>
+    <loc>https://sciencenewshub.click/article/world-reservoirs-sedimentation-2060</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-10-08T18:30:00.000Z</news:publication_date>
-      <news:title>Large Quantity of Celtic Metal Coins Discovered in Czech Republic</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T18:30:00.000Z</news:publication_date>
+      <news:title>More Than Half the World</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/Longtan_Dam1.jpg</image:loc>
+      <image:title>More Than Half the World</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/20</loc>
+    <loc>https://sciencenewshub.click/article/spacex-rocket-moon-crash-2026</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-09-08T18:30:00.000Z</news:publication_date>
-      <news:title>Changan Company Introduces Its Latest Electric Vehicle</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T18:30:00.000Z</news:publication_date>
+      <news:title>SpaceX Falcon 9 Upper Stage Crashes Into the Moon — Creating a 27-Meter Crater</news:title>
     </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/china-ar-helmet</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-09-06T18:30:00.000Z</news:publication_date>
-      <news:title>China</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/cleopatra-sunken-port-discovery</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-09-28T18:30:00.000Z</news:publication_date>
-      <news:title>Sunken Port Discovery Near Egypt May Hold Clues to Cleopatra</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/comet-lemmon-tail-disruption</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-10-22T18:30:00.000Z</news:publication_date>
-      <news:title>Solar Wind Breaks Comet Lemmon</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/22</loc>
-    <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-09-10T18:30:00.000Z</news:publication_date>
-      <news:title>Cyanobacteria That Can Produce More Oxygen Even on Mars</news:title>
-    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/images.jpg</image:loc>
+      <image:title>SpaceX Falcon 9 Upper Stage Crashes Into the Moon — Creating a 27-Meter Crater</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://sciencenewshub.click/article/dinosaur-asteroid-heat-17-times</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
       <news:publication_date>2026-08-03T18:30:00.000Z</news:publication_date>
       <news:title>Dinosaur-Killing Asteroid Impact Released Heat 17 Times Greater Than Maximum Human Tolerance, New Study Reveals</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/081524_cg_ruthenium-asteroid_feat.webp</image:loc>
+      <image:title>Dinosaur-Killing Asteroid Impact Released Heat 17 Times Greater Than Maximum Human Tolerance, New Study Reveals</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/dinosaur-fossil-crocodile-bone</loc>
+    <loc>https://sciencenewshub.click/article/pacific-ring-of-fire-volcanic-cooling</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-10-01T18:30:00.000Z</news:publication_date>
-      <news:title>Dinosaur Fossil Found with Crocodile Bone Stuck in Jaw</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T18:30:00.000Z</news:publication_date>
+      <news:title>Volcanic Eruptions in the Pacific Ring of Fire Have Been Cooling the Earth for Centuries</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/sarychev-volcano.jpg</image:loc>
+      <image:title>Volcanic Eruptions in the Pacific Ring of Fire Have Been Cooling the Earth for Centuries</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/double-star-system-both-supernovae</loc>
+    <loc>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-07-21T18:30:00.000Z</news:publication_date>
-      <news:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T18:30:00.000Z</news:publication_date>
+      <news:title>Africa</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg</image:loc>
+      <image:title>Africa</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/jodrell-bank-observatory-risk</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T18:30:00.000Z</news:publication_date>
+      <news:title>The Future of Jodrell Bank Observatory at Risk</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>The Future of Jodrell Bank Observatory at Risk</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://sciencenewshub.click/article/earhart-nikumaroro-clue</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
       <news:publication_date>2026-07-27T18:30:00.000Z</news:publication_date>
       <news:title>Clue Found on Nikumaroro Island Regarding Earhart</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Clue Found on Nikumaroro Island Regarding Earhart</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/earth-black-box-tasmania</loc>
+    <loc>https://sciencenewshub.click/article/little-red-dots-early-universe</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-06-18T18:30:00.000Z</news:publication_date>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T18:30:00.000Z</news:publication_date>
+      <news:title>What Are the Mysterious </news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>What Are the Mysterious </image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/orcas-ramming-sunfish</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T18:30:00.000Z</news:publication_date>
+      <news:title>Orcas Observed Ramming Sunfish into Pieces</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Orcas Observed Ramming Sunfish into Pieces</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/pan-am-wreckage-discovered</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T18:30:00.000Z</news:publication_date>
+      <news:title>Wreckage of Pan Am Aircraft Discovered on Ocean Floor After 74 Years</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Wreckage of Pan Am Aircraft Discovered on Ocean Floor After 74 Years</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/double-star-system-both-supernovae</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T18:30:00.000Z</news:publication_date>
+      <news:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/india-skyroot-orbital-rocket</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-19T18:30:00.000Z</news:publication_date>
+      <news:title>India Becomes the Third Country in the World to Successfully Test a Private-Sector Orbital Rocket</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/download-1.webp</image:loc>
+      <image:title>India Becomes the Third Country in the World to Successfully Test a Private-Sector Orbital Rocket</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/koala-cryopreservation</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-16T18:30:00.000Z</news:publication_date>
+      <news:title>A New Conservation Measure to Save Koalas from Extinction</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/images-2.jpg</image:loc>
+      <image:title>A New Conservation Measure to Save Koalas from Extinction</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/first-space-xray</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:30:00.000Z</news:publication_date>
+      <news:title>First Medical X-Ray Images Taken in Space</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/1000145370-ezgif.com-webp-to-jpg-converter1.jpg</image:loc>
+      <image:title>First Medical X-Ray Images Taken in Space</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/us-space-force-meadowlands</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-13T18:30:00.000Z</news:publication_date>
+      <news:title>US Space Force Acquires New Electromagnetic Weapon Capable of Disabling Satellites</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/01.webp</image:loc>
+      <image:title>US Space Force Acquires New Electromagnetic Weapon Capable of Disabling Satellites</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/pluto-titan-mystery-substance</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-09T18:30:00.000Z</news:publication_date>
+      <news:title>A Previously Undiscovered </news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>A Previously Undiscovered </image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/nuclear-satellite-bohr</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-08T18:30:00.000Z</news:publication_date>
+      <news:title>World</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>World</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/fermi-paradox-ai-explanation</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T18:30:00.000Z</news:publication_date>
+      <news:title>A New Scientific Explanation for Fermi</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>A New Scientific Explanation for Fermi</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/gj-3378b-earth-like-planet</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T18:30:00.000Z</news:publication_date>
+      <news:title>A New Earth-Like Planet Potentially Suitable for Life Discovered Near Our Solar System</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>A New Earth-Like Planet Potentially Suitable for Life Discovered Near Our Solar System</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/lhc-shutdown-upgrade</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-02T18:30:00.000Z</news:publication_date>
       <news:title>The World</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>The World</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/einstein-ring-black-hole</loc>
+    <loc>https://sciencenewshub.click/article/antarctic-titanosaur-fossil</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2025-08-09T18:30:00.000Z</news:publication_date>
-      <news:title>Giant Einstein Ring Reveals Universe</news:title>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-01T18:30:00.000Z</news:publication_date>
+      <news:title>The First Dinosaur Fossil from Antarctica, Hidden in a Drawer for Four Decades</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>The First Dinosaur Fossil from Antarctica, Hidden in a Drawer for Four Decades</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/swift-telescope-rescue</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T18:30:00.000Z</news:publication_date>
+      <news:title>Swift Telescope Rescue Mission Today</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Swift Telescope Rescue Mission Today</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/new-marine-species-brazil</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T18:30:00.000Z</news:publication_date>
+      <news:title>31 New Marine Species Discovered in the Ocean Off Brazil</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>31 New Marine Species Discovered in the Ocean Off Brazil</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://sciencenewshub.click/article/euclid-milky-way-center</loc>
     <news:news>
-      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
       <news:publication_date>2026-06-25T18:30:00.000Z</news:publication_date>
       <news:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/iss-ocean-crash-plan</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-24T18:30:00.000Z</news:publication_date>
+      <news:title>Environmental Experts Oppose Plan to Crash the International Space Station into the Ocean</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Environmental Experts Oppose Plan to Crash the International Space Station into the Ocean</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/vaquita-digital-reconstruction</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T18:30:00.000Z</news:publication_date>
+      <news:title>Modern Digital Technology Lends a Hand in Saving the Critically Endangered Vaquita</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Modern Digital Technology Lends a Hand in Saving the Critically Endangered Vaquita</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/supernova-remnant-milky-way</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-22T18:30:00.000Z</news:publication_date>
+      <news:title>New Supernova Remnant Discovered Near the Center of the Milky Way</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>New Supernova Remnant Discovered Near the Center of the Milky Way</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/new-air-force-one</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-21T18:30:00.000Z</news:publication_date>
+      <news:title>New Air Force One Enters Service</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>New Air Force One Enters Service</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/earth-black-box-tasmania</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-18T18:30:00.000Z</news:publication_date>
+      <news:title>The World</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>The World</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/m87-black-hole-radiation-jet-xray</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T18:30:00.000Z</news:publication_date>
+      <news:title>New Details Captured from a Radiation Jet of the M87 Black Hole</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>New Details Captured from a Radiation Jet of the M87 Black Hole</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/exoplanet-wasp-121b-gemstone-rain</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-16T18:30:00.000Z</news:publication_date>
+      <news:title>Exoplanet WASP-121b: Where Rubies and Sapphires Rain Down</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Exoplanet WASP-121b: Where Rubies and Sapphires Rain Down</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/global-underground-fungal-network-map</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-14T18:30:00.000Z</news:publication_date>
+      <news:title>Global Underground Fungal Network Map Revealed</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Global Underground Fungal Network Map Revealed</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/artemis-3-astronauts-named</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-09T18:30:00.000Z</news:publication_date>
+      <news:title>Artemis III Astronauts Named</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Artemis III Astronauts Named</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/maven-mars-spacecraft-final-journey</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-04T18:30:00.000Z</news:publication_date>
+      <news:title>MAVEN Mars Spacecraft Makes Its Final Journey</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>MAVEN Mars Spacecraft Makes Its Final Journey</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/humpback-whales-sound-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-03T18:30:00.000Z</news:publication_date>
+      <news:title>Scientists Make New Discovery About the Mysterious Sound Patterns of Humpback Whales</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Scientists Make New Discovery About the Mysterious Sound Patterns of Humpback Whales</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/15</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T18:30:00.000Z</news:publication_date>
+      <news:title>British Paralympian John McFall Prepares to Become the First Disabled Astronaut to Orbit Earth</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>British Paralympian John McFall Prepares to Become the First Disabled Astronaut to Orbit Earth</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-01T18:30:00.000Z</news:publication_date>
+      <news:title>T. Rex</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/06/GettyImages-99311107_web-ezgif.com-webp-to-jpg-converter.jpg</image:loc>
+      <image:title>T. Rex</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-31T18:30:00.000Z</news:publication_date>
+      <news:title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/Koq2z4nWjEQkTUWGeb6LER.png</image:loc>
+      <image:title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:30:00.000Z</news:publication_date>
+      <news:title>Blue Origin</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/Thumb-ty89u6.webp</image:loc>
+      <image:title>Blue Origin</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T18:30:00.000Z</news:publication_date>
+      <news:title>Moon Base I Mission Awarded to Jeff Bezos</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Moon Base I Mission Awarded to Jeff Bezos</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/psyche-spacecraft-mars-gravity-assist</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T18:30:00.000Z</news:publication_date>
+      <news:title>Psyche Spacecraft Uses Mars Gravity Assist to Gain Speed</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/RiC6rtyJHBJ6Hie5wQPRvd-1280-80.png</image:loc>
+      <image:title>Psyche Spacecraft Uses Mars Gravity Assist to Gain Speed</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/water-paint-coating-dewpoint</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-11T18:30:00.000Z</news:publication_date>
+      <news:title>Amazing Paint Coating That Provides Water from Hot Air</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Amazing Paint Coating That Provides Water from Hot Air</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/wasp-named-david-attenborough</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-07T18:30:00.000Z</news:publication_date>
+      <news:title>A Wasp Named in Honor of David Attenborough on His 100th Birthday</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>A Wasp Named in Honor of David Attenborough on His 100th Birthday</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/tiny-object-solar-system-atmosphere</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-06T18:30:00.000Z</news:publication_date>
+      <news:title>A Tiny Object at the Edge of the Solar System Has an Atmosphere</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>A Tiny Object at the Edge of the Solar System Has an Atmosphere</image:title>
+    </image:image>
   </url>
 </urlset>

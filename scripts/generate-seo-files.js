@@ -1,12 +1,12 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DOMAIN = 'https://sciencenewshub.click';
+const DEFAULT_IMAGE = 'https://sciencenewshub.click/assets/lab.jpg';
 
-// Helper to convert any text to a clean URL slug
 function toSlug(text) {
   if (!text) return '';
   return text
@@ -122,7 +122,18 @@ const LEGACY_SLUG_MAP = {
   "Koala_Cryopreservation": "koala-cryopreservation",
   "First_Space_XRay": "first-space-xray",
   "US_Space_Force_Meadowlands": "us-space-force-meadowlands",
-  "Pluto_Titan_Mystery_Substance": "pluto-titan-mystery-substance"
+  "Pluto_Titan_Mystery_Substance": "pluto-titan-mystery-substance",
+  "Africa_First_Lunar_Mission_China_2029": "africa-first-lunar-mission-china-2029",
+  "Pacific_Ring_Of_Fire_Volcanic_Cooling": "pacific-ring-of-fire-volcanic-cooling",
+  "Dinosaur_Asteroid_Heat_17_Times": "dinosaur-asteroid-heat-17-times",
+  "SpaceX_Rocket_Moon_Crash_2026": "spacex-rocket-moon-crash-2026",
+  "World_Reservoirs_Sedimentation_2060": "world-reservoirs-sedimentation-2060",
+  "Inouye_Solar_Telescope_Clearest_Sun_Images": "inouye-solar-telescope-clearest-sun-images",
+  "Black_Hole_Star_Discovery": "first-ever-black-hole-star-discovered-james-webb-space-telescope",
+  "SpaceX_AI_Starmind_Satellites": "spacex-massive-shift-artificial-intelligence-starmind-satellites-2026",
+  "Total_Solar_Eclipse_Europe_2026": "total-solar-eclipse-august-2026-greenland-iceland-spain",
+  "British_Fossil_Collection_Abu_Dhabi": "british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum",
+  "AI_Designed_Virus_Stanford": "ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026"
 };
 
 function getSlug(art) {
@@ -160,7 +171,6 @@ function escapeXml(unsafe) {
     .replace(/'/g, '&apos;');
 }
 
-// Function to read and parse article objects directly without triggering Node image loader errors
 function parseArticleFiles() {
   const articlesDir = path.join(__dirname, '..', 'src', 'data', 'articles');
   const articlesList = [];
@@ -173,22 +183,23 @@ function parseArticleFiles() {
     try {
       const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
 
-      // Extract id, title, summary, date, category, author using regex
       const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
-      const titleMatch = content.match(/title:\s*["']([^"']+)["']/);
-      const summaryMatch = content.match(/summary:\s*["']([^"']+)["']/);
+      const titleMatch = content.match(/title:\s*["'`]([^"'`]+)["'`]/);
+      const summaryMatch = content.match(/summary:\s*["'`]([\s\S]*?)["'`]\s*,/);
       const categoryMatch = content.match(/category:\s*["']([^"']+)["']/);
       const dateMatch = content.match(/date:\s*["']([^"']+)["']/);
       const authorMatch = content.match(/author:\s*["']([^"']+)["']/);
       const imageMatch = content.match(/image:\s*["']([^"']+)["']/);
+      const slugMatch = content.match(/slug:\s*["']([^"']+)["']/);
 
       const id = idMatch ? idMatch[1] : path.basename(file, '.js');
-      const title = titleMatch ? titleMatch[1] : id.replace(/_/g, ' ');
-      const summary = summaryMatch ? summaryMatch[1] : title;
+      const title = titleMatch ? titleMatch[1].replace(/\\"/g, '"') : id.replace(/_/g, ' ');
+      const summary = summaryMatch ? summaryMatch[1].replace(/\\"/g, '"').replace(/\n\s*/g, ' ').trim() : title;
       const category = categoryMatch ? categoryMatch[1] : 'Science';
-      const date = dateMatch ? dateMatch[1] : 'August 16, 2026';
+      const date = dateMatch ? dateMatch[1] : 'August 17, 2026';
       const author = authorMatch ? authorMatch[1] : 'Science News Publishing';
-      const image = imageMatch ? imageMatch[1] : `${DOMAIN}/assets/logo.png`;
+      const image = imageMatch ? imageMatch[1] : DEFAULT_IMAGE;
+      const slug = slugMatch ? slugMatch[1] : null;
 
       articlesList.push({
         id,
@@ -197,12 +208,15 @@ function parseArticleFiles() {
         category,
         date,
         author,
-        image
+        image,
+        slug
       });
     } catch (e) {
       console.warn(`Could not parse article file ${file}:`, e.message);
     }
   }
+
+  articlesList.sort((a, b) => new Date(b.date) - new Date(a.date));
 
   return articlesList;
 }
@@ -220,7 +234,7 @@ function main() {
   const blogsList = parseBlogFiles();
   const categories = ['Space', 'Physics', 'Technology', 'Health', 'Biology', 'Environment', 'Archaeology', 'Mathematics'];
 
-  // 1. Generate Sitemap XML
+  // 1. Generate Sitemap XML (With Image Extensions for Google Discover)
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
   xml += `  <url><loc>${DOMAIN}/</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
@@ -228,6 +242,7 @@ function main() {
   xml += `  <url><loc>${DOMAIN}/contact</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n`;
   xml += `  <url><loc>${DOMAIN}/privacy-policy</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
   xml += `  <url><loc>${DOMAIN}/terms</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
+  xml += `  <url><loc>${DOMAIN}/disclaimer</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
   xml += `  <url><loc>${DOMAIN}/blog</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>\n`;
 
   for (const cat of categories) {
@@ -237,7 +252,18 @@ function main() {
   for (const art of articlesList) {
     const slug = getSlug(art);
     const pubDate = formatDateForXml(art.date);
-    xml += `  <url><loc>${DOMAIN}/article/${slug}</loc><lastmod>${pubDate}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
+    const imgUrl = art.image || DEFAULT_IMAGE;
+    xml += `  <url>\n`;
+    xml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
+    xml += `    <lastmod>${pubDate}</lastmod>\n`;
+    xml += `    <changefreq>monthly</changefreq>\n`;
+    xml += `    <priority>0.8</priority>\n`;
+    xml += `    <image:image>\n`;
+    xml += `      <image:loc>${escapeXml(imgUrl)}</image:loc>\n`;
+    xml += `      <image:title>${escapeXml(art.title)}</image:title>\n`;
+    xml += `      <image:caption>${escapeXml(art.summary)}</image:caption>\n`;
+    xml += `    </image:image>\n`;
+    xml += `  </url>\n`;
   }
 
   for (const blog of blogsList) {
@@ -245,30 +271,38 @@ function main() {
   }
   xml += `</urlset>\n`;
 
-  // 2. Generate Google News Sitemap
+  // 2. Generate Google News Sitemap (Google News & Discover Specific)
   let newsXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  newsXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n`;
-  for (const art of articlesList.slice(0, 30)) {
+  newsXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+  for (const art of articlesList.slice(0, 50)) {
     const slug = getSlug(art);
     const pubDate = formatDateForXml(art.date);
+    const imgUrl = art.image || DEFAULT_IMAGE;
     newsXml += `  <url>\n`;
     newsXml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
     newsXml += `    <news:news>\n`;
-    newsXml += `      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>\n`;
+    newsXml += `      <news:publication>\n`;
+    newsXml += `        <news:name>Science News Publishing</news:name>\n`;
+    newsXml += `        <news:language>en</news:language>\n`;
+    newsXml += `      </news:publication>\n`;
     newsXml += `      <news:publication_date>${pubDate}</news:publication_date>\n`;
     newsXml += `      <news:title>${escapeXml(art.title)}</news:title>\n`;
     newsXml += `    </news:news>\n`;
+    newsXml += `    <image:image>\n`;
+    newsXml += `      <image:loc>${escapeXml(imgUrl)}</image:loc>\n`;
+    newsXml += `      <image:title>${escapeXml(art.title)}</image:title>\n`;
+    newsXml += `    </image:image>\n`;
     newsXml += `  </url>\n`;
   }
   newsXml += `</urlset>\n`;
 
-  // 3. Generate RSS Feed
+  // 3. Generate High-Quality RSS Feed (Google Publisher Center & Feedly Compliant)
   let rssXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
+  rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
   rssXml += `  <channel>\n`;
   rssXml += `    <title>Science News Publishing</title>\n`;
   rssXml += `    <link>${DOMAIN}</link>\n`;
-  rssXml += `    <description>Latest Scientific Discoveries and Research Breakthroughs</description>\n`;
+  rssXml += `    <description>Latest Scientific Discoveries, Space Exploration Missions, AI Breakthroughs, and Peer-Reviewed Research</description>\n`;
   rssXml += `    <language>en-us</language>\n`;
   rssXml += `    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>\n`;
   rssXml += `    <atom:link href="${DOMAIN}/rss.xml" rel="self" type="application/rss+xml" />\n`;
@@ -277,20 +311,23 @@ function main() {
     const slug = getSlug(art);
     const link = `${DOMAIN}/article/${slug}`;
     const pubDate = formatDateForRss(art.date);
+    const imgUrl = art.image || DEFAULT_IMAGE;
     rssXml += `    <item>\n`;
     rssXml += `      <title>${escapeXml(art.title)}</title>\n`;
     rssXml += `      <link>${link}</link>\n`;
     rssXml += `      <guid isPermaLink="true">${link}</guid>\n`;
     rssXml += `      <pubDate>${pubDate}</pubDate>\n`;
-    rssXml += `      <author>${escapeXml(art.author)}</author>\n`;
+    rssXml += `      <dc:creator>${escapeXml(art.author)}</dc:creator>\n`;
     rssXml += `      <category>${escapeXml(art.category)}</category>\n`;
     rssXml += `      <description>${escapeXml(art.summary)}</description>\n`;
+    rssXml += `      <media:content url="${escapeXml(imgUrl)}" medium="image" width="1200" height="675">\n`;
+    rssXml += `        <media:title>${escapeXml(art.title)}</media:title>\n`;
+    rssXml += `      </media:content>\n`;
     rssXml += `    </item>\n`;
   }
   rssXml += `  </channel>\n`;
   rssXml += `</rss>\n`;
 
-  // Output directories: public and dist
   const dirs = [
     path.join(__dirname, '..', 'public'),
     path.join(__dirname, '..', 'dist')
@@ -305,7 +342,7 @@ function main() {
     fs.writeFileSync(path.join(dir, 'rss.xml'), rssXml, 'utf-8');
   }
 
-  console.log(`✓ Successfully generated SEO files for ${articlesList.length} articles in public/ and dist/`);
+  console.log(`✓ Successfully generated Google Discover & News SEO files for ${articlesList.length} articles in public/ and dist/`);
 }
 
 main();
