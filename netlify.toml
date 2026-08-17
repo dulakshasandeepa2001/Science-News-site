@@ -2,7 +2,7 @@
   command = "node scripts/generate-seo-files.js && vite build"
   publish = "dist"
 
-# --------- 301 Permanent Redirects: Old underscore/CamelCase URLs --- Clean SEO slugs ---------
+# ─── 301 Permanent Redirects: Old underscore/CamelCase URLs → Clean SEO slugs ───
 
 # Numeric IDs
 [[redirects]]
@@ -576,39 +576,8 @@
   status = 301
   force = true
 
-# --------- Catch-all: SPA routing (must be LAST) ---------
+# ─── Catch-all: SPA routing (must be LAST) ───
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-# --------- Custom Headers for Sitemaps, Feeds, and Robots ---------
-[[headers]]
-  for = "/sitemap.xml"
-  [headers.values]
-    Content-Type = "application/xml; charset=utf-8"
-    X-Content-Type-Options = "nosniff"
-    X-Robots-Tag = "all"
-    Cache-Control = "public, max-age=0, must-revalidate"
-
-[[headers]]
-  for = "/news-sitemap.xml"
-  [headers.values]
-    Content-Type = "application/xml; charset=utf-8"
-    X-Content-Type-Options = "nosniff"
-    X-Robots-Tag = "all"
-    Cache-Control = "public, max-age=0, must-revalidate"
-
-[[headers]]
-  for = "/rss.xml"
-  [headers.values]
-    Content-Type = "application/xml; charset=utf-8"
-    X-Content-Type-Options = "nosniff"
-    X-Robots-Tag = "all"
-    Cache-Control = "public, max-age=0, must-revalidate"
-
-[[headers]]
-  for = "/robots.txt"
-  [headers.values]
-    Content-Type = "text/plain; charset=utf-8"
-    Cache-Control = "public, max-age=0, must-revalidate"

@@ -59,7 +59,7 @@ const Footer = () => {
               <li><Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">Contact Us</Link></li>
               <li><Link to="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</Link></li>
-              <li><Link to="/disclaimer" className="text-muted-foreground hover:text-primary transition-colors">Disclaimer</Link></li>
+              <li><Link to="/disclaimer" className="text-muted-foreground hover:text-primary transition-colors">Website Disclaimer</Link></li>
               <li><Link to="/blog" className="text-muted-foreground hover:text-primary transition-colors">Science Blog</Link></li>
               <li><a href="/sitemap.xml" className="text-muted-foreground hover:text-primary transition-colors">XML Sitemap</a></li>
               <li><a href="/rss.xml" className="text-muted-foreground hover:text-primary transition-colors">RSS News Feed</a></li>
@@ -93,8 +93,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground text-center sm:text-left">
           <p>&copy; {currentYear} Science News Publishing. All rights reserved.</p>
-          <div className="flex flex-wrap justify-center sm:justify-end gap-3 md:gap-4">
-            <Link to="/privacy-policy" className="hover:text-foreground transition-colors font-medium">Privacy Policy</Link>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <Link to="/privacy-policy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
             <span>•</span>
             <Link to="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link>
             <span>•</span>

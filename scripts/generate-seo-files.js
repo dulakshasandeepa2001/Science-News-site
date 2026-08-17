@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -172,6 +172,7 @@ function escapeXml(unsafe) {
 }
 
 function extractField(content, fieldName) {
+  // Regex to match fieldName: `...` or "..." or '...'
   const regex = new RegExp(`${fieldName}:\\s*(?:\`([\\s\\S]*?)\`|"((?:\\\\.|[^"\\\\])*)"|'((?:\\\\.|[^'\\\\])*)')`);
   const match = content.match(regex);
   if (!match) return null;
@@ -238,86 +239,48 @@ function main() {
   const articlesList = parseArticleFiles();
   const blogsList = parseBlogFiles();
   const categories = ['Space', 'Physics', 'Technology', 'Health', 'Biology', 'Environment', 'Archaeology', 'Mathematics'];
-  const nowIso = new Date().toISOString();
 
-  // 1. MASTER SITEMAP INDEX (Exactly like WordPress / zohobooks.lk)
-  let sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  sitemapIndexXml += `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  sitemapIndexXml += `  <sitemap>\n`;
-  sitemapIndexXml += `    <loc>${DOMAIN}/post-sitemap.xml</loc>\n`;
-  sitemapIndexXml += `    <lastmod>${nowIso}</lastmod>\n`;
-  sitemapIndexXml += `  </sitemap>\n`;
-  sitemapIndexXml += `  <sitemap>\n`;
-  sitemapIndexXml += `    <loc>${DOMAIN}/page-sitemap.xml</loc>\n`;
-  sitemapIndexXml += `    <lastmod>${nowIso}</lastmod>\n`;
-  sitemapIndexXml += `  </sitemap>\n`;
-  sitemapIndexXml += `  <sitemap>\n`;
-  sitemapIndexXml += `    <loc>${DOMAIN}/category-sitemap.xml</loc>\n`;
-  sitemapIndexXml += `    <lastmod>${nowIso}</lastmod>\n`;
-  sitemapIndexXml += `  </sitemap>\n`;
-  sitemapIndexXml += `  <sitemap>\n`;
-  sitemapIndexXml += `    <loc>${DOMAIN}/news-sitemap.xml</loc>\n`;
-  sitemapIndexXml += `    <lastmod>${nowIso}</lastmod>\n`;
-  sitemapIndexXml += `  </sitemap>\n`;
-  sitemapIndexXml += `</sitemapindex>\n`;
+  // 1. Generate Sitemap XML (sitemaps.org Protocol Standard with XSL Styling)
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+  xml += `  <url><loc>${DOMAIN}/</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
+  xml += `  <url><loc>${DOMAIN}/about</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n`;
+  xml += `  <url><loc>${DOMAIN}/contact</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n`;
+  xml += `  <url><loc>${DOMAIN}/privacy-policy</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
+  xml += `  <url><loc>${DOMAIN}/terms</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
+  xml += `  <url><loc>${DOMAIN}/disclaimer</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
+  xml += `  <url><loc>${DOMAIN}/blog</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>\n`;
 
-  // 2. POST SITEMAP (Articles)
-  let postXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  postXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+  for (const cat of categories) {
+    xml += `  <url><loc>${DOMAIN}/category/${cat.toLowerCase()}</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n`;
+  }
+
   for (const art of articlesList) {
     const slug = getSlug(art);
     const pubDate = formatDateForXml(art.date);
     const imgUrl = art.image || DEFAULT_IMAGE;
-    postXml += `  <url>\n`;
-    postXml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
-    postXml += `    <lastmod>${pubDate}</lastmod>\n`;
-    postXml += `    <image:image>\n`;
-    postXml += `      <image:loc>${escapeXml(imgUrl)}</image:loc>\n`;
-    postXml += `      <image:title>${escapeXml(art.title)}</image:title>\n`;
-    postXml += `    </image:image>\n`;
-    postXml += `  </url>\n`;
+    xml += `  <url>\n`;
+    xml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
+    xml += `    <lastmod>${pubDate}</lastmod>\n`;
+    xml += `    <changefreq>monthly</changefreq>\n`;
+    xml += `    <priority>0.8</priority>\n`;
+    xml += `    <image:image>\n`;
+    xml += `      <image:loc>${escapeXml(imgUrl)}</image:loc>\n`;
+    xml += `      <image:title>${escapeXml(art.title)}</image:title>\n`;
+    xml += `      <image:caption>${escapeXml(art.summary)}</image:caption>\n`;
+    xml += `    </image:image>\n`;
+    xml += `  </url>\n`;
   }
+
   for (const blog of blogsList) {
-    postXml += `  <url>\n`;
-    postXml += `    <loc>${DOMAIN}/blog/${blog.id}</loc>\n`;
-    postXml += `    <lastmod>${nowIso}</lastmod>\n`;
-    postXml += `  </url>\n`;
+    xml += `  <url><loc>${DOMAIN}/blog/${blog.id}</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n`;
   }
-  postXml += `</urlset>\n`;
+  xml += `</urlset>\n`;
 
-  // 3. PAGE SITEMAP (Pages)
-  let pageXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  pageXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  const pages = [
-    { url: `${DOMAIN}/`, priority: '1.0' },
-    { url: `${DOMAIN}/about`, priority: '0.9' },
-    { url: `${DOMAIN}/contact`, priority: '0.9' },
-    { url: `${DOMAIN}/privacy-policy`, priority: '0.8' },
-    { url: `${DOMAIN}/terms`, priority: '0.8' },
-    { url: `${DOMAIN}/disclaimer`, priority: '0.8' },
-    { url: `${DOMAIN}/blog`, priority: '0.9' }
-  ];
-  for (const p of pages) {
-    pageXml += `  <url>\n`;
-    pageXml += `    <loc>${p.url}</loc>\n`;
-    pageXml += `    <lastmod>${nowIso}</lastmod>\n`;
-    pageXml += `  </url>\n`;
-  }
-  pageXml += `</urlset>\n`;
-
-  // 4. CATEGORY SITEMAP
-  let catXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  catXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  for (const cat of categories) {
-    catXml += `  <url>\n`;
-    catXml += `    <loc>${DOMAIN}/category/${cat.toLowerCase()}</loc>\n`;
-    catXml += `    <lastmod>${nowIso}</lastmod>\n`;
-    catXml += `  </url>\n`;
-  }
-  catXml += `</urlset>\n`;
-
-  // 5. GOOGLE NEWS SITEMAP
+  // 2. Generate Google News Sitemap (Google News & Discover Specific with XSL)
   let newsXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  newsXml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
   newsXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
   for (const art of articlesList.slice(0, 50)) {
     const slug = getSlug(art);
@@ -341,8 +304,9 @@ function main() {
   }
   newsXml += `</urlset>\n`;
 
-  // 6. RSS FEED
+  // 3. Generate High-Quality RSS Feed (Google Publisher Center & RSS 2.0 Compliant with XSL Styling)
   let rssXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  rssXml += `<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>\n`;
   rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
   rssXml += `  <channel>\n`;
   rssXml += `    <title>Science News Publishing</title>\n`;
@@ -382,15 +346,12 @@ function main() {
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    fs.writeFileSync(path.join(dir, 'sitemap.xml'), sitemapIndexXml, 'utf-8');
-    fs.writeFileSync(path.join(dir, 'post-sitemap.xml'), postXml, 'utf-8');
-    fs.writeFileSync(path.join(dir, 'page-sitemap.xml'), pageXml, 'utf-8');
-    fs.writeFileSync(path.join(dir, 'category-sitemap.xml'), catXml, 'utf-8');
+    fs.writeFileSync(path.join(dir, 'sitemap.xml'), xml, 'utf-8');
     fs.writeFileSync(path.join(dir, 'news-sitemap.xml'), newsXml, 'utf-8');
     fs.writeFileSync(path.join(dir, 'rss.xml'), rssXml, 'utf-8');
   }
 
-  console.log(`✓ Successfully generated WordPress-style Sitemap Index structure for ${articlesList.length} articles!`);
+  console.log(`✓ Successfully generated sitemaps.org compliant Sitemaps and RSS Feed for ${articlesList.length} articles!`);
 }
 
 main();

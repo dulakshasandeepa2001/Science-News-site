@@ -74,19 +74,35 @@ export default function PrivacyPolicyPage() {
           </section>
 
           <section className="space-y-3 bg-card border p-6 rounded-2xl">
-            <h2 className="text-xl font-bold text-foreground">5. GDPR &amp; CCPA Privacy Rights</h2>
+            <h2 className="text-xl font-bold text-foreground">5. Google Analytics 4 &amp; Usage Tracking</h2>
             <p>
-              Under the GDPR and CCPA, users have specific data protection rights:
+              We use Google Analytics (GA4) to understand how visitors interact with our content, which articles are most read, and how we can improve our reporting. Google Analytics collects data such as pages viewed, duration of visit, operating system, device type, and approximate geographic location (IP anonymization enabled). This data is processed in aggregate and is not linked to personally identifiable information.
+            </p>
+          </section>
+
+          <section className="space-y-3 bg-card border p-6 rounded-2xl">
+            <h2 className="text-xl font-bold text-foreground">6. GDPR, CCPA &amp; CPRA Privacy Rights</h2>
+            <p>
+              Under the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA/CPRA), users have specific data protection rights:
             </p>
             <ul className="list-disc pl-5 space-y-1">
               <li><strong>The right to access</strong> – You have the right to request copies of your personal data.</li>
               <li><strong>The right to rectification</strong> – You have the right to request that we correct any information you believe is inaccurate.</li>
               <li><strong>The right to erasure</strong> – You have the right to request that we erase your personal data under certain conditions.</li>
+              <li><strong>The right to restrict processing</strong> – You have the right to object to or restrict processing of your personal data.</li>
+              <li><strong>The right to opt-out</strong> – You have the right to opt-out of the sale or sharing of your personal data for cross-context behavioral advertising.</li>
             </ul>
           </section>
 
           <section className="space-y-3 bg-card border p-6 rounded-2xl">
-            <h2 className="text-xl font-bold text-foreground">6. Children&apos;s Information (COPPA)</h2>
+            <h2 className="text-xl font-bold text-foreground">7. Managing and Revoking Cookie Consent</h2>
+            <p>
+              You can modify or withdraw your cookie preferences at any time using the cookie settings banner available on our website or through your web browser&apos;s privacy settings. Declining advertising cookies will not remove ads, but will make ads non-personalized.
+            </p>
+          </section>
+
+          <section className="space-y-3 bg-card border p-6 rounded-2xl">
+            <h2 className="text-xl font-bold text-foreground">8. Children&apos;s Information (COPPA)</h2>
             <p>
               Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. Science News Publishing does not knowingly collect any Personal Identifiable Information from children under the age of 13.
             </p>
