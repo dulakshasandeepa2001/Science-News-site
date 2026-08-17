@@ -1,58 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://sciencenewshub.click/article/spacex-starlink-10000-satellites</loc>
+    <loc>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</loc>
     <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-03-22T00:00:00Z</news:publication_date>
-      <news:title>SpaceX Starlink Surpasses 10,000 Satellites in Low Earth Orbit — A Historic Milestone With Growing Concerns</news:title>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-29T18:30:00.000Z</news:publication_date>
+      <news:title>Africa</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</loc>
+    <loc>https://sciencenewshub.click/article/ai-designed-virus-stanford</loc>
     <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-28T00:00:00Z</news:publication_date>
-      <news:title>Blue Origin Unveils Moon Base 1 Mission Strategy</news:title>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-09T18:30:00.000Z</news:publication_date>
+      <news:title>Artificial Intelligence Used to Create a Virus for the First Time in Stanford University Breakthrough</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</loc>
+    <loc>https://sciencenewshub.click/article/ancient-crocodile-ancestor-discovery</loc>
     <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01T00:00:00Z</news:publication_date>
-      <news:title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</news:title>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-11-20T18:30:00.000Z</news:publication_date>
+      <news:title>Ancient Ancestor of Modern Crocodiles from Over 240 Million Years Ago Discovered</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/ancient-forest-under-arctic-ice</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-08-04T18:30:00.000Z</news:publication_date>
+      <news:title>Ancient Forest Discovered Under Melting Arctic Ice</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/antarctic-titanosaur-fossil</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-01T18:30:00.000Z</news:publication_date>
+      <news:title>The First Dinosaur Fossil from Antarctica, Hidden in a Drawer for Four Decades</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/artemis-2-astronauts-ready-mission</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-09-25T18:30:00.000Z</news:publication_date>
+      <news:title>Intensive Training for Historic Mission</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/artemis-3-astronauts-named</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09T18:30:00.000Z</news:publication_date>
+      <news:title>Artemis III Astronauts Named</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/aspirin-replacement-clopidogrel</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-08-17T18:30:00.000Z</news:publication_date>
+      <news:title>New Aspirin Alternative Shows Promise in Reducing Cardiovascular Risk</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/asteroid-2025-tp5-close-approach</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-10-26T18:30:00.000Z</news:publication_date>
+      <news:title>Newly Discovered Asteroid 2025 TP5 Passes Closer Than the Moon: Earth</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/atlantic-amoc-collapse-risk</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-04-19T18:30:00.000Z</news:publication_date>
+      <news:title>Risk of Atlantic Ocean Current System Collapse on the Rise</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/atlas-comet</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-10-28T18:30:00.000Z</news:publication_date>
+      <news:title>3I/ATLAS Interstellar Comet: Historic Visitor from Outer Space Reaches Solar System</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/black-death</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-08-24T18:30:00.000Z</news:publication_date>
+      <news:title>The Shadows of the </news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/black-hole-star-discovery</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-16T18:30:00.000Z</news:publication_date>
+      <news:title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</news:title>
     </news:news>
   </url>
   <url>
     <loc>https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</loc>
     <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-29T00:00:00Z</news:publication_date>
-      <news:title>Blue Origin New Glenn Rocket Test Investigation</news:title>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-28T18:30:00.000Z</news:publication_date>
+      <news:title>Blue Origin</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</loc>
+    <loc>https://sciencenewshub.click/article/british-fossil-collection-abu-dhabi</loc>
     <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T00:00:00Z</news:publication_date>
-      <news:title>T-Rex Tiny Arms: Evolutionary Sacrifice Analysis</news:title>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-10T18:30:00.000Z</news:publication_date>
+      <news:title>One of Britain</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/15</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-02T18:30:00.000Z</news:publication_date>
+      <news:title>British Paralympian John McFall Prepares to Become the First Disabled Astronaut to Orbit Earth</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/25</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-09-16T18:30:00.000Z</news:publication_date>
+      <news:title>British National Pilot Joins Mars Simulation Mission Crew</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/celtic-metal-coins-discovery</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-10-08T18:30:00.000Z</news:publication_date>
+      <news:title>Large Quantity of Celtic Metal Coins Discovered in Czech Republic</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/20</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-09-08T18:30:00.000Z</news:publication_date>
+      <news:title>Changan Company Introduces Its Latest Electric Vehicle</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/china-ar-helmet</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-09-06T18:30:00.000Z</news:publication_date>
+      <news:title>China</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/cleopatra-sunken-port-discovery</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-09-28T18:30:00.000Z</news:publication_date>
+      <news:title>Sunken Port Discovery Near Egypt May Hold Clues to Cleopatra</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/comet-lemmon-tail-disruption</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-10-22T18:30:00.000Z</news:publication_date>
+      <news:title>Solar Wind Breaks Comet Lemmon</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/22</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-09-10T18:30:00.000Z</news:publication_date>
+      <news:title>Cyanobacteria That Can Produce More Oxygen Even on Mars</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/dinosaur-asteroid-heat-17-times</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-03T18:30:00.000Z</news:publication_date>
+      <news:title>Dinosaur-Killing Asteroid Impact Released Heat 17 Times Greater Than Maximum Human Tolerance, New Study Reveals</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/dinosaur-fossil-crocodile-bone</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-10-01T18:30:00.000Z</news:publication_date>
+      <news:title>Dinosaur Fossil Found with Crocodile Bone Stuck in Jaw</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/double-star-system-both-supernovae</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-21T18:30:00.000Z</news:publication_date>
+      <news:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/earhart-nikumaroro-clue</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-27T18:30:00.000Z</news:publication_date>
+      <news:title>Clue Found on Nikumaroro Island Regarding Earhart</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/earth-black-box-tasmania</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-18T18:30:00.000Z</news:publication_date>
+      <news:title>The World</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/einstein-ring-black-hole</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2025-08-09T18:30:00.000Z</news:publication_date>
+      <news:title>Giant Einstein Ring Reveals Universe</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/euclid-milky-way-center</loc>
+    <news:news>
+      <news:publication><news:name>Science News Publishing</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-25T18:30:00.000Z</news:publication_date>
+      <news:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</news:title>
     </news:news>
   </url>
 </urlset>

@@ -74,6 +74,8 @@ import AboutPage from './components/AboutPage.jsx';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage.jsx';
 import ContactPage from './components/ContactPage.jsx';
 import TermsPage from './components/TermsPage.jsx';
+import DisclaimerPage from './components/DisclaimerPage.jsx';
+import CookieConsent from './components/CookieConsent.jsx';
 import AfricaFirstLunarMissionArticlePage from './components/articles/AfricaFirstLunarMissionArticlePage.jsx';
 import PacificRingFireVolcanicCoolingArticlePage from './components/articles/PacificRingFireVolcanicCoolingArticlePage.jsx';
 import DinosaurAsteroidHeat17TimesArticlePage from './components/articles/DinosaurAsteroidHeat17TimesArticlePage.jsx';
@@ -86,6 +88,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+      <CookieConsent />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
@@ -95,6 +98,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/terms" element={<TermsPage />} />
+        <Route path="/disclaimer" element={<DisclaimerPage />} />
         <Route path="/article/oldest-mummies-southeast-asia" element={<OldestMummiesSoutheastAsiaArticlePage />} />
         <Route path="/article/cleopatra-sunken-port-discovery" element={<CleopatraSunkenPortArticlePage />} />
         <Route path="/article/british-pilot-mars-simulation" element={<BritishPilotMarsSimulationArticlePage />} />
