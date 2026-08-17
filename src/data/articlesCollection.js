@@ -94,6 +94,11 @@ import { Dinosaur_Asteroid_Heat_17_Times } from "./articles/Dinosaur_Asteroid_He
 import { SpaceX_Rocket_Moon_Crash_2026 } from "./articles/SpaceX_Rocket_Moon_Crash_2026.js";
 import { World_Reservoirs_Sedimentation_2060 } from "./articles/World_Reservoirs_Sedimentation_2060.js";
 import { Inouye_Solar_Telescope_Clearest_Sun_Images } from "./articles/Inouye_Solar_Telescope_Clearest_Sun_Images.js";
+import { Black_Hole_Star_Discovery } from "./articles/Black_Hole_Star_Discovery.js";
+import { SpaceX_AI_Starmind_Satellites } from "./articles/SpaceX_AI_Starmind_Satellites.js";
+import { Total_Solar_Eclipse_Europe_2026 } from "./articles/Total_Solar_Eclipse_Europe_2026.js";
+import { British_Fossil_Collection_Abu_Dhabi } from "./articles/British_Fossil_Collection_Abu_Dhabi.js";
+import { AI_Designed_Virus_Stanford } from "./articles/AI_Designed_Virus_Stanford.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -512,4 +517,9 @@ export const articles = [
   Dinosaur_Asteroid_Heat_17_Times,
   Pacific_Ring_Of_Fire_Volcanic_Cooling,
   Africa_First_Lunar_Mission_China_2029,
+  Black_Hole_Star_Discovery,
+  SpaceX_AI_Starmind_Satellites,
+  Total_Solar_Eclipse_Europe_2026,
+  British_Fossil_Collection_Abu_Dhabi,
+  AI_Designed_Virus_Stanford,
 ];

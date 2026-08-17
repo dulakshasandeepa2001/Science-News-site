@@ -1,38 +1,448 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Science News Publishing</title>
     <link>https://sciencenewshub.click</link>
     <description>Latest Scientific Discoveries, Breakthroughs, Space Research, and Technology News</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2026 10:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2026 07:18:00 GMT</lastBuildDate>
     <atom:link href="https://sciencenewshub.click/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</title>
+      <link>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</guid>
+      <pubDate>Sun, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>NASA James Webb Space Telescope reveals a shocking new cosmic object - a black hole star radiating 100 billion times more energy than any star, discovered 660 million years after the Big Bang.</description>
+      <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/Black-Hole-Star-Hed.webp" medium="image" />
+    </item>
+    <item>
+      <title>SpaceX Gears Up for Massive AI Shift with Starmind Satellite Network</title>
+      <link>https://sciencenewshub.click/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026</guid>
+      <pubDate>Thu, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Technology</category>
+      <description>SpaceX is pivoting into AI with Elon Musk predicting 99% of company value from AI by 2028, backed by a planned 1 million AI satellite network called Starmind and 10 gigawatts of computing power.</description>
+      <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/gSbSdisEFG8AZZ2kTdJGBV-scaled.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Total Solar Eclipse August 2026 Crosses Greenland, Iceland, and Spain</title>
+      <link>https://sciencenewshub.click/article/total-solar-eclipse-august-2026-greenland-iceland-spain</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/total-solar-eclipse-august-2026-greenland-iceland-spain</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>A total solar eclipse on August 12, 2026 swept a narrow path of totality across Greenland, Iceland, and Spain, while millions across Europe witnessed a spectacular partial eclipse.</description>
+      <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/260805-eclipse-texas-nasa-ch-1252-a1b785.webp" medium="image" />
+    </item>
+    <item>
+      <title>Britain's Finest Jurassic Fossil Collection Sold to Abu Dhabi Natural History Museum</title>
+      <link>https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Archaeology</category>
+      <description>A 318-specimen Jurassic Coast fossil collection assembled by Chris Moore has been sold to Abu Dhabi Natural History Museum after UK institutions lacked the funds to purchase it.</description>
+      <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg" medium="image" />
+    </item>
+    <item>
+      <title>AI Creates a Virus for the First Time - Stanford University Bacteriophage Breakthrough</title>
+      <link>https://sciencenewshub.click/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Health &amp; Medicine</category>
+      <description>Stanford University researchers used AI models Evo1 and Evo2 to design a bacteriophage virus from scratch - the first time AI has created a functional virus, published in the journal Science.</description>
+      <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Jodrell Bank Observatory Faces Funding Risk</title>
+      <link>https://sciencenewshub.click/article/jodrell-bank-observatory-risk</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/jodrell-bank-observatory-risk</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>The iconic Jodrell Bank Observatory is facing a serious funding crisis that could threaten its continued operation and scientific contributions.</description>
+    </item>
+    <item>
+      <title>New Clue in Amelia Earhart Disappearance Mystery at Nikumaroro</title>
+      <link>https://sciencenewshub.click/article/earhart-nikumaroro-clue</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/earhart-nikumaroro-clue</guid>
+      <pubDate>Mon, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Archaeology</category>
+      <description>Researchers have discovered a new clue at Nikumaroro Island that may finally shed light on the mystery surrounding Amelia Earhart's disappearance.</description>
+    </item>
+    <item>
+      <title>Little Red Dots Early Universe Discovery</title>
+      <link>https://sciencenewshub.click/article/little-red-dots-early-universe</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/little-red-dots-early-universe</guid>
+      <pubDate>Sun, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Astronomers have made a groundbreaking discovery about mysterious little red dots observed in the early universe by the James Webb Space Telescope.</description>
+    </item>
+    <item>
+      <title>Orcas Observed Ramming Sunfish in Unprecedented Behavior</title>
+      <link>https://sciencenewshub.click/article/orcas-ramming-sunfish</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/orcas-ramming-sunfish</guid>
+      <pubDate>Thu, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Biology</category>
+      <description>Scientists have observed orcas engaging in the unusual behavior of ramming ocean sunfish, providing new insights into killer whale social and hunting behaviors.</description>
+    </item>
+    <item>
+      <title>Pan Am Wreckage Discovered After Decades</title>
+      <link>https://sciencenewshub.click/article/pan-am-wreckage-discovered</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/pan-am-wreckage-discovered</guid>
+      <pubDate>Wed, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Archaeology</category>
+      <description>The long-lost wreckage of a Pan American aircraft has been discovered after decades, offering new answers to a historic aviation mystery.</description>
+    </item>
+    <item>
+      <title>Double Star System Where Both Stars Will Become Supernovae</title>
+      <link>https://sciencenewshub.click/article/double-star-system-both-supernovae</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/double-star-system-both-supernovae</guid>
+      <pubDate>Tue, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Astronomers have discovered a rare double star system in which both stars are destined to explode as supernovae, offering unique insights into stellar evolution.</description>
+    </item>
+    <item>
+      <title>India Skyroot Aerospace Launches Orbital Rocket</title>
+      <link>https://sciencenewshub.click/article/india-skyroot-orbital-rocket</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/india-skyroot-orbital-rocket</guid>
+      <pubDate>Sun, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>India's private space company Skyroot Aerospace successfully launches its first orbital rocket, marking a major milestone for India's commercial space industry.</description>
+    </item>
+    <item>
+      <title>Koala Cryopreservation Breakthrough Could Save the Species</title>
+      <link>https://sciencenewshub.click/article/koala-cryopreservation</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/koala-cryopreservation</guid>
+      <pubDate>Thu, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Biology</category>
+      <description>Scientists achieve a breakthrough in koala cryopreservation, offering new hope for the conservation of this vulnerable Australian species.</description>
+    </item>
+    <item>
+      <title>First Space X-Ray Celebrates 75 Years of Space Astronomy</title>
+      <link>https://sciencenewshub.click/article/first-space-xray</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/first-space-xray</guid>
+      <pubDate>Wed, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Scientists celebrate 75 years since the first space-based X-ray observation, reflecting on how this pioneering moment transformed modern astronomy.</description>
+    </item>
+    <item>
+      <title>US Space Force Tests New Facility at Meadowlands</title>
+      <link>https://sciencenewshub.click/article/us-space-force-meadowlands</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/us-space-force-meadowlands</guid>
+      <pubDate>Mon, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Technology</category>
+      <description>The US Space Force announces a new operational facility at Meadowlands as part of its expanding national defense space infrastructure.</description>
+    </item>
+    <item>
+      <title>Mystery Substance Discovered on Pluto and Titan</title>
+      <link>https://sciencenewshub.click/article/pluto-titan-mystery-substance</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/pluto-titan-mystery-substance</guid>
+      <pubDate>Thu, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Scientists have identified a mysterious chemical substance found on both Pluto and Saturn's moon Titan, raising new questions about chemistry in the outer solar system.</description>
+    </item>
+    <item>
+      <title>Nuclear-Powered Satellite BOHR to Revolutionize Deep Space Missions</title>
+      <link>https://sciencenewshub.click/article/nuclear-satellite-bohr</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/nuclear-satellite-bohr</guid>
+      <pubDate>Wed, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>The BOHR nuclear-powered satellite project promises to transform deep space exploration with unprecedented power and mission longevity.</description>
+    </item>
+    <item>
+      <title>AI Offers New Explanation for the Fermi Paradox</title>
+      <link>https://sciencenewshub.click/article/fermi-paradox-ai-explanation</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/fermi-paradox-ai-explanation</guid>
+      <pubDate>Tue, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Artificial intelligence analysis provides a new theoretical framework for understanding why we have not yet detected intelligent extraterrestrial life.</description>
+    </item>
+    <item>
+      <title>GJ 3378b: A Potentially Earth-Like Planet Discovered</title>
+      <link>https://sciencenewshub.click/article/gj-3378b-earth-like-planet</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/gj-3378b-earth-like-planet</guid>
+      <pubDate>Sun, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Astronomers have discovered GJ 3378b, an exoplanet with Earth-like characteristics that could be a candidate for habitability research.</description>
+    </item>
+    <item>
+      <title>Large Hadron Collider Shuts Down for Major Upgrade</title>
+      <link>https://sciencenewshub.click/article/lhc-shutdown-upgrade</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/lhc-shutdown-upgrade</guid>
+      <pubDate>Thu, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Physics</category>
+      <description>CERN's Large Hadron Collider has begun a major scheduled shutdown for significant upgrades that will dramatically increase its collision energy and data collection capabilities.</description>
+    </item>
+    <item>
+      <title>Antarctic Titanosaur Fossil Discovery Rewrites Dinosaur History</title>
+      <link>https://sciencenewshub.click/article/antarctic-titanosaur-fossil</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/antarctic-titanosaur-fossil</guid>
+      <pubDate>Wed, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Archaeology</category>
+      <description>The discovery of a titanosaur fossil in Antarctica challenges previous assumptions about dinosaur distribution and the ancient geography of Earth.</description>
+    </item>
+    <item>
+      <title>NASA's Swift Telescope Rescued From Retirement</title>
+      <link>https://sciencenewshub.click/article/swift-telescope-rescue</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/swift-telescope-rescue</guid>
+      <pubDate>Tue, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>NASA's Swift Space Telescope has been saved from decommissioning thanks to a new mission plan that will keep it operational for additional years of gamma-ray burst observation.</description>
+    </item>
+    <item>
+      <title>New Marine Species Discovered in Brazil's Deep Waters</title>
+      <link>https://sciencenewshub.click/article/new-marine-species-brazil</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/new-marine-species-brazil</guid>
+      <pubDate>Mon, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Biology</category>
+      <description>Marine biologists have catalogued several previously unknown species in a deep-sea expedition off the coast of Brazil, highlighting the biodiversity of unexplored ocean environments.</description>
+    </item>
+    <item>
+      <title>ESA Euclid Telescope Captures Stunning Milky Way Center Images</title>
+      <link>https://sciencenewshub.click/article/euclid-milky-way-center</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/euclid-milky-way-center</guid>
+      <pubDate>Thu, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>The ESA Euclid space telescope has released extraordinary new images of the Milky Way galactic center, advancing our understanding of dark matter and galaxy structure.</description>
+    </item>
+    <item>
+      <title>NASA Plans to Crash ISS Into Pacific Ocean in 2030</title>
+      <link>https://sciencenewshub.click/article/iss-ocean-crash-plan</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/iss-ocean-crash-plan</guid>
+      <pubDate>Wed, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>NASA has outlined its plan for the controlled deorbit and Pacific Ocean splashdown of the International Space Station by 2030, marking the end of an era in human spaceflight.</description>
+    </item>
+    <item>
+      <title>Vaquita Porpoise Digital Reconstruction Offers Conservation Hope</title>
+      <link>https://sciencenewshub.click/article/vaquita-digital-reconstruction</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/vaquita-digital-reconstruction</guid>
+      <pubDate>Tue, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Biology</category>
+      <description>Scientists create a detailed digital reconstruction of the critically endangered vaquita porpoise to support conservation efforts for the world's rarest marine mammal.</description>
+    </item>
+    <item>
+      <title>New Supernova Remnant Discovered in the Milky Way</title>
+      <link>https://sciencenewshub.click/article/supernova-remnant-milky-way</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/supernova-remnant-milky-way</guid>
+      <pubDate>Mon, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Astronomers have identified a previously unknown supernova remnant within our galaxy, providing new data on the lifecycle of massive stars.</description>
+    </item>
+    <item>
+      <title>New Air Force One Enters Presidential Service</title>
+      <link>https://sciencenewshub.click/article/new-air-force-one</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/new-air-force-one</guid>
+      <pubDate>Sun, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Technology</category>
+      <description>The new Air Force One presidential aircraft enters service, featuring advanced communications, security systems, and modern aviation technology.</description>
+    </item>
+    <item>
+      <title>Earth Black Box Project in Tasmania to Record Climate Crisis</title>
+      <link>https://sciencenewshub.click/article/earth-black-box-tasmania</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/earth-black-box-tasmania</guid>
+      <pubDate>Thu, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Environment</category>
+      <description>A giant Earth Black Box monument in Tasmania is recording all human data for future civilizations to understand how climate change unfolded on Earth.</description>
+    </item>
+    <item>
+      <title>M87 Black Hole Shoots Powerful X-Ray Radiation Jet</title>
+      <link>https://sciencenewshub.click/article/m87-black-hole-radiation-jet-xray</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/m87-black-hole-radiation-jet-xray</guid>
+      <pubDate>Wed, 18 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Astronomers observe a powerful X-ray radiation jet from the M87 supermassive black hole, providing new data on how black holes interact with surrounding space.</description>
+    </item>
+    <item>
+      <title>Exoplanet WASP-121b Has Atmosphere With Gemstone Clouds</title>
+      <link>https://sciencenewshub.click/article/exoplanet-wasp-121b-gemstone-rain</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/exoplanet-wasp-121b-gemstone-rain</guid>
+      <pubDate>Tue, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>The exoplanet WASP-121b has an extraordinary atmosphere where gems and metals rain from clouds, revealing exotic weather patterns on hot Jupiter worlds.</description>
+    </item>
+    <item>
+      <title>Red Dwarf Stars Found to Be Swallowing Orbiting Planets</title>
+      <link>https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Astronomers have discovered evidence that red dwarf stars are swallowing planets orbiting them, revealed by high levels of lithium in stellar atmospheres.</description>
+    </item>
+    <item>
+      <title>Blue Origin Moon Base 1 Mission Strategy Unveiled</title>
+      <link>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Blue Origin has revealed comprehensive mission plans for Moon Base 1, a permanent lunar human settlement framework for the coming decade.</description>
+    </item>
+    <item>
+      <title>Blue Origin New Glenn Rocket Test Investigation</title>
+      <link>https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Blue Origin investigates an anomaly during the New Glenn rocket test, sharing findings and outlining the path forward for its next-generation launch vehicle.</description>
+    </item>
     <item>
       <title>SpaceX Starlink Surpasses 10,000 Satellites in Low Earth Orbit</title>
       <link>https://sciencenewshub.click/article/spacex-starlink-10000-satellites</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/spacex-starlink-10000-satellites</guid>
       <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
-      <author>SpaceX &amp; International Space Community</author>
+      <author>Science News Publishing</author>
       <category>Space &amp; Technology</category>
-      <description>SpaceX's Starlink satellite internet constellation has crossed a remarkable threshold, surpassing 10,000 active satellites in low Earth orbit.</description>
+      <description>SpaceX Starlink satellite internet constellation has crossed a remarkable threshold, surpassing 10,000 active satellites in low Earth orbit.</description>
     </item>
     <item>
-      <title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</title>
-      <link>https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</link>
-      <guid isPermaLink="true">https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</guid>
+      <title>Atlantic AMOC Ocean Current Collapse Risk Study</title>
+      <link>https://sciencenewshub.click/article/atlantic-amoc-collapse-risk</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/atlantic-amoc-collapse-risk</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Environment</category>
+      <description>New research reveals an accelerating risk of collapse of the Atlantic Meridional Overturning Circulation, with potentially catastrophic consequences for global climate.</description>
+    </item>
+    <item>
+      <title>Giant Dam Proposed to Save AMOC Ocean Current</title>
+      <link>https://sciencenewshub.click/article/giant-dam-save-amoc</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/giant-dam-save-amoc</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Environment</category>
+      <description>Scientists propose a giant dam in the Arctic to prevent the collapse of the Atlantic Meridional Overturning Circulation and avert a global climate catastrophe.</description>
+    </item>
+    <item>
+      <title>T-Rex Tiny Arms: Evolutionary Sacrifice Analysis</title>
+      <link>https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Archaeology</category>
+      <description>New research reveals why T-Rex evolved its famously tiny arms, explaining the evolutionary sacrifice that shaped the most iconic dinosaur in history.</description>
+    </item>
+    <item>
+      <title>Inouye Solar Telescope Captures Clearest Sun Images Ever</title>
+      <link>https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-      <author>Keele University &amp; RAS</author>
-      <category>Space &amp; Physics</category>
-      <description>Astronomers have discovered evidence that red dwarf stars are swallowing planets orbiting them, revealed by high levels of lithium.</description>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>The Daniel K. Inouye Solar Telescope has captured the highest-resolution images of the Sun ever taken, revealing unprecedented detail of solar surface activity.</description>
     </item>
     <item>
-      <title>Blue Origin Unveils Moon Base 1 Mission Strategy</title>
-      <link>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</link>
-      <guid isPermaLink="true">https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <author>Blue Origin &amp; Commercial Space Exploration</author>
-      <category>Space &amp; Physics</category>
-      <description>Blue Origin has revealed comprehensive mission plans for Moon Base 1, a permanent lunar human settlement framework.</description>
+      <title>SpaceX Rocket Moon Crash 2026</title>
+      <link>https://sciencenewshub.click/article/spacex-rocket-moon-crash-2026</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/spacex-rocket-moon-crash-2026</guid>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>A SpaceX rocket stage crashes into the Moon in 2026, creating a new crater and raising new questions about space debris management in lunar orbit.</description>
+    </item>
+    <item>
+      <title>Pacific Ring of Fire Volcanic Cooling Has Shaped Earth for Centuries</title>
+      <link>https://sciencenewshub.click/article/pacific-ring-of-fire-volcanic-cooling</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/pacific-ring-of-fire-volcanic-cooling</guid>
+      <pubDate>Thu, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Environment</category>
+      <description>A University of Basel study reveals that Pacific Ring of Fire volcanic eruptions caused over 22 mysterious cooling periods in the past 12,000 years, with 80% of glacier expansions linked to major eruptions.</description>
+    </item>
+    <item>
+      <title>Africa First Lunar Mission Partnership With China Planned for 2029</title>
+      <link>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</guid>
+      <pubDate>Sun, 15 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Africa is set to participate in its first-ever lunar mission through a partnership with China planned for 2029, marking a historic milestone for the continent in space exploration.</description>
+    </item>
+    <item>
+      <title>Nobel Prize Medicine 2025 Awarded for Breakthrough Discovery</title>
+      <link>https://sciencenewshub.click/article/nobel-prize-medicine-2025</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/nobel-prize-medicine-2025</guid>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Health &amp; Medicine</category>
+      <description>The 2025 Nobel Prize in Physiology or Medicine is awarded for a landmark discovery transforming our understanding of human biology and disease treatment.</description>
+    </item>
+    <item>
+      <title>Nobel Prize Physics 2025 Awarded for Fundamental Discoveries</title>
+      <link>https://sciencenewshub.click/article/nobel-prize-physics-2025</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/nobel-prize-physics-2025</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Physics</category>
+      <description>The 2025 Nobel Prize in Physics recognizes extraordinary contributions to fundamental physics that are reshaping our understanding of the universe.</description>
+    </item>
+    <item>
+      <title>Nobel Prize Chemistry 2025 Honours Molecular Science Breakthrough</title>
+      <link>https://sciencenewshub.click/article/nobel-prize-chemistry-2025</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/nobel-prize-chemistry-2025</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Technology</category>
+      <description>The 2025 Nobel Prize in Chemistry is awarded for revolutionary work in molecular science with applications across medicine, materials, and clean energy.</description>
+    </item>
+    <item>
+      <title>Global Underground Fungal Network Map Revealed</title>
+      <link>https://sciencenewshub.click/article/global-underground-fungal-network-map</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/global-underground-fungal-network-map</guid>
+      <pubDate>Sat, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Biology</category>
+      <description>Scientists have produced the first comprehensive global map of underground mycorrhizal fungal networks, revealing the hidden web connecting most of Earth's plant life.</description>
+    </item>
+    <item>
+      <title>Asteroid 2025 TP5 Makes Close Approach to Earth</title>
+      <link>https://sciencenewshub.click/article/asteroid-2025-tp5-close-approach</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/asteroid-2025-tp5-close-approach</guid>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Asteroid 2025 TP5 makes a close approach to Earth, giving astronomers a rare opportunity to study a near-Earth object at close range.</description>
+    </item>
+    <item>
+      <title>Japan HTV-X Cargo Resupply Mission to ISS</title>
+      <link>https://sciencenewshub.click/article/japan-htv-x-cargo-iss</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/japan-htv-x-cargo-iss</guid>
+      <pubDate>Sun, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <author>Science News Publishing</author>
+      <category>Space</category>
+      <description>Japan's next-generation HTV-X cargo spacecraft successfully delivers supplies to the International Space Station, showcasing Japan's advanced space logistics capabilities.</description>
     </item>
   </channel>
 </rss>
