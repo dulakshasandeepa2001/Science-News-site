@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -240,9 +240,8 @@ function main() {
   const blogsList = parseBlogFiles();
   const categories = ['Space', 'Physics', 'Technology', 'Health', 'Biology', 'Environment', 'Archaeology', 'Mathematics'];
 
-  // 1. Generate Sitemap XML (sitemaps.org Protocol Standard with XSL Styling)
+  // 1. Generate Sitemap XML (Pure sitemaps.org Protocol Standard)
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  xml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
   xml += `  <url><loc>${DOMAIN}/</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
   xml += `  <url><loc>${DOMAIN}/about</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n`;
@@ -278,9 +277,8 @@ function main() {
   }
   xml += `</urlset>\n`;
 
-  // 2. Generate Google News Sitemap (Google News & Discover Specific with XSL)
+  // 2. Generate Google News Sitemap (Pure Google News & Discover Standard)
   let newsXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  newsXml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
   newsXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
   for (const art of articlesList.slice(0, 50)) {
     const slug = getSlug(art);
@@ -304,9 +302,8 @@ function main() {
   }
   newsXml += `</urlset>\n`;
 
-  // 3. Generate High-Quality RSS Feed (Google Publisher Center & RSS 2.0 Compliant with XSL Styling)
+  // 3. Generate High-Quality RSS Feed (Google Publisher Center & RSS 2.0 Standard)
   let rssXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  rssXml += `<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>\n`;
   rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
   rssXml += `  <channel>\n`;
   rssXml += `    <title>Science News Publishing</title>\n`;

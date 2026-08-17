@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://sciencenewshub.click/</loc><lastmod>2026-08-17T07:55:35.857Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://sciencenewshub.click/about</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://sciencenewshub.click/contact</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://sciencenewshub.click/privacy-policy</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/terms</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/disclaimer</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/blog</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://sciencenewshub.click/category/space</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/physics</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/technology</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/health</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/biology</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/environment</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/archaeology</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/mathematics</loc><lastmod>2026-08-17T07:55:35.858Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sciencenewshub.click/about</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sciencenewshub.click/contact</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sciencenewshub.click/privacy-policy</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/terms</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/disclaimer</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/blog</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sciencenewshub.click/category/space</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/physics</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/technology</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/health</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/biology</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/environment</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/archaeology</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/mathematics</loc><lastmod>2026-08-17T08:02:47.630Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</loc>
     <lastmod>2026-08-16T18:30:00.000Z</lastmod>
@@ -1160,7 +1159,7 @@
       <image:caption>Scientists uncover remarkably preserved 3-million-year-old forest beneath Arctic ice, providing unprecedented data on prehistoric climate conditions.</image:caption>
     </image:image>
   </url>
-  <url><loc>https://sciencenewshub.click/blog/prime-numbers-cryptography</loc><lastmod>2026-08-17T07:55:35.859Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://sciencenewshub.click/blog/exoplanets-search-life</loc><lastmod>2026-08-17T07:55:35.859Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://sciencenewshub.click/blog/crispr-gene-editing</loc><lastmod>2026-08-17T07:55:35.859Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sciencenewshub.click/blog/prime-numbers-cryptography</loc><lastmod>2026-08-17T08:02:47.631Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sciencenewshub.click/blog/exoplanets-search-life</loc><lastmod>2026-08-17T08:02:47.631Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sciencenewshub.click/blog/crispr-gene-editing</loc><lastmod>2026-08-17T08:02:47.631Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

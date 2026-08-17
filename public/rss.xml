@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Science News Publishing</title>
     <link>https://sciencenewshub.click</link>
     <description>Latest Scientific Discoveries, Space Exploration Missions, AI Breakthroughs, and Peer-Reviewed Research</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 07:55:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 08:02:47 GMT</lastBuildDate>
     <atom:link href="https://sciencenewshub.click/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</title>
