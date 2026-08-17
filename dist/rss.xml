@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Science News Publishing</title>
     <link>https://sciencenewshub.click</link>
     <description>Latest Scientific Discoveries, Space Exploration Missions, AI Breakthroughs, and Peer-Reviewed Research</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 07:50:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 07:55:35 GMT</lastBuildDate>
     <atom:link href="https://sciencenewshub.click/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</title>
@@ -44,7 +45,7 @@
       </media:content>
     </item>
     <item>
-      <title>One of Britain</title>
+      <title>One of Britain&apos;s Finest Jurassic Fossil Collections Sold to Abu Dhabi Natural History Museum</title>
       <link>https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</guid>
       <pubDate>Mon, 10 Aug 2026 18:30:00 GMT</pubDate>
@@ -52,7 +53,7 @@
       <category>Archaeology</category>
       <description>A rare and historically significant fossil collection from the UK&apos;s Jurassic Coast, comprising 318 specimens including new species, has been sold to the Natural History Museum in Abu Dhabi after British institutions failed to secure funding, sparking national debate over heritage preservation.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg" medium="image" width="1200" height="675">
-        <media:title>One of Britain</media:title>
+        <media:title>One of Britain&apos;s Finest Jurassic Fossil Collections Sold to Abu Dhabi Natural History Museum</media:title>
       </media:content>
     </item>
     <item>
@@ -68,7 +69,7 @@
       </media:content>
     </item>
     <item>
-      <title>World</title>
+      <title>World&apos;s Most Powerful Solar Telescope Releases Clearest-Ever Images of the Sun&apos;s Surface</title>
       <link>https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</guid>
       <pubDate>Thu, 06 Aug 2026 18:30:00 GMT</pubDate>
@@ -76,11 +77,11 @@
       <category>Space</category>
       <description>The Daniel K. Inouye Solar Telescope in Hawaii has released the highest-resolution images ever obtained of the Sun&apos;s photosphere, capturing for the first time tiny Kelvin-Helmholtz instabilities just 20 km wide — potentially solving the century-old mystery of why the Sun&apos;s corona is millions of degrees hotter than its surface.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/main-inouye-image-horizontal.jpg" medium="image" width="1200" height="675">
-        <media:title>World</media:title>
+        <media:title>World&apos;s Most Powerful Solar Telescope Releases Clearest-Ever Images of the Sun&apos;s Surface</media:title>
       </media:content>
     </item>
     <item>
-      <title>More Than Half the World</title>
+      <title>More Than Half the World&apos;s Reservoirs Face Inactivation by 2060 Due to Sedimentation Crisis</title>
       <link>https://sciencenewshub.click/article/world-reservoirs-sedimentation-2060</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/world-reservoirs-sedimentation-2060</guid>
       <pubDate>Wed, 05 Aug 2026 18:30:00 GMT</pubDate>
@@ -88,7 +89,7 @@
       <category>Environment</category>
       <description>A major study reveals over half of the world&apos;s 550,000+ reservoirs face partial or complete inactivation by 2060 due to sediment accumulation, threatening water supply for more than 2 billion people and putting 26% of globally irrigated farmland at severe risk of water scarcity.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/Longtan_Dam1.jpg" medium="image" width="1200" height="675">
-        <media:title>More Than Half the World</media:title>
+        <media:title>More Than Half the World&apos;s Reservoirs Face Inactivation by 2060 Due to Sedimentation Crisis</media:title>
       </media:content>
     </item>
     <item>
@@ -128,7 +129,7 @@
       </media:content>
     </item>
     <item>
-      <title>Africa</title>
+      <title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</title>
       <link>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</guid>
       <pubDate>Wed, 29 Jul 2026 18:30:00 GMT</pubDate>
@@ -136,7 +137,7 @@
       <category>Space</category>
       <description>Africa&apos;s first space exploration mission — known as BALLS (Bounced African Low Lunar Sphere) — is scheduled to be launched to the Moon&apos;s south pole in 2029 aboard China&apos;s Chang&apos;e-8 lunar vehicle, marking a historic milestone for African space science.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg" medium="image" width="1200" height="675">
-        <media:title>Africa</media:title>
+        <media:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</media:title>
       </media:content>
     </item>
     <item>
@@ -152,7 +153,7 @@
       </media:content>
     </item>
     <item>
-      <title>Clue Found on Nikumaroro Island Regarding Earhart</title>
+      <title>Clue Found on Nikumaroro Island Regarding Earhart&apos;s Disappearance</title>
       <link>https://sciencenewshub.click/article/earhart-nikumaroro-clue</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/earhart-nikumaroro-clue</guid>
       <pubDate>Mon, 27 Jul 2026 18:30:00 GMT</pubDate>
@@ -160,11 +161,11 @@
       <category>History &amp; Archaeology</category>
       <description>Scientists prepare a new expedition to Nikumaroro Island after satellite photos reveal the &apos;Taraia Object&apos; — a shape matching Amelia Earhart&apos;s Lockheed Electra — potentially solving aviation&apos;s greatest mystery after 89 years.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Clue Found on Nikumaroro Island Regarding Earhart</media:title>
+        <media:title>Clue Found on Nikumaroro Island Regarding Earhart&apos;s Disappearance</media:title>
       </media:content>
     </item>
     <item>
-      <title>What Are the Mysterious </title>
+      <title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</title>
       <link>https://sciencenewshub.click/article/little-red-dots-early-universe</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/little-red-dots-early-universe</guid>
       <pubDate>Sun, 26 Jul 2026 18:30:00 GMT</pubDate>
@@ -172,7 +173,7 @@
       <category>Space &amp; Physics</category>
       <description>New research from the University of Texas suggests the mysterious &apos;Little Red Dots&apos; observed by the James Webb Space Telescope have evolved into today&apos;s star clusters, solving a cosmic puzzle about the early universe.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>What Are the Mysterious </media:title>
+        <media:title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</media:title>
       </media:content>
     </item>
     <item>
@@ -260,7 +261,7 @@
       </media:content>
     </item>
     <item>
-      <title>A Previously Undiscovered </title>
+      <title>A Previously Undiscovered &apos;Mystery&apos; Substance Found on Pluto and Titan</title>
       <link>https://sciencenewshub.click/article/pluto-titan-mystery-substance</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/pluto-titan-mystery-substance</guid>
       <pubDate>Thu, 09 Jul 2026 18:30:00 GMT</pubDate>
@@ -268,11 +269,11 @@
       <category>Space &amp; Physics</category>
       <description>The James Webb Space Telescope has detected evidence of a brand new, unidentified chemical substance on both Pluto and Titan. The mysterious molecule absorbs a specific wavelength of light and has never been found anywhere else in the solar system.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>A Previously Undiscovered </media:title>
+        <media:title>A Previously Undiscovered &apos;Mystery&apos; Substance Found on Pluto and Titan</media:title>
       </media:content>
     </item>
     <item>
-      <title>World</title>
+      <title>World&apos;s First Nuclear-Powered Commercial Satellite Successfully Launched into Space</title>
       <link>https://sciencenewshub.click/article/nuclear-satellite-bohr</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/nuclear-satellite-bohr</guid>
       <pubDate>Wed, 08 Jul 2026 18:30:00 GMT</pubDate>
@@ -280,11 +281,11 @@
       <category>Space &amp; Physics</category>
       <description>SpaceX launched the first commercial nuclear-powered satellite, BOHR, under the Transporter-17 mission. Developed by City Labs, the CubeSat uses a NanoTritium nuclear battery, enabling continuous power in deep space where solar panels are ineffective.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>World</media:title>
+        <media:title>World&apos;s First Nuclear-Powered Commercial Satellite Successfully Launched into Space</media:title>
       </media:content>
     </item>
     <item>
-      <title>A New Scientific Explanation for Fermi</title>
+      <title>A New Scientific Explanation for Fermi&apos;s Paradox</title>
       <link>https://sciencenewshub.click/article/fermi-paradox-ai-explanation</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/fermi-paradox-ai-explanation</guid>
       <pubDate>Tue, 07 Jul 2026 18:30:00 GMT</pubDate>
@@ -292,7 +293,7 @@
       <category>Space &amp; Physics</category>
       <description>New research suggests advanced extraterrestrial civilizations may have handed over space exploration to superintelligent AI, choosing silent, efficient existence over noisy empire-building. This could explain why we see no signs of alien life despite the universe&apos;s vastness.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>A New Scientific Explanation for Fermi</media:title>
+        <media:title>A New Scientific Explanation for Fermi&apos;s Paradox</media:title>
       </media:content>
     </item>
     <item>
@@ -308,7 +309,7 @@
       </media:content>
     </item>
     <item>
-      <title>The World</title>
+      <title>The World&apos;s Most Powerful Particle Accelerator Shut Down Until 2030 for Upgrades</title>
       <link>https://sciencenewshub.click/article/lhc-shutdown-upgrade</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/lhc-shutdown-upgrade</guid>
       <pubDate>Thu, 02 Jul 2026 18:30:00 GMT</pubDate>
@@ -316,7 +317,7 @@
       <category>Space &amp; Physics</category>
       <description>The Large Hadron Collider at CERN has been shut down for a four-year upgrade program (LS3) to become the High-Luminosity LHC. With ten times the sensitivity and triple the collision rate, scientists hope to open new frontiers in particle physics.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>The World</media:title>
+        <media:title>The World&apos;s Most Powerful Particle Accelerator Shut Down Until 2030 for Upgrades</media:title>
       </media:content>
     </item>
     <item>
@@ -416,7 +417,7 @@
       </media:content>
     </item>
     <item>
-      <title>The World</title>
+      <title>The World&apos;s Black Box Being Built in Tasmania</title>
       <link>https://sciencenewshub.click/article/earth-black-box-tasmania</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/earth-black-box-tasmania</guid>
       <pubDate>Thu, 18 Jun 2026 18:30:00 GMT</pubDate>
@@ -424,7 +425,7 @@
       <category>Environment</category>
       <description>The &apos;Earth&apos;s Black Box&apos; project — proposed to be built on the island of Tasmania to store data about Earth&apos;s climate change for future generations — has been restarted and is set to be installed by December 2026.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>The World</media:title>
+        <media:title>The World&apos;s Black Box Being Built in Tasmania</media:title>
       </media:content>
     </item>
     <item>
@@ -512,7 +513,7 @@
       </media:content>
     </item>
     <item>
-      <title>T. Rex</title>
+      <title>T. Rex&apos;s Tiny Arms — An Evolutionary Sacrifice for a Powerful Skull</title>
       <link>https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</guid>
       <pubDate>Mon, 01 Jun 2026 18:30:00 GMT</pubDate>
@@ -520,7 +521,7 @@
       <category>Paleontology</category>
       <description>A new study has solved the mystery of T. rex&apos;s disproportionately small arms, revealing they were the result of an evolutionary trade-off that allowed their skulls to evolve into a more powerful and larger form.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/06/GettyImages-99311107_web-ezgif.com-webp-to-jpg-converter.jpg" medium="image" width="1200" height="675">
-        <media:title>T. Rex</media:title>
+        <media:title>T. Rex&apos;s Tiny Arms — An Evolutionary Sacrifice for a Powerful Skull</media:title>
       </media:content>
     </item>
     <item>
@@ -536,7 +537,7 @@
       </media:content>
     </item>
     <item>
-      <title>Blue Origin</title>
+      <title>Blue Origin&apos;s New Glenn Rocket Explodes During Pre-Launch Test</title>
       <link>https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</guid>
       <pubDate>Thu, 28 May 2026 18:30:00 GMT</pubDate>
@@ -544,11 +545,11 @@
       <category>Space &amp; Physics</category>
       <description>Blue Origin&apos;s New Glenn rocket exploded in a massive fireball during a hotfire test at Cape Canaveral Space Center in Florida on May 28, 2026, threatening NASA&apos;s Artemis lunar mission timelines and a scheduled Amazon satellite deployment mission.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/05/Thumb-ty89u6.webp" medium="image" width="1200" height="675">
-        <media:title>Blue Origin</media:title>
+        <media:title>Blue Origin&apos;s New Glenn Rocket Explodes During Pre-Launch Test</media:title>
       </media:content>
     </item>
     <item>
-      <title>Moon Base I Mission Awarded to Jeff Bezos</title>
+      <title>Moon Base I Mission Awarded to Jeff Bezos&apos; Blue Origin</title>
       <link>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</guid>
       <pubDate>Wed, 27 May 2026 18:30:00 GMT</pubDate>
@@ -556,7 +557,7 @@
       <category>Space &amp; Physics</category>
       <description>NASA officially selects Blue Origin for the first of three uncrewed lunar missions planned for 2026 as part of a $20 billion project to establish a lunar base, choosing the company over SpaceX to deliver equipment to the Moon&apos;s south pole.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Moon Base I Mission Awarded to Jeff Bezos</media:title>
+        <media:title>Moon Base I Mission Awarded to Jeff Bezos&apos; Blue Origin</media:title>
       </media:content>
     </item>
     <item>
@@ -656,7 +657,7 @@
       </media:content>
     </item>
     <item>
-      <title>Scarlet Fever Existed in America Even Before Columbus</title>
+      <title>Scarlet Fever Existed in America Even Before Columbus&apos;s Arrival</title>
       <link>https://sciencenewshub.click/article/scarlet-fever-pre-columbian-america</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/scarlet-fever-pre-columbian-america</guid>
       <pubDate>Tue, 21 Apr 2026 18:30:00 GMT</pubDate>
@@ -664,7 +665,7 @@
       <category>History &amp; Science</category>
       <description>A groundbreaking genetic study reveals that Scarlet Fever was already widespread in the Americas centuries before Christopher Columbus arrived, challenging historical assumptions about the origins of epidemic diseases.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Scarlet Fever Existed in America Even Before Columbus</media:title>
+        <media:title>Scarlet Fever Existed in America Even Before Columbus&apos;s Arrival</media:title>
       </media:content>
     </item>
     <item>
@@ -776,7 +777,7 @@
       </media:content>
     </item>
     <item>
-      <title>Extraordinary Achievement</title>
+      <title>&apos;The Man Who Fell to the Sun&apos;</title>
       <link>https://sciencenewshub.click/article/skydiver-sun-photography</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/skydiver-sun-photography</guid>
       <pubDate>Mon, 17 Nov 2025 18:30:00 GMT</pubDate>
@@ -784,7 +785,7 @@
       <category>Space &amp; Physics</category>
       <description>An astrophotographer has successfully captured an extraordinary rare photograph of a skydiver falling freely from the sky, perfectly aligned with the surface of the Sun&apos;s face, creating an appearance as if an astronaut is falling toward the Sun.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Extraordinary Achievement</media:title>
+        <media:title>&apos;The Man Who Fell to the Sun&apos;</media:title>
       </media:content>
     </item>
     <item>
@@ -848,7 +849,7 @@
       </media:content>
     </item>
     <item>
-      <title>Japan</title>
+      <title>Japan&apos;s HTV-X Cargo Vehicle Launches First Mission to International Space Station</title>
       <link>https://sciencenewshub.click/article/japan-htv-x-cargo-iss</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/japan-htv-x-cargo-iss</guid>
       <pubDate>Mon, 27 Oct 2025 18:30:00 GMT</pubDate>
@@ -856,11 +857,11 @@
       <category>Space &amp; Physics</category>
       <description>Japan&apos;s next-generation HTV-X cargo transport vehicle successfully launched on October 25, 2025, from Tanegashima Space Center aboard the H3 rocket. Scheduled to dock with the ISS on October 29, HTV-X becomes the fourth cargo resupply vehicle serving the International Space Station, joining Russia&apos;s Progress, Northrop Grumman&apos;s Cygnus, and SpaceX&apos;s Dragon in supporting orbital operations.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Japan</media:title>
+        <media:title>Japan&apos;s HTV-X Cargo Vehicle Launches First Mission to International Space Station</media:title>
       </media:content>
     </item>
     <item>
-      <title>Newly Discovered Asteroid 2025 TP5 Passes Closer Than the Moon: Earth</title>
+      <title>Newly Discovered Asteroid 2025 TP5 Passes Closer Than the Moon: Earth&apos;s Near-Miss Event</title>
       <link>https://sciencenewshub.click/article/asteroid-2025-tp5-close-approach</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/asteroid-2025-tp5-close-approach</guid>
       <pubDate>Sun, 26 Oct 2025 18:30:00 GMT</pubDate>
@@ -868,7 +869,7 @@
       <category>Space &amp; Physics</category>
       <description>On October 13, 2025, the ATLAS (Asteroid Terrestrial-impact Last Alert System) telescope at Mauna Loa, Hawaii, discovered a remarkable near-Earth asteroid designated 2025 TP5. Measuring approximately 16 meters (54 feet) in diameter—comparable to a 6-story building and similar in size to the 2013 Chelyabinsk meteor—this asteroid passed within 97,089 kilometers of Earth on October 15, 2025, making it closer than the Moon&apos;s orbital distance of 384,000 kilometers.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Newly Discovered Asteroid 2025 TP5 Passes Closer Than the Moon: Earth</media:title>
+        <media:title>Newly Discovered Asteroid 2025 TP5 Passes Closer Than the Moon: Earth&apos;s Near-Miss Event</media:title>
       </media:content>
     </item>
     <item>
@@ -884,7 +885,7 @@
       </media:content>
     </item>
     <item>
-      <title>Solar Wind Breaks Comet Lemmon</title>
+      <title>Solar Wind Breaks Comet Lemmon&apos;s Tail</title>
       <link>https://sciencenewshub.click/article/comet-lemmon-tail-disruption</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/comet-lemmon-tail-disruption</guid>
       <pubDate>Wed, 22 Oct 2025 18:30:00 GMT</pubDate>
@@ -892,7 +893,7 @@
       <category>Space &amp; Physics</category>
       <description>The latest images of Comet Lemmon (C/2025 A6) show that a portion of its tail has been &apos;torn off&apos; by solar wind as it approaches the Sun after passing its closest point to Earth.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Solar Wind Breaks Comet Lemmon</media:title>
+        <media:title>Solar Wind Breaks Comet Lemmon&apos;s Tail</media:title>
       </media:content>
     </item>
     <item>
@@ -968,7 +969,7 @@
       </media:content>
     </item>
     <item>
-      <title>Sunken Port Discovery Near Egypt May Hold Clues to Cleopatra</title>
+      <title>Sunken Port Discovery Near Egypt May Hold Clues to Cleopatra&apos;s Tomb</title>
       <link>https://sciencenewshub.click/article/cleopatra-sunken-port-discovery</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/cleopatra-sunken-port-discovery</guid>
       <pubDate>Sun, 28 Sep 2025 18:30:00 GMT</pubDate>
@@ -976,11 +977,11 @@
       <category>Archaeology</category>
       <description>National Geographic explorers have discovered a sunken port city in the Mediterranean Sea that could provide crucial clues in the ongoing search for Queen Cleopatra&apos;s hidden tomb.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Sunken Port Discovery Near Egypt May Hold Clues to Cleopatra</media:title>
+        <media:title>Sunken Port Discovery Near Egypt May Hold Clues to Cleopatra&apos;s Tomb</media:title>
       </media:content>
     </item>
     <item>
-      <title>Intensive Training for Historic Mission</title>
+      <title>&apos;We&apos;re Ready for Any Situation&apos; Say Artemis 2 Astronauts</title>
       <link>https://sciencenewshub.click/article/artemis-2-astronauts-ready-mission</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/artemis-2-astronauts-ready-mission</guid>
       <pubDate>Thu, 25 Sep 2025 18:30:00 GMT</pubDate>
@@ -988,7 +989,7 @@
       <category>Space &amp; Physics</category>
       <description>The Artemis 2 crew intensifies training for their historic lunar mission aboard the newly named &apos;Integrity&apos; spacecraft, set to launch as early as February 2026.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Intensive Training for Historic Mission</media:title>
+        <media:title>&apos;We&apos;re Ready for Any Situation&apos; Say Artemis 2 Astronauts</media:title>
       </media:content>
     </item>
     <item>
@@ -1016,7 +1017,7 @@
       </media:content>
     </item>
     <item>
-      <title>World</title>
+      <title>World&apos;s Oldest Mummies Discovered in Southeast Asia</title>
       <link>https://sciencenewshub.click/article/26</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/26</guid>
       <pubDate>Wed, 17 Sep 2025 18:30:00 GMT</pubDate>
@@ -1024,7 +1025,7 @@
       <category>Archaeology</category>
       <description>Scientists have discovered 12,000-year-old mummies in Southeast Asia, making them the oldest known examples of intentional mummification in human history.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>World</media:title>
+        <media:title>World&apos;s Oldest Mummies Discovered in Southeast Asia</media:title>
       </media:content>
     </item>
     <item>
@@ -1076,7 +1077,7 @@
       </media:content>
     </item>
     <item>
-      <title>Russia</title>
+      <title>Russia&apos;s Enteromix Cancer Treatment Vaccine Completes Preclinical Trials</title>
       <link>https://sciencenewshub.click/article/russia-enteromix-cancer-vaccine</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/russia-enteromix-cancer-vaccine</guid>
       <pubDate>Wed, 10 Sep 2025 18:30:00 GMT</pubDate>
@@ -1084,7 +1085,7 @@
       <category>Health &amp; Medicine</category>
       <description>Russian authorities announce successful completion of preclinical trials for &apos;Enteromix&apos; cancer treatment vaccine, claiming it reduces cancer tissue growth by 60-80%.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Russia</media:title>
+        <media:title>Russia&apos;s Enteromix Cancer Treatment Vaccine Completes Preclinical Trials</media:title>
       </media:content>
     </item>
     <item>
@@ -1100,7 +1101,7 @@
       </media:content>
     </item>
     <item>
-      <title>China</title>
+      <title>China&apos;s Latest AR Helmet Providing 360-Degree Visual Range from Inside Combat Tanks</title>
       <link>https://sciencenewshub.click/article/china-ar-helmet</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/china-ar-helmet</guid>
       <pubDate>Sat, 06 Sep 2025 18:30:00 GMT</pubDate>
@@ -1108,11 +1109,11 @@
       <category>Technology</category>
       <description>New augmented reality helmets developed by China allow tank crews to &apos;see through&apos; their armor, providing enhanced situational awareness with 360-degree visibility and integrated targeting systems.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>China</media:title>
+        <media:title>China&apos;s Latest AR Helmet Providing 360-Degree Visual Range from Inside Combat Tanks</media:title>
       </media:content>
     </item>
     <item>
-      <title>The Shadows of the </title>
+      <title>The Shadows of the &apos;Black Death&apos; That Occasionally Emerge</title>
       <link>https://sciencenewshub.click/article/black-death</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/black-death</guid>
       <pubDate>Sun, 24 Aug 2025 18:30:00 GMT</pubDate>
@@ -1120,11 +1121,11 @@
       <category>Health &amp; Medicine</category>
       <description>The Yersinia pestis bacterium that caused the medieval &apos;Black Death&apos; pandemic continues to appear in rare isolated cases, with a recent infection confirmed in California.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>The Shadows of the </media:title>
+        <media:title>The Shadows of the &apos;Black Death&apos; That Occasionally Emerge</media:title>
       </media:content>
     </item>
     <item>
-      <title>America</title>
+      <title>America&apos;s military &apos;space plane&apos; takes to the skies again</title>
       <link>https://sciencenewshub.click/article/space-plane</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/space-plane</guid>
       <pubDate>Thu, 21 Aug 2025 18:30:00 GMT</pubDate>
@@ -1132,7 +1133,7 @@
       <category>Space &amp; Physics</category>
       <description>The X-37B space vehicle launches on its eighth mission with experiments in laser communication and quantum navigation technology.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>America</media:title>
+        <media:title>America&apos;s military &apos;space plane&apos; takes to the skies again</media:title>
       </media:content>
     </item>
     <item>
@@ -1220,7 +1221,7 @@
       </media:content>
     </item>
     <item>
-      <title>Giant Einstein Ring Reveals Universe</title>
+      <title>Giant Einstein Ring Reveals Universe&apos;s Biggest Black Holes</title>
       <link>https://sciencenewshub.click/article/einstein-ring-black-hole</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/einstein-ring-black-hole</guid>
       <pubDate>Sat, 09 Aug 2025 18:30:00 GMT</pubDate>
@@ -1228,7 +1229,7 @@
       <category>Space &amp; Physics</category>
       <description>Astronomers have uncovered what may be the most massive black hole ever found, 36 billion times the mass of our Sun, hidden at the heart of the Cosmic Horseshoe galaxy.</description>
       <media:content url="https://sciencenewshub.click/assets/lab.jpg" medium="image" width="1200" height="675">
-        <media:title>Giant Einstein Ring Reveals Universe</media:title>
+        <media:title>Giant Einstein Ring Reveals Universe&apos;s Biggest Black Holes</media:title>
       </media:content>
     </item>
     <item>

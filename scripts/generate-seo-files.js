@@ -171,6 +171,20 @@ function escapeXml(unsafe) {
     .replace(/'/g, '&apos;');
 }
 
+function extractField(content, fieldName) {
+  // Regex to match fieldName: `...` or "..." or '...'
+  const regex = new RegExp(`${fieldName}:\\s*(?:\`([\\s\\S]*?)\`|"((?:\\\\.|[^"\\\\])*)"|'((?:\\\\.|[^'\\\\])*)')`);
+  const match = content.match(regex);
+  if (!match) return null;
+  const raw = match[1] || match[2] || match[3] || '';
+  return raw
+    .replace(/\\"/g, '"')
+    .replace(/\\'/g, "'")
+    .replace(/\\n/g, ' ')
+    .replace(/\n\s*/g, ' ')
+    .trim();
+}
+
 function parseArticleFiles() {
   const articlesDir = path.join(__dirname, '..', 'src', 'data', 'articles');
   const articlesList = [];
@@ -184,22 +198,14 @@ function parseArticleFiles() {
       const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
 
       const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
-      const titleMatch = content.match(/title:\s*["'`]([^"'`]+)["'`]/);
-      const summaryMatch = content.match(/summary:\s*["'`]([\s\S]*?)["'`]\s*,/);
-      const categoryMatch = content.match(/category:\s*["']([^"']+)["']/);
-      const dateMatch = content.match(/date:\s*["']([^"']+)["']/);
-      const authorMatch = content.match(/author:\s*["']([^"']+)["']/);
-      const imageMatch = content.match(/image:\s*["']([^"']+)["']/);
-      const slugMatch = content.match(/slug:\s*["']([^"']+)["']/);
-
       const id = idMatch ? idMatch[1] : path.basename(file, '.js');
-      const title = titleMatch ? titleMatch[1].replace(/\\"/g, '"') : id.replace(/_/g, ' ');
-      const summary = summaryMatch ? summaryMatch[1].replace(/\\"/g, '"').replace(/\n\s*/g, ' ').trim() : title;
-      const category = categoryMatch ? categoryMatch[1] : 'Science';
-      const date = dateMatch ? dateMatch[1] : 'August 17, 2026';
-      const author = authorMatch ? authorMatch[1] : 'Science News Publishing';
-      const image = imageMatch ? imageMatch[1] : DEFAULT_IMAGE;
-      const slug = slugMatch ? slugMatch[1] : null;
+      const title = extractField(content, 'title') || id.replace(/_/g, ' ');
+      const summary = extractField(content, 'summary') || title;
+      const category = extractField(content, 'category') || 'Science';
+      const date = extractField(content, 'date') || 'August 17, 2026';
+      const author = extractField(content, 'author') || 'Science News Publishing';
+      const image = extractField(content, 'image') || DEFAULT_IMAGE;
+      const slug = extractField(content, 'slug') || null;
 
       articlesList.push({
         id,
@@ -234,8 +240,9 @@ function main() {
   const blogsList = parseBlogFiles();
   const categories = ['Space', 'Physics', 'Technology', 'Health', 'Biology', 'Environment', 'Archaeology', 'Mathematics'];
 
-  // 1. Generate Sitemap XML (With Image Extensions for Google Discover)
+  // 1. Generate Sitemap XML (sitemaps.org Protocol Standard with XSL Styling)
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
   xml += `  <url><loc>${DOMAIN}/</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
   xml += `  <url><loc>${DOMAIN}/about</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n`;
@@ -271,8 +278,9 @@ function main() {
   }
   xml += `</urlset>\n`;
 
-  // 2. Generate Google News Sitemap (Google News & Discover Specific)
+  // 2. Generate Google News Sitemap (Google News & Discover Specific with XSL)
   let newsXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  newsXml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
   newsXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
   for (const art of articlesList.slice(0, 50)) {
     const slug = getSlug(art);
@@ -296,8 +304,9 @@ function main() {
   }
   newsXml += `</urlset>\n`;
 
-  // 3. Generate High-Quality RSS Feed (Google Publisher Center & Feedly Compliant)
+  // 3. Generate High-Quality RSS Feed (Google Publisher Center & RSS 2.0 Compliant with XSL Styling)
   let rssXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  rssXml += `<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>\n`;
   rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
   rssXml += `  <channel>\n`;
   rssXml += `    <title>Science News Publishing</title>\n`;
@@ -342,7 +351,7 @@ function main() {
     fs.writeFileSync(path.join(dir, 'rss.xml'), rssXml, 'utf-8');
   }
 
-  console.log(`✓ Successfully generated Google Discover & News SEO files for ${articlesList.length} articles in public/ and dist/`);
+  console.log(`✓ Successfully generated sitemaps.org compliant Sitemaps and RSS Feed for ${articlesList.length} articles!`);
 }
 
 main();

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</loc>
@@ -53,11 +54,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-08-10T18:30:00.000Z</news:publication_date>
-      <news:title>One of Britain</news:title>
+      <news:title>One of Britain&apos;s Finest Jurassic Fossil Collections Sold to Abu Dhabi Natural History Museum</news:title>
     </news:news>
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg</image:loc>
-      <image:title>One of Britain</image:title>
+      <image:title>One of Britain&apos;s Finest Jurassic Fossil Collections Sold to Abu Dhabi Natural History Museum</image:title>
     </image:image>
   </url>
   <url>
@@ -83,11 +84,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-08-06T18:30:00.000Z</news:publication_date>
-      <news:title>World</news:title>
+      <news:title>World&apos;s Most Powerful Solar Telescope Releases Clearest-Ever Images of the Sun&apos;s Surface</news:title>
     </news:news>
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/main-inouye-image-horizontal.jpg</image:loc>
-      <image:title>World</image:title>
+      <image:title>World&apos;s Most Powerful Solar Telescope Releases Clearest-Ever Images of the Sun&apos;s Surface</image:title>
     </image:image>
   </url>
   <url>
@@ -98,11 +99,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-08-05T18:30:00.000Z</news:publication_date>
-      <news:title>More Than Half the World</news:title>
+      <news:title>More Than Half the World&apos;s Reservoirs Face Inactivation by 2060 Due to Sedimentation Crisis</news:title>
     </news:news>
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/Longtan_Dam1.jpg</image:loc>
-      <image:title>More Than Half the World</image:title>
+      <image:title>More Than Half the World&apos;s Reservoirs Face Inactivation by 2060 Due to Sedimentation Crisis</image:title>
     </image:image>
   </url>
   <url>
@@ -158,11 +159,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-07-29T18:30:00.000Z</news:publication_date>
-      <news:title>Africa</news:title>
+      <news:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</news:title>
     </news:news>
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg</image:loc>
-      <image:title>Africa</image:title>
+      <image:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</image:title>
     </image:image>
   </url>
   <url>
@@ -188,11 +189,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-07-27T18:30:00.000Z</news:publication_date>
-      <news:title>Clue Found on Nikumaroro Island Regarding Earhart</news:title>
+      <news:title>Clue Found on Nikumaroro Island Regarding Earhart&apos;s Disappearance</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Clue Found on Nikumaroro Island Regarding Earhart</image:title>
+      <image:title>Clue Found on Nikumaroro Island Regarding Earhart&apos;s Disappearance</image:title>
     </image:image>
   </url>
   <url>
@@ -203,11 +204,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-07-26T18:30:00.000Z</news:publication_date>
-      <news:title>What Are the Mysterious </news:title>
+      <news:title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>What Are the Mysterious </image:title>
+      <image:title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</image:title>
     </image:image>
   </url>
   <url>
@@ -323,11 +324,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-07-09T18:30:00.000Z</news:publication_date>
-      <news:title>A Previously Undiscovered </news:title>
+      <news:title>A Previously Undiscovered &apos;Mystery&apos; Substance Found on Pluto and Titan</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>A Previously Undiscovered </image:title>
+      <image:title>A Previously Undiscovered &apos;Mystery&apos; Substance Found on Pluto and Titan</image:title>
     </image:image>
   </url>
   <url>
@@ -338,11 +339,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-07-08T18:30:00.000Z</news:publication_date>
-      <news:title>World</news:title>
+      <news:title>World&apos;s First Nuclear-Powered Commercial Satellite Successfully Launched into Space</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>World</image:title>
+      <image:title>World&apos;s First Nuclear-Powered Commercial Satellite Successfully Launched into Space</image:title>
     </image:image>
   </url>
   <url>
@@ -353,11 +354,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-07-07T18:30:00.000Z</news:publication_date>
-      <news:title>A New Scientific Explanation for Fermi</news:title>
+      <news:title>A New Scientific Explanation for Fermi&apos;s Paradox</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>A New Scientific Explanation for Fermi</image:title>
+      <image:title>A New Scientific Explanation for Fermi&apos;s Paradox</image:title>
     </image:image>
   </url>
   <url>
@@ -383,11 +384,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-07-02T18:30:00.000Z</news:publication_date>
-      <news:title>The World</news:title>
+      <news:title>The World&apos;s Most Powerful Particle Accelerator Shut Down Until 2030 for Upgrades</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>The World</image:title>
+      <image:title>The World&apos;s Most Powerful Particle Accelerator Shut Down Until 2030 for Upgrades</image:title>
     </image:image>
   </url>
   <url>
@@ -518,11 +519,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-06-18T18:30:00.000Z</news:publication_date>
-      <news:title>The World</news:title>
+      <news:title>The World&apos;s Black Box Being Built in Tasmania</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>The World</image:title>
+      <image:title>The World&apos;s Black Box Being Built in Tasmania</image:title>
     </image:image>
   </url>
   <url>
@@ -638,11 +639,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-06-01T18:30:00.000Z</news:publication_date>
-      <news:title>T. Rex</news:title>
+      <news:title>T. Rex&apos;s Tiny Arms — An Evolutionary Sacrifice for a Powerful Skull</news:title>
     </news:news>
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/06/GettyImages-99311107_web-ezgif.com-webp-to-jpg-converter.jpg</image:loc>
-      <image:title>T. Rex</image:title>
+      <image:title>T. Rex&apos;s Tiny Arms — An Evolutionary Sacrifice for a Powerful Skull</image:title>
     </image:image>
   </url>
   <url>
@@ -668,11 +669,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-05-28T18:30:00.000Z</news:publication_date>
-      <news:title>Blue Origin</news:title>
+      <news:title>Blue Origin&apos;s New Glenn Rocket Explodes During Pre-Launch Test</news:title>
     </news:news>
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/Thumb-ty89u6.webp</image:loc>
-      <image:title>Blue Origin</image:title>
+      <image:title>Blue Origin&apos;s New Glenn Rocket Explodes During Pre-Launch Test</image:title>
     </image:image>
   </url>
   <url>
@@ -683,11 +684,11 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-05-27T18:30:00.000Z</news:publication_date>
-      <news:title>Moon Base I Mission Awarded to Jeff Bezos</news:title>
+      <news:title>Moon Base I Mission Awarded to Jeff Bezos&apos; Blue Origin</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Moon Base I Mission Awarded to Jeff Bezos</image:title>
+      <image:title>Moon Base I Mission Awarded to Jeff Bezos&apos; Blue Origin</image:title>
     </image:image>
   </url>
   <url>
