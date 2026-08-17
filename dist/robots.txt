@@ -1,7 +1,10 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 Disallow: /search
 
 Sitemap: https://sciencenewshub.click/sitemap.xml
+Sitemap: https://sciencenewshub.click/post-sitemap.xml
+Sitemap: https://sciencenewshub.click/page-sitemap.xml
+Sitemap: https://sciencenewshub.click/category-sitemap.xml
 Sitemap: https://sciencenewshub.click/news-sitemap.xml
 Sitemap: https://sciencenewshub.click/rss.xml
