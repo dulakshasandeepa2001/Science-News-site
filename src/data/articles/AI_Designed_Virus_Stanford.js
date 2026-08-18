@@ -1,9 +1,9 @@
-﻿export const AI_Designed_Virus_Stanford = {
+export const AI_Designed_Virus_Stanford = {
   id: "AI_Designed_Virus_Stanford",
   title: "Artificial Intelligence Used to Create a Virus for the First Time in Stanford University Breakthrough",
   summary:
     "Scientists at Stanford University have for the first time successfully designed and produced a new bacteriophage virus using AI models Evo1 and Evo2, marking a major medical breakthrough while raising urgent global biosafety concerns.",
-  image: "https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg",
+  image: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=1200&q=80",
   category: "Health & Medicine",
   date: "August 10, 2026",
   author: "Science News Publishing",
