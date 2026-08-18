@@ -123,7 +123,11 @@ const LEGACY_SLUG_MAP = {
   "Koala_Cryopreservation": "koala-cryopreservation",
   "First_Space_XRay": "first-space-xray",
   "US_Space_Force_Meadowlands": "us-space-force-meadowlands",
-  "Pluto_Titan_Mystery_Substance": "pluto-titan-mystery-substance"
+  "Pluto_Titan_Mystery_Substance": "pluto-titan-mystery-substance",
+  "Cellular_Health_Science_Longevity_Breakthroughs": "cellular-health-science-longevity-breakthroughs",
+  "Gut_Brain_Connection_Microbiome_Health_Science": "gut-brain-connection-microbiome-health-science",
+  "AI_In_Health_Science_Precision_Medicine": "ai-in-health-science-precision-medicine",
+  "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health"
 };
 
 /**

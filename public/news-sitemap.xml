@@ -2,6 +2,66 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:30:00.000Z</news:publication_date>
+      <news:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:30:00.000Z</news:publication_date>
+      <news:title>Cellular Rejuvenation and Longevity: What Health Science Tells Us About Slowing Aging</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Cellular Rejuvenation and Longevity: What Health Science Tells Us About Slowing Aging</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/food-science-ultra-processed-foods-metabolic-health</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:30:00.000Z</news:publication_date>
+      <news:title>Ultra-Processed Foods vs Metabolic Health: Insights from Recent Food Science Studies</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Ultra-Processed Foods vs Metabolic Health: Insights from Recent Food Science Studies</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/gut-brain-connection-microbiome-health-science</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:30:00.000Z</news:publication_date>
+      <news:title>The Gut-Brain Connection: How Modern Food and Health Science Explain Mental Well-Being</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>The Gut-Brain Connection: How Modern Food and Health Science Explain Mental Well-Being</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</loc>
     <news:news>
       <news:publication>
@@ -689,66 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>Moon Base I Mission Awarded to Jeff Bezos&apos; Blue Origin</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/psyche-spacecraft-mars-gravity-assist</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-18T18:30:00.000Z</news:publication_date>
-      <news:title>Psyche Spacecraft Uses Mars Gravity Assist to Gain Speed</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/RiC6rtyJHBJ6Hie5wQPRvd-1280-80.png</image:loc>
-      <image:title>Psyche Spacecraft Uses Mars Gravity Assist to Gain Speed</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/water-paint-coating-dewpoint</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-11T18:30:00.000Z</news:publication_date>
-      <news:title>Amazing Paint Coating That Provides Water from Hot Air</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Amazing Paint Coating That Provides Water from Hot Air</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/wasp-named-david-attenborough</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T18:30:00.000Z</news:publication_date>
-      <news:title>A Wasp Named in Honor of David Attenborough on His 100th Birthday</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>A Wasp Named in Honor of David Attenborough on His 100th Birthday</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/tiny-object-solar-system-atmosphere</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-06T18:30:00.000Z</news:publication_date>
-      <news:title>A Tiny Object at the Edge of the Solar System Has an Atmosphere</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>A Tiny Object at the Edge of the Solar System Has an Atmosphere</image:title>
     </image:image>
   </url>
 </urlset>

@@ -6,8 +6,6 @@ import {
   ArrowLeft, 
   Clock, 
   User, 
-  ChevronDown, 
-  ChevronUp, 
   CheckCircle2, 
   ShieldCheck, 
   ExternalLink, 
@@ -18,7 +16,10 @@ import {
   Copy, 
   Check, 
   BookOpen, 
-  Sparkles 
+  Sparkles,
+  ListOrdered,
+  Calendar,
+  Bookmark
 } from 'lucide-react';
 import { articles } from '../data/articlesCollection.js';
 import { findArticleBySlugOrId, getArticleSlug, getArticleLink } from '../lib/article-utils.js';
@@ -30,39 +31,20 @@ const ArticlePage = ({ article: propArticle }) => {
   const { articleId } = useParams();
   const navigate = useNavigate();
   const [article, setArticle] = useState(propArticle || null);
-  const [visibleSections, setVisibleSections] = useState([0]); // First section is always visible
   const [copied, setCopied] = useState(false);
   
   useEffect(() => {
     if (propArticle) {
       setArticle(propArticle);
-      setVisibleSections([0]);
     } else if (articleId) {
       const foundArticle = findArticleBySlugOrId(articles, articleId);
       if (foundArticle) {
         setArticle(foundArticle);
-        setVisibleSections([0]);
       } else {
         navigate('/');
       }
     }
   }, [articleId, navigate, propArticle]);
-
-  const toggleSection = (index) => {
-    if (visibleSections.includes(index)) {
-      setVisibleSections(visibleSections.filter(i => i !== index));
-    } else {
-      setVisibleSections([...visibleSections, index]);
-    }
-  };
-
-  const showNextSection = () => {
-    if (!article) return;
-    const nextIndex = Math.max(...visibleSections) + 1;
-    if (nextIndex < article.content.sections.length) {
-      setVisibleSections([...visibleSections, nextIndex]);
-    }
-  };
 
   const handleBackToHome = () => {
     navigate('/');
@@ -75,8 +57,6 @@ const ArticlePage = ({ article: propArticle }) => {
       setTimeout(() => setCopied(false), 2000);
     }
   };
-
-  const isLastVisibleSection = article ? Math.max(...visibleSections) === article.content.sections.length - 1 : false;
 
   if (!article) {
     return (
@@ -122,7 +102,7 @@ const ArticlePage = ({ article: propArticle }) => {
           Back to All News
         </Button>
 
-        <article className="space-y-8">
+        <article className="space-y-10">
           {/* Article Header */}
           <header className="space-y-6">
             <div className="space-y-3">
@@ -155,9 +135,12 @@ const ArticlePage = ({ article: propArticle }) => {
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Clock size={15} />
-                  <span>{article.readTime || '5 min read'}</span>
+                  <span>{article.readTime || '6 min read'}</span>
                 </div>
-                <span>Published: {article.date}</span>
+                <div className="flex items-center gap-1.5">
+                  <Calendar size={15} />
+                  <span>Published: {article.date}</span>
+                </div>
               </div>
 
               {/* Social Share Buttons */}
@@ -205,146 +188,141 @@ const ArticlePage = ({ article: propArticle }) => {
               <img 
                 src={article.image} 
                 alt={`${article.title} - Scientific Discovery Coverage`}
-                className="w-full h-72 md:h-[420px] object-cover"
+                className="w-full h-72 md:h-[440px] object-cover"
                 loading="eager"
               />
-              <figcaption className="text-xs text-muted-foreground bg-card/90 px-4 py-2 border-t">
-                Illustration / Official Research Press Image for {article.title}
+              <figcaption className="text-xs text-muted-foreground bg-card/90 px-4 py-2.5 border-t">
+                Research press illustration and scientific imagery related to {article.title}
               </figcaption>
             </figure>
+
+            {/* Table of Contents (TOC) for Smooth Reader Experience & SEO */}
+            {article.content?.sections?.length > 1 && (
+              <nav aria-label="Table of Contents" className="p-6 rounded-2xl bg-card border border-primary/20 shadow-sm space-y-3">
+                <div className="flex items-center gap-2 font-bold text-sm text-foreground uppercase tracking-wider">
+                  <ListOrdered size={18} className="text-primary" /> Table of Contents
+                </div>
+                <ul className="grid sm:grid-cols-2 gap-2 text-sm text-muted-foreground pt-1">
+                  {article.content.sections.map((section, index) => (
+                    <li key={index}>
+                      <a 
+                        href={`#section-${index + 1}`}
+                        className="hover:text-primary hover:underline flex items-start gap-2 py-1 transition-colors"
+                      >
+                        <span className="font-semibold text-primary/80 shrink-0">{index + 1}.</span>
+                        <span className="line-clamp-1">{section.title}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
           </header>
 
-          {/* Article Content Sections */}
-          <div className="space-y-6">
-            {article.content.sections.map((section, index) => (
-              <Card key={index} className="overflow-hidden border border-border/80 shadow-sm hover:border-primary/30 transition-colors">
-                <CardContent className="p-0">
-                  <div 
-                    className="p-6 cursor-pointer hover:bg-muted/40 transition-colors"
-                    onClick={() => toggleSection(index)}
-                  >
-                    <div className="flex items-center justify-between gap-4">
-                      <h2 className="text-xl md:text-2xl font-bold text-foreground">
-                        {section.title}
-                      </h2>
-                      {visibleSections.includes(index) ? (
-                        <ChevronUp className="h-5 w-5 text-muted-foreground flex-shrink-0" />
-                      ) : (
-                        <ChevronDown className="h-5 w-5 text-muted-foreground flex-shrink-0" />
-                      )}
-                    </div>
-                  </div>
-                  
-                  {visibleSections.includes(index) && (
-                    <div className="px-6 pb-6 border-t bg-muted/10">
-                      <div className="pt-6">
-                        <p className="text-base md:text-lg leading-relaxed text-foreground/90 font-serif">
-                          {section.content}
-                        </p>
-                      </div>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            ))}
-
-            {/* Continue Reading Button */}
-            {!isLastVisibleSection && (
-              <div className="text-center py-8">
-                <Button 
-                  onClick={showNextSection}
-                  size="lg"
-                  className="px-8 py-3 text-base md:text-lg font-bold shadow-lg hover:shadow-xl transition-all"
-                >
-                  Click Here to Read More
-                  <ChevronDown className="h-5 w-5 ml-2" />
-                </Button>
-              </div>
-            )}
-
-            {/* Article Complete & Author Bio Box (E-E-A-T) */}
-            {isLastVisibleSection && (
-              <div className="space-y-8 pt-6">
+          {/* Full Linear Article Content (No Accordions - 100% Crawlable) */}
+          <div className="space-y-10 pt-2">
+            {article.content?.sections?.map((section, index) => (
+              <section 
+                key={index} 
+                id={`section-${index + 1}`} 
+                className="scroll-mt-24 space-y-4 border-b pb-8 last:border-b-0"
+              >
+                <h2 className="text-2xl md:text-3xl font-extrabold text-foreground tracking-tight flex items-baseline gap-3">
+                  <span className="text-primary/60 font-mono text-xl md:text-2xl">{index + 1}.</span>
+                  <span>{section.title}</span>
+                </h2>
                 
-                {/* Author & Editorial Oversight Box */}
-                <section className="p-6 md:p-8 rounded-2xl bg-card border border-border space-y-4">
-                  <div className="flex items-center gap-3">
-                    <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-extrabold text-lg">
-                      SN
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-base md:text-lg text-foreground">Science News Editorial Desk</h3>
-                      <p className="text-xs text-muted-foreground">Specialized Science Journalists &amp; Academic Editors</p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    This scientific report has been written and reviewed in accordance with Science News Publishing&apos;s rigorous editorial guidelines. Our editorial team verifies findings against original publications in leading scientific journals such as <em>Nature</em>, <em>Science</em>, <em>The Astrophysical Journal</em>, and official releases from NASA, ESA, CERN, and international universities.
+                <div className="prose prose-neutral dark:prose-invert max-w-none">
+                  <p className="text-base sm:text-lg leading-relaxed text-foreground/90 font-serif whitespace-pre-line">
+                    {section.content}
                   </p>
-                  <div className="flex flex-wrap items-center gap-3 pt-2 text-xs">
-                    <span className="inline-flex items-center gap-1 text-primary font-medium">
-                      <CheckCircle2 size={14} /> Fact-Checked
-                    </span>
-                    <span>•</span>
-                    <span className="inline-flex items-center gap-1 text-primary font-medium">
-                      <BookOpen size={14} /> Academic Citations
-                    </span>
-                    <span>•</span>
-                    <Link to="/about" className="text-primary hover:underline font-semibold">
-                      Learn About Our Editorial Standards &rarr;
-                    </Link>
-                  </div>
-                </section>
+                </div>
+              </section>
+            ))}
+          </div>
 
-                {/* References & Outbound Citations */}
-                <section className="p-6 rounded-2xl bg-muted/30 border text-xs md:text-sm space-y-3">
-                  <h3 className="font-bold text-foreground flex items-center gap-2">
-                    <ExternalLink size={16} className="text-primary" /> Authoritative Sources &amp; Further Reading
-                  </h3>
-                  <p className="text-muted-foreground">
-                    For primary datasets and official research publications related to this report, please consult:
-                  </p>
-                  <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
-                    <li><a href="https://www.nature.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Nature Scientific Journal</a></li>
-                    <li><a href="https://www.science.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Science / AAAS Official Publications</a></li>
-                    <li><a href="https://www.nasa.gov" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NASA Space Exploration &amp; Mission Data</a></li>
-                  </ul>
-                </section>
-
-                {/* Related Articles */}
-                {relatedArticles.length > 0 && (
-                  <section className="space-y-4 pt-4 border-t">
-                    <h3 className="text-xl font-bold text-foreground flex items-center gap-2">
-                      <Sparkles className="text-primary" size={20} /> Recommended Scientific Reports
-                    </h3>
-                    <div className="grid sm:grid-cols-3 gap-4">
-                      {relatedArticles.map((rel) => (
-                        <Link
-                          key={rel.id}
-                          to={getArticleLink(rel)}
-                          className="group block p-4 rounded-xl bg-card border hover:border-primary/40 transition-all hover:shadow-md"
-                        >
-                          <img
-                            src={rel.image}
-                            alt={rel.title}
-                            className="w-full h-28 object-cover rounded-lg mb-3"
-                          />
-                          <span className="text-[11px] font-bold text-primary uppercase">{rel.category}</span>
-                          <h4 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2 mt-1">
-                            {rel.title}
-                          </h4>
-                        </Link>
-                      ))}
-                    </div>
-                  </section>
-                )}
-
-                <div className="text-center py-6">
-                  <Button onClick={handleBackToHome} variant="outline" size="lg">
-                    Back to All Discoveries
-                  </Button>
+          {/* Author Bio, E-E-A-T Standards & Editorial Oversight Box */}
+          <div className="space-y-8 pt-6">
+            
+            {/* Author & Editorial Oversight Box */}
+            <section className="p-6 md:p-8 rounded-2xl bg-card border border-border space-y-4">
+              <div className="flex items-center gap-3">
+                <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-extrabold text-lg">
+                  SN
+                </div>
+                <div>
+                  <h3 className="font-bold text-base md:text-lg text-foreground">Science News Editorial Desk</h3>
+                  <p className="text-xs text-muted-foreground">Specialized Science Journalists &amp; Academic Editors</p>
                 </div>
               </div>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                This scientific report has been written and reviewed in accordance with Science News Publishing&apos;s rigorous editorial guidelines. Our editorial team verifies findings against original publications in leading peer-reviewed scientific journals such as <em>Nature</em>, <em>Science</em>, <em>The Lancet</em>, <em>Cell</em>, <em>The Astrophysical Journal</em>, and official releases from NASA, ESA, CERN, WHO, and international universities.
+              </p>
+              <div className="flex flex-wrap items-center gap-3 pt-2 text-xs">
+                <span className="inline-flex items-center gap-1 text-primary font-medium">
+                  <CheckCircle2 size={14} /> Fact-Checked
+                </span>
+                <span>•</span>
+                <span className="inline-flex items-center gap-1 text-primary font-medium">
+                  <BookOpen size={14} /> Academic Citations
+                </span>
+                <span>•</span>
+                <Link to="/about" className="text-primary hover:underline font-semibold">
+                  Learn About Our Editorial Standards &rarr;
+                </Link>
+              </div>
+            </section>
+
+            {/* Outbound Authoritative References */}
+            <section className="p-6 rounded-2xl bg-muted/30 border text-xs md:text-sm space-y-3">
+              <h3 className="font-bold text-foreground flex items-center gap-2">
+                <ExternalLink size={16} className="text-primary" /> Authoritative Sources &amp; Primary Literature
+              </h3>
+              <p className="text-muted-foreground">
+                For complete datasets, clinical trial registries, and peer-reviewed primary papers related to this report, please consult:
+              </p>
+              <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+                <li><a href="https://www.nature.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Nature Scientific Journal &amp; Research Articles</a></li>
+                <li><a href="https://www.science.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Science / AAAS Official Publications</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">PubMed / National Library of Medicine (NIH)</a></li>
+                <li><a href="https://www.who.int" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">World Health Organization (WHO) Research Portals</a></li>
+                <li><a href="https://www.nasa.gov" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NASA Science &amp; Space Exploration Releases</a></li>
+              </ul>
+            </section>
+
+            {/* Related Articles */}
+            {relatedArticles.length > 0 && (
+              <section className="space-y-4 pt-4 border-t">
+                <h3 className="text-xl font-bold text-foreground flex items-center gap-2">
+                  <Sparkles className="text-primary" size={20} /> Recommended Scientific Reports
+                </h3>
+                <div className="grid sm:grid-cols-3 gap-4">
+                  {relatedArticles.map((rel) => (
+                    <Link
+                      key={rel.id}
+                      to={getArticleLink(rel)}
+                      className="group block p-4 rounded-xl bg-card border hover:border-primary/40 transition-all hover:shadow-md"
+                    >
+                      <img
+                        src={rel.image}
+                        alt={rel.title}
+                        className="w-full h-28 object-cover rounded-lg mb-3"
+                      />
+                      <span className="text-[11px] font-bold text-primary uppercase">{rel.category}</span>
+                      <h4 className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2 mt-1">
+                        {rel.title}
+                      </h4>
+                    </Link>
+                  ))}
+                </div>
+              </section>
             )}
+
+            <div className="text-center py-6">
+              <Button onClick={handleBackToHome} variant="outline" size="lg">
+                Back to All Discoveries
+              </Button>
+            </div>
           </div>
         </article>
       </main>

@@ -99,6 +99,10 @@ import { SpaceX_AI_Starmind_Satellites } from "./articles/SpaceX_AI_Starmind_Sat
 import { Total_Solar_Eclipse_Europe_2026 } from "./articles/Total_Solar_Eclipse_Europe_2026.js";
 import { British_Fossil_Collection_Abu_Dhabi } from "./articles/British_Fossil_Collection_Abu_Dhabi.js";
 import { AI_Designed_Virus_Stanford } from "./articles/AI_Designed_Virus_Stanford.js";
+import { Cellular_Health_Science_Longevity_Breakthroughs } from "./articles/Cellular_Health_Science_Longevity_Breakthroughs.js";
+import { Gut_Brain_Connection_Microbiome_Health_Science } from "./articles/Gut_Brain_Connection_Microbiome_Health_Science.js";
+import { AI_In_Health_Science_Precision_Medicine } from "./articles/AI_In_Health_Science_Precision_Medicine.js";
+import { Food_Science_Ultra_Processed_Foods_Metabolic_Health } from "./articles/Food_Science_Ultra_Processed_Foods_Metabolic_Health.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -522,4 +526,8 @@ export const articles = [
   Total_Solar_Eclipse_Europe_2026,
   British_Fossil_Collection_Abu_Dhabi,
   AI_Designed_Virus_Stanford,
+  Cellular_Health_Science_Longevity_Breakthroughs,
+  Gut_Brain_Connection_Microbiome_Health_Science,
+  AI_In_Health_Science_Precision_Medicine,
+  Food_Science_Ultra_Processed_Foods_Metabolic_Health,
 ];

@@ -1,21 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://sciencenewshub.click/</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://sciencenewshub.click/about</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://sciencenewshub.click/contact</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://sciencenewshub.click/privacy-policy</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/terms</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/disclaimer</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/blog</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://sciencenewshub.click/category/space</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/physics</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/technology</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/health</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/biology</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/environment</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/archaeology</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sciencenewshub.click/category/mathematics</loc><lastmod>2026-08-17T09:17:54.069Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sciencenewshub.click/about</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sciencenewshub.click/contact</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sciencenewshub.click/privacy-policy</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/terms</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/disclaimer</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/blog</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sciencenewshub.click/category/space</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/physics</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/technology</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/health</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/biology</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/environment</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/archaeology</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sciencenewshub.click/category/mathematics</loc><lastmod>2026-08-18T16:03:10.104Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</loc>
+    <lastmod>2026-08-17T18:30:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</image:title>
+      <image:caption>An extensive exploration into how artificial intelligence, deep learning algorithms, molecular modeling, and genomic big data are revolutionizing health science, accelerating drug discovery, and shaping personalized precision medicine.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs</loc>
+    <lastmod>2026-08-17T18:30:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Cellular Rejuvenation and Longevity: What Health Science Tells Us About Slowing Aging</image:title>
+      <image:caption>A comprehensive health science review of breakthroughs in cellular rejuvenation, telomere dynamics, senolytic cell clearance, and metabolic longevity pathways supported by peer-reviewed research in geroscience.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/food-science-ultra-processed-foods-metabolic-health</loc>
+    <lastmod>2026-08-17T18:30:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Ultra-Processed Foods vs Metabolic Health: Insights from Recent Food Science Studies</image:title>
+      <image:caption>A rigorous food science and nutritional biochemistry review analyzing how ultra-processed foods alter the food matrix, disrupt gut mucosal integrity, drive insulin resistance, and impair metabolic homeostasis.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/gut-brain-connection-microbiome-health-science</loc>
+    <lastmod>2026-08-17T18:30:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>The Gut-Brain Connection: How Modern Food and Health Science Explain Mental Well-Being</image:title>
+      <image:caption>An in-depth scientific review of the gut-brain axis, exploring how the enteric nervous system, microbiome metabolite signaling, and nutritional biochemistry influence neurological function, mood regulation, and cognitive resilience.</image:caption>
+    </image:image>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</loc>
     <lastmod>2026-08-16T18:30:00.000Z</lastmod>
@@ -1160,7 +1204,7 @@
       <image:caption>Scientists uncover remarkably preserved 3-million-year-old forest beneath Arctic ice, providing unprecedented data on prehistoric climate conditions.</image:caption>
     </image:image>
   </url>
-  <url><loc>https://sciencenewshub.click/blog/prime-numbers-cryptography</loc><lastmod>2026-08-17T09:17:54.070Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://sciencenewshub.click/blog/exoplanets-search-life</loc><lastmod>2026-08-17T09:17:54.070Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://sciencenewshub.click/blog/crispr-gene-editing</loc><lastmod>2026-08-17T09:17:54.070Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sciencenewshub.click/blog/prime-numbers-cryptography</loc><lastmod>2026-08-18T16:03:10.105Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sciencenewshub.click/blog/exoplanets-search-life</loc><lastmod>2026-08-18T16:03:10.105Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sciencenewshub.click/blog/crispr-gene-editing</loc><lastmod>2026-08-18T16:03:10.105Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
