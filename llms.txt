@@ -1,0 +1,35 @@
+﻿# Science News Publishing
+
+> Science News Publishing (https://sciencenewshub.click) is an authoritative digital publication delivering verified, peer-reviewed scientific discoveries, space exploration missions, physics breakthroughs, biotechnology advancements, and healthcare research.
+
+## Core Pages
+- [Home](https://sciencenewshub.click/): The main landing page featuring latest discoveries and breaking scientific news.
+- [About Us](https://sciencenewshub.click/about): Editorial board, founder biography, mission statement, and E-E-A-T credentials.
+- [Contact Us](https://sciencenewshub.click/contact): Direct editorial contact methods, inquiry forms, and communications.
+- [Privacy Policy](https://sciencenewshub.click/privacy-policy): GDPR, CCPA, COPPA, and Google AdSense cookie compliance disclosures.
+- [Terms of Service](https://sciencenewshub.click/terms): User agreement and intellectual property guidelines.
+- [Website Disclaimer](https://sciencenewshub.click/disclaimer): Medical and scientific reporting disclaimers.
+- [Science Blog](https://sciencenewshub.click/blog): In-depth research commentary and academic analysis.
+
+## Scientific Categories
+- [Space News](https://sciencenewshub.click/category/space): Astrophysics, NASA, ESA, JWST discoveries, and planetary science.
+- [Physics Discoveries](https://sciencenewshub.click/category/physics): Quantum computing, particle physics, CERN LHC, and theoretical models.
+- [Technology & AI](https://sciencenewshub.click/category/technology): Artificial intelligence, biotechnology, satellite networks, and computing.
+- [Health & Medicine](https://sciencenewshub.click/category/health): Cellular longevity, microbiome research, neurobiology, and precision medicine.
+- [Environment & Climate](https://sciencenewshub.click/category/environment): Earth systems, ocean currents, AMOC monitoring, and climate research.
+- [Biology & Nature](https://sciencenewshub.click/category/biology): Genetics, evolutionary biology, zoology, and ecology.
+- [Archaeology & Paleontology](https://sciencenewshub.click/category/archaeology): Fossil discoveries, ancient human history, and prehistoric excavations.
+
+## Featured Research Reports
+- [Cellular Rejuvenation and Longevity](https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs): Peer-reviewed geroscience on telomeres, senolytics, autophagy, and NAD+ metabolism.
+- [Gut-Brain Axis and Mental Health](https://sciencenewshub.click/article/gut-brain-connection-microbiome-health-science): Neurobiological pathways between the enteric nervous system, microbiome, and cognitive resilience.
+- [AI in Health Science & Precision Medicine](https://sciencenewshub.click/article/ai-in-health-science-precision-medicine): Deep learning, AlphaFold molecular pharmacology, and personalized oncology.
+- [Ultra-Processed Foods & Metabolic Health](https://sciencenewshub.click/article/food-science-ultra-processed-foods-metabolic-health): Food matrix alterations, industrial emulsifiers, and insulin resistance studies.
+- [First-Ever Black Hole Star Discovery](https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope): James Webb Space Telescope observations of quasi-star stellar physics.
+- [SpaceX AI Starmind Satellite Network](https://sciencenewshub.click/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026): Orbital computational clusters and space-based artificial intelligence.
+- [Total Solar Eclipse August 2026](https://sciencenewshub.click/article/total-solar-eclipse-august-2026-greenland-iceland-spain): Astronomical path of totality across Europe and the Arctic.
+
+## Feeds and Machine-Readable Resources
+- [XML Sitemap](https://sciencenewshub.click/sitemap.xml): Machine-readable XML sitemap index adhering to sitemaps.org protocols.
+- [News Sitemap](https://sciencenewshub.click/news-sitemap.xml): Google News specific XML sitemap.
+- [RSS Feed](https://sciencenewshub.click/rss.xml): RSS 2.0 feed with media extensions for news aggregators and LLM indexing.

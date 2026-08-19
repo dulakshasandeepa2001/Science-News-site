@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Cookie, X, Check, Settings } from 'lucide-react';
 import { Button } from '@/components/ui/button.jsx';
@@ -76,9 +76,10 @@ export default function CookieConsent() {
   if (!isVisible) return null;
 
   return (
-    <aside 
+    <div 
       role="dialog"
-      aria-label="Cookie consent banner"
+      aria-modal="false"
+      aria-labelledby="cookie-consent-heading"
       className="fixed bottom-4 left-4 right-4 md:left-6 md:right-auto md:max-w-md z-50 animate-in fade-in slide-in-from-bottom-5 duration-300"
     >
       <div className="bg-card text-card-foreground border border-border/80 shadow-2xl rounded-2xl p-5 md:p-6 backdrop-blur-lg bg-card/95">
@@ -89,7 +90,7 @@ export default function CookieConsent() {
             <div className="p-2 rounded-xl bg-primary/10">
               <Cookie className="h-5 w-5 text-primary" />
             </div>
-            <span>Cookie &amp; Privacy Choices</span>
+            <span id="cookie-consent-heading">Cookie &amp; Privacy Choices</span>
           </div>
           <button
             onClick={handleDeclineNonEssential}
@@ -193,6 +194,6 @@ export default function CookieConsent() {
           )}
         </div>
       </div>
-    </aside>
+    </div>
   );
 }
