@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button.jsx';
 import { Card, CardContent } from '@/components/ui/card.jsx';
@@ -40,6 +40,10 @@ const ArticlePage = ({ article: propArticle }) => {
       const foundArticle = findArticleBySlugOrId(articles, articleId);
       if (foundArticle) {
         setArticle(foundArticle);
+        const canonicalSlug = getArticleSlug(foundArticle);
+        if (articleId !== canonicalSlug && (articleId.includes('_') || articleId !== articleId.toLowerCase())) {
+          navigate(`/article/${canonicalSlug}`, { replace: true });
+        }
       } else {
         navigate('/');
       }
@@ -89,6 +93,7 @@ const ArticlePage = ({ article: propArticle }) => {
         publishedTime={article.date}
         author={article.author || 'Science News Editorial Team'}
         category={article.category}
+        faq={article.faq}
       />
       <Header />
       
@@ -240,6 +245,27 @@ const ArticlePage = ({ article: propArticle }) => {
               </section>
             ))}
           </div>
+
+          {/* Frequently Asked Questions (FAQ) Section */}
+          {Array.isArray(article.faq) && article.faq.length > 0 && (
+            <section className="p-6 md:p-8 rounded-2xl bg-card border border-primary/20 space-y-6 shadow-sm">
+              <h2 className="text-xl md:text-2xl font-bold text-foreground flex items-center gap-2">
+                <BookOpen className="text-primary h-6 w-6" /> Frequently Asked Questions (FAQ)
+              </h2>
+              <div className="space-y-4">
+                {article.faq.map((item, idx) => (
+                  <div key={idx} className="p-4 rounded-xl bg-muted/40 border space-y-2">
+                    <h3 className="font-bold text-base text-foreground flex items-start gap-2">
+                      <span className="text-primary font-mono font-bold">Q{idx + 1}:</span> {item.question}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed pl-7">
+                      {item.answer}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Author Bio, E-E-A-T Standards & Editorial Oversight Box */}
           <div className="space-y-8 pt-6">

@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-21T18:30:00.000Z</news:publication_date>
+      <news:title>Blood Moon Alert: August 27–28, 2026 Lunar Eclipse Guide</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787335006/Generated_Image_August_21_2026_-_11_25PM_fpkcwz.jpg</image:loc>
+      <image:title>Blood Moon Alert: August 27–28, 2026 Lunar Eclipse Guide</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/Thumb-ty89u6.webp</image:loc>
       <image:title>Blue Origin&apos;s New Glenn Rocket Explodes During Pre-Launch Test</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/moon-base-1-blue-origin-mission</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-27T18:30:00.000Z</news:publication_date>
-      <news:title>Moon Base I Mission Awarded to Jeff Bezos&apos; Blue Origin</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Moon Base I Mission Awarded to Jeff Bezos&apos; Blue Origin</image:title>
     </image:image>
   </url>
 </urlset>

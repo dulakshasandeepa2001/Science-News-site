@@ -1,4 +1,4 @@
-﻿# Science News Publishing
+# Science News Publishing
 
 > Science News Publishing (https://sciencenewshub.click) is an authoritative digital publication delivering verified, peer-reviewed scientific discoveries, space exploration missions, physics breakthroughs, biotechnology advancements, and healthcare research.
 
@@ -21,6 +21,7 @@
 - [Archaeology & Paleontology](https://sciencenewshub.click/category/archaeology): Fossil discoveries, ancient human history, and prehistoric excavations.
 
 ## Featured Research Reports
+- [August 2026 Lunar Eclipse Blood Moon Guide](https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide): Visibility footprint, 96.2% umbral peak times, NASA livestreams, and future Sri Lanka astronomical schedule.
 - [Cellular Rejuvenation and Longevity](https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs): Peer-reviewed geroscience on telomeres, senolytics, autophagy, and NAD+ metabolism.
 - [Gut-Brain Axis and Mental Health](https://sciencenewshub.click/article/gut-brain-connection-microbiome-health-science): Neurobiological pathways between the enteric nervous system, microbiome, and cognitive resilience.
 - [AI in Health Science & Precision Medicine](https://sciencenewshub.click/article/ai-in-health-science-precision-medicine): Deep learning, AlphaFold molecular pharmacology, and personalized oncology.

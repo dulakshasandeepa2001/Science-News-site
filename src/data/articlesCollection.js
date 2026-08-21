@@ -103,6 +103,7 @@ import { Cellular_Health_Science_Longevity_Breakthroughs } from "./articles/Cell
 import { Gut_Brain_Connection_Microbiome_Health_Science } from "./articles/Gut_Brain_Connection_Microbiome_Health_Science.js";
 import { AI_In_Health_Science_Precision_Medicine } from "./articles/AI_In_Health_Science_Precision_Medicine.js";
 import { Food_Science_Ultra_Processed_Foods_Metabolic_Health } from "./articles/Food_Science_Ultra_Processed_Foods_Metabolic_Health.js";
+import { August_2026_Lunar_Eclipse_Blood_Moon_Guide } from "./articles/August_2026_Lunar_Eclipse_Blood_Moon_Guide.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -530,4 +531,5 @@ export const articles = [
   Gut_Brain_Connection_Microbiome_Health_Science,
   AI_In_Health_Science_Precision_Medicine,
   Food_Science_Ultra_Processed_Foods_Metabolic_Health,
+  August_2026_Lunar_Eclipse_Blood_Moon_Guide,
 ];

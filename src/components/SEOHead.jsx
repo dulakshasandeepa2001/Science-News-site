@@ -1,4 +1,4 @@
-﻿import { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const DEFAULT_SITE_NAME = 'Science News Publishing';
 const DEFAULT_DOMAIN = 'https://sciencenewshub.click';
@@ -15,7 +15,8 @@ export default function SEOHead({
   modifiedTime,
   author = 'Science News Publishing',
   category,
-  schema
+  schema,
+  faq
 }) {
   useEffect(() => {
     // 1. Update Title
@@ -157,6 +158,27 @@ export default function SEOHead({
           "isAccessibleForFree": "true",
           "keywords": metaKeys
         };
+
+        if (Array.isArray(faq) && faq.length > 0) {
+          const faqSchema = {
+            "@type": "FAQPage",
+            "mainEntity": faq.map(item => ({
+              "@type": "Question",
+              "name": item.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.answer
+              }
+            }))
+          };
+          schemaData = {
+            "@context": "https://schema.org",
+            "@graph": [
+              schemaData,
+              faqSchema
+            ]
+          };
+        }
       } else {
         schemaData = {
           "@context": "https://schema.org",
@@ -176,7 +198,7 @@ export default function SEOHead({
 
     scriptTag.text = JSON.stringify(schemaData);
 
-  }, [title, description, keywords, canonicalUrl, ogType, ogImage, publishedTime, modifiedTime, author, category, schema]);
+  }, [title, description, keywords, canonicalUrl, ogType, ogImage, publishedTime, modifiedTime, author, category, schema, faq]);
 
   return null;
 }
