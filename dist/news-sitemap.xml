@@ -17,6 +17,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sciencenewshub.click/article/elon-musk-spacex-starship-flight-14-launch-delay</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-21</news:publication_date>
+      <news:title>Elon Musk Scales Back SpaceX Starship Launch Plans: Why the Flight 14 Catch Was Delayed</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787400165/Generated_Image_August_22_2026_-_5_31PM_nlxuk2.jpg</image:loc>
+      <image:title>Elon Musk Scales Back SpaceX Starship Launch Plans: Why the Flight 14 Catch Was Delayed</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/Koq2z4nWjEQkTUWGeb6LER.png</image:loc>
       <image:title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/blue-origin-new-glenn-explosion</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-28</news:publication_date>
-      <news:title>Blue Origin&apos;s New Glenn Rocket Explodes During Pre-Launch Test</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/Thumb-ty89u6.webp</image:loc>
-      <image:title>Blue Origin&apos;s New Glenn Rocket Explodes During Pre-Launch Test</image:title>
     </image:image>
   </url>
 </urlset>

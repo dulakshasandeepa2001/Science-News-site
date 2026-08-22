@@ -94,9 +94,15 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (109 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (110 Articles) -->
   <url>
     <loc>https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/elon-musk-spacex-starship-flight-14-launch-delay</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
