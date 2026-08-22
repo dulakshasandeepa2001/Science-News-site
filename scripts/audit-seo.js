@@ -1,23 +1,25 @@
-/**
- * Article Slug & Routing Utilities for Science News Publishing
- * Ensures all URLs follow SEO standards: strictly lowercase, hyphens instead of underscores/CamelCase.
- */
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-// Helper to convert any text to a clean URL slug
-export function toSlug(text) {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.join(__dirname, '..');
+const DOMAIN = 'https://sciencenewshub.click';
+const DEFAULT_IMAGE = 'https://sciencenewshub.click/assets/lab.jpg';
+
+function toSlug(text) {
   if (!text) return '';
   return text
     .toString()
     .toLowerCase()
     .trim()
-    .replace(/[^\w\s-]/g, '') // remove non-alphanumeric chars
-    .replace(/[\s_]+/g, '-')   // replace spaces and underscores with hyphens
-    .replace(/-+/g, '-');      // collapse multiple hyphens
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_]+/g, '-')
+    .replace(/-+/g, '-');
 }
 
-// Map of legacy IDs (numeric, CamelCase, or underscore strings) to clean SEO slugs
 const LEGACY_SLUG_MAP = {
-  // Numeric IDs
   "1": "spacecraft-black-hole-journey",
   "2": "einstein-ring-black-hole",
   "3": "brain-shortcut-weight-loss",
@@ -41,8 +43,6 @@ const LEGACY_SLUG_MAP = {
   "24": "military-drone-mothership",
   "25": "british-pilot-mars-simulation",
   "26": "oldest-mummies-southeast-asia",
-
-  // CamelCase & Underscore IDs
   "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",
   "SpaceX_Starlink_10000_Satellites": "spacex-starlink-10000-satellites",
   "BlueOriginNewGlennExplosion": "blue-origin-new-glenn-explosion",
@@ -152,7 +152,6 @@ const LEGACY_SLUG_MAP = {
   "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay"
 };
 
-// Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
   "ancient-forest": "ancient-forest-under-arctic-ice",
   "florida-panther": "florida-panther-habitat-expansion",
@@ -163,54 +162,164 @@ const SLUG_ALIASES = {
   "rare-orange-shark-discovered": "orange-shark"
 };
 
-/**
- * Gets the clean SEO slug for any article object.
- */
-export function getArticleSlug(article) {
-  if (!article) return '';
-  if (article.slug) return toSlug(article.slug);
-  
-  const idStr = String(article.id);
-  if (LEGACY_SLUG_MAP[idStr]) {
-    return LEGACY_SLUG_MAP[idStr];
-  }
-  
-  if (typeof article.id === 'string' && article.id.length > 0) {
-    return toSlug(article.id);
-  }
-  
-  if (article.title) {
-    return toSlug(article.title);
-  }
-  
+function getSlug(art) {
+  if (art.slug) return toSlug(art.slug);
+  const idStr = String(art.id);
+  if (LEGACY_SLUG_MAP[idStr]) return LEGACY_SLUG_MAP[idStr];
+  if (typeof art.id === 'string' && art.id.length > 0) return toSlug(art.id);
+  if (art.title) return toSlug(art.title);
   return `article-${idStr}`;
 }
 
-/**
- * Gets the clean SEO path for an article (/article/slug)
- */
-export function getArticleLink(article) {
-  const slug = getArticleSlug(article);
-  return `/article/${slug}`;
+function extractField(content, fieldName) {
+  const regex = new RegExp(`${fieldName}:\\s*(?:\`([\\s\\S]*?)\`|"((?:\\\\.|[^"\\\\])*)"|'((?:\\\\.|[^'\\\\])*)')`);
+  const match = content.match(regex);
+  if (!match) return null;
+  const raw = match[1] || match[2] || match[3] || '';
+  return raw
+    .replace(/\\"/g, '"')
+    .replace(/\\'/g, "'")
+    .replace(/\\n/g, ' ')
+    .replace(/\n\s*/g, ' ')
+    .trim();
 }
 
-/**
- * Finds an article in an array by slug, id, or normalized string.
- */
-export function findArticleBySlugOrId(articlesList, targetSlugOrId) {
-  if (!targetSlugOrId || !articlesList) return null;
-  const targetNorm = toSlug(targetSlugOrId);
-  const canonicalTarget = SLUG_ALIASES[targetNorm] || targetNorm;
+function parseAllArticles() {
+  const articlesDir = path.join(rootDir, 'src', 'data', 'articles');
+  const articlesList = [];
+  const seenSlugs = new Set();
 
-  return articlesList.find(art => {
-    if (String(art.id) === String(targetSlugOrId)) return true;
-    if (art.slug && (toSlug(art.slug) === targetNorm || toSlug(art.slug) === canonicalTarget)) return true;
-    
-    const computedSlug = getArticleSlug(art);
-    if (computedSlug === targetNorm || computedSlug === canonicalTarget) return true;
-    if (SLUG_ALIASES[computedSlug] === targetNorm || SLUG_ALIASES[computedSlug] === canonicalTarget) return true;
-    
-    if (typeof art.id === 'string' && (toSlug(art.id) === targetNorm || toSlug(art.id) === canonicalTarget)) return true;
-    return false;
-  }) || null;
+  if (fs.existsSync(articlesDir)) {
+    const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.js') && !f.endsWith('.new'));
+
+    for (const file of files) {
+      try {
+        const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
+        const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
+        const id = idMatch ? idMatch[1] : path.basename(file, '.js');
+        const title = extractField(content, 'title') || id.replace(/_/g, ' ');
+        const summary = extractField(content, 'summary') || title;
+        const category = extractField(content, 'category') || 'Science';
+        const date = extractField(content, 'date') || 'August 17, 2026';
+        const slug = extractField(content, 'slug') || null;
+
+        const articleObj = { id, title, summary, category, date, slug };
+        const articleSlug = getSlug(articleObj);
+
+        if (!seenSlugs.has(articleSlug)) {
+          seenSlugs.add(articleSlug);
+          articlesList.push(articleObj);
+        }
+      } catch (e) {}
+    }
+  }
+
+  const inlineArticles = [
+    { id: "3", title: "Scientists Uncover Hidden Brain Shortcut to Weight Loss", category: "Health & Medicine", date: "August 10, 2025" },
+    { id: "4", title: "DNA Breakthrough: New Gene Editing Technique Discovered", category: "Health & Medicine", date: "August 9, 2025" },
+    { id: "5", title: "AI System Detects Diseases Before Symptoms Appear", category: "Technology", date: "August 8, 2025" },
+    { id: "6", title: "Quantum Internet Breakthrough: Secure Communication Achieved Over 100km", category: "Technology", date: "August 7, 2025" },
+    { id: "7", title: "New Carbon Capture Technology Removes CO2 at Record Efficiency", category: "Environment", date: "August 6, 2025" },
+    { id: "9", title: "Breakthrough in Quantum Computing Achieves Error Correction Milestone", category: "Technology", date: "August 14, 2025" }
+  ];
+
+  for (const item of inlineArticles) {
+    const slug = getSlug(item);
+    if (!seenSlugs.has(slug)) {
+      seenSlugs.add(slug);
+      articlesList.push(item);
+    }
+  }
+
+  return articlesList;
 }
+
+const articlesList = parseAllArticles();
+const slugMap = new Map();
+articlesList.forEach(a => {
+  slugMap.set(getSlug(a), a);
+});
+
+console.log('==============================================');
+console.log('       COMPREHENSIVE SEO & LINK AUDIT         ');
+console.log('==============================================\n');
+
+console.log(`1. ARTICLES DATA:`);
+console.log(`- Total valid articles: ${articlesList.length}`);
+console.log(`- Total unique slugs: ${slugMap.size}`);
+
+// 2. INDEX.HTML AUDIT
+console.log(`\n2. INDEX.HTML AUDIT:`);
+const indexHtmlContent = fs.readFileSync(path.join(rootDir, 'index.html'), 'utf-8');
+
+const canonicalMatch = indexHtmlContent.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
+console.log(`- Head Canonical URL: ${canonicalMatch ? canonicalMatch[1] : 'MISSING'}`);
+
+const allHrefs = [...indexHtmlContent.matchAll(/href=["']([^"']+)["']/g)].map(m => m[1]);
+const articleLinks = allHrefs.filter(h => h.startsWith('/article/'));
+console.log(`- Total <a href="/article/..."> in index.html: ${articleLinks.length}`);
+
+const brokenLinks = [];
+articleLinks.forEach(link => {
+  const slug = link.replace('/article/', '');
+  const canonical = SLUG_ALIASES[slug] || slug;
+  if (!slugMap.has(slug) && !slugMap.has(canonical)) {
+    brokenLinks.push(slug);
+  }
+});
+
+if (brokenLinks.length > 0) {
+  console.error(`❌ BROKEN SLUGS IN INDEX.HTML (${brokenLinks.length}):`, brokenLinks);
+} else {
+  console.log(`✓ All ${articleLinks.length} article links in index.html resolve correctly!`);
+}
+
+// 3. SITEMAP.XML AUDIT
+console.log(`\n3. SITEMAP.XML AUDIT:`);
+const sitemapContent = fs.readFileSync(path.join(rootDir, 'public', 'sitemap.xml'), 'utf-8');
+const sitemapLocs = [...sitemapContent.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+const sitemapArticleUrls = sitemapLocs.filter(loc => loc.includes('/article/'));
+console.log(`- Total URLs in sitemap.xml: ${sitemapLocs.length}`);
+console.log(`- Article URLs in sitemap.xml: ${sitemapArticleUrls.length}`);
+
+const brokenSitemap = [];
+sitemapArticleUrls.forEach(url => {
+  const slug = url.split('/article/')[1];
+  const canonical = SLUG_ALIASES[slug] || slug;
+  if (!slugMap.has(slug) && !slugMap.has(canonical)) {
+    brokenSitemap.push(slug);
+  }
+});
+if (brokenSitemap.length > 0) {
+  console.error(`❌ Broken URLs in sitemap.xml:`, brokenSitemap);
+} else {
+  console.log(`✓ All ${sitemapArticleUrls.length} article URLs in sitemap.xml are valid!`);
+}
+
+// 4. NEWS SITEMAP
+console.log(`\n4. NEWS-SITEMAP.XML AUDIT:`);
+const newsSitemapContent = fs.readFileSync(path.join(rootDir, 'public', 'news-sitemap.xml'), 'utf-8');
+const newsLocs = [...newsSitemapContent.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+console.log(`- Total URLs in news-sitemap.xml: ${newsLocs.length}`);
+
+// 5. AUXILIARY SITEMAPS
+console.log(`\n5. AUXILIARY SITEMAPS:`);
+['post-sitemap.xml', 'page-sitemap.xml', 'category-sitemap.xml'].forEach(sm => {
+  const p = path.join(rootDir, 'public', sm);
+  if (fs.existsSync(p)) {
+    const c = fs.readFileSync(p, 'utf-8');
+    const count = [...c.matchAll(/<loc>([^<]+)<\/loc>/g)].length;
+    console.log(`- ${sm}: EXISTS, ${count} URLs`);
+  } else {
+    console.log(`- ${sm}: MISSING`);
+  }
+});
+
+// 6. ROBOTS.TXT
+console.log(`\n6. ROBOTS.TXT:`);
+const robotsContent = fs.readFileSync(path.join(rootDir, 'public', 'robots.txt'), 'utf-8');
+console.log(robotsContent.trim());
+
+console.log('\n==============================================');
+console.log('               AUDIT COMPLETE                 ');
+console.log('==============================================');

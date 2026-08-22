@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button.jsx';
 import { 
@@ -33,12 +33,14 @@ const NotFoundPage = () => {
   const recommendedArticles = articles.slice(0, 3);
 
   const categories = [
-    { name: 'Space', label: 'Space & Astronomy', path: '/category/Space' },
-    { name: 'Health & Medicine', label: 'Health & Medicine', path: '/category/Health%20&%20Medicine' },
-    { name: 'Technology', label: 'Technology & AI', path: '/category/Technology' },
-    { name: 'Physics', label: 'Physics', path: '/category/Physics' },
-    { name: 'Environment', label: 'Environment & Climate', path: '/category/Environment' },
-    { name: 'Archaeology', label: 'Archaeology', path: '/category/Archaeology' }
+    { name: 'Space', label: 'Space & Astronomy', path: '/category/space' },
+    { name: 'Physics', label: 'Physics Discoveries', path: '/category/physics' },
+    { name: 'Technology', label: 'Technology & AI', path: '/category/technology' },
+    { name: 'Health', label: 'Health & Medicine', path: '/category/health' },
+    { name: 'Environment', label: 'Environment & Climate', path: '/category/environment' },
+    { name: 'Biology', label: 'Biology & Nature', path: '/category/biology' },
+    { name: 'Archaeology', label: 'Archaeology & History', path: '/category/archaeology' },
+    { name: 'Mathematics', label: 'Mathematics & Logic', path: '/category/mathematics' }
   ];
 
   return (

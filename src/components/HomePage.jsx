@@ -181,59 +181,59 @@ const HomePage = () => {
           </header>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link to="/category/Space-Physics" className="block">
+            <Link to="/category/space" className="block">
               <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
-                <h3 className="text-xl font-semibold mb-2">Space & Physics</h3>
-                <p className="text-muted-foreground">Explore the cosmos and the fundamental laws of the universe</p>
+                <h3 className="text-xl font-semibold mb-2">Space & Astronomy</h3>
+                <p className="text-muted-foreground">Explore cosmic discoveries, planetary science, and NASA/ESA missions</p>
               </div>
             </Link>
             
-            <Link to="/category/Health-Medicine" className="block">
+            <Link to="/category/physics" className="block">
+              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
+                <h3 className="text-xl font-semibold mb-2">Physics Discoveries</h3>
+                <p className="text-muted-foreground">Quantum computing, astrophysics, CERN particle physics, and theory</p>
+              </div>
+            </Link>
+            
+            <Link to="/category/technology" className="block">
+              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
+                <h3 className="text-xl font-semibold mb-2">Technology & AI</h3>
+                <p className="text-muted-foreground">Innovations in artificial intelligence, robotics, and future tech</p>
+              </div>
+            </Link>
+            
+            <Link to="/category/health" className="block">
               <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
                 <h3 className="text-xl font-semibold mb-2">Health & Medicine</h3>
-                <p className="text-muted-foreground">Discover breakthroughs in healthcare and medical research</p>
-              </div>
-            </Link>
-            
-            <Link to="/category/Technology" className="block">
-              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
-                <h3 className="text-xl font-semibold mb-2">Technology</h3>
-                <p className="text-muted-foreground">Learn about innovations and advances in modern technology</p>
-              </div>
-            </Link>
-            
-            <Link to="/category/Environment" className="block">
-              <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
-                <h3 className="text-xl font-semibold mb-2">Environment</h3>
-                <p className="text-muted-foreground">Stay informed about climate science and environmental issues</p>
+                <p className="text-muted-foreground">Discover breakthroughs in cellular longevity, genetics, and clinical care</p>
               </div>
             </Link>
 
-            <Link to="/category/Earth" className="block">
+            <Link to="/category/biology" className="block">
               <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
-                <h3 className="text-xl font-semibold mb-2">Earth</h3>
-                <p className="text-muted-foreground">Discover insights into our planet's geology and natural systems</p>
+                <h3 className="text-xl font-semibold mb-2">Biology & Nature</h3>
+                <p className="text-muted-foreground">Explore wildlife ecology, evolutionary biology, and organism traits</p>
               </div>
             </Link>
 
-            <Link to="/category/Life" className="block">
+            <Link to="/category/environment" className="block">
               <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
-                <h3 className="text-xl font-semibold mb-2">Life</h3>
-                <p className="text-muted-foreground">Explore biology, genetics, and the diversity of living organisms</p>
+                <h3 className="text-xl font-semibold mb-2">Environment & Climate</h3>
+                <p className="text-muted-foreground">Stay informed about ocean systems, climate research, and ecology</p>
               </div>
             </Link>
 
-            <Link to="/category/Chemistry" className="block">
+            <Link to="/category/archaeology" className="block">
               <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
-                <h3 className="text-xl font-semibold mb-2">Chemistry</h3>
-                <p className="text-muted-foreground">Learn about chemical reactions and molecular science</p>
+                <h3 className="text-xl font-semibold mb-2">Archaeology & History</h3>
+                <p className="text-muted-foreground">Prehistoric fossils, ancient human history, and archaeological digs</p>
               </div>
             </Link>
 
-            <Link to="/category/Science-Society" className="block">
+            <Link to="/category/mathematics" className="block">
               <div className="bg-card rounded-lg p-6 text-center hover:shadow-md transition-all hover:bg-primary/10">
-                <h3 className="text-xl font-semibold mb-2">Science & Society</h3>
-                <p className="text-muted-foreground">Explore the intersection of science and social impact</p>
+                <h3 className="text-xl font-semibold mb-2">Mathematics & Logic</h3>
+                <p className="text-muted-foreground">Theoretical breakthroughs, cryptography, and complex number theory</p>
               </div>
             </Link>
           </div>

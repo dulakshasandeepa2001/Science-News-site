@@ -94,7 +94,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (110 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (114 Articles) -->
   <url>
     <loc>https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide</loc>
     <lastmod>2026-08-21</lastmod>
@@ -378,7 +378,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/15</loc>
+    <loc>https://sciencenewshub.click/article/british-paralympian-john-mcfall-astronaut</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -487,12 +487,6 @@
   </url>
   <url>
     <loc>https://sciencenewshub.click/article/ohio-fireball-meteor-march-2026</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ohio-fireball-meteor-sonic-boom-2026</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -636,43 +630,43 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/26</loc>
+    <loc>https://sciencenewshub.click/article/oldest-mummies-southeast-asia</loc>
     <lastmod>2025-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/25</loc>
+    <loc>https://sciencenewshub.click/article/british-pilot-mars-simulation</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/24</loc>
+    <loc>https://sciencenewshub.click/article/military-drone-mothership</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/23</loc>
+    <loc>https://sciencenewshub.click/article/mars-life-discovery</loc>
     <lastmod>2025-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/22</loc>
+    <loc>https://sciencenewshub.click/article/cyanobacteria-mars-oxygen</loc>
     <lastmod>2025-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/russia-enteromix-cancer-vaccine</loc>
+    <loc>https://sciencenewshub.click/article/russia-enteromix-vaccine</loc>
     <lastmod>2025-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/20</loc>
+    <loc>https://sciencenewshub.click/article/changan-nevo-a06</loc>
     <lastmod>2025-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -714,7 +708,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/aspirin-replacement-clopidogrel</loc>
+    <loc>https://sciencenewshub.click/article/aspirin-replacement</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -732,8 +726,8 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/10</loc>
-    <lastmod>2025-08-11</lastmod>
+    <loc>https://sciencenewshub.click/article/quantum-computing-error-correction</loc>
+    <lastmod>2025-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -746,6 +740,36 @@
   <url>
     <loc>https://sciencenewshub.click/article/spacecraft-black-hole-journey</loc>
     <lastmod>2025-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/brain-shortcut-weight-loss</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/dna-sequencing-breakthrough</loc>
+    <lastmod>2025-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/ai-discovers-new-materials</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/quantum-internet-milestone</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/carbon-capture-technology</loc>
+    <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>

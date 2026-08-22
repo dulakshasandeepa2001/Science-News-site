@@ -19,6 +19,7 @@ function toSlug(text) {
 }
 
 const LEGACY_SLUG_MAP = {
+  // Numeric IDs
   "1": "spacecraft-black-hole-journey",
   "2": "einstein-ring-black-hole",
   "3": "brain-shortcut-weight-loss",
@@ -28,12 +29,22 @@ const LEGACY_SLUG_MAP = {
   "7": "carbon-capture-technology",
   "8": "ancient-forest-under-arctic-ice",
   "9": "quantum-computing-error-correction",
+  "10": "florida-panther-habitat-expansion",
   "11": "florida-panther-habitat-expansion",
   "12": "zombie-virus-rabbits-study",
-  "13": "sony-humanoid-robots-vulnerability",
-  "14": "rare-orange-shark-discovered",
-  "16": "aspirin-replacement-clopidogrel",
-  "21": "russia-enteromix-cancer-vaccine",
+  "13": "sony-robots",
+  "14": "orange-shark",
+  "15": "british-paralympian-john-mcfall-astronaut",
+  "16": "aspirin-replacement",
+  "20": "changan-nevo-a06",
+  "21": "russia-enteromix-vaccine",
+  "22": "cyanobacteria-mars-oxygen",
+  "23": "mars-life-discovery",
+  "24": "military-drone-mothership",
+  "25": "british-pilot-mars-simulation",
+  "26": "oldest-mummies-southeast-asia",
+
+  // CamelCase & Underscore IDs
   "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",
   "SpaceX_Starlink_10000_Satellites": "spacex-starlink-10000-satellites",
   "BlueOriginNewGlennExplosion": "blue-origin-new-glenn-explosion",
@@ -55,6 +66,7 @@ const LEGACY_SLUG_MAP = {
   "Scarlet_Fever_Pre_Columbian_America": "scarlet-fever-pre-columbian-america",
   "Mexican_Government_Data_Theft_AI": "mexican-government-data-theft-ai",
   "Ohio_Fireball_Meteor_March_2026": "ohio-fireball-meteor-march-2026",
+  "Ohio_Fireball_Meteor_Sonic_Boom_2026": "ohio-fireball-meteor-march-2026",
   "Artemis_2_Astronauts_Ready_Mission": "artemis-2-astronauts-ready-mission",
   "Silverpit_Crater_Asteroid_Impact": "silverpit-crater-asteroid-impact",
   "Prehistoric_Insects_South_America_Amber": "prehistoric-insects-south-america-amber",
@@ -180,7 +192,6 @@ function escapeXml(unsafe) {
 }
 
 function extractField(content, fieldName) {
-  // Regex to match fieldName: `...` or "..." or '...'
   const regex = new RegExp(`${fieldName}:\\s*(?:\`([\\s\\S]*?)\`|"((?:\\\\.|[^"\\\\])*)"|'((?:\\\\.|[^'\\\\])*)')`);
   const match = content.match(regex);
   if (!match) return null;
@@ -196,42 +207,105 @@ function extractField(content, fieldName) {
 function parseArticleFiles() {
   const articlesDir = path.join(__dirname, '..', 'src', 'data', 'articles');
   const articlesList = [];
+  const seenSlugs = new Set();
 
-  if (!fs.existsSync(articlesDir)) return articlesList;
+  // 1. Parse individual files
+  if (fs.existsSync(articlesDir)) {
+    const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.js') && !f.endsWith('.new'));
 
-  const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.js') && !f.endsWith('.new'));
+    for (const file of files) {
+      try {
+        const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
+        const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
+        const id = idMatch ? idMatch[1] : path.basename(file, '.js');
+        const title = extractField(content, 'title') || id.replace(/_/g, ' ');
+        const summary = extractField(content, 'summary') || title;
+        const category = extractField(content, 'category') || 'Science';
+        const date = extractField(content, 'date') || 'August 17, 2026';
+        const author = extractField(content, 'author') || 'Science News Publishing';
+        const image = extractField(content, 'image') || DEFAULT_IMAGE;
+        const slug = extractField(content, 'slug') || null;
 
-  for (const file of files) {
-    try {
-      const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
+        const articleObj = { id, title, summary, category, date, author, image, slug };
+        const articleSlug = getSlug(articleObj);
 
-      const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
-      const id = idMatch ? idMatch[1] : path.basename(file, '.js');
-      const title = extractField(content, 'title') || id.replace(/_/g, ' ');
-      const summary = extractField(content, 'summary') || title;
-      const category = extractField(content, 'category') || 'Science';
-      const date = extractField(content, 'date') || 'August 17, 2026';
-      const author = extractField(content, 'author') || 'Science News Publishing';
-      const image = extractField(content, 'image') || DEFAULT_IMAGE;
-      const slug = extractField(content, 'slug') || null;
+        if (!seenSlugs.has(articleSlug)) {
+          seenSlugs.add(articleSlug);
+          articlesList.push(articleObj);
+        }
+      } catch (e) {
+        console.warn(`Could not parse article file ${file}:`, e.message);
+      }
+    }
+  }
 
-      articlesList.push({
-        id,
-        title,
-        summary,
-        category,
-        date,
-        author,
-        image,
-        slug
-      });
-    } catch (e) {
-      console.warn(`Could not parse article file ${file}:`, e.message);
+  // 2. Add inline articles from articlesCollection.js if not yet present
+  const inlineArticles = [
+    {
+      id: "3",
+      title: "Scientists Uncover Hidden Brain Shortcut to Weight Loss",
+      summary: "Scientists have uncovered a way to promote weight loss and improve blood sugar control without the unpleasant side effects of current GLP-1 drugs.",
+      category: "Health & Medicine",
+      date: "August 10, 2025",
+      author: "Medical Research Institute",
+      image: DEFAULT_IMAGE
+    },
+    {
+      id: "4",
+      title: "DNA Breakthrough: New Gene Editing Technique Discovered",
+      summary: "Researchers have developed a revolutionary gene editing technique that could transform how we treat genetic diseases.",
+      category: "Health & Medicine",
+      date: "August 9, 2025",
+      author: "Genetic Research Lab",
+      image: DEFAULT_IMAGE
+    },
+    {
+      id: "5",
+      title: "AI System Detects Diseases Before Symptoms Appear",
+      summary: "Researchers develop AI system that can predict diseases years before symptoms appear, potentially revolutionizing preventive healthcare.",
+      category: "Technology",
+      date: "August 8, 2025",
+      author: "Tech Health Institute",
+      image: DEFAULT_IMAGE
+    },
+    {
+      id: "6",
+      title: "Quantum Internet Breakthrough: Secure Communication Achieved Over 100km",
+      summary: "Scientists demonstrate quantum entanglement-based communication over unprecedented distances, bringing quantum internet closer to reality.",
+      category: "Technology",
+      date: "August 7, 2025",
+      author: "Quantum Research Center",
+      image: DEFAULT_IMAGE
+    },
+    {
+      id: "7",
+      title: "New Carbon Capture Technology Removes CO2 at Record Efficiency",
+      summary: "Revolutionary carbon capture system removes atmospheric CO2 at 300% higher efficiency than current methods, with significantly lower energy costs.",
+      category: "Environment",
+      date: "August 6, 2025",
+      author: "Climate Solutions Institute",
+      image: DEFAULT_IMAGE
+    },
+    {
+      id: "9",
+      title: "Breakthrough in Quantum Computing Achieves Error Correction Milestone",
+      summary: "Scientists have successfully implemented a practical quantum error correction system that makes quantum computers significantly more reliable for real-world applications.",
+      category: "Technology",
+      date: "August 14, 2025",
+      author: "Quantum Research Foundation",
+      image: DEFAULT_IMAGE
+    }
+  ];
+
+  for (const item of inlineArticles) {
+    const slug = getSlug(item);
+    if (!seenSlugs.has(slug)) {
+      seenSlugs.add(slug);
+      articlesList.push(item);
     }
   }
 
   articlesList.sort((a, b) => new Date(b.date) - new Date(a.date));
-
   return articlesList;
 }
 
@@ -246,10 +320,10 @@ function parseBlogFiles() {
 function main() {
   const articlesList = parseArticleFiles();
   const blogsList = parseBlogFiles();
-  const categories = ['Space', 'Physics', 'Technology', 'Health', 'Biology', 'Environment', 'Archaeology', 'Mathematics'];
+  const categories = ['space', 'physics', 'technology', 'health', 'biology', 'environment', 'archaeology', 'mathematics'];
   const today = new Date().toISOString().split('T')[0];
 
-  // 1. Generate Clean Standard XML Sitemap (Same Architecture as Lady Fashion Bug - 100% GSC Accepted)
+  // 1. Generate Full Comprehensive XML Sitemap (sitemap.xml)
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
@@ -264,7 +338,7 @@ function main() {
 
   xml += `\n  <!-- Category Hubs -->\n`;
   for (const cat of categories) {
-    xml += `  <url>\n    <loc>${DOMAIN}/category/${cat.toLowerCase()}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+    xml += `  <url>\n    <loc>${DOMAIN}/category/${cat}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   }
 
   xml += `\n  <!-- Published Scientific Articles & Research Reports (${articlesList.length} Articles) -->\n`;
@@ -285,7 +359,7 @@ function main() {
   }
   xml += `</urlset>\n`;
 
-  // 2. Generate Google News Sitemap (Google News & Discover Specific with XSL)
+  // 2. Generate Google News Sitemap (news-sitemap.xml)
   let newsXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   newsXml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
   newsXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
@@ -311,7 +385,38 @@ function main() {
   }
   newsXml += `</urlset>\n`;
 
-  // 3. Generate High-Quality RSS Feed (Google Publisher Center & RSS 2.0 Compliant with XSL Styling)
+  // 3. Generate Post Sitemap (post-sitemap.xml)
+  let postXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  postXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  for (const art of articlesList) {
+    const slug = getSlug(art);
+    const pubDate = formatDateForXml(art.date);
+    postXml += `  <url>\n    <loc>${DOMAIN}/article/${slug}</loc>\n    <lastmod>${pubDate}</lastmod>\n  </url>\n`;
+  }
+  for (const blog of blogsList) {
+    postXml += `  <url>\n    <loc>${DOMAIN}/blog/${blog.id}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`;
+  }
+  postXml += `</urlset>\n`;
+
+  // 4. Generate Page Sitemap (page-sitemap.xml)
+  let pageXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  pageXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  const corePages = ['', 'about', 'contact', 'privacy-policy', 'terms', 'disclaimer', 'blog'];
+  for (const p of corePages) {
+    const url = p ? `${DOMAIN}/${p}` : `${DOMAIN}/`;
+    pageXml += `  <url>\n    <loc>${url}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`;
+  }
+  pageXml += `</urlset>\n`;
+
+  // 5. Generate Category Sitemap (category-sitemap.xml)
+  let categoryXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  categoryXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  for (const cat of categories) {
+    categoryXml += `  <url>\n    <loc>${DOMAIN}/category/${cat}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`;
+  }
+  categoryXml += `</urlset>\n`;
+
+  // 6. Generate High-Quality RSS Feed (rss.xml)
   let rssXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   rssXml += `<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>\n`;
   rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
@@ -355,10 +460,13 @@ function main() {
     }
     fs.writeFileSync(path.join(dir, 'sitemap.xml'), xml, 'utf-8');
     fs.writeFileSync(path.join(dir, 'news-sitemap.xml'), newsXml, 'utf-8');
+    fs.writeFileSync(path.join(dir, 'post-sitemap.xml'), postXml, 'utf-8');
+    fs.writeFileSync(path.join(dir, 'page-sitemap.xml'), pageXml, 'utf-8');
+    fs.writeFileSync(path.join(dir, 'category-sitemap.xml'), categoryXml, 'utf-8');
     fs.writeFileSync(path.join(dir, 'rss.xml'), rssXml, 'utf-8');
   }
 
-  console.log(`✓ Successfully generated sitemaps.org compliant Sitemaps and RSS Feed for ${articlesList.length} articles!`);
+  console.log(`✓ Successfully generated sitemaps.org compliant Sitemaps (main, news, post, page, category) and RSS Feed for ${articlesList.length} articles!`);
 }
 
 main();
