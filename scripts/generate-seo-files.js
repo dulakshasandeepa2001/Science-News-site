@@ -153,9 +153,11 @@ function getSlug(art) {
 function formatDateForXml(dateStr) {
   try {
     const d = new Date(dateStr);
-    if (!isNaN(d.getTime())) return d.toISOString();
+    if (!isNaN(d.getTime())) {
+      return d.toISOString().split('T')[0];
+    }
   } catch (e) {}
-  return new Date().toISOString();
+  return new Date().toISOString().split('T')[0];
 }
 
 function formatDateForRss(dateStr) {
@@ -196,7 +198,7 @@ function parseArticleFiles() {
 
   if (!fs.existsSync(articlesDir)) return articlesList;
 
-  const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.js'));
+  const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.js') && !f.endsWith('.new'));
 
   for (const file of files) {
     try {
@@ -244,42 +246,41 @@ function main() {
   const articlesList = parseArticleFiles();
   const blogsList = parseBlogFiles();
   const categories = ['Space', 'Physics', 'Technology', 'Health', 'Biology', 'Environment', 'Archaeology', 'Mathematics'];
+  const today = new Date().toISOString().split('T')[0];
 
-  // 1. Generate Sitemap XML (sitemaps.org Protocol Standard with XSL Styling)
+  // 1. Generate Clean Standard XML Sitemap (Same Architecture as Lady Fashion Bug - 100% GSC Accepted)
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  xml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
-  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
-  xml += `  <url><loc>${DOMAIN}/</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
-  xml += `  <url><loc>${DOMAIN}/about</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n`;
-  xml += `  <url><loc>${DOMAIN}/contact</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>\n`;
-  xml += `  <url><loc>${DOMAIN}/privacy-policy</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
-  xml += `  <url><loc>${DOMAIN}/terms</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
-  xml += `  <url><loc>${DOMAIN}/disclaimer</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n`;
-  xml += `  <url><loc>${DOMAIN}/blog</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
+  xml += `  <!-- Core Static Pages -->\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/about</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/contact</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/privacy-policy</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/terms</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/disclaimer</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/blog</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
+
+  xml += `\n  <!-- Category Hubs -->\n`;
   for (const cat of categories) {
-    xml += `  <url><loc>${DOMAIN}/category/${cat.toLowerCase()}</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n`;
+    xml += `  <url>\n    <loc>${DOMAIN}/category/${cat.toLowerCase()}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   }
 
+  xml += `\n  <!-- Published Scientific Articles & Research Reports (${articlesList.length} Articles) -->\n`;
   for (const art of articlesList) {
     const slug = getSlug(art);
     const pubDate = formatDateForXml(art.date);
-    const imgUrl = art.image || DEFAULT_IMAGE;
     xml += `  <url>\n`;
     xml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
     xml += `    <lastmod>${pubDate}</lastmod>\n`;
     xml += `    <changefreq>monthly</changefreq>\n`;
-    xml += `    <priority>0.8</priority>\n`;
-    xml += `    <image:image>\n`;
-    xml += `      <image:loc>${escapeXml(imgUrl)}</image:loc>\n`;
-    xml += `      <image:title>${escapeXml(art.title)}</image:title>\n`;
-    xml += `      <image:caption>${escapeXml(art.summary)}</image:caption>\n`;
-    xml += `    </image:image>\n`;
+    xml += `    <priority>0.85</priority>\n`;
     xml += `  </url>\n`;
   }
 
+  xml += `\n  <!-- Blog Posts -->\n`;
   for (const blog of blogsList) {
-    xml += `  <url><loc>${DOMAIN}/blog/${blog.id}</loc><lastmod>${new Date().toISOString()}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n`;
+    xml += `  <url>\n    <loc>${DOMAIN}/blog/${blog.id}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
   }
   xml += `</urlset>\n`;
 
