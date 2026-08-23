@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/honor-humanoid-robot-beats-usain-bolt-100m-record</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Science News Publishing</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22</news:publication_date>
+      <news:title>Humanoid Robot Smashes Usain Bolt&apos;s 100m World Record: How Chinese AI Sprinters Are Outrunning Humans</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787488799/Generated_Image_August_23_2026_-_6_08PM_d0q9tk.jpg</image:loc>
+      <image:title>Humanoid Robot Smashes Usain Bolt&apos;s 100m World Record: How Chinese AI Sprinters Are Outrunning Humans</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/06/GettyImages-99311107_web-ezgif.com-webp-to-jpg-converter.jpg</image:loc>
       <image:title>T. Rex&apos;s Tiny Arms — An Evolutionary Sacrifice for a Powerful Skull</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/red-dwarf-stars-swallowing-planets</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Science News Publishing</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31</news:publication_date>
-      <news:title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/05/Koq2z4nWjEQkTUWGeb6LER.png</image:loc>
-      <image:title>Evidence Found That Red Dwarf Stars Are Swallowing Planets</image:title>
     </image:image>
   </url>
 </urlset>

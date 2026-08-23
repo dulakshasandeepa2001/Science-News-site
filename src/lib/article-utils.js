@@ -149,7 +149,8 @@ const LEGACY_SLUG_MAP = {
   "AI_In_Health_Science_Precision_Medicine": "ai-in-health-science-precision-medicine",
   "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health",
   "August_2026_Lunar_Eclipse_Blood_Moon_Guide": "august-2026-lunar-eclipse-blood-moon-guide",
-  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay"
+  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay",
+  "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
