@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/apollo-12-moon-dust-camera-mishap-untold-story</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-23</news:publication_date>
+      <news:title>The Wild Reality of Apollo 12: Broken TV Cameras, Gunpowder Scent, and Toxic Moon Dust</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787544141/Generated_Image_August_24_2026_-_9_29AM_iwol7b.jpg</image:loc>
+      <image:title>The Wild Reality of Apollo 12: Broken TV Cameras, Gunpowder Scent, and Toxic Moon Dust</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/honor-humanoid-robot-beats-usain-bolt-100m-record</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>British Paralympian John McFall Prepares to Become the First Disabled Astronaut to Orbit Earth</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/t-rex-tiny-arms-evolutionary-sacrifice</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-01</news:publication_date>
-      <news:title>T. Rex&apos;s Tiny Arms — An Evolutionary Sacrifice for a Powerful Skull</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/06/GettyImages-99311107_web-ezgif.com-webp-to-jpg-converter.jpg</image:loc>
-      <image:title>T. Rex&apos;s Tiny Arms — An Evolutionary Sacrifice for a Powerful Skull</image:title>
     </image:image>
   </url>
 </urlset>

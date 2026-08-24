@@ -150,7 +150,8 @@ const LEGACY_SLUG_MAP = {
   "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health",
   "August_2026_Lunar_Eclipse_Blood_Moon_Guide": "august-2026-lunar-eclipse-blood-moon-guide",
   "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay",
-  "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record"
+  "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record",
+  "Apollo_12_Moon_Dust_Camera_Mishap": "apollo-12-moon-dust-camera-mishap-untold-story"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
@@ -161,7 +162,8 @@ const SLUG_ALIASES = {
   "aspirin-replacement-clopidogrel": "aspirin-replacement",
   "russia-enteromix-cancer-vaccine": "russia-enteromix-vaccine",
   "sony-humanoid-robots-vulnerability": "sony-robots",
-  "rare-orange-shark-discovered": "orange-shark"
+  "rare-orange-shark-discovered": "orange-shark",
+  "space-physics/apollo-12-moon-dust-camera-mishap-untold-story": "apollo-12-moon-dust-camera-mishap-untold-story"
 };
 
 /**

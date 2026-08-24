@@ -94,7 +94,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (115 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (116 Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/apollo-12-moon-dust-camera-mishap-untold-story</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/honor-humanoid-robot-beats-usain-bolt-100m-record</loc>
     <lastmod>2026-08-22</lastmod>
