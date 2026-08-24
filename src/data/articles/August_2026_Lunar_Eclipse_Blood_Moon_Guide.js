@@ -7,7 +7,7 @@ export const August_2026_Lunar_Eclipse_Blood_Moon_Guide = {
     "https://res.cloudinary.com/dib0fble7/image/upload/v1787335006/Generated_Image_August_21_2026_-_11_25PM_fpkcwz.jpg",
   category: "Space",
   date: "August 22, 2026",
-  author: "Science News Publishing & Astronomical Research Desk",
+  author: "Daily Science News & Astronomical Research Desk",
   readTime: "7 min read",
   keywords:
     "August 2026 Lunar Eclipse, Blood Moon August 2026, Lunar Eclipse United States, Lunar Eclipse NASA, Lunar Eclipse time EDT CDT PDT, deep partial lunar eclipse North America, stargazing US August 2026, Blood Moon viewing guide, Virtual Telescope Project NASA, dark sky parks viewing eclipse",

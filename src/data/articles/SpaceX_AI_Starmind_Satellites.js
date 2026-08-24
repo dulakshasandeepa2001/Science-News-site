@@ -6,7 +6,7 @@
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/gSbSdisEFG8AZZ2kTdJGBV-scaled.jpg",
   category: "Technology",
   date: "August 14, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "6 min read",
   keywords:
     "SpaceX artificial intelligence, Starmind satellites, Elon Musk AI, SpaceX revenue 2028, low Earth orbit AI, SpaceX computing power, AI satellites network, Starship rocket, Moon factory, data centers space, SpaceX Falcon 9, SpaceX Mars Moon",

@@ -5,7 +5,7 @@ export const World_Reservoirs_Sedimentation_2060 = {
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/Longtan_Dam1.jpg",
   category: "Environment",
   date: "August 6, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "7 min read",
   keywords: "reservoir sedimentation 2060, global water crisis, dam sediment accumulation, water security, food security, Chinese Academy of Sciences, Song Chunqiao, reservoir capacity decline, 2 billion people water risk",
   content: {

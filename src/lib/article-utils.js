@@ -1,5 +1,5 @@
 /**
- * Article Slug & Routing Utilities for Science News Publishing
+ * Article Slug & Routing Utilities for Daily Science News
  * Ensures all URLs follow SEO standards: strictly lowercase, hyphens instead of underscores/CamelCase.
  */
 

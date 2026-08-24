@@ -6,7 +6,7 @@
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg",
   category: "Archaeology",
   date: "August 11, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "6 min read",
   keywords:
     "British fossil collection Abu Dhabi, Jurassic Coast fossils, Chris Moore fossil collection, Natural History Museum London, Abu Dhabi Natural History Museum, UK fossil heritage, ichthyosaur fossils, fossil sale Britain, West Dorset fossil collecting, UK museum funding crisis, national heritage loss UK, fossil law UK",

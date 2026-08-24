@@ -6,7 +6,7 @@
   image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
   category: "Health & Medicine",
   date: "August 18, 2026",
-  author: "Science News Publishing & Biotech Desk",
+  author: "Daily Science News & Biotech Desk",
   readTime: "8 min read",
   keywords:
     "ai in health science, precision medicine technology, future of healthcare science, machine learning disease diagnosis, deep learning genomic analysis, AlphaFold molecular pharmacology, AI digital biomarkers, personalized oncology algorithms",

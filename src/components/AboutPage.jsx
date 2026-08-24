@@ -9,9 +9,9 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead 
-        title="About Us - Science News Publishing & Founder Dulaksha Sandeepa"
-        description="Learn about Science News Publishing, our mission, editorial team, and founder Dulaksha Sandeepa - dedicated science explorer and technology enthusiast."
-        keywords="about science news, Dulaksha Sandeepa, science explorer, scientific journalism, editorial guidelines, EEAT"
+        title="About Us - Daily Science News & Founder Dulaksha Sandeepa"
+        description="Learn about Daily Science News, our mission, editorial team, and founder Dulaksha Sandeepa - dedicated science explorer and technology enthusiast."
+        keywords="about daily science news, Dulaksha Sandeepa, science explorer, scientific journalism, editorial guidelines, EEAT"
         canonicalUrl="https://sciencenewshub.click/about"
         ogType="website"
       />
@@ -25,7 +25,7 @@ export default function AboutPage() {
               <Sparkles size={14} /> Driven by Curiosity &amp; Discovery
             </span>
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-primary/80 to-secondary bg-clip-text text-transparent">
-              About Science News Publishing
+              About Daily Science News
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               We are a dedicated scientific news platform bringing you verified breakthroughs in astronomy, space exploration, physics, technology, health, and climate science.
@@ -67,7 +67,7 @@ export default function AboutPage() {
                 </div>
                 
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  &quot;Science isn&apos;t just a collection of facts; it is a mindset of relentless curiosity and discovery. I founded Science News Publishing to bridge the gap between complex research institutions and science enthusiasts worldwide.&quot;
+                  &quot;Science isn&apos;t just a collection of facts; it is a mindset of relentless curiosity and discovery. I founded Daily Science News to bridge the gap between complex research institutions and science enthusiasts worldwide.&quot;
                 </p>
 
                 <div className="flex flex-wrap gap-2 justify-center md:justify-start pt-2">
@@ -118,7 +118,7 @@ export default function AboutPage() {
               <Award className="text-primary" /> Our E-E-A-T Editorial Commitment
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              In accordance with Google&apos;s Search Quality Rater Guidelines for Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T), Science News Publishing maintains strict editorial oversight. Our writers and editors verify statistical data, cite academic primary sources, and provide contextual analysis to ensure our readers receive high-value, educational, and reliable scientific content.
+              In accordance with Google&apos;s Search Quality Rater Guidelines for Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T), Daily Science News maintains strict editorial oversight. Our writers and editors verify statistical data, cite academic primary sources, and provide contextual analysis to ensure our readers receive high-value, educational, and reliable scientific content.
             </p>
           </section>
 

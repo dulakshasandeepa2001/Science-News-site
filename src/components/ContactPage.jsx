@@ -73,8 +73,8 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead 
-        title="Contact Us - Science News Publishing"
-        description="Get in touch with the editorial team at Science News Publishing. Send press releases, editorial feedback, or inquiries to founder Dulaksha Sandeepa."
+        title="Contact Us - Daily Science News"
+        description="Get in touch with the editorial team at Daily Science News. Send press releases, editorial feedback, or inquiries to founder Dulaksha Sandeepa."
         keywords="contact science news, editorial contact, press release submission, Dulaksha Sandeepa email"
         canonicalUrl="https://sciencenewshub.click/contact"
         ogType="website"
@@ -141,7 +141,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <span className="font-semibold block text-xs text-muted-foreground">Location</span>
-                    <p className="text-xs text-muted-foreground">Sri Lanka • Digital Global Publishing</p>
+                    <p className="text-xs text-muted-foreground">Sri Lanka • Digital Global Platform</p>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-2xl font-bold">Message Sent Successfully!</h3>
                 <p className="text-muted-foreground text-sm max-w-md mx-auto leading-relaxed">
-                  Thank you for reaching out to Science News Publishing. Your message has been routed directly to founder Dulaksha Sandeepa (<span className="font-semibold text-foreground">{EMAIL_ADDRESS}</span>).
+                  Thank you for reaching out to Daily Science News. Your message has been routed directly to founder Dulaksha Sandeepa (<span className="font-semibold text-foreground">{EMAIL_ADDRESS}</span>).
                 </p>
                 <button 
                   onClick={() => setSubmitted(false)}

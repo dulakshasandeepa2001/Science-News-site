@@ -108,7 +108,7 @@ The article will automatically appear in:
    - Click article → verify correct page loads
 
 4. **Metadata**
-   - Check page title updates to "A New Method to Predict Volcanic Eruptions - Science News Publishing"
+   - Check page title updates to "A New Method to Predict Volcanic Eruptions - Daily Science News"
    - Verify meta description displays summary
 
 ## Future Optimization Notes

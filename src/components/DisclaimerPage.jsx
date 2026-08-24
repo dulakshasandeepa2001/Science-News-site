@@ -1,4 +1,4 @@
-﻿import Header from './Header.jsx';
+import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import SEOHead from './SEOHead.jsx';
 import { AlertCircle, FileText, HeartPulse, ExternalLink, HelpCircle, ShieldCheck } from 'lucide-react';
@@ -7,9 +7,9 @@ export default function DisclaimerPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead 
-        title="Disclaimer - Science News Publishing"
-        description="Official Disclaimer for Science News Publishing. Important information regarding scientific news, health/medical reporting, external references, and editorial policies."
-        keywords="disclaimer, Science News Publishing, medical disclaimer, scientific reporting disclaimer, editorial policy"
+        title="Disclaimer - Daily Science News"
+        description="Official Disclaimer for Daily Science News. Important information regarding scientific news, health/medical reporting, external references, and editorial policies."
+        keywords="disclaimer, Daily Science News, medical disclaimer, scientific reporting disclaimer, editorial policy"
         canonicalUrl="https://sciencenewshub.click/disclaimer"
         ogType="website"
       />
@@ -33,7 +33,7 @@ export default function DisclaimerPage() {
               <FileText className="text-primary" size={20} /> 1. General Informational Purpose
             </h2>
             <p>
-              The information provided by <strong>Science News Publishing</strong> (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) on <a href="https://sciencenewshub.click" className="text-primary hover:underline">https://sciencenewshub.click</a> (the &quot;Site&quot;) is for general informational, educational, and journalistic purposes only. All information on the Site is provided in good faith, summarizing peer-reviewed research papers, space agency press releases, and scientific journals.
+              The information provided by <strong>Daily Science News</strong> (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) on <a href="https://sciencenewshub.click" className="text-primary hover:underline">https://sciencenewshub.click</a> (the &quot;Site&quot;) is for general informational, educational, and journalistic purposes only. All information on the Site is provided in good faith, summarizing peer-reviewed research papers, space agency press releases, and scientific journals.
             </p>
             <p>
               While we strive to keep information accurate and up to date, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any scientific claim or data presented on the Site.
@@ -48,7 +48,7 @@ export default function DisclaimerPage() {
               The Site contains articles covering medical research, pharmaceutical developments, neuroscience, genetics, and health technologies. <strong>This content is strictly for journalistic and educational purposes and DOES NOT constitute professional medical advice, diagnosis, or treatment.</strong>
             </p>
             <p>
-              Never disregard professional medical advice or delay in seeking it because of something you have read on Science News Publishing. Always consult a qualified healthcare provider with any questions you may have regarding a medical condition or treatment plan.
+              Never disregard professional medical advice or delay in seeking it because of something you have read on Daily Science News. Always consult a qualified healthcare provider with any questions you may have regarding a medical condition or treatment plan.
             </p>
           </section>
 
@@ -66,7 +66,7 @@ export default function DisclaimerPage() {
               <ShieldCheck className="text-primary" size={20} /> 4. Advertising &amp; Google AdSense Disclosure
             </h2>
             <p>
-              Science News Publishing participates in advertising networks, including <strong>Google AdSense</strong>. Third-party advertisers may display contextual advertisements on our pages. The presence of an advertisement on our Site does not constitute an endorsement, guarantee, or recommendation of any product, service, or business advertised.
+              Daily Science News participates in advertising networks, including <strong>Google AdSense</strong>. Third-party advertisers may display contextual advertisements on our pages. The presence of an advertisement on our Site does not constitute an endorsement, guarantee, or recommendation of any product, service, or business advertised.
             </p>
           </section>
 

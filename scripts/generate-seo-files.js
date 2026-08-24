@@ -223,7 +223,7 @@ function parseArticleFiles() {
         const summary = extractField(content, 'summary') || title;
         const category = extractField(content, 'category') || 'Science';
         const date = extractField(content, 'date') || 'August 17, 2026';
-        const author = extractField(content, 'author') || 'Science News Publishing';
+        const author = extractField(content, 'author') || 'Daily Science News';
         const image = extractField(content, 'image') || DEFAULT_IMAGE;
         const slug = extractField(content, 'slug') || null;
 
@@ -372,7 +372,7 @@ function main() {
     newsXml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
     newsXml += `    <news:news>\n`;
     newsXml += `      <news:publication>\n`;
-    newsXml += `        <news:name>Science News Publishing</news:name>\n`;
+    newsXml += `        <news:name>Daily Science News</news:name>\n`;
     newsXml += `        <news:language>en</news:language>\n`;
     newsXml += `      </news:publication>\n`;
     newsXml += `      <news:publication_date>${pubDate}</news:publication_date>\n`;
@@ -422,7 +422,7 @@ function main() {
   rssXml += `<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>\n`;
   rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
   rssXml += `  <channel>\n`;
-  rssXml += `    <title>Science News Publishing</title>\n`;
+  rssXml += `    <title>Daily Science News</title>\n`;
   rssXml += `    <link>${DOMAIN}</link>\n`;
   rssXml += `    <description>Latest Scientific Discoveries, Space Exploration Missions, AI Breakthroughs, and Peer-Reviewed Research</description>\n`;
   rssXml += `    <language>en-us</language>\n`;

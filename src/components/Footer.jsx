@@ -92,7 +92,7 @@ const Footer = () => {
         
         {/* Bottom Bar */}
         <div className="border-t mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground text-center sm:text-left">
-          <p>&copy; {currentYear} Science News Publishing. All rights reserved.</p>
+          <p>&copy; {currentYear} Daily Science News. All rights reserved.</p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link to="/privacy-policy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
             <span>•</span>

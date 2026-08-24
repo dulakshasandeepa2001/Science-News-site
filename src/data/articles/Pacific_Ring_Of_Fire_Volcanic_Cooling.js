@@ -5,7 +5,7 @@ export const Pacific_Ring_Of_Fire_Volcanic_Cooling = {
   image: "https://www.vidusara.lk/wp-content/uploads/2026/07/sarychev-volcano.jpg",
   category: "Environment",
   date: "July 31, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "7 min read",
   keywords: "Pacific Ring of Fire, volcanic eruptions, Earth cooling, Holocene climate, glacier expansion, sulfur aerosols, climate science, University of Basel, Nature Communications",
   content: {

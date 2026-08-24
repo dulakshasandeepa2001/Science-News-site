@@ -35,7 +35,7 @@ const CategoryPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead 
-        title={`${formattedCategory} News & Latest Discoveries - Science News Publishing`}
+        title={`${formattedCategory} News & Latest Discoveries - Daily Science News`}
         description={`Explore the latest scientific news, research papers, and breakthrough developments in ${formattedCategory}.`}
         keywords={`${formattedCategory} news, ${categoryName} discoveries, science research ${categoryName}`}
         canonicalUrl={`https://sciencenewshub.click/category/${categoryName}`}

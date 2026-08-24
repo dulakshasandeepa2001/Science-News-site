@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Science News Publishing</title>
+    <title>Daily Science News</title>
     <link>https://sciencenewshub.click</link>
     <description>Latest Scientific Discoveries, Space Exploration Missions, AI Breakthroughs, and Peer-Reviewed Research</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2026 12:46:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 03:48:17 GMT</lastBuildDate>
     <atom:link href="https://sciencenewshub.click/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Humanoid Robot Smashes Usain Bolt&apos;s 100m World Record: How Chinese AI Sprinters Are Outrunning Humans</title>
@@ -25,7 +25,7 @@
       <link>https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide</guid>
       <pubDate>Fri, 21 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing &amp; Astronomical Research Desk</dc:creator>
+      <dc:creator>Daily Science News &amp; Astronomical Research Desk</dc:creator>
       <category>Space</category>
       <description>Discover US peak times (EDT, CDT, MDT, PDT), prime stargazing locations, and NASA livestream details for the August 27–28, 2026 deep partial lunar eclipse (96% Blood Moon).</description>
       <media:content url="https://res.cloudinary.com/dib0fble7/image/upload/v1787335006/Generated_Image_August_21_2026_-_11_25PM_fpkcwz.jpg" medium="image" width="1200" height="675">
@@ -49,7 +49,7 @@
       <link>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</guid>
       <pubDate>Mon, 17 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing &amp; Biotech Desk</dc:creator>
+      <dc:creator>Daily Science News &amp; Biotech Desk</dc:creator>
       <category>Health &amp; Medicine</category>
       <description>An extensive exploration into how artificial intelligence, deep learning algorithms, molecular modeling, and genomic big data are revolutionizing health science, accelerating drug discovery, and shaping personalized precision medicine.</description>
       <media:content url="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="675">
@@ -61,7 +61,7 @@
       <link>https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs</guid>
       <pubDate>Mon, 17 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing &amp; Health Research Desk</dc:creator>
+      <dc:creator>Daily Science News &amp; Health Research Desk</dc:creator>
       <category>Health &amp; Medicine</category>
       <description>A comprehensive health science review of breakthroughs in cellular rejuvenation, telomere dynamics, senolytic cell clearance, and metabolic longevity pathways supported by peer-reviewed research in geroscience.</description>
       <media:content url="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="675">
@@ -73,7 +73,7 @@
       <link>https://sciencenewshub.click/article/food-science-ultra-processed-foods-metabolic-health</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/food-science-ultra-processed-foods-metabolic-health</guid>
       <pubDate>Mon, 17 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing &amp; Nutritional Science Desk</dc:creator>
+      <dc:creator>Daily Science News &amp; Nutritional Science Desk</dc:creator>
       <category>Health &amp; Medicine</category>
       <description>A rigorous food science and nutritional biochemistry review analyzing how ultra-processed foods alter the food matrix, disrupt gut mucosal integrity, drive insulin resistance, and impair metabolic homeostasis.</description>
       <media:content url="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="675">
@@ -85,7 +85,7 @@
       <link>https://sciencenewshub.click/article/gut-brain-connection-microbiome-health-science</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/gut-brain-connection-microbiome-health-science</guid>
       <pubDate>Mon, 17 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing &amp; Neurobiology Desk</dc:creator>
+      <dc:creator>Daily Science News &amp; Neurobiology Desk</dc:creator>
       <category>Health &amp; Medicine</category>
       <description>An in-depth scientific review of the gut-brain axis, exploring how the enteric nervous system, microbiome metabolite signaling, and nutritional biochemistry influence neurological function, mood regulation, and cognitive resilience.</description>
       <media:content url="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="675">
@@ -97,7 +97,7 @@
       <link>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</guid>
       <pubDate>Sun, 16 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Space</category>
       <description>An international team of astronomers using NASA&apos;s James Webb Space Telescope has discovered a brand-new class of cosmic object — a black hole star — located billions of light-years away in the constellation Cetus, radiating 100 billion times more energy than any known star.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/Black-Hole-Star-Hed.webp" medium="image" width="1200" height="675">
@@ -109,7 +109,7 @@
       <link>https://sciencenewshub.click/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026</guid>
       <pubDate>Thu, 13 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Technology</category>
       <description>SpaceX is pivoting aggressively into artificial intelligence, with CEO Elon Musk predicting AI will account for 99% of company value and annual revenues of $300-500 billion by 2028, backed by a planned 1 million AI satellite network called Starmind.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/gSbSdisEFG8AZZ2kTdJGBV-scaled.jpg" medium="image" width="1200" height="675">
@@ -121,7 +121,7 @@
       <link>https://sciencenewshub.click/article/total-solar-eclipse-august-2026-greenland-iceland-spain</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/total-solar-eclipse-august-2026-greenland-iceland-spain</guid>
       <pubDate>Tue, 11 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Space</category>
       <description>A total solar eclipse on August 12, 2026 swept a narrow path of totality across Greenland, Iceland, and Spain, plunging areas into midday darkness while millions across Europe witnessed a spectacular partial eclipse.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/260805-eclipse-texas-nasa-ch-1252-a1b785.webp" medium="image" width="1200" height="675">
@@ -133,7 +133,7 @@
       <link>https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</guid>
       <pubDate>Mon, 10 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Archaeology</category>
       <description>A rare and historically significant fossil collection from the UK&apos;s Jurassic Coast, comprising 318 specimens including new species, has been sold to the Natural History Museum in Abu Dhabi after British institutions failed to secure funding, sparking national debate over heritage preservation.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg" medium="image" width="1200" height="675">
@@ -145,7 +145,7 @@
       <link>https://sciencenewshub.click/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026</guid>
       <pubDate>Sun, 09 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Health &amp; Medicine</category>
       <description>Scientists at Stanford University have for the first time successfully designed and produced a new bacteriophage virus using AI models Evo1 and Evo2, marking a major medical breakthrough while raising urgent global biosafety concerns.</description>
       <media:content url="https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" medium="image" width="1200" height="675">
@@ -157,7 +157,7 @@
       <link>https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</guid>
       <pubDate>Thu, 06 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Space</category>
       <description>The Daniel K. Inouye Solar Telescope in Hawaii has released the highest-resolution images ever obtained of the Sun&apos;s photosphere, capturing for the first time tiny Kelvin-Helmholtz instabilities just 20 km wide — potentially solving the century-old mystery of why the Sun&apos;s corona is millions of degrees hotter than its surface.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/main-inouye-image-horizontal.jpg" medium="image" width="1200" height="675">
@@ -169,7 +169,7 @@
       <link>https://sciencenewshub.click/article/world-reservoirs-sedimentation-2060</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/world-reservoirs-sedimentation-2060</guid>
       <pubDate>Wed, 05 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Environment</category>
       <description>A major study reveals over half of the world&apos;s 550,000+ reservoirs face partial or complete inactivation by 2060 due to sediment accumulation, threatening water supply for more than 2 billion people and putting 26% of globally irrigated farmland at severe risk of water scarcity.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/Longtan_Dam1.jpg" medium="image" width="1200" height="675">
@@ -181,7 +181,7 @@
       <link>https://sciencenewshub.click/article/spacex-rocket-moon-crash-2026</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/spacex-rocket-moon-crash-2026</guid>
       <pubDate>Tue, 04 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Space</category>
       <description>A SpaceX Falcon 9 rocket upper stage, launched in January 2025 and abandoned in a high Earth orbit after its fuel ran out, crashed into the lunar surface on August 5, 2026, creating a crater approximately 27 meters wide — providing scientists with valuable data about space debris risks to future Moon missions.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/images.jpg" medium="image" width="1200" height="675">
@@ -193,7 +193,7 @@
       <link>https://sciencenewshub.click/article/dinosaur-asteroid-heat-17-times</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/dinosaur-asteroid-heat-17-times</guid>
       <pubDate>Mon, 03 Aug 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Space</category>
       <description>A new study reveals the 66-million-year-old Chicxulub asteroid impact generated heat 17 times beyond human tolerance limits, instantly killing open-air dinosaurs within hours and triggering massive global wildfires — overturning the previous &apos;impact winter&apos; theory of dinosaur extinction.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/08/081524_cg_ruthenium-asteroid_feat.webp" medium="image" width="1200" height="675">
@@ -205,7 +205,7 @@
       <link>https://sciencenewshub.click/article/pacific-ring-of-fire-volcanic-cooling</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/pacific-ring-of-fire-volcanic-cooling</guid>
       <pubDate>Thu, 30 Jul 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Environment</category>
       <description>A new study from the University of Basel reveals that volcanic eruptions in the Pacific Ring of Fire caused over 22 mysterious long-term cooling periods across the past 12,000 years, with more than 80% of glacier expansion events coinciding with major volcanic events.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/07/sarychev-volcano.jpg" medium="image" width="1200" height="675">
@@ -217,7 +217,7 @@
       <link>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</link>
       <guid isPermaLink="true">https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</guid>
       <pubDate>Wed, 29 Jul 2026 18:30:00 GMT</pubDate>
-      <dc:creator>Science News Publishing</dc:creator>
+      <dc:creator>Daily Science News</dc:creator>
       <category>Space</category>
       <description>Africa&apos;s first space exploration mission — known as BALLS (Bounced African Low Lunar Sphere) — is scheduled to be launched to the Moon&apos;s south pole in 2029 aboard China&apos;s Chang&apos;e-8 lunar vehicle, marking a historic milestone for African space science.</description>
       <media:content url="https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg" medium="image" width="1200" height="675">

@@ -58,7 +58,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead 
-        title="Science News Publishing - Latest Scientific Discoveries & Insights"
+        title="Daily Science News - Latest Scientific Discoveries & Insights"
         description="Stay informed with cutting-edge scientific research, space exploration, physics breakthroughs, technology advancements, and health discoveries from around the world."
         keywords="science news, scientific discoveries, space research, astronomy, physics, technology, health news, science daily"
         canonicalUrl="https://sciencenewshub.click/"

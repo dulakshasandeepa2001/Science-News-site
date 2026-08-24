@@ -58,7 +58,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Science News Publishing",
+    "name": "Daily Science News",
     "logo": {
       "@type": "ImageObject",
       "url": "https://yourdomain.com/logo.png",
@@ -97,7 +97,7 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://yourdomain.com/article/atlas-comet">
-<meta property="og:site_name" content="Science News Publishing">
+<meta property="og:site_name" content="Daily Science News">
 <meta property="article:published_time" content="2025-10-29T00:00:00Z">
 <meta property="article:modified_time" content="2025-10-30T12:00:00Z">
 <meta property="article:author" content="NASA Space Agency">
@@ -229,7 +229,7 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Science News Publishing",
+      "name": "Daily Science News",
       "item": "https://yourdomain.com"
     },
     {
@@ -263,7 +263,7 @@ const ArticlePage = ({ article }) => {
     if (!article) return;
 
     // Set meta tags
-    document.title = `${article.title} - Science News Publishing`;
+    document.title = `${article.title} - Daily Science News`;
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

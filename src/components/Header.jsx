@@ -174,7 +174,7 @@ const Header = () => {
 
             {/* Mobile Footer CTA */}
             <div className="pt-4 border-t text-center text-xs text-muted-foreground">
-              <p>Science News Publishing • Updated Daily</p>
+              <p>Daily Science News • Updated Daily</p>
             </div>
 
           </div>

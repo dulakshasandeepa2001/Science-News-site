@@ -7,9 +7,9 @@ export default function TermsPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead 
-        title="Terms of Service & Disclaimer - Science News Publishing"
-        description="Terms of Service, Educational Scientific Content Disclaimer, and Intellectual Property Policies for Science News Publishing."
-        keywords="terms of service, disclaimer, science news publishing, copyright notice, legal terms"
+        title="Terms of Service & Disclaimer - Daily Science News"
+        description="Terms of Service, Educational Scientific Content Disclaimer, and Intellectual Property Policies for Daily Science News."
+        keywords="terms of service, disclaimer, daily science news, copyright notice, legal terms"
         canonicalUrl="https://sciencenewshub.click/terms"
         ogType="website"
       />
@@ -33,7 +33,7 @@ export default function TermsPage() {
               <FileCheck className="text-primary" size={20} /> 1. Terms of Agreement
             </h2>
             <p>
-              By accessing and using Science News Publishing (accessible at <a href="https://sciencenewshub.click" className="text-primary hover:underline">https://sciencenewshub.click</a>), you agree to be bound by these Terms of Service, all applicable laws, and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
+              By accessing and using Daily Science News (accessible at <a href="https://sciencenewshub.click" className="text-primary hover:underline">https://sciencenewshub.click</a>), you agree to be bound by these Terms of Service, all applicable laws, and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
             </p>
           </section>
 
@@ -42,7 +42,7 @@ export default function TermsPage() {
               <ShieldAlert className="text-amber-500" size={20} /> 2. Scientific Content Disclaimer
             </h2>
             <p>
-              The articles, blog posts, and scientific commentary provided on Science News Publishing are for informational and educational purposes only. While our editorial team makes every effort to verify facts against academic publications, peer-reviewed journals, and official space agency announcements, we make no representations or warranties of any kind regarding the completeness, accuracy, or reliability of any information contained on the site.
+              The articles, blog posts, and scientific commentary provided on Daily Science News are for informational and educational purposes only. While our editorial team makes every effort to verify facts against academic publications, peer-reviewed journals, and official space agency announcements, we make no representations or warranties of any kind regarding the completeness, accuracy, or reliability of any information contained on the site.
             </p>
             <p className="text-xs md:text-sm text-muted-foreground bg-muted p-3 rounded-lg">
               Medical, health, or technological reports published on this platform should not be treated as professional medical advice, diagnosis, or technical engineering specifications. Always consult qualified professionals before acting on health or technical data.
@@ -52,14 +52,14 @@ export default function TermsPage() {
           <section className="space-y-3 bg-card border p-6 rounded-2xl">
             <h2 className="text-xl font-bold text-foreground">3. Intellectual Property &amp; Copyright</h2>
             <p>
-              All original text content, site branding, logo designs, and editorial commentary on Science News Publishing are the intellectual property of Science News Publishing and founder Dulaksha Sandeepa unless otherwise noted. Scientific imagery, mission renders, and astronomical photographs are used under fair use news reporting guidelines with appropriate attribution to primary agencies (NASA, ESA, ESO, INGV, etc.).
+              All original text content, site branding, logo designs, and editorial commentary on Daily Science News are the intellectual property of Daily Science News and founder Dulaksha Sandeepa unless otherwise noted. Scientific imagery, mission renders, and astronomical photographs are used under fair use news reporting guidelines with appropriate attribution to primary agencies (NASA, ESA, ESO, INGV, etc.).
             </p>
           </section>
 
           <section className="space-y-3 bg-card border p-6 rounded-2xl">
             <h2 className="text-xl font-bold text-foreground">4. External Links Disclaimer</h2>
             <p>
-              Science News Publishing may contain links to external third-party websites or services that are not owned or controlled by us. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites.
+              Daily Science News may contain links to external third-party websites or services that are not owned or controlled by us. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites.
             </p>
           </section>
 

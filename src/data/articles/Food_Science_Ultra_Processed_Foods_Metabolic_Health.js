@@ -6,7 +6,7 @@
   image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
   category: "Health & Medicine",
   date: "August 18, 2026",
-  author: "Science News Publishing & Nutritional Science Desk",
+  author: "Daily Science News & Nutritional Science Desk",
   readTime: "8 min read",
   keywords:
     "food science metabolic health, ultra processed foods scientific study, nutrition science discoveries, NOVA food classification, insulin resistance dietary science, gut mucosal barrier emulsifiers, metabolic syndrome biomarkers, food matrix breakdown",

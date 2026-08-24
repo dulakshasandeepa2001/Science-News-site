@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" 
   xmlns:html="http://www.w3.org/TR/REC-html40"
   xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -9,7 +9,7 @@
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
       <head>
-        <title>XML Sitemap - Science News Publishing</title>
+        <title>XML Sitemap - Daily Science News</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style type="text/css">
@@ -97,7 +97,7 @@
       <body>
         <div class="container">
           <header>
-            <h1>Science News Publishing — XML Sitemap</h1>
+            <h1>Daily Science News — XML Sitemap</h1>
             <p>This is a sitemaps.org compliant XML sitemap generated for search engines including Google, Bing, and Yahoo.</p>
             <div class="stats">
               Total Indexed URLs: <strong><xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></strong> |

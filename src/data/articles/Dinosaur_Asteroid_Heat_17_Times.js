@@ -5,7 +5,7 @@ export const Dinosaur_Asteroid_Heat_17_Times = {
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/081524_cg_ruthenium-asteroid_feat.webp",
   category: "Space",
   date: "August 4, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "8 min read",
   keywords: "dinosaur extinction, Chicxulub asteroid, asteroid impact heat, Tanis fossil site, Purdue University, Brandon Johnson, mass extinction, impact winter, global wildfire, silicate dust layer",
   content: {

@@ -5,7 +5,7 @@ export const SpaceX_Rocket_Moon_Crash_2026 = {
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/images.jpg",
   category: "Space",
   date: "August 5, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "6 min read",
   keywords: "SpaceX Falcon 9 Moon crash, rocket debris Moon, space junk lunar impact, Blue Ghost lunar lander, ispace Resilience, lunar crater 2026, Artemis mission debris risk, space debris Moon",
   content: {

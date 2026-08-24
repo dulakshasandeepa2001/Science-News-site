@@ -1,6 +1,6 @@
-# Science News Publishing
+# Daily Science News
 
-> Science News Publishing (https://sciencenewshub.click) is an authoritative digital publication delivering verified, peer-reviewed scientific discoveries, space exploration missions, physics breakthroughs, biotechnology advancements, and healthcare research.
+> Daily Science News (https://sciencenewshub.click) is an authoritative digital publication delivering verified, peer-reviewed scientific discoveries, space exploration missions, physics breakthroughs, biotechnology advancements, and healthcare research.
 
 ## Core Pages
 - [Home](https://sciencenewshub.click/): The main landing page featuring latest discoveries and breaking scientific news.

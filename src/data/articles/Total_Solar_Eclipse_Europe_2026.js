@@ -6,7 +6,7 @@
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/260805-eclipse-texas-nasa-ch-1252-a1b785.webp",
   category: "Space",
   date: "August 12, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "5 min read",
   keywords:
     "total solar eclipse 2026, eclipse August 12 2026, eclipse Europe, eclipse Spain, eclipse Iceland, eclipse Greenland, solar eclipse path of totality, solar corona, eclipse Reykjavik, eclipse Gijón, next eclipse Sri Lanka 2027, partial eclipse Europe",

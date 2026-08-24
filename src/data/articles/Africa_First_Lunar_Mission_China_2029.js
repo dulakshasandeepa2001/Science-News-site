@@ -5,7 +5,7 @@ export const Africa_First_Lunar_Mission_China_2029 = {
   image: "https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg",
   category: "Space",
   date: "July 30, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "6 min read",
   keywords: "Africa lunar mission, Chang'e-8, Africa2Moon, BALLS mission, Moon south pole, radio astronomy, lunar exploration 2029",
   content: {

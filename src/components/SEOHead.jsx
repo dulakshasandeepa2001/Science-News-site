@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const DEFAULT_SITE_NAME = 'Science News Publishing';
+const DEFAULT_SITE_NAME = 'Daily Science News';
 const DEFAULT_DOMAIN = 'https://sciencenewshub.click';
 const DEFAULT_FALLBACK_IMAGE = 'https://sciencenewshub.click/assets/lab.jpg';
 
@@ -13,7 +13,7 @@ export default function SEOHead({
   ogImage = DEFAULT_FALLBACK_IMAGE,
   publishedTime,
   modifiedTime,
-  author = 'Science News Publishing',
+  author = 'Daily Science News',
   category,
   schema,
   faq
@@ -22,7 +22,7 @@ export default function SEOHead({
     // 1. Update Title
     const fullTitle = title 
       ? (title.includes(DEFAULT_SITE_NAME) ? title : `${title} - ${DEFAULT_SITE_NAME}`)
-      : 'Science News Publishing - Latest Scientific Discoveries & Insights';
+      : 'Daily Science News - Latest Scientific Discoveries & Insights';
     document.title = fullTitle;
 
     // Helper function to update or create a meta tag
@@ -75,7 +75,7 @@ export default function SEOHead({
       setMetaTag('meta[property="og:image:secure_url"]', 'property', 'og:image:secure_url', imageUrl);
       setMetaTag('meta[property="og:image:width"]', 'property', 'og:image:width', '1200');
       setMetaTag('meta[property="og:image:height"]', 'property', 'og:image:height', '675');
-      setMetaTag('meta[property="og:image:alt"]', 'property', 'og:image:alt', title || 'Science News Publishing');
+      setMetaTag('meta[property="og:image:alt"]', 'property', 'og:image:alt', title || 'Daily Science News');
     }
 
     // 4. Twitter Card Tags (Large Image Card)
@@ -86,7 +86,7 @@ export default function SEOHead({
     setMetaTag('meta[name="twitter:description"]', 'name', 'twitter:description', metaDesc);
     if (imageUrl) {
       setMetaTag('meta[name="twitter:image"]', 'name', 'twitter:image', imageUrl);
-      setMetaTag('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', title || 'Science News Publishing');
+      setMetaTag('meta[name="twitter:image:alt"]', 'name', 'twitter:image:alt', title || 'Daily Science News');
     }
 
     // 5. Article-Specific Meta Tags
@@ -95,7 +95,7 @@ export default function SEOHead({
       const modIso = modifiedTime ? new Date(modifiedTime).toISOString() : pubIso;
       setMetaTag('meta[property="article:published_time"]', 'property', 'article:published_time', pubIso);
       setMetaTag('meta[property="article:modified_time"]', 'property', 'article:modified_time', modIso);
-      setMetaTag('meta[property="article:author"]', 'property', 'article:author', author || 'Science News Publishing');
+      setMetaTag('meta[property="article:author"]', 'property', 'article:author', author || 'Daily Science News');
       setMetaTag('meta[property="article:section"]', 'property', 'article:section', category || 'Science');
       setMetaTag('meta[property="article:publisher"]', 'property', 'article:publisher', DEFAULT_DOMAIN);
     }

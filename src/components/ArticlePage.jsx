@@ -84,14 +84,14 @@ const ArticlePage = ({ article: propArticle }) => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead 
-        title={`${article.title} - Science News Publishing`}
+        title={`${article.title} - Daily Science News`}
         description={article.summary}
         keywords={`${article.category}, science news, ${article.title.toLowerCase().split(' ').slice(0, 5).join(', ')}, peer-reviewed, research`}
         canonicalUrl={`https://sciencenewshub.click/article/${getArticleSlug(article)}`}
         ogType="article"
         ogImage={article.image}
         publishedTime={article.date}
-        author={article.author || 'Science News Editorial Team'}
+        author={article.author || 'Daily Science News Editorial Team'}
         category={article.category}
         faq={article.faq}
       />
@@ -136,7 +136,7 @@ const ArticlePage = ({ article: propArticle }) => {
                   <div className="p-1.5 rounded-full bg-primary/10 text-primary">
                     <User size={16} />
                   </div>
-                  <span className="font-semibold text-foreground">{article.author || 'Science News Publishing'}</span>
+                  <span className="font-semibold text-foreground">{article.author || 'Daily Science News'}</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Clock size={15} />
@@ -282,7 +282,7 @@ const ArticlePage = ({ article: propArticle }) => {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                This scientific report has been written and reviewed in accordance with Science News Publishing&apos;s rigorous editorial guidelines. Our editorial team verifies findings against original publications in leading peer-reviewed scientific journals such as <em>Nature</em>, <em>Science</em>, <em>The Lancet</em>, <em>Cell</em>, <em>The Astrophysical Journal</em>, and official releases from NASA, ESA, CERN, WHO, and international universities.
+                This scientific report has been written and reviewed in accordance with Daily Science News&apos;s rigorous editorial guidelines. Our editorial team verifies findings against original publications in leading peer-reviewed scientific journals such as <em>Nature</em>, <em>Science</em>, <em>The Lancet</em>, <em>Cell</em>, <em>The Astrophysical Journal</em>, and official releases from NASA, ESA, CERN, WHO, and international universities.
               </p>
               <div className="flex flex-wrap items-center gap-3 pt-2 text-xs">
                 <span className="inline-flex items-center gap-1 text-primary font-medium">

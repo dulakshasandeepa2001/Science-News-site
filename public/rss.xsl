@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" 
   xmlns:html="http://www.w3.org/TR/REC-html40"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -8,7 +8,7 @@
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
       <head>
-        <title>RSS News Feed - Science News Publishing</title>
+        <title>RSS News Feed - Daily Science News</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style type="text/css">
@@ -102,7 +102,7 @@
       <body>
         <div class="container">
           <header>
-            <h1>Science News Publishing — RSS 2.0 News Feed</h1>
+            <h1>Daily Science News — RSS 2.0 News Feed</h1>
             <p><xsl:value-of select="rss/channel/description"/></p>
             <p style="margin-top: 8px; font-size: 12px; color: #64748b;">
               Last Updated: <xsl:value-of select="rss/channel/lastBuildDate"/> | Total Articles: <strong><xsl:value-of select="count(rss/channel/item)"/></strong>

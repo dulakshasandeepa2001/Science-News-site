@@ -6,7 +6,7 @@ export const AI_Designed_Virus_Stanford = {
   image: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&w=1200&q=80",
   category: "Health & Medicine",
   date: "August 10, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "7 min read",
   keywords:
     "AI designed virus, artificial intelligence virus creation, bacteriophage AI, Brian Hie Stanford, Evo1 Evo2 AI model, AI biotechnology breakthrough, antibiotic resistant bacteria, E. coli treatment, biosafety AI regulations, Science journal 2026, phage therapy, AI genome design, Johns Hopkins biosafety, bioweapon AI risk",

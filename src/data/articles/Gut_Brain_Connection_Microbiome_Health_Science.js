@@ -6,7 +6,7 @@
   image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=1200&q=80",
   category: "Health & Medicine",
   date: "August 18, 2026",
-  author: "Science News Publishing & Neurobiology Desk",
+  author: "Daily Science News & Neurobiology Desk",
   readTime: "8 min read",
   keywords:
     "gut brain axis health science, microbiome mental health research, food science and mood, psychobiotics, vagus nerve communication, enteric nervous system, short chain fatty acids butyrate, nutritional psychiatry science, gut microbiota diversity",

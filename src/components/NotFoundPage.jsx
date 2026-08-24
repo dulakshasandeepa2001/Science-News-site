@@ -46,7 +46,7 @@ const NotFoundPage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead 
-        title="404 - Page Not Found | Science News Publishing"
+        title="404 - Page Not Found | Daily Science News"
         description="The scientific report or page you are looking for could not be found. Explore our latest discoveries, space research, and health reports."
       />
       <Header />

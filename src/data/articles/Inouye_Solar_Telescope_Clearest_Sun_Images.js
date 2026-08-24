@@ -5,7 +5,7 @@ export const Inouye_Solar_Telescope_Clearest_Sun_Images = {
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/main-inouye-image-horizontal.jpg",
   category: "Space",
   date: "August 7, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "8 min read",
   keywords: "Inouye Solar Telescope, Sun surface images, Kelvin-Helmholtz instabilities, corona heating mystery, solar flare, CME coronal mass ejection, space weather, solar photosphere, Nature journal, David Kuridze",
   content: {

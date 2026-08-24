@@ -6,7 +6,7 @@
   image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80",
   category: "Health & Medicine",
   date: "August 18, 2026",
-  author: "Science News Publishing & Health Research Desk",
+  author: "Daily Science News & Health Research Desk",
   readTime: "8 min read",
   keywords:
     "cellular health science, anti aging scientific research, longevity breakthroughs, telomere biology, cellular senescence senolytics, autophagy cellular renewal, NAD sirtuins metabolism, caloric restriction mimetics, health science review 2026, geroscience research",

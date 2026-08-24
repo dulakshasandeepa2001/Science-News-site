@@ -6,7 +6,7 @@
   image: "https://www.vidusara.lk/wp-content/uploads/2026/08/Black-Hole-Star-Hed.webp",
   category: "Space",
   date: "August 17, 2026",
-  author: "Science News Publishing",
+  author: "Daily Science News",
   readTime: "6 min read",
   keywords:
     "black hole star, James Webb Space Telescope, JWST discovery, MoM-BH-1, early universe, MIT Kavli Institute, Rohan Naidu, cosmic object, galaxy evolution, supermassive black hole, Nature journal, constellation Cetus, Big Bang, astronomy 2026",
