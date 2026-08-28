@@ -82,6 +82,7 @@ import DinosaurAsteroidHeat17TimesArticlePage from './components/articles/Dinosa
 import SpaceXRocketMoonCrashArticlePage from './components/articles/SpaceXRocketMoonCrashArticlePage.jsx';
 import WorldReservoirsSedimentation2060ArticlePage from './components/articles/WorldReservoirsSedimentation2060ArticlePage.jsx';
 import InouyeSolarTelescopeArticlePage from './components/articles/InouyeSolarTelescopeArticlePage.jsx';
+import SolarFlareNorthernLightsArticlePage from './components/articles/SolarFlareNorthernLightsArticlePage.jsx';
 import './App.css';
 
 
@@ -170,6 +171,7 @@ function App() {
         <Route path="/article/spacex-rocket-moon-crash-2026" element={<SpaceXRocketMoonCrashArticlePage />} />
         <Route path="/article/world-reservoirs-sedimentation-2060" element={<WorldReservoirsSedimentation2060ArticlePage />} />
         <Route path="/article/inouye-solar-telescope-clearest-sun-images" element={<InouyeSolarTelescopeArticlePage />} />
+        <Route path="/article/solar-flare-northern-lights-geomagnetic-storm-forecast" element={<SolarFlareNorthernLightsArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

@@ -107,6 +107,7 @@ import { August_2026_Lunar_Eclipse_Blood_Moon_Guide } from "./articles/August_20
 import { Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay } from "./articles/Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay.js";
 import { Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record } from "./articles/Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record.js";
 import { Apollo_12_Moon_Dust_Camera_Mishap } from "./articles/Apollo_12_Moon_Dust_Camera_Mishap.js";
+import { Solar_Flare_Northern_Lights_Geomagnetic_Storm } from "./articles/Solar_Flare_Northern_Lights_Geomagnetic_Storm.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -424,7 +425,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
-  Jodrell_Bank_Observatory_Risk, // July 29, 2026 - Newest article
+  Solar_Flare_Northern_Lights_Geomagnetic_Storm, // August 27, 2026 - Newest article
+  Jodrell_Bank_Observatory_Risk, // July 29, 2026
   Earhart_Nikumaroro_Clue, // July 28, 2026
   Little_Red_Dots_Early_Universe, // July 27, 2026
   Orcas_Ramming_Sunfish, // July 24, 2026

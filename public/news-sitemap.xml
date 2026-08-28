@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/solar-flare-northern-lights-geomagnetic-storm-forecast</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Solar Flare Sparks Northern Lights: NOAA Geomagnetic Storm Watch and Viewing Guide</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787852831/Generated_Image_August_27_2026_-_11_12PM_dukdgw.jpg</image:loc>
+      <image:title>Solar Flare Sparks Northern Lights: NOAA Geomagnetic Storm Watch and Viewing Guide</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/apollo-12-moon-dust-camera-mishap-untold-story</loc>
     <news:news>
       <news:publication>
