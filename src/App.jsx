@@ -83,6 +83,7 @@ import SpaceXRocketMoonCrashArticlePage from './components/articles/SpaceXRocket
 import WorldReservoirsSedimentation2060ArticlePage from './components/articles/WorldReservoirsSedimentation2060ArticlePage.jsx';
 import InouyeSolarTelescopeArticlePage from './components/articles/InouyeSolarTelescopeArticlePage.jsx';
 import SolarFlareNorthernLightsArticlePage from './components/articles/SolarFlareNorthernLightsArticlePage.jsx';
+import MissTeenUSA2026ArticlePage from './components/articles/MissTeenUSA2026ArticlePage.jsx';
 import './App.css';
 
 
@@ -172,6 +173,7 @@ function App() {
         <Route path="/article/world-reservoirs-sedimentation-2060" element={<WorldReservoirsSedimentation2060ArticlePage />} />
         <Route path="/article/inouye-solar-telescope-clearest-sun-images" element={<InouyeSolarTelescopeArticlePage />} />
         <Route path="/article/solar-flare-northern-lights-geomagnetic-storm-forecast" element={<SolarFlareNorthernLightsArticlePage />} />
+        <Route path="/article/miss-teen-usa-2026-winner-kiran-reddy-georgia" element={<MissTeenUSA2026ArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
