@@ -108,6 +108,7 @@ import { Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay } from "./articles/Elo
 import { Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record } from "./articles/Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record.js";
 import { Apollo_12_Moon_Dust_Camera_Mishap } from "./articles/Apollo_12_Moon_Dust_Camera_Mishap.js";
 import { Solar_Flare_Northern_Lights_Geomagnetic_Storm } from "./articles/Solar_Flare_Northern_Lights_Geomagnetic_Storm.js";
+import { NASA_Nancy_Grace_Roman_Telescope_Launch } from "./articles/NASA_Nancy_Grace_Roman_Telescope_Launch.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -540,4 +541,6 @@ export const articles = [
   Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay,
   Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record,
   Apollo_12_Moon_Dust_Camera_Mishap,
+  Solar_Flare_Northern_Lights_Geomagnetic_Storm,
+  NASA_Nancy_Grace_Roman_Telescope_Launch,
 ];

@@ -94,7 +94,19 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (116 Articles) -->
+  <!-- Published Scientific Articles & Research Reports -->
+  <url>
+    <loc>https://sciencenewshub.click/article/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/solar-flare-northern-lights-geomagnetic-storm-forecast</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/apollo-12-moon-dust-camera-mishap-untold-story</loc>
     <lastmod>2026-08-23</lastmod>

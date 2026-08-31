@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>NASA Nancy Grace Roman Space Telescope Launches to Unravel Dark Energy</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788163071/Generated_Image_August_31_2026_-_1_26PM_w3m6aq.jpg</image:loc>
+      <image:title>NASA Nancy Grace Roman Space Telescope Launches to Unravel Dark Energy</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/solar-flare-northern-lights-geomagnetic-storm-forecast</loc>
     <news:news>
       <news:publication>
