@@ -2,13 +2,28 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://sciencenewshub.click/article/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy</loc>
+    <loc>https://sciencenewshub.click/article/tim-cook-steps-down-john-ternus-new-apple-ceo</loc>
     <news:news>
       <news:publication>
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Tim Cook Steps Down After 15 Years: John Ternus Takes Over as Apple CEO to Lead the AI Era</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Tim Cook Steps Down After 15 Years: John Ternus Takes Over as Apple CEO to Lead the AI Era</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-30</news:publication_date>
       <news:title>NASA Nancy Grace Roman Space Telescope Launches to Unravel Dark Energy</news:title>
     </news:news>
     <image:image>
@@ -23,12 +38,12 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-27</news:publication_date>
-      <news:title>Solar Flare Sparks Northern Lights: NOAA Geomagnetic Storm Watch and Viewing Guide</news:title>
+      <news:publication_date>2026-08-26</news:publication_date>
+      <news:title>Solar Flare Sparks Northern Lights: When and Where to Watch the Upcoming Aurora Display</news:title>
     </news:news>
     <image:image>
       <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787852831/Generated_Image_August_27_2026_-_11_12PM_dukdgw.jpg</image:loc>
-      <image:title>Solar Flare Sparks Northern Lights: NOAA Geomagnetic Storm Watch and Viewing Guide</image:title>
+      <image:title>Solar Flare Sparks Northern Lights: When and Where to Watch the Upcoming Aurora Display</image:title>
     </image:image>
   </url>
   <url>
@@ -734,51 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>Artemis III Astronauts Named</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/maven-mars-spacecraft-final-journey</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04</news:publication_date>
-      <news:title>MAVEN Mars Spacecraft Makes Its Final Journey</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>MAVEN Mars Spacecraft Makes Its Final Journey</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/humpback-whales-sound-discovery</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-03</news:publication_date>
-      <news:title>Scientists Make New Discovery About the Mysterious Sound Patterns of Humpback Whales</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Scientists Make New Discovery About the Mysterious Sound Patterns of Humpback Whales</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/british-paralympian-john-mcfall-astronaut</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02</news:publication_date>
-      <news:title>British Paralympian John McFall Prepares to Become the First Disabled Astronaut to Orbit Earth</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>British Paralympian John McFall Prepares to Become the First Disabled Astronaut to Orbit Earth</image:title>
     </image:image>
   </url>
 </urlset>

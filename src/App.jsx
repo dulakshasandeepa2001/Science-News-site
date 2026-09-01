@@ -130,6 +130,8 @@ function App() {
         <Route path="/article/spacex-starlink-10000-satellites" element={<SpaceXStarlink10000SatellitesArticlePage />} />
         <Route path="/article/mexican-government-data-theft-ai" element={<MexicanGovernmentDataTheftArticlePage />} />
         <Route path="/article/atlantic-amoc-collapse-risk" element={<AtlanticAMOCCollapseRiskArticlePage />} />
+        <Route path="/article/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
+        <Route path="/tech-business/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/article/tim-cook-apple-ceo-transition" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/article/water-paint-coating" element={<WaterPaintCoatingArticlePage />} />
         <Route path="/article/blue-origin-new-glenn-explosion" element={<BlueOriginNewGlennExplosionArticlePage />} />

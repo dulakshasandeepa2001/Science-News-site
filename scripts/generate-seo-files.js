@@ -55,7 +55,7 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
-  "Tim_Cook_Apple_CEO_Transition": "tim-cook-apple-ceo-transition",
+  "Tim_Cook_Apple_CEO_Transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",
   "Water_Paint_Coating_Dewpoint": "water-paint-coating-dewpoint",
   "Wasp_Named_David_Attenborough_Birthday": "wasp-named-david-attenborough",
   "Tiny_Object_Solar_System_Atmosphere": "tiny-object-solar-system-atmosphere",

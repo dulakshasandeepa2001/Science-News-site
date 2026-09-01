@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button.jsx';
 import { Card, CardContent } from '@/components/ui/card.jsx';
 import { Clock, User, ExternalLink } from 'lucide-react';
 import { Tim_Cook_Apple_CEO_Transition } from '../data/articles/Tim_Cook_Apple_CEO_Transition.js';
+import { getArticleLink } from '../lib/article-utils.js';
 
 const TimCookAppleCEOTransitionDirectLink = () => {
   const article = Tim_Cook_Apple_CEO_Transition;
@@ -46,7 +47,7 @@ const TimCookAppleCEOTransitionDirectLink = () => {
             <span>{article.date}</span>
           </div>
           
-          <Link to="/article/tim-cook-apple-ceo-transition">
+          <Link to={getArticleLink(article)}>
             <Button className="w-full group">
               Read Full Article
               <ExternalLink size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />

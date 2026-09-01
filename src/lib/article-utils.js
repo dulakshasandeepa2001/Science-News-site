@@ -53,7 +53,7 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
-  "Tim_Cook_Apple_CEO_Transition": "tim-cook-apple-ceo-transition",
+  "Tim_Cook_Apple_CEO_Transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",
   "Water_Paint_Coating_Dewpoint": "water-paint-coating-dewpoint",
   "Wasp_Named_David_Attenborough_Birthday": "wasp-named-david-attenborough",
   "Tiny_Object_Solar_System_Atmosphere": "tiny-object-solar-system-atmosphere",
@@ -165,6 +165,9 @@ const SLUG_ALIASES = {
   "russia-enteromix-cancer-vaccine": "russia-enteromix-vaccine",
   "sony-humanoid-robots-vulnerability": "sony-robots",
   "rare-orange-shark-discovered": "orange-shark",
+  "tim-cook-apple-ceo-transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",
+  "tech-business/tim-cook-steps-down-john-ternus-new-apple-ceo": "tim-cook-steps-down-john-ternus-new-apple-ceo",
+  "technology/tim-cook-steps-down-john-ternus-new-apple-ceo": "tim-cook-steps-down-john-ternus-new-apple-ceo",
   "space-physics/apollo-12-moon-dust-camera-mishap-untold-story": "apollo-12-moon-dust-camera-mishap-untold-story",
   "space-physics/solar-flare-northern-lights-geomagnetic-storm-forecast": "solar-flare-northern-lights-geomagnetic-storm-forecast",
   "space-physics/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy": "nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy"

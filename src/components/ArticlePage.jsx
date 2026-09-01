@@ -84,10 +84,10 @@ const ArticlePage = ({ article: propArticle }) => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead 
-        title={`${article.title} - Daily Science News`}
-        description={article.summary}
-        keywords={`${article.category}, science news, ${article.title.toLowerCase().split(' ').slice(0, 5).join(', ')}, peer-reviewed, research`}
-        canonicalUrl={`https://sciencenewshub.click/article/${getArticleSlug(article)}`}
+        title={article.seoTitle ? (article.seoTitle.includes('Daily Science News') ? article.seoTitle : `${article.seoTitle} - Daily Science News`) : `${article.title} - Daily Science News`}
+        description={article.metaDescription || article.summary}
+        keywords={article.keywords || `${article.category}, science news, ${article.title.toLowerCase().split(' ').slice(0, 5).join(', ')}, peer-reviewed, research`}
+        canonicalUrl={article.canonicalUrl || `https://sciencenewshub.click/article/${getArticleSlug(article)}`}
         ogType="article"
         ogImage={article.image}
         publishedTime={article.date}

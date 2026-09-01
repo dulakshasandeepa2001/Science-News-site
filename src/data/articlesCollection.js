@@ -426,6 +426,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  Tim_Cook_Apple_CEO_Transition, // September 1, 2026 - Breaking Leadership Transition
   Solar_Flare_Northern_Lights_Geomagnetic_Storm, // August 27, 2026 - Newest article
   Jodrell_Bank_Observatory_Risk, // July 29, 2026
   Earhart_Nikumaroro_Clue, // July 28, 2026
@@ -468,7 +469,6 @@ export const articles = [
   Interstellar_Comet_3I_ATLAS_Origin, // April 29, 2026
   Giant_Dam_Save_AMOC, // April 28, 2026
   Scarlet_Fever_Pre_Columbian_America, // April 22, 2026
-  Tim_Cook_Apple_CEO_Transition, // April 21, 2026
   Atlantic_AMOC_Collapse_Risk, // April 20, 2026
   Mexican_Government_Data_Theft_AI, // April 17, 2026
   SpaceX_Starlink_10000_Satellites, // March 22, 2026
