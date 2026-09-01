@@ -1,4 +1,4 @@
-const TimCookAppleCEOTransitionImage = "https://www.vidusara.lk/wp-content/uploads/2026/04/210823154240-restricted-01-tim-cook-apple-career-unf-scaled.jpg";
+const TimCookAppleCEOTransitionImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1788279449/Generated_Image_September_01_2026_-_9_46PM_suiahz.jpg";
 
 export const Tim_Cook_Apple_CEO_Transition = {
   id: "Tim_Cook_Apple_CEO_Transition",
@@ -6,7 +6,7 @@ export const Tim_Cook_Apple_CEO_Transition = {
   seoTitle: "Tim Cook Steps Down: John Ternus Takes Over as Apple CEO in AI Era",
   category: "Technology",
   date: "September 1, 2026",
-  image: TimCookAppleCEOTransitionImage,
+  image: "https://res.cloudinary.com/dib0fble7/image/upload/v1788279449/Generated_Image_September_01_2026_-_9_46PM_suiahz.jpg",
   readTime: "5 min read",
   author: "Technology & Business Editorial Desk",
   slug: "tim-cook-steps-down-john-ternus-new-apple-ceo",
