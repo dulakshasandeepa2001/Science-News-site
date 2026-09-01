@@ -44,6 +44,8 @@ import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_100
 import { Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
 import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
 import { Tim_Cook_Apple_CEO_Transition } from "./articles/Tim_Cook_Apple_CEO_Transition.js";
+import { LUX_ZEPLIN_Dark_Matter_WIMP_Discovery } from "./articles/LUX_ZEPLIN_Dark_Matter_WIMP_Discovery.js";
+import { Academy_Of_Natural_Sciences_Museum_Closure } from "./articles/Academy_Of_Natural_Sciences_Museum_Closure.js";
 import { Scarlet_Fever_Pre_Columbian_America } from "./articles/Scarlet_Fever_Pre_Columbian_America.js";
 import { Giant_Dam_Save_AMOC } from "./articles/Giant_Dam_Save_AMOC.js";
 import { Interstellar_Comet_3I_ATLAS_Origin } from "./articles/Interstellar_Comet_3I_ATLAS_Origin.js";
@@ -426,6 +428,8 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  Academy_Of_Natural_Sciences_Museum_Closure, // September 1, 2026 - Historic Museum Closure
+  LUX_ZEPLIN_Dark_Matter_WIMP_Discovery, // September 1, 2026 - Dark Matter Breakthrough
   Tim_Cook_Apple_CEO_Transition, // September 1, 2026 - Breaking Leadership Transition
   Solar_Flare_Northern_Lights_Geomagnetic_Storm, // August 27, 2026 - Newest article
   Jodrell_Bank_Observatory_Risk, // July 29, 2026

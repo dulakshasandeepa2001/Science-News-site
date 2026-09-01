@@ -94,7 +94,19 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (118 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (120 Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/lux-zeplin-dark-matter-wimp-particle-discovery</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/tim-cook-steps-down-john-ternus-new-apple-ceo</loc>
     <lastmod>2026-08-31</lastmod>

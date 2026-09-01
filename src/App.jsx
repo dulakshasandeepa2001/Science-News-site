@@ -83,6 +83,8 @@ import SpaceXRocketMoonCrashArticlePage from './components/articles/SpaceXRocket
 import WorldReservoirsSedimentation2060ArticlePage from './components/articles/WorldReservoirsSedimentation2060ArticlePage.jsx';
 import InouyeSolarTelescopeArticlePage from './components/articles/InouyeSolarTelescopeArticlePage.jsx';
 import SolarFlareNorthernLightsArticlePage from './components/articles/SolarFlareNorthernLightsArticlePage.jsx';
+import LuxZeplinDarkMatterDiscoveryArticlePage from './components/articles/LuxZeplinDarkMatterDiscoveryArticlePage.jsx';
+import AcademyOfNaturalSciencesMuseumClosureArticlePage from './components/articles/AcademyOfNaturalSciencesMuseumClosureArticlePage.jsx';
 import './App.css';
 
 
@@ -174,6 +176,12 @@ function App() {
         <Route path="/article/world-reservoirs-sedimentation-2060" element={<WorldReservoirsSedimentation2060ArticlePage />} />
         <Route path="/article/inouye-solar-telescope-clearest-sun-images" element={<InouyeSolarTelescopeArticlePage />} />
         <Route path="/article/solar-flare-northern-lights-geomagnetic-storm-forecast" element={<SolarFlareNorthernLightsArticlePage />} />
+        <Route path="/article/lux-zeplin-dark-matter-wimp-particle-discovery" element={<LuxZeplinDarkMatterDiscoveryArticlePage />} />
+        <Route path="/space-physics/lux-zeplin-dark-matter-wimp-particle-discovery" element={<LuxZeplinDarkMatterDiscoveryArticlePage />} />
+        <Route path="/article/lux-zeplin-dark-matter-wimp-discovery" element={<LuxZeplinDarkMatterDiscoveryArticlePage />} />
+        <Route path="/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
+        <Route path="/news-culture/academy-of-natural-sciences-drexel-museum-closure-philadelphia" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
+        <Route path="/article/academy-of-natural-sciences-closing" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

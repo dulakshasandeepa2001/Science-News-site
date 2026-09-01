@@ -54,6 +54,10 @@ const LEGACY_SLUG_MAP = {
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
   "Tim_Cook_Apple_CEO_Transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",
+  "LUX_ZEPLIN_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "Lux_Zeplin_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "Academy_Of_Natural_Sciences_Museum_Closure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+  "AcademyOfNaturalSciencesMuseumClosure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
   "Water_Paint_Coating_Dewpoint": "water-paint-coating-dewpoint",
   "Wasp_Named_David_Attenborough_Birthday": "wasp-named-david-attenborough",
   "Tiny_Object_Solar_System_Atmosphere": "tiny-object-solar-system-atmosphere",
@@ -170,7 +174,14 @@ const SLUG_ALIASES = {
   "technology/tim-cook-steps-down-john-ternus-new-apple-ceo": "tim-cook-steps-down-john-ternus-new-apple-ceo",
   "space-physics/apollo-12-moon-dust-camera-mishap-untold-story": "apollo-12-moon-dust-camera-mishap-untold-story",
   "space-physics/solar-flare-northern-lights-geomagnetic-storm-forecast": "solar-flare-northern-lights-geomagnetic-storm-forecast",
-  "space-physics/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy": "nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy"
+  "space-physics/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy": "nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy",
+  "lux-zeplin-dark-matter-wimp-discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "space-physics/lux-zeplin-dark-matter-wimp-particle-discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "physics/lux-zeplin-dark-matter-wimp-particle-discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "news-culture/academy-of-natural-sciences-drexel-museum-closure-philadelphia": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+  "culture/academy-of-natural-sciences-drexel-museum-closure-philadelphia": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+  "archaeology/academy-of-natural-sciences-drexel-museum-closure-philadelphia": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+  "academy-of-natural-sciences-closing": "academy-of-natural-sciences-drexel-museum-closure-philadelphia"
 };
 
 /**

@@ -2,6 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Philadelphia’s Academy of Natural Sciences Museum to Close After Nearly 200 Years: Inside the Landmark Decision</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788286860/Generated_Image_September_01_2026_-_11_50PM_l6j7dp.jpg</image:loc>
+      <image:title>Philadelphia’s Academy of Natural Sciences Museum to Close After Nearly 200 Years: Inside the Landmark Decision</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/lux-zeplin-dark-matter-wimp-particle-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788286351/Generated_Image_September_01_2026_-_11_38PM_fndxh1.jpg</image:loc>
+      <image:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/tim-cook-steps-down-john-ternus-new-apple-ceo</loc>
     <news:news>
       <news:publication>
@@ -719,36 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>Exoplanet WASP-121b: Where Rubies and Sapphires Rain Down</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/global-underground-fungal-network-map</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-14</news:publication_date>
-      <news:title>Global Underground Fungal Network Map Revealed</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Global Underground Fungal Network Map Revealed</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/artemis-3-astronauts-named</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-09</news:publication_date>
-      <news:title>Artemis III Astronauts Named</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Artemis III Astronauts Named</image:title>
     </image:image>
   </url>
 </urlset>
