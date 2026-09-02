@@ -111,6 +111,11 @@ import { Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record } from "./articles/Ho
 import { Apollo_12_Moon_Dust_Camera_Mishap } from "./articles/Apollo_12_Moon_Dust_Camera_Mishap.js";
 import { Solar_Flare_Northern_Lights_Geomagnetic_Storm } from "./articles/Solar_Flare_Northern_Lights_Geomagnetic_Storm.js";
 import { NASA_Nancy_Grace_Roman_Telescope_Launch } from "./articles/NASA_Nancy_Grace_Roman_Telescope_Launch.js";
+import { James_Webb_LHS1140b_Biomarkers } from "./articles/James_Webb_LHS1140b_Biomarkers.js";
+import { MRNA_Universal_Cancer_Vaccine_Phase3 } from "./articles/MRNA_Universal_Cancer_Vaccine_Phase3.js";
+import { Fault_Tolerant_Quantum_Processor_1000Qubits } from "./articles/Fault_Tolerant_Quantum_Processor_1000Qubits.js";
+import { Perovskite_Silicon_Tandem_Solar_34Percent } from "./articles/Perovskite_Silicon_Tandem_Solar_34Percent.js";
+import { Ancient_DNA_Two_Million_Year_Hominin } from "./articles/Ancient_DNA_Two_Million_Year_Hominin.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -546,4 +551,9 @@ export const articles = [
   Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record,
   Apollo_12_Moon_Dust_Camera_Mishap,
   NASA_Nancy_Grace_Roman_Telescope_Launch,
+  James_Webb_LHS1140b_Biomarkers,
+  MRNA_Universal_Cancer_Vaccine_Phase3,
+  Fault_Tolerant_Quantum_Processor_1000Qubits,
+  Perovskite_Silicon_Tandem_Solar_34Percent,
+  Ancient_DNA_Two_Million_Year_Hominin,
 ];

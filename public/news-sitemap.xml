@@ -2,6 +2,81 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02</news:publication_date>
+      <news:title>James Webb Telescope Detects Potential Biomarkers on Habitable-Zone Super-Earth LHS 1140 b</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>James Webb Telescope Detects Potential Biomarkers on Habitable-Zone Super-Earth LHS 1140 b</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/mrna-universal-cancer-vaccine-phase-3-trials</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-01</news:publication_date>
+      <news:title>Revolutionary mRNA Universal Cancer Vaccine Enters Phase 3 Global Clinical Trials</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Revolutionary mRNA Universal Cancer Vaccine Enters Phase 3 Global Clinical Trials</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/fault-tolerant-quantum-processor-1000-qubits-breakthrough</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-01</news:publication_date>
+      <news:title>Fault-Tolerant Quantum Processor Solves Complex Material Simulation in 12 Seconds</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Fault-Tolerant Quantum Processor Solves Complex Material Simulation in 12 Seconds</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/perovskite-silicon-tandem-solar-cells-shatter-efficiency-record</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-30</news:publication_date>
+      <news:title>Ancient DNA Extracted from 2-Million-Year-Old Fossil Reveals Unknown Human Ancestor Lineage in Africa</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>Ancient DNA Extracted from 2-Million-Year-Old Fossil Reveals Unknown Human Ancestor Lineage in Africa</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia</loc>
     <news:news>
       <news:publication>

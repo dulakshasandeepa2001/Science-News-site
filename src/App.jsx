@@ -85,6 +85,11 @@ import InouyeSolarTelescopeArticlePage from './components/articles/InouyeSolarTe
 import SolarFlareNorthernLightsArticlePage from './components/articles/SolarFlareNorthernLightsArticlePage.jsx';
 import LuxZeplinDarkMatterDiscoveryArticlePage from './components/articles/LuxZeplinDarkMatterDiscoveryArticlePage.jsx';
 import AcademyOfNaturalSciencesMuseumClosureArticlePage from './components/articles/AcademyOfNaturalSciencesMuseumClosureArticlePage.jsx';
+import JamesWebbLHS1140bArticlePage from './components/articles/JamesWebbLHS1140bArticlePage.jsx';
+import MRNAUniversalCancerVaccineArticlePage from './components/articles/MRNAUniversalCancerVaccineArticlePage.jsx';
+import FaultTolerantQuantumProcessorArticlePage from './components/articles/FaultTolerantQuantumProcessorArticlePage.jsx';
+import PerovskiteSiliconTandemSolarArticlePage from './components/articles/PerovskiteSiliconTandemSolarArticlePage.jsx';
+import AncientDNATwoMillionYearHomininArticlePage from './components/articles/AncientDNATwoMillionYearHomininArticlePage.jsx';
 import './App.css';
 
 
@@ -182,6 +187,11 @@ function App() {
         <Route path="/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
         <Route path="/news-culture/academy-of-natural-sciences-drexel-museum-closure-philadelphia" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
         <Route path="/article/academy-of-natural-sciences-closing" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
+        <Route path="/article/james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b" element={<JamesWebbLHS1140bArticlePage />} />
+        <Route path="/article/mrna-universal-cancer-vaccine-phase-3-trials" element={<MRNAUniversalCancerVaccineArticlePage />} />
+        <Route path="/article/fault-tolerant-quantum-processor-1000-qubits-breakthrough" element={<FaultTolerantQuantumProcessorArticlePage />} />
+        <Route path="/article/perovskite-silicon-tandem-solar-cells-shatter-efficiency-record" element={<PerovskiteSiliconTandemSolarArticlePage />} />
+        <Route path="/article/ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa" element={<AncientDNATwoMillionYearHomininArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

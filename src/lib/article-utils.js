@@ -157,7 +157,12 @@ const LEGACY_SLUG_MAP = {
   "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record",
   "Apollo_12_Moon_Dust_Camera_Mishap": "apollo-12-moon-dust-camera-mishap-untold-story",
   "Solar_Flare_Northern_Lights_Geomagnetic_Storm": "solar-flare-northern-lights-geomagnetic-storm-forecast",
-  "NASA_Nancy_Grace_Roman_Telescope_Launch": "nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy"
+  "NASA_Nancy_Grace_Roman_Telescope_Launch": "nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy",
+  "James_Webb_LHS1140b_Biomarkers": "james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b",
+  "MRNA_Universal_Cancer_Vaccine_Phase3": "mrna-universal-cancer-vaccine-phase-3-trials",
+  "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
+  "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
+  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
