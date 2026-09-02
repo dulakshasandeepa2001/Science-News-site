@@ -16,8 +16,15 @@ const HomePage = () => {
     return diffInHours <= 7; // True if published within last 7 hours
   };
 
-  // Parse dates and sort articles by date (newest first)
-  const sortedArticles = [...articles].sort((a, b) => {
+  // Deduplicate and sort articles by date (newest first)
+  const uniqueArticlesMap = new Map();
+  articles.forEach(art => {
+    if (art && art.id && !uniqueArticlesMap.has(art.id)) {
+      uniqueArticlesMap.set(art.id, art);
+    }
+  });
+
+  const sortedArticles = Array.from(uniqueArticlesMap.values()).sort((a, b) => {
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
     return dateB - dateA;

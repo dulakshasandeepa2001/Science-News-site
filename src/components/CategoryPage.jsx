@@ -18,19 +18,27 @@ const CategoryPage = () => {
     return diffInHours <= 7; // True if published within last 7 hours
   };
   
-  // Filter articles by category
-  const categoryArticles = articles
+  // Filter and deduplicate articles by category
+  const uniqueCategoryMap = new Map();
+  articles
     .filter(
-      article => article.category === formattedCategory || 
-                article.category === categoryName ||
-                article.category.toLowerCase().includes(categoryName.toLowerCase())
+      article => article && (
+        article.category === formattedCategory || 
+        article.category === categoryName ||
+        (article.category && article.category.toLowerCase().includes(categoryName.toLowerCase()))
+      )
     )
-    // Sort by date (newest first)
-    .sort((a, b) => {
-      const dateA = new Date(a.date);
-      const dateB = new Date(b.date);
-      return dateB - dateA;
+    .forEach(art => {
+      if (art && art.id && !uniqueCategoryMap.has(art.id)) {
+        uniqueCategoryMap.set(art.id, art);
+      }
     });
+
+  const categoryArticles = Array.from(uniqueCategoryMap.values()).sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateB - dateA;
+  });
 
   return (
     <div className="min-h-screen bg-background">

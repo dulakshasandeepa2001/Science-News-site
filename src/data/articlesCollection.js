@@ -545,6 +545,5 @@ export const articles = [
   Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay,
   Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record,
   Apollo_12_Moon_Dust_Camera_Mishap,
-  Solar_Flare_Northern_Lights_Geomagnetic_Storm,
   NASA_Nancy_Grace_Roman_Telescope_Launch,
 ];
