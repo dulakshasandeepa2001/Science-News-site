@@ -90,6 +90,7 @@ import MRNAUniversalCancerVaccineArticlePage from './components/articles/MRNAUni
 import FaultTolerantQuantumProcessorArticlePage from './components/articles/FaultTolerantQuantumProcessorArticlePage.jsx';
 import PerovskiteSiliconTandemSolarArticlePage from './components/articles/PerovskiteSiliconTandemSolarArticlePage.jsx';
 import AncientDNATwoMillionYearHomininArticlePage from './components/articles/AncientDNATwoMillionYearHomininArticlePage.jsx';
+import AncientSupervolcanoDiscoveredEnglandArticlePage from './components/articles/AncientSupervolcanoDiscoveredEnglandArticlePage.jsx';
 import './App.css';
 
 
@@ -192,6 +193,9 @@ function App() {
         <Route path="/article/fault-tolerant-quantum-processor-1000-qubits-breakthrough" element={<FaultTolerantQuantumProcessorArticlePage />} />
         <Route path="/article/perovskite-silicon-tandem-solar-cells-shatter-efficiency-record" element={<PerovskiteSiliconTandemSolarArticlePage />} />
         <Route path="/article/ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa" element={<AncientDNATwoMillionYearHomininArticlePage />} />
+        <Route path="/article/ancient-supervolcano-discovered-england-the-wash-geology" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
+        <Route path="/science-environment/ancient-supervolcano-discovered-england-the-wash-geology" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
+        <Route path="/article/the-wash-supervolcano-discovery-england" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

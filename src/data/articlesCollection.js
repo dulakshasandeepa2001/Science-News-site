@@ -116,6 +116,7 @@ import { MRNA_Universal_Cancer_Vaccine_Phase3 } from "./articles/MRNA_Universal_
 import { Fault_Tolerant_Quantum_Processor_1000Qubits } from "./articles/Fault_Tolerant_Quantum_Processor_1000Qubits.js";
 import { Perovskite_Silicon_Tandem_Solar_34Percent } from "./articles/Perovskite_Silicon_Tandem_Solar_34Percent.js";
 import { Ancient_DNA_Two_Million_Year_Hominin } from "./articles/Ancient_DNA_Two_Million_Year_Hominin.js";
+import { Ancient_Supervolcano_Discovered_England_The_Wash } from "./articles/Ancient_Supervolcano_Discovered_England_The_Wash.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -556,4 +557,5 @@ export const articles = [
   Fault_Tolerant_Quantum_Processor_1000Qubits,
   Perovskite_Silicon_Tandem_Solar_34Percent,
   Ancient_DNA_Two_Million_Year_Hominin,
+  Ancient_Supervolcano_Discovered_England_The_Wash,
 ];

@@ -164,7 +164,8 @@ const LEGACY_SLUG_MAP = {
   "MRNA_Universal_Cancer_Vaccine_Phase3": "mrna-universal-cancer-vaccine-phase-3-trials",
   "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
   "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
-  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa"
+  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa",
+  "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology"
 };
 
 function getSlug(art) {

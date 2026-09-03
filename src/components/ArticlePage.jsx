@@ -19,7 +19,8 @@ import {
   Sparkles,
   ListOrdered,
   Calendar,
-  Bookmark
+  Bookmark,
+  TableProperties
 } from 'lucide-react';
 import { articles } from '../data/articlesCollection.js';
 import { findArticleBySlugOrId, getArticleSlug, getArticleLink } from '../lib/article-utils.js';
@@ -245,6 +246,50 @@ const ArticlePage = ({ article: propArticle }) => {
               </section>
             ))}
           </div>
+
+          {/* Comparison / Key Facts Table */}
+          {(article.comparisonTable || article.table) && (
+            <section className="p-6 md:p-8 rounded-2xl bg-card border border-primary/20 space-y-4 shadow-sm overflow-hidden">
+              <div className="space-y-1">
+                <h2 className="text-xl md:text-2xl font-bold text-foreground flex items-center gap-2">
+                  <TableProperties className="text-primary h-6 w-6 shrink-0" />
+                  {(article.comparisonTable || article.table).title || 'Key Facts & Comparison'}
+                </h2>
+                {((article.comparisonTable || article.table).description) && (
+                  <p className="text-sm text-muted-foreground">
+                    {(article.comparisonTable || article.table).description}
+                  </p>
+                )}
+              </div>
+              <div className="overflow-x-auto rounded-xl border bg-muted/20">
+                <table className="w-full text-left text-sm">
+                  <thead className="bg-muted/80 text-foreground font-semibold border-b text-xs uppercase tracking-wider">
+                    <tr>
+                      {((article.comparisonTable || article.table).headers || []).map((header, hIdx) => (
+                        <th key={hIdx} className="px-4 py-3.5 font-bold">
+                          {header}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-border/60">
+                    {((article.comparisonTable || article.table).rows || []).map((row, rIdx) => (
+                      <tr key={rIdx} className="hover:bg-muted/40 transition-colors">
+                        {row.map((cell, cIdx) => (
+                          <td 
+                            key={cIdx} 
+                            className={`px-4 py-3.5 text-sm ${cIdx === 0 ? 'font-semibold text-foreground' : 'text-muted-foreground'}`}
+                          >
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
 
           {/* Frequently Asked Questions (FAQ) Section */}
           {Array.isArray(article.faq) && article.faq.length > 0 && (
