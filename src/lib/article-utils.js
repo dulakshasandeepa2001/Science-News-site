@@ -163,7 +163,8 @@ const LEGACY_SLUG_MAP = {
   "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
   "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
   "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa",
-  "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology"
+  "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology",
+  "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
@@ -193,7 +194,11 @@ const SLUG_ALIASES = {
   "the-wash-supervolcano-discovery": "ancient-supervolcano-discovered-england-the-wash-geology",
   "the-wash-supervolcano-discovery-england": "ancient-supervolcano-discovered-england-the-wash-geology",
   "ancient-supervolcano-england": "ancient-supervolcano-discovered-england-the-wash-geology",
-  "volcano-discovered-in-england": "ancient-supervolcano-discovered-england-the-wash-geology"
+  "volcano-discovered-in-england": "ancient-supervolcano-discovered-england-the-wash-geology",
+  "space-physics/saturn-decagon-atmosphere-south-pole-discovery": "saturn-decagon-atmosphere-south-pole-discovery",
+  "space/saturn-decagon-atmosphere-south-pole-discovery": "saturn-decagon-atmosphere-south-pole-discovery",
+  "saturn-decagon-south-pole": "saturn-decagon-atmosphere-south-pole-discovery",
+  "saturn-decagon": "saturn-decagon-atmosphere-south-pole-discovery"
 };
 
 /**
