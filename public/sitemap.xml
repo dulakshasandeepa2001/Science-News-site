@@ -94,9 +94,15 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (126 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (127 Articles) -->
   <url>
     <loc>https://sciencenewshub.click/article/ancient-supervolcano-discovered-england-the-wash-geology</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/saturn-decagon-atmosphere-south-pole-discovery</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>

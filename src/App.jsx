@@ -91,6 +91,7 @@ import FaultTolerantQuantumProcessorArticlePage from './components/articles/Faul
 import PerovskiteSiliconTandemSolarArticlePage from './components/articles/PerovskiteSiliconTandemSolarArticlePage.jsx';
 import AncientDNATwoMillionYearHomininArticlePage from './components/articles/AncientDNATwoMillionYearHomininArticlePage.jsx';
 import AncientSupervolcanoDiscoveredEnglandArticlePage from './components/articles/AncientSupervolcanoDiscoveredEnglandArticlePage.jsx';
+import SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage from './components/articles/SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage.jsx';
 import './App.css';
 
 
@@ -196,6 +197,9 @@ function App() {
         <Route path="/article/ancient-supervolcano-discovered-england-the-wash-geology" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
         <Route path="/science-environment/ancient-supervolcano-discovered-england-the-wash-geology" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
         <Route path="/article/the-wash-supervolcano-discovery-england" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
+        <Route path="/article/saturn-decagon-atmosphere-south-pole-discovery" element={<SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage />} />
+        <Route path="/space-physics/saturn-decagon-atmosphere-south-pole-discovery" element={<SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage />} />
+        <Route path="/article/saturn-decagon-south-pole" element={<SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

@@ -17,6 +17,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sciencenewshub.click/article/saturn-decagon-atmosphere-south-pole-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-03</news:publication_date>
+      <news:title>Astronomers Detect a Giant 10-Sided &apos;Decagon&apos; in Saturn&apos;s Atmosphere</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788461127/Generated_Image_September_04_2026_-_12_15AM_a1etkg.jpg</image:loc>
+      <image:title>Astronomers Detect a Giant 10-Sided &apos;Decagon&apos; in Saturn&apos;s Atmosphere</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/iss-ocean-crash-plan</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-24</news:publication_date>
-      <news:title>Environmental Experts Oppose Plan to Crash the International Space Station into the Ocean</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Environmental Experts Oppose Plan to Crash the International Space Station into the Ocean</image:title>
     </image:image>
   </url>
 </urlset>
