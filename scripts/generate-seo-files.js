@@ -56,6 +56,8 @@ const LEGACY_SLUG_MAP = {
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
   "Tim_Cook_Apple_CEO_Transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",
+  "Apple_September_Event_2026_Preview": "apple-september-event-2026-iphone-18-pro-foldable-preview",
+  "AppleSeptemberEvent2026Preview": "apple-september-event-2026-iphone-18-pro-foldable-preview",
   "LUX_ZEPLIN_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
   "Lux_Zeplin_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
   "Academy_Of_Natural_Sciences_Museum_Closure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",

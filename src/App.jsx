@@ -36,6 +36,7 @@ import SpaceXStarlink10000SatellitesArticlePage from './components/articles/Spac
 import MexicanGovernmentDataTheftArticlePage from './components/articles/MexicanGovernmentDataTheftArticlePage.jsx';
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
+import AppleSeptemberEvent2026ArticlePage from './components/articles/AppleSeptemberEvent2026ArticlePage.jsx';
 import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
 import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOriginNewGlennExplosionArticlePage.jsx';
 import MoonBaseIBlueOriginMissionArticlePage from './components/articles/MoonBaseIBlueOriginMissionArticlePage.jsx';
@@ -142,6 +143,10 @@ function App() {
         <Route path="/article/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/tech-business/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/article/tim-cook-apple-ceo-transition" element={<TimCookAppleCEOTransitionArticlePage />} />
+        <Route path="/article/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
+        <Route path="/tech-business/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
+        <Route path="/technology/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
+        <Route path="/article/apple-september-event-2026" element={<AppleSeptemberEvent2026ArticlePage />} />
         <Route path="/article/water-paint-coating" element={<WaterPaintCoatingArticlePage />} />
         <Route path="/article/blue-origin-new-glenn-explosion" element={<BlueOriginNewGlennExplosionArticlePage />} />
         <Route path="/article/moon-base-i-blue-origin-mission" element={<MoonBaseIBlueOriginMissionArticlePage />} />

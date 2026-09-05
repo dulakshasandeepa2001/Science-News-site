@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/apple-september-event-2026-iphone-18-pro-foldable-preview</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-04</news:publication_date>
+      <news:title>Apple’s September 9 &quot;Surprise and Shine&quot; Event: Foldable iPhone, iPhone 18 Pro, and the Dawn of the Ternus Era</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788592158/Generated_Image_September_05_2026_-_12_36PM_ynmavk.jpg</image:loc>
+      <image:title>Apple’s September 9 &quot;Surprise and Shine&quot; Event: Foldable iPhone, iPhone 18 Pro, and the Dawn of the Ternus Era</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/ancient-supervolcano-discovered-england-the-wash-geology</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>31 New Marine Species Discovered in the Ocean Off Brazil</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/euclid-milky-way-center</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-25</news:publication_date>
-      <news:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</image:title>
     </image:image>
   </url>
 </urlset>
