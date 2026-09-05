@@ -46,7 +46,7 @@ const CategoryPage = () => {
         title={`${formattedCategory} News & Latest Discoveries - Daily Science News`}
         description={`Explore the latest scientific news, research papers, and breakthrough developments in ${formattedCategory}.`}
         keywords={`${formattedCategory} news, ${categoryName} discoveries, science research ${categoryName}`}
-        canonicalUrl={`https://sciencenewshub.click/category/${categoryName}`}
+        canonicalUrl={`https://sciencenewshub.click/category/${categoryName.toLowerCase()}`}
         ogType="website"
       />
       <Header />
