@@ -119,6 +119,7 @@ import { Perovskite_Silicon_Tandem_Solar_34Percent } from "./articles/Perovskite
 import { Ancient_DNA_Two_Million_Year_Hominin } from "./articles/Ancient_DNA_Two_Million_Year_Hominin.js";
 import { Ancient_Supervolcano_Discovered_England_The_Wash } from "./articles/Ancient_Supervolcano_Discovered_England_The_Wash.js";
 import { Saturn_Decagon_Atmosphere_South_Pole_Discovery } from "./articles/Saturn_Decagon_Atmosphere_South_Pole_Discovery.js";
+import { New_Earthquake_Prediction_Model_UC_Riverside } from "./articles/New_Earthquake_Prediction_Model_UC_Riverside.js";
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -562,4 +563,5 @@ export const articles = [
   Ancient_DNA_Two_Million_Year_Hominin,
   Ancient_Supervolcano_Discovered_England_The_Wash,
   Saturn_Decagon_Atmosphere_South_Pole_Discovery,
+  New_Earthquake_Prediction_Model_UC_Riverside,
 ];

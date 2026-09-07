@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-06</news:publication_date>
+      <news:title>New GPS Model Predicts Where Massive Earthquakes Will Strike: Inside the UC Riverside Breakthrough</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788772396/Generated_Image_September_07_2026_-_2_42PM_arxxme.jpg</image:loc>
+      <image:title>New GPS Model Predicts Where Massive Earthquakes Will Strike: Inside the UC Riverside Breakthrough</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/apple-september-event-2026-iphone-18-pro-foldable-preview</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>Swift Telescope Rescue Mission Today</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/new-marine-species-brazil</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-29</news:publication_date>
-      <news:title>31 New Marine Species Discovered in the Ocean Off Brazil</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>31 New Marine Species Discovered in the Ocean Off Brazil</image:title>
     </image:image>
   </url>
 </urlset>
