@@ -2,7 +2,7 @@ export const Perovskite_Silicon_Tandem_Solar_34Percent = {
   id: "Perovskite_Silicon_Tandem_Solar_34Percent",
   title: "Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials",
   summary: "A revolutionary tandem photovoltaic architecture pairing metal-halide perovskites with standard silicon substrates has achieved 34.6% power conversion efficiency in outdoor durability trials, producing 40% more electricity per square meter than conventional solar panels.",
-  image: "https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
+  image: "https://images.unsplash.com/photo-1545208942-e1c9c916524b?auto=format&fit=crop&w=1200&q=80",
   category: "Environment",
   date: "August 31, 2026",
   author: "Renewable Energy & Materials Science Group",

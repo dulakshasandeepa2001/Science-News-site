@@ -167,7 +167,8 @@ const LEGACY_SLUG_MAP = {
   "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa",
   "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology",
   "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery",
-  "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults"
+  "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
+  "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools"
 };
 
 // Aliases mapping common slug variations to primary canonical slug

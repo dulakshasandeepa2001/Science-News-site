@@ -27,6 +27,7 @@ import { findArticleBySlugOrId, getArticleSlug, getArticleLink } from '../lib/ar
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import SEOHead from './SEOHead.jsx';
+import fallbackLabImage from '../assets/lab.jpg';
 
 const ArticlePage = ({ article: propArticle }) => {
   const { articleId } = useParams();
@@ -196,6 +197,11 @@ const ArticlePage = ({ article: propArticle }) => {
                 alt={`${article.title} - Scientific Discovery Coverage`}
                 className="w-full h-72 md:h-[440px] object-cover"
                 loading="eager"
+                referrerPolicy="no-referrer"
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = fallbackLabImage;
+                }}
               />
               <figcaption className="text-xs text-muted-foreground bg-card/90 px-4 py-2.5 border-t">
                 Research press illustration and scientific imagery related to {article.title}

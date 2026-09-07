@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-06</news:publication_date>
+      <news:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788774317/Generated_Image_September_07_2026_-_3_14PM_cyekuu.jpg</image:loc>
+      <image:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults</loc>
     <news:news>
       <news:publication>
@@ -177,7 +192,7 @@
       <news:title>Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials</news:title>
     </news:news>
     <image:image>
-      <image:loc>https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:loc>https://images.unsplash.com/photo-1545208942-e1c9c916524b?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
       <image:title>Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials</image:title>
     </image:image>
   </url>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>The First Dinosaur Fossil from Antarctica, Hidden in a Drawer for Four Decades</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/swift-telescope-rescue</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-30</news:publication_date>
-      <news:title>Swift Telescope Rescue Mission Today</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Swift Telescope Rescue Mission Today</image:title>
     </image:image>
   </url>
 </urlset>

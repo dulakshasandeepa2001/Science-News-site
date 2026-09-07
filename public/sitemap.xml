@@ -94,7 +94,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (129 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (130 Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults</loc>
     <lastmod>2026-09-06</lastmod>
