@@ -43,6 +43,7 @@ import { Ohio_Fireball_Meteor_March_2026 } from "./articles/Ohio_Fireball_Meteor
 import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_10000_Satellites.js";
 import { Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
 import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
+import { LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw } from "./articles/LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw.js";
 import { Tim_Cook_Apple_CEO_Transition } from "./articles/Tim_Cook_Apple_CEO_Transition.js";
 import { Apple_September_Event_2026_Preview } from "./articles/Apple_September_Event_2026_Preview.js";
 import { LUX_ZEPLIN_Dark_Matter_WIMP_Discovery } from "./articles/LUX_ZEPLIN_Dark_Matter_WIMP_Discovery.js";
@@ -438,6 +439,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw, // September 8, 2026 - LG Smart TV Standby Audio & Network Snooping
   Apple_September_Event_2026_Preview, // September 5, 2026 - Apple September 9 Keynote Preview
   Academy_Of_Natural_Sciences_Museum_Closure, // September 1, 2026 - Historic Museum Closure
   LUX_ZEPLIN_Dark_Matter_WIMP_Discovery, // September 1, 2026 - Dark Matter Breakthrough

@@ -21,6 +21,7 @@
 - [Archaeology & Paleontology](https://sciencenewshub.click/category/archaeology): Fossil discoveries, ancient human history, and prehistoric excavations.
 
 ## Featured Research Reports
+- [LG Smart TVs Caught Recording Audio in Standby & Snooping Home Wi-Fi](https://sciencenewshub.click/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus): Gamers Nexus and Level1Techs joint forensic investigation revealing webOS standby audio caching, ARP/mDNS local network sweeps, and RCE vulnerabilities.
 - [Mathspace Cybersecurity Breach (1M+ Students & Schools Affected)](https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools): Comprehensive forensic breakdown of the unpatched tool intrusion compromising 1.07M student, teacher, and parent profiles across Australia and NZ.
 - [New GPS Earthquake Prediction Model (UC Riverside Breakthrough)](https://sciencenewshub.click/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults): Breakthrough GPS fault-strain algorithm developed by UC Riverside geophysicists, validated by the magnitude-8.8 Kamchatka subduction rupture and applied to California's Hayward fault.
 - [Apple September 9 Event: Foldable iPhone & John Ternus Keynote](https://sciencenewshub.click/article/apple-september-event-2026-iphone-18-pro-foldable-preview): Comprehensive preview of Apple's Sept 9 "Surprise and Shine" keynote, John Ternus's stage debut as CEO, foldable iPhone Ultra, iPhone 18 Pro 2nm silicon, and 2027 hardware roadmap.

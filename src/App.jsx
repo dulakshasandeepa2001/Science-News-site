@@ -36,6 +36,7 @@ import SpaceXStarlink10000SatellitesArticlePage from './components/articles/Spac
 import MexicanGovernmentDataTheftArticlePage from './components/articles/MexicanGovernmentDataTheftArticlePage.jsx';
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
+import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
 import AppleSeptemberEvent2026ArticlePage from './components/articles/AppleSeptemberEvent2026ArticlePage.jsx';
 import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
 import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOriginNewGlennExplosionArticlePage.jsx';
@@ -143,6 +144,9 @@ function App() {
         <Route path="/article/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/tech-business/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
         <Route path="/article/tim-cook-apple-ceo-transition" element={<TimCookAppleCEOTransitionArticlePage />} />
+        <Route path="/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
+        <Route path="/tech-security/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
+        <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/article/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
         <Route path="/tech-business/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
         <Route path="/technology/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
