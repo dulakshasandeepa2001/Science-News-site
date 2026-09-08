@@ -55,6 +55,8 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
+  "AnthropicClaudeNavierStokes": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
   "LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw": "lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
   "LGSmartTVPrivacyInvestigation": "lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
   "Tim_Cook_Apple_CEO_Transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",

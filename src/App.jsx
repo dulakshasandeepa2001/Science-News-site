@@ -37,6 +37,7 @@ import MexicanGovernmentDataTheftArticlePage from './components/articles/Mexican
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
 import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
+import AnthropicClaudeNavierStokesArticlePage from './components/articles/AnthropicClaudeNavierStokesArticlePage.jsx';
 import AppleSeptemberEvent2026ArticlePage from './components/articles/AppleSeptemberEvent2026ArticlePage.jsx';
 import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
 import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOriginNewGlennExplosionArticlePage.jsx';
@@ -147,6 +148,9 @@ function App() {
         <Route path="/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/tech-security/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
+        <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/article/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
         <Route path="/tech-business/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
         <Route path="/technology/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
