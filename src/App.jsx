@@ -38,6 +38,7 @@ import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticA
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
 import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
 import AnthropicClaudeNavierStokesArticlePage from './components/articles/AnthropicClaudeNavierStokesArticlePage.jsx';
+import IPhone18ProUpgradeGuideArticlePage from './components/articles/IPhone18ProUpgradeGuideArticlePage.jsx';
 import AppleSeptemberEvent2026ArticlePage from './components/articles/AppleSeptemberEvent2026ArticlePage.jsx';
 import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
 import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOriginNewGlennExplosionArticlePage.jsx';
@@ -151,6 +152,9 @@ function App() {
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
+        <Route path="/tech/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
+        <Route path="/technology/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
         <Route path="/article/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
         <Route path="/tech-business/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
         <Route path="/technology/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />

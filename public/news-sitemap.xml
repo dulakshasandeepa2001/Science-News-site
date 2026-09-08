@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>Should You Skip the iPhone 18 Pro? Why the $2,000 Foldable and 20th-Anniversary iPhone 20 Change the Upgrade Math</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788883838/Generated_Image_September_08_2026_-_9_34PM_afler1.jpg</image:loc>
+      <image:title>Should You Skip the iPhone 18 Pro? Why the $2,000 Foldable and 20th-Anniversary iPhone 20 Change the Upgrade Math</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao</loc>
     <news:news>
       <news:publication>
