@@ -2,6 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>Did Claude Solve the Navier-Stokes Millennium Problem? Inside the Viral Rumor and Terence Tao’s Clarification</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788859616/Generated_Image_September_08_2026_-_2_55PM_wprhqz.jpg</image:loc>
+      <image:title>Did Claude Solve the Navier-Stokes Millennium Problem? Inside the Viral Rumor and Terence Tao’s Clarification</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>LG Smart TVs Caught Recording Audio in Standby Mode and Snooping on Home Networks: What You Need to Know</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788844440/Generated_Image_September_08_2026_-_10_42AM_k8krxt.jpg</image:loc>
+      <image:title>LG Smart TVs Caught Recording Audio in Standby Mode and Snooping on Home Networks: What You Need to Know</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools</loc>
     <news:news>
       <news:publication>
