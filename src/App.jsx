@@ -39,6 +39,7 @@ import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookA
 import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
 import AnthropicClaudeNavierStokesArticlePage from './components/articles/AnthropicClaudeNavierStokesArticlePage.jsx';
 import OpenAINavierStokesArticlePage from './components/articles/OpenAINavierStokesArticlePage.jsx';
+import PS5SystemUpdate14PSSR2ArticlePage from './components/articles/PS5SystemUpdate14PSSR2ArticlePage.jsx';
 import IPhone18ProUpgradeGuideArticlePage from './components/articles/IPhone18ProUpgradeGuideArticlePage.jsx';
 import AppleSeptemberEvent2026ArticlePage from './components/articles/AppleSeptemberEvent2026ArticlePage.jsx';
 import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
@@ -153,6 +154,9 @@ function App() {
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
+        <Route path="/gaming/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
+        <Route path="/technology/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
         <Route path="/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
         <Route path="/ai-tech/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
         <Route path="/technology/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />

@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-09</news:publication_date>
+      <news:title>PS5 System Update 14.0 Delivers Major Graphics Boost: Enhanced PSSR 2.0 Enabled by Default</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788949132/Generated_Image_September_09_2026_-_3_48PM_jnjsiw.jpg</image:loc>
+      <image:title>PS5 System Update 14.0 Delivers Major Graphics Boost: Enhanced PSSR 2.0 Enabled by Default</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy</loc>
     <news:news>
       <news:publication>

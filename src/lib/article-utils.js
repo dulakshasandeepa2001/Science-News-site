@@ -53,6 +53,8 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "PS5_System_Update_14_PSSR_2_Graphics_Upgrade": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
+  "PS5SystemUpdate14PSSR2": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
   "OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
   "OpenAINavierStokesProof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
   "IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
