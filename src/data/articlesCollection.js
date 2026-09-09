@@ -43,6 +43,7 @@ import { Ohio_Fireball_Meteor_March_2026 } from "./articles/Ohio_Fireball_Meteor
 import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_10000_Satellites.js";
 import { Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
 import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
+import { OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof } from "./articles/OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof.js";
 import { IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20 } from "./articles/IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20.js";
 import { Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor } from "./articles/Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor.js";
 import { LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw } from "./articles/LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw.js";
@@ -441,6 +442,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof, // September 9, 2026 - OpenAI Navier-Stokes Millennium Proof & Controversy
   IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20, // September 8, 2026 - iPhone 18 Pro Upgrade Guide, Foldable & iPhone 20
   Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor, // September 8, 2026 - Claude Navier-Stokes Rumor & Terence Tao
   LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw, // September 8, 2026 - LG Smart TV Standby Audio & Network Snooping

@@ -53,6 +53,8 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
+  "OpenAINavierStokesProof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
   "IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
   "IPhone18ProUpgradeGuide": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
   "Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",

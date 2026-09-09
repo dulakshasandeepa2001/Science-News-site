@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-09</news:publication_date>
+      <news:title>OpenAI Claims Solution to Navier-Stokes Millennium Problem: Inside the $1 Million Breakthrough and the Drama Shaking Mathematics</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788921540/Generated_Image_September_09_2026_-_8_06AM_urs15l.jpg</image:loc>
+      <image:title>OpenAI Claims Solution to Navier-Stokes Millennium Problem: Inside the $1 Million Breakthrough and the Drama Shaking Mathematics</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview</loc>
     <news:news>
       <news:publication>
