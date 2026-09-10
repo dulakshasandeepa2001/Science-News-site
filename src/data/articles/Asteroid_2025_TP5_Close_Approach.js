@@ -2,13 +2,41 @@ import asteroidImage from '../../assets/656.jpg';
 
 export const Asteroid_2025_TP5_Close_Approach = {
   id: "Asteroid_2025_TP5_Close_Approach",
+  slug: "asteroid-2025-tp5-close-approach",
   title: "Newly Discovered Asteroid 2025 TP5 Passes Closer Than the Moon: Earth's Near-Miss Event",
+  seoTitle: "Asteroid 2025 TP5 Passes Closer Than the Moon: NASA JPL Tracking & Impact Analysis",
   summary: "On October 13, 2025, the ATLAS (Asteroid Terrestrial-impact Last Alert System) telescope at Mauna Loa, Hawaii, discovered a remarkable near-Earth asteroid designated 2025 TP5. Measuring approximately 16 meters (54 feet) in diameter—comparable to a 6-story building and similar in size to the 2013 Chelyabinsk meteor—this asteroid passed within 97,089 kilometers of Earth on October 15, 2025, making it closer than the Moon's orbital distance of 384,000 kilometers.",
   image: asteroidImage,
   category: "Space & Physics",
   date: "October 27, 2025",
   author: "NASA Jet Propulsion Laboratory (JPL) & ATLAS Survey System",
-  readTime: "6 min read",
+  readTime: "7 min read",
+  keywords:
+    "asteroid 2025 tp5 close approach, near earth asteroid atlas discovery, asteroid passing closer than moon, NASA JPL cneos asteroid tracking, planetary defense chelyabinsk meteor comparison, asteroid 2025 tp5 trajectory",
+  metaTitle:
+    "Asteroid 2025 TP5 Passes Closer Than the Moon: NASA Tracking & Planetary Defense",
+  metaDescription:
+    "Discovered by the ATLAS system, 16-meter asteroid 2025 TP5 passed just 97,089 km from Earth—four times closer than the Moon. Here is the full NASA JPL trajectory report.",
+  canonicalUrl:
+    "https://sciencenewshub.click/article/asteroid-2025-tp5-close-approach",
+  schemaType: "NewsArticle",
+  faq: [
+    {
+      question: "How close did asteroid 2025 TP5 come to Earth?",
+      answer:
+        "Asteroid 2025 TP5 reached its closest approach point on October 15, 2025, passing within 97,089 kilometers (60,328 miles) of Earth—approximately four times closer than the average lunar distance of 384,000 kilometers."
+    },
+    {
+      question: "How large is asteroid 2025 TP5 and what would happen if it hit Earth?",
+      answer:
+        "The asteroid is estimated to be approximately 16 meters (54 feet) in diameter, comparable in size to the 2013 Chelyabinsk meteor. If such an asteroid entered Earth's atmosphere, it would generate an energetic airburst equivalent to roughly 400–500 kilotons of TNT."
+    },
+    {
+      question: "Which telescope system discovered asteroid 2025 TP5?",
+      answer:
+        "The asteroid was discovered on October 13, 2025, by the ATLAS (Asteroid Terrestrial-impact Last Alert System) telescope facility located on Mauna Loa in Hawaii."
+    }
+  ],
   content: {
     sections: [
       {

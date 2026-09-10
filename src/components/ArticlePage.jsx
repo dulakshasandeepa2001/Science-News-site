@@ -43,7 +43,7 @@ const ArticlePage = ({ article: propArticle }) => {
       if (foundArticle) {
         setArticle(foundArticle);
         const canonicalSlug = getArticleSlug(foundArticle);
-        if (articleId !== canonicalSlug && (articleId.includes('_') || articleId !== articleId.toLowerCase())) {
+        if (articleId !== canonicalSlug) {
           navigate(`/article/${canonicalSlug}`, { replace: true });
         }
       } else {
