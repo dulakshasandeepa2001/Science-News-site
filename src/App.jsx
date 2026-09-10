@@ -36,6 +36,7 @@ import SpaceXStarlink10000SatellitesArticlePage from './components/articles/Spac
 import MexicanGovernmentDataTheftArticlePage from './components/articles/MexicanGovernmentDataTheftArticlePage.jsx';
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
+import AnthropicResearcherJacobCoxonArticlePage from './components/articles/AnthropicResearcherJacobCoxonArticlePage.jsx';
 import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
 import AnthropicClaudeNavierStokesArticlePage from './components/articles/AnthropicClaudeNavierStokesArticlePage.jsx';
 import OpenAINavierStokesArticlePage from './components/articles/OpenAINavierStokesArticlePage.jsx';
@@ -154,6 +155,10 @@ function App() {
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
+        <Route path="/tech-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
+        <Route path="/technology/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
+        <Route path="/ai-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
         <Route path="/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
         <Route path="/gaming/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
         <Route path="/technology/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />

@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10</news:publication_date>
+      <news:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789030438/Generated_Image_September_10_2026_-_2_23PM_jgxxwn.jpg</image:loc>
+      <image:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb</loc>
     <news:news>
       <news:publication>

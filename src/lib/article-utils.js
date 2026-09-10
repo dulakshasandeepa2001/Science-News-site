@@ -53,6 +53,9 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "AnthropicResearcherJacobCoxon": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "JacobCoxonAnthropicResignation": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
   "PS5_System_Update_14_PSSR_2_Graphics_Upgrade": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
   "PS5SystemUpdate14PSSR2": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
   "OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
@@ -183,6 +186,11 @@ const LEGACY_SLUG_MAP = {
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "tech-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "technology/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "ai-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "jacob-coxon-anthropic-resigns": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "anthropic-extinction-warning-jacob-coxon": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
   "ancient-forest": "ancient-forest-under-arctic-ice",
   "florida-panther": "florida-panther-habitat-expansion",
   "zombie-virus": "zombie-virus-rabbits-study",
