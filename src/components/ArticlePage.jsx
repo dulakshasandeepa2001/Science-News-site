@@ -249,6 +249,23 @@ const ArticlePage = ({ article: propArticle }) => {
                     {section.content}
                   </p>
                 </div>
+
+                {section.image && (
+                  <figure className="my-6 rounded-2xl overflow-hidden border shadow-md bg-card">
+                    <img 
+                      src={section.image} 
+                      alt={section.imageAlt || `${section.title} - Scientific Discovery Coverage`}
+                      className="w-full h-auto max-h-[480px] object-cover"
+                      loading="lazy"
+                      referrerPolicy="no-referrer"
+                    />
+                    {section.imageCaption && (
+                      <figcaption className="text-xs text-muted-foreground bg-muted/50 px-4 py-2.5 border-t">
+                        {section.imageCaption}
+                      </figcaption>
+                    )}
+                  </figure>
+                )}
               </section>
             ))}
           </div>

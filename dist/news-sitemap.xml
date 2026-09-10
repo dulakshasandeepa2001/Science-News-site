@@ -32,6 +32,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sciencenewshub.click/article/massive-stars-forming-binary-system-alma-breakthrough</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-09</news:publication_date>
+      <news:title>Massive Stars Forming Binary System Captured in Real Time: How ALMA Uncovered a 60-Year-Old Cosmic Collision</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789055848/Generated_Image_September_10_2026_-_9_25PM_z9mr1s.jpg</image:loc>
+      <image:title>Massive Stars Forming Binary System Captured in Real Time: How ALMA Uncovered a 60-Year-Old Cosmic Collision</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/images-2.jpg</image:loc>
       <image:title>A New Conservation Measure to Save Koalas from Extinction</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/first-space-xray</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15</news:publication_date>
-      <news:title>First Medical X-Ray Images Taken in Space</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/1000145370-ezgif.com-webp-to-jpg-converter1.jpg</image:loc>
-      <image:title>First Medical X-Ray Images Taken in Space</image:title>
     </image:image>
   </url>
 </urlset>

@@ -94,7 +94,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (137 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (138 Articles) -->
   <url>
     <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
     <lastmod>2026-09-09</lastmod>
@@ -103,6 +103,12 @@
   </url>
   <url>
     <loc>https://sciencenewshub.click/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/massive-stars-forming-binary-system-alma-breakthrough</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>

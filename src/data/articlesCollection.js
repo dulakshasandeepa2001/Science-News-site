@@ -44,6 +44,7 @@ import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_100
 import { Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
 import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
 import { Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction } from "./articles/Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction.js";
+import { Massive_Stars_Forming_Binary_System_ALMA_Discovery } from "./articles/Massive_Stars_Forming_Binary_System_ALMA_Discovery.js";
 import { IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary } from "./articles/IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary.js";
 import { PS5_System_Update_14_PSSR_2_Graphics_Upgrade } from "./articles/PS5_System_Update_14_PSSR_2_Graphics_Upgrade.js";
 import { OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof } from "./articles/OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof.js";
@@ -445,6 +446,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  Massive_Stars_Forming_Binary_System_ALMA_Discovery, // September 10, 2026 - ALMA Massive Stars Binary Discovery
   IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary, // September 10, 2026 - iPhone 18 Pro Specs, Price & Foldable Dilemma
   Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction, // September 10, 2026 - Anthropic Whistleblower Jacob Coxon & Extinction Risk
   PS5_System_Update_14_PSSR_2_Graphics_Upgrade, // September 9, 2026 - PS5 System Update 14.0 & Enhanced PSSR 2.0
