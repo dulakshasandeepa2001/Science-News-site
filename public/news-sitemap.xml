@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10</news:publication_date>
+      <news:title>iPhone 18 Pro: Specs, Pricing, and Why Many Buyers Are Hesitating</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789031609/Generated_Image_September_10_2026_-_2_43PM_m4vbsy.jpg</image:loc>
+      <image:title>iPhone 18 Pro: Specs, Pricing, and Why Many Buyers Are Hesitating</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
     <news:news>
       <news:publication>

@@ -41,6 +41,7 @@ import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSm
 import AnthropicClaudeNavierStokesArticlePage from './components/articles/AnthropicClaudeNavierStokesArticlePage.jsx';
 import OpenAINavierStokesArticlePage from './components/articles/OpenAINavierStokesArticlePage.jsx';
 import PS5SystemUpdate14PSSR2ArticlePage from './components/articles/PS5SystemUpdate14PSSR2ArticlePage.jsx';
+import IPhone18ProSpecsPriceUpgradeGuideArticlePage from './components/articles/IPhone18ProSpecsPriceUpgradeGuideArticlePage.jsx';
 import IPhone18ProUpgradeGuideArticlePage from './components/articles/IPhone18ProUpgradeGuideArticlePage.jsx';
 import AppleSeptemberEvent2026ArticlePage from './components/articles/AppleSeptemberEvent2026ArticlePage.jsx';
 import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
@@ -165,6 +166,9 @@ function App() {
         <Route path="/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
         <Route path="/ai-tech/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
         <Route path="/technology/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
+        <Route path="/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary" element={<IPhone18ProSpecsPriceUpgradeGuideArticlePage />} />
+        <Route path="/tech/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary" element={<IPhone18ProSpecsPriceUpgradeGuideArticlePage />} />
+        <Route path="/technology/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary" element={<IPhone18ProSpecsPriceUpgradeGuideArticlePage />} />
         <Route path="/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
         <Route path="/tech/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
         <Route path="/technology/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />

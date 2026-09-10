@@ -60,6 +60,8 @@ const LEGACY_SLUG_MAP = {
   "PS5SystemUpdate14PSSR2": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
   "OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
   "OpenAINavierStokesProof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
+  "IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
+  "IPhone18ProSpecsPriceUpgradeGuide": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
   "IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
   "IPhone18ProUpgradeGuide": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
   "Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
@@ -186,6 +188,9 @@ const LEGACY_SLUG_MAP = {
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "tech/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
+  "technology/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
+  "iphone-18-pro-specs-price-upgrade-guide": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
   "tech-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
   "technology/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
   "ai-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
