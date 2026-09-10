@@ -2,6 +2,111 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-09</news:publication_date>
+      <news:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-09</news:publication_date>
+      <news:title>iPhone 18 Pro: Specs, Pricing, and Why Many Buyers Are Hesitating</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>iPhone 18 Pro: Specs, Pricing, and Why Many Buyers Are Hesitating</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>OpenAI Claims Solution to Navier-Stokes Millennium Problem: Inside the $1 Million Breakthrough and the Drama Shaking Mathematics</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>OpenAI Claims Solution to Navier-Stokes Millennium Problem: Inside the $1 Million Breakthrough and the Drama Shaking Mathematics</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-08</news:publication_date>
+      <news:title>PS5 System Update 14.0 Delivers Major Graphics Boost: Enhanced PSSR 2.0 Enabled by Default</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>PS5 System Update 14.0 Delivers Major Graphics Boost: Enhanced PSSR 2.0 Enabled by Default</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-07</news:publication_date>
+      <news:title>Did Claude Solve the Navier-Stokes Millennium Problem? Inside the Viral Rumor and Terence Tao’s Clarification</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Did Claude Solve the Navier-Stokes Millennium Problem? Inside the Viral Rumor and Terence Tao’s Clarification</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-07</news:publication_date>
+      <news:title>Should You Skip the iPhone 18 Pro? Why the $2,000 Foldable and 20th-Anniversary iPhone 20 Change the Upgrade Math</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Should You Skip the iPhone 18 Pro? Why the $2,000 Foldable and 20th-Anniversary iPhone 20 Change the Upgrade Math</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-07</news:publication_date>
+      <news:title>LG Smart TVs Caught Recording Audio in Standby Mode and Snooping on Home Networks: What You Need to Know</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>LG Smart TVs Caught Recording Audio in Standby Mode and Snooping on Home Networks: What You Need to Know</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools</loc>
     <news:news>
       <news:publication>
@@ -644,111 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/1000145370-ezgif.com-webp-to-jpg-converter1.jpg</image:loc>
       <image:title>First Medical X-Ray Images Taken in Space</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/us-space-force-meadowlands</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13</news:publication_date>
-      <news:title>US Space Force Acquires New Electromagnetic Weapon Capable of Disabling Satellites</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/01.webp</image:loc>
-      <image:title>US Space Force Acquires New Electromagnetic Weapon Capable of Disabling Satellites</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/pluto-titan-mystery-substance</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09</news:publication_date>
-      <news:title>A Previously Undiscovered &apos;Mystery&apos; Substance Found on Pluto and Titan</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>A Previously Undiscovered &apos;Mystery&apos; Substance Found on Pluto and Titan</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/nuclear-satellite-bohr</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-08</news:publication_date>
-      <news:title>World&apos;s First Nuclear-Powered Commercial Satellite Successfully Launched into Space</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>World&apos;s First Nuclear-Powered Commercial Satellite Successfully Launched into Space</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/fermi-paradox-ai-explanation</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-07</news:publication_date>
-      <news:title>A New Scientific Explanation for Fermi&apos;s Paradox</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>A New Scientific Explanation for Fermi&apos;s Paradox</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/gj-3378b-earth-like-planet</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-05</news:publication_date>
-      <news:title>A New Earth-Like Planet Potentially Suitable for Life Discovered Near Our Solar System</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>A New Earth-Like Planet Potentially Suitable for Life Discovered Near Our Solar System</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/lhc-shutdown-upgrade</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02</news:publication_date>
-      <news:title>The World&apos;s Most Powerful Particle Accelerator Shut Down Until 2030 for Upgrades</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>The World&apos;s Most Powerful Particle Accelerator Shut Down Until 2030 for Upgrades</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/antarctic-titanosaur-fossil</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-01</news:publication_date>
-      <news:title>The First Dinosaur Fossil from Antarctica, Hidden in a Drawer for Four Decades</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>The First Dinosaur Fossil from Antarctica, Hidden in a Drawer for Four Decades</image:title>
     </image:image>
   </url>
 </urlset>

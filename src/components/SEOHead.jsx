@@ -130,6 +130,7 @@ export default function SEOHead({
             {
               "@type": "ImageObject",
               "url": imageUrl,
+              "contentUrl": imageUrl,
               "width": 1200,
               "height": 675
             }

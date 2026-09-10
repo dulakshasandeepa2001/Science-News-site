@@ -2,6 +2,10 @@ User-agent: *
 Allow: /
 Disallow: /search
 
+User-agent: Googlebot-Image
+Allow: /
+
+
 Sitemap: https://sciencenewshub.click/sitemap.xml
 Sitemap: https://sciencenewshub.click/post-sitemap.xml
 Sitemap: https://sciencenewshub.click/page-sitemap.xml
