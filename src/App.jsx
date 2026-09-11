@@ -236,6 +236,8 @@ function App() {
         <Route path="/article/saturn-decagon-south-pole" element={<SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage />} />
         <Route path="/space-astronomy/massive-stars-forming-binary-system-alma-breakthrough" element={<ArticlePage />} />
         <Route path="/space/massive-stars-forming-binary-system-alma-breakthrough" element={<ArticlePage />} />
+        <Route path="/tech/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing" element={<ArticlePage />} />
+        <Route path="/technology/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing" element={<ArticlePage />} />
         <Route path="/article/:articleId" element={<ArticlePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

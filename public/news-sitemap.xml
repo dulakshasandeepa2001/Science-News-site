@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10</news:publication_date>
+      <news:title>Apple Watch Series 12 Targets Whoop and Oura: Inside the S11 Chip, Daily Readiness Scores, and Health Sensing System</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789098235/Generated_Image_September_11_2026_-_9_12AM_yoyunn.jpg</image:loc>
+      <image:title>Apple Watch Series 12 Targets Whoop and Oura: Inside the S11 Chip, Daily Readiness Scores, and Health Sensing System</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/download-1.webp</image:loc>
       <image:title>India Becomes the Third Country in the World to Successfully Test a Private-Sector Orbital Rocket</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/koala-cryopreservation</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16</news:publication_date>
-      <news:title>A New Conservation Measure to Save Koalas from Extinction</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/images-2.jpg</image:loc>
-      <image:title>A New Conservation Measure to Save Koalas from Extinction</image:title>
     </image:image>
   </url>
 </urlset>
