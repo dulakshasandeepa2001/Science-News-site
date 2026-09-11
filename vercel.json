@@ -2,7 +2,7 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico)",
+      "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico|BingSiteAuth\\.xml)",
       "destination": "/$1"
     },
     {
