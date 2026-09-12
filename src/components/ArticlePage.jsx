@@ -194,7 +194,7 @@ const ArticlePage = ({ article: propArticle }) => {
             <figure className="relative overflow-hidden rounded-2xl border shadow-md">
               <img 
                 src={article.image} 
-                alt={`${article.title} - Scientific Discovery Coverage`}
+                alt={article.imageAlt || `${article.title} - Scientific Discovery Coverage`}
                 className="w-full h-72 md:h-[440px] object-cover"
                 loading="eager"
                 referrerPolicy="no-referrer"
@@ -204,7 +204,7 @@ const ArticlePage = ({ article: propArticle }) => {
                 }}
               />
               <figcaption className="text-xs text-muted-foreground bg-card/90 px-4 py-2.5 border-t">
-                Research press illustration and scientific imagery related to {article.title}
+                {article.imageCaption || `Research press illustration and scientific imagery related to ${article.title}`}
               </figcaption>
             </figure>
 

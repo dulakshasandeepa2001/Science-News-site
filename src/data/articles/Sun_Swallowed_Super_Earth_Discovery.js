@@ -9,6 +9,10 @@ export const Sun_Swallowed_Super_Earth_Discovery = {
   category: "Space & Astrophysics",
   date: "September 12, 2026",
   image: SunSwallowedSuperEarthHeroImage,
+  imageAlt: "Scientific 3D visualization of a massive super-Earth plunging into the young infant Sun",
+  imageFileName: "sun-swallowed-super-earth-planet-solar-interior-discovery.webp",
+  imageFormat: "webp",
+  imageCaption: "Scientific 3D visualization of a massive super-Earth plunging into the young infant Sun during the early solar accretion phase.",
   secondaryImages: [
     SunSwallowedSuperEarthConvectionImage,
     SunSwallowedSuperEarthOrbitImage

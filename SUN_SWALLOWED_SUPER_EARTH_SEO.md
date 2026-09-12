@@ -32,12 +32,19 @@
 
 ---
 
-## 3. High-Quality Media Assets (Google Discover Ready)
+## 3. High-Quality Media Assets (Google Discover & Image SEO Ready)
+
+### Image SEO Setup
+- **Format**: .webp
+- **Suggested File Name**: `sun-swallowed-super-earth-planet-solar-interior-discovery.webp`
+- **Alt Text**: `alt="Scientific 3D visualization of a massive super-Earth plunging into the young infant Sun"`
 
 ### Primary Hero Image (1200px+ High Resolution)
 - **URL**: https://res.cloudinary.com/dib0fble7/image/upload/v1789211268/Generated_Image_September_12_2026_-_4_36PM_1_ildu1a.jpg
-- **Alt Text**: Illustration of a massive rocky super-Earth spiraling into the fiery atmosphere of an infant young Sun
-- **Caption**: Artist's visualization of an infant Sun engulfing a 5-to-10 Earth-mass super-Earth during the chaotic early solar system accretion phase.
+- **Format**: .webp
+- **File Name**: `sun-swallowed-super-earth-planet-solar-interior-discovery.webp`
+- **Alt Text**: `Scientific 3D visualization of a massive super-Earth plunging into the young infant Sun`
+- **Caption**: Scientific 3D visualization of a massive super-Earth plunging into the young infant Sun during the early solar accretion phase.
 
 ### Supporting Infographics & Simulation Imagery
 - **Image 2 URL**: https://res.cloudinary.com/dib0fble7/image/upload/v1789211431/Generated_Image_September_12_2026_-_4_39PM_cfuv0r.jpg
