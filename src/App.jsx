@@ -37,6 +37,7 @@ import MexicanGovernmentDataTheftArticlePage from './components/articles/Mexican
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
 import AnthropicResearcherJacobCoxonArticlePage from './components/articles/AnthropicResearcherJacobCoxonArticlePage.jsx';
+import UKSeptemberHeatwaveArticlePage from './components/articles/UKSeptemberHeatwaveArticlePage.jsx';
 import SunSwallowedSuperEarthArticlePage from './components/articles/SunSwallowedSuperEarthArticlePage.jsx';
 import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
 import AnthropicClaudeNavierStokesArticlePage from './components/articles/AnthropicClaudeNavierStokesArticlePage.jsx';
@@ -157,6 +158,10 @@ function App() {
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
+        <Route path="/environment/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
+        <Route path="/weather/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
+        <Route path="/climate/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
         <Route path="/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery" element={<SunSwallowedSuperEarthArticlePage />} />
         <Route path="/space-astronomy/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery" element={<SunSwallowedSuperEarthArticlePage />} />
         <Route path="/space/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery" element={<SunSwallowedSuperEarthArticlePage />} />

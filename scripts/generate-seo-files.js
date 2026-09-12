@@ -55,6 +55,8 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "UK_September_Heatwave_Forecast_2026": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
+  "UKSeptemberHeatwaveForecast": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
   "Sun_Swallowed_Super_Earth_Discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
   "SunSwallowedSuperEarth": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
   "Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score": "apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
