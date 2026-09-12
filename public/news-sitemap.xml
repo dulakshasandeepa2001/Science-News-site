@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12</news:publication_date>
+      <news:title>Did Our Sun Swallow a Super-Earth? Chemical Fingerprints Found Inside</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789211268/Generated_Image_September_12_2026_-_4_36PM_1_ildu1a.jpg</image:loc>
+      <image:title>Did Our Sun Swallow a Super-Earth? Chemical Fingerprints Found Inside</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing</loc>
     <news:news>
       <news:publication>

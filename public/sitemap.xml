@@ -94,7 +94,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (139 Articles) -->
+  <!-- Published Scientific Articles & Research Reports -->
+  <url>
+    <loc>https://sciencenewshub.click/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing</loc>
     <lastmod>2026-09-10</lastmod>

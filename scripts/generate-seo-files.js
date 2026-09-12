@@ -55,6 +55,8 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "Sun_Swallowed_Super_Earth_Discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
+  "SunSwallowedSuperEarth": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
   "Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score": "apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
   "AppleWatchSeries12VsWhoopOura": "apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
   "Massive_Stars_Forming_Binary_System_ALMA_Discovery": "massive-stars-forming-binary-system-alma-breakthrough",
