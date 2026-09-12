@@ -68,7 +68,10 @@ Led by astrophysicist Dr. Mutlu Yildiz of Ege University in Turkey, advanced evo
 • The Missing Lithium Dilemma: Lithium, forged during the Big Bang and fundamental to early cosmic nucleosynthesis, is present in expected quantities across young, sun-like stars throughout the galaxy. However, direct spectroscopic scans show that our Sun's outer surface contains a stark depletion of lithium compared to its stellar peers.
 • The Convection Zone Sound-Speed Discrepancy: Standard solar models have persistently struggled to reproduce helioseismology data—the study of acoustic sound waves propagating through the Sun. Independent measurements of sound speeds just beneath the solar convection zone deviate noticeably from theoretical stellar physics models.
 
-Dr. Yildiz hypothesized that these seemingly unrelated structural anomalies shared a single, violent catalyst. Because forming planetary bodies condense out of refractory materials and heavy elements distinct from the volatile gases of the surrounding nebula, the direct ingestion of a rocky planet would fundamentally recalibrate a young star's interior chemical ratios and opacity profiles.`
+Dr. Yildiz hypothesized that these seemingly unrelated structural anomalies shared a single, violent catalyst. Because forming planetary bodies condense out of refractory materials and heavy elements distinct from the volatile gases of the surrounding nebula, the direct ingestion of a rocky planet would fundamentally recalibrate a young star's interior chemical ratios and opacity profiles.`,
+        image: SunSwallowedSuperEarthConvectionImage,
+        imageAlt: "Scientific 3D visualization of the solar interior and convection zone sound-speed anomalies",
+        imageCaption: "Helioseismic simulation illustrating how refractory elements from an engulfed super-Earth altered acoustic sound speeds and lithium concentrations beneath the solar convection zone."
       },
       {
         title: "3. Simulating the Fall: How a Planet Plunges into Its Host Star",
@@ -78,7 +81,10 @@ Through gravitational drag against the gas-rich disk—a process known as orbita
 
 Using open-source stellar evolution software, Yildiz simulated hundreds of accretion trajectories and chemical permutations to evaluate how the Sun would respond to swallowing various celestial objects. When the algorithm simulated the ingestion of a super-Earth sized between 5 and 10 Earth masses, the simulated solar interior snapped into near-perfect alignment with modern helioseismology readings and observed surface lithium concentrations.
 
-"We thought planetary engulfment might affect the solar structure but did not expect the calculations to converge on such a specific super-Earth mass range," Dr. Yildiz noted. "That was one of the most interesting outcomes of the study. The ingestion of a super-Earth could help explain long-standing differences between standard solar models and observations."`
+"We thought planetary engulfment might affect the solar structure but did not expect the calculations to converge on such a specific super-Earth mass range," Dr. Yildiz noted. "That was one of the most interesting outcomes of the study. The ingestion of a super-Earth could help explain long-standing differences between standard solar models and observations."`,
+        image: SunSwallowedSuperEarthOrbitImage,
+        imageAlt: "Scientific visualization of a super-Earth spiraling inward along an accretion disk toward the infant Sun",
+        imageCaption: "Protoplanetary disk simulation depicting orbital migration where gas drag causes a massive rocky super-Earth to plunge inward into the parent star."
       },
       {
         title: "4. Cosmic Precedent: Stars Caught in the Act of Planetary Feasts",
