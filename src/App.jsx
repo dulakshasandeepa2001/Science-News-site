@@ -5,6 +5,9 @@ import BlogPostPage from './components/BlogPostPage.jsx';
 import CategoryPage from './components/CategoryPage.jsx';
 import ArticlePage from './components/ArticlePage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
+import { Sony_PlayStation_Store_Credit_Settlement } from './data/articles/Sony_PlayStation_Store_Credit_Settlement.js';
+import { Dario_Amodei_AI_Slowdown_Pace_The_Frontier } from './data/articles/Dario_Amodei_AI_Slowdown_Pace_The_Frontier.js';
+import { When_Is_The_Next_Meteor_Shower_2026_Calendar } from './data/articles/When_Is_The_Next_Meteor_Shower_2026_Calendar.js';
 import AncientForestArticlePage from './components/articles/AncientForestArticlePage.jsx';
 import FloridaPantherArticlePage from './components/articles/FloridaPantherArticlePage.jsx';
 import ZombieVirusArticlePage from './components/articles/ZombieVirusArticlePage.jsx';
@@ -157,15 +160,15 @@ function App() {
         <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
-        <Route path="/article/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
-        <Route path="/gaming-tech/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
-        <Route path="/gaming/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
-        <Route path="/technology/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
-        <Route path="/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage />} />
-        <Route path="/technology/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage />} />
-        <Route path="/ai-tech/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage />} />
-        <Route path="/article/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage />} />
-        <Route path="/space-astronomy/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage />} />
+        <Route path="/article/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
+        <Route path="/gaming-tech/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
+        <Route path="/gaming/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
+        <Route path="/technology/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
+        <Route path="/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage article={Dario_Amodei_AI_Slowdown_Pace_The_Frontier} />} />
+        <Route path="/technology/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage article={Dario_Amodei_AI_Slowdown_Pace_The_Frontier} />} />
+        <Route path="/ai-tech/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage article={Dario_Amodei_AI_Slowdown_Pace_The_Frontier} />} />
+        <Route path="/article/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage article={When_Is_The_Next_Meteor_Shower_2026_Calendar} />} />
+        <Route path="/space-astronomy/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage article={When_Is_The_Next_Meteor_Shower_2026_Calendar} />} />
         <Route path="/article/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
         <Route path="/environment/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
         <Route path="/weather/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />

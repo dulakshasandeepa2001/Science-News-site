@@ -38,12 +38,20 @@ const ArticlePage = ({ article: propArticle }) => {
   useEffect(() => {
     if (propArticle) {
       setArticle(propArticle);
-    } else if (articleId) {
-      const foundArticle = findArticleBySlugOrId(articles, articleId);
+      return;
+    }
+    
+    const pathSlug = typeof window !== 'undefined' 
+      ? window.location.pathname.split('/').filter(Boolean).pop() 
+      : null;
+    const targetSlug = articleId || pathSlug;
+
+    if (targetSlug) {
+      const foundArticle = findArticleBySlugOrId(articles, targetSlug);
       if (foundArticle) {
         setArticle(foundArticle);
         const canonicalSlug = getArticleSlug(foundArticle);
-        if (articleId !== canonicalSlug) {
+        if (articleId && articleId !== canonicalSlug) {
           navigate(`/article/${canonicalSlug}`, { replace: true });
         }
       } else {
