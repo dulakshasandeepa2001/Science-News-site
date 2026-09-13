@@ -157,7 +157,15 @@ function App() {
         <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
-        <Route path="/technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
+        <Route path="/gaming-tech/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
+        <Route path="/gaming/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
+        <Route path="/technology/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage />} />
+        <Route path="/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage />} />
+        <Route path="/technology/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage />} />
+        <Route path="/ai-tech/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage />} />
+        <Route path="/article/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage />} />
+        <Route path="/space-astronomy/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage />} />
         <Route path="/article/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
         <Route path="/environment/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
         <Route path="/weather/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
