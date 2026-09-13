@@ -43,6 +43,7 @@ import { Ohio_Fireball_Meteor_March_2026 } from "./articles/Ohio_Fireball_Meteor
 import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_10000_Satellites.js";
 import { Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
 import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
+import { When_Is_The_Next_Meteor_Shower_2026_Calendar } from "./articles/When_Is_The_Next_Meteor_Shower_2026_Calendar.js";
 import { UK_September_Heatwave_Forecast_2026 } from "./articles/UK_September_Heatwave_Forecast_2026.js";
 import { Sun_Swallowed_Super_Earth_Discovery } from "./articles/Sun_Swallowed_Super_Earth_Discovery.js";
 import { Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction } from "./articles/Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction.js";
@@ -449,6 +450,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  When_Is_The_Next_Meteor_Shower_2026_Calendar, // September 13, 2026 - When Is the Next Meteor Shower? 2026 Skywatching Calendar
   UK_September_Heatwave_Forecast_2026, // September 12, 2026 - UK September Heatwave Forecast, 25°C Maps & Met Office Guide
   Sun_Swallowed_Super_Earth_Discovery, // September 12, 2026 - Sun Swallowed Super-Earth & Lithium Paradox Discovery
   Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score, // September 11, 2026 - Apple Watch Series 12 vs Whoop & Oura
