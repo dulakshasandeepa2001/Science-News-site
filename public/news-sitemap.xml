@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/jwst-chariklo-asteroid-ring-system-changes-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14</news:publication_date>
+      <news:title>JWST Discovers Chariklo&apos;s Rings Are Changing: How a Tiny Asteroid Upends Physics</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789388867/Generated_Image_September_14_2026_-_5_56PM_dxbcph.jpg</image:loc>
+      <image:title>JWST Discovers Chariklo&apos;s Rings Are Changing: How a Tiny Asteroid Upends Physics</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier</loc>
     <news:news>
       <news:publication>

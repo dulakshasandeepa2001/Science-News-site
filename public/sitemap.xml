@@ -94,7 +94,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (144 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (145 Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/jwst-chariklo-asteroid-ring-system-changes-discovery</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier</loc>
     <lastmod>2026-09-12</lastmod>

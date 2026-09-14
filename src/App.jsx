@@ -40,6 +40,7 @@ import MexicanGovernmentDataTheftArticlePage from './components/articles/Mexican
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
 import AnthropicResearcherJacobCoxonArticlePage from './components/articles/AnthropicResearcherJacobCoxonArticlePage.jsx';
+import JWSTCharikloRingsArticlePage from './components/articles/JWSTCharikloRingsArticlePage.jsx';
 import UKSeptemberHeatwaveArticlePage from './components/articles/UKSeptemberHeatwaveArticlePage.jsx';
 import SunSwallowedSuperEarthArticlePage from './components/articles/SunSwallowedSuperEarthArticlePage.jsx';
 import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
@@ -160,6 +161,10 @@ function App() {
         <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
+        <Route path="/space-astronomy/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
+        <Route path="/space/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
+        <Route path="/astrophysics/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
         <Route path="/article/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
         <Route path="/gaming-tech/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
         <Route path="/gaming/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
