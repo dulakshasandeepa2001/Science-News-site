@@ -39,7 +39,7 @@ const BlogPage = () => {
     <div className="min-h-screen flex flex-col">
       <SEOHead 
         title="Science Blog & In-Depth Research Analysis - Daily Science News"
-        description="Explore in-depth scientific analysis, expert blog posts, educational articles, and research insights across mathematics, astronomy, technology, and science."
+        description="Explore in-depth scientific analysis, expert blog posts, educational articles, and research insights across astronomy, physics, and technology."
         keywords="science blog, research analysis, scientific articles, astronomy blog, mathematics insights, physics commentary"
         canonicalUrl="https://sciencenewshub.click/blog"
         ogType="website"

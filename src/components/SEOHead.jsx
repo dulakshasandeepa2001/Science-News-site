@@ -49,8 +49,24 @@ export default function SEOHead({
       element.setAttribute('href', href);
     };
 
+    // Helper function to ensure meta description is always between 25 and 158 characters (Bing & Google compliant)
+    const formatMetaDescription = (rawText) => {
+      const fallback = 'Stay informed with cutting-edge research, space exploration, physics breakthroughs, AI technology, and health discoveries from around the world.';
+      if (!rawText) return fallback;
+      const clean = rawText.replace(/\s+/g, ' ').trim();
+      if (clean.length > 158) {
+        const truncated = clean.substring(0, 155);
+        const lastSpace = truncated.lastIndexOf(' ');
+        return (lastSpace > 60 ? truncated.substring(0, lastSpace) : truncated) + '...';
+      }
+      if (clean.length < 25) {
+        return `${clean} - Daily Science News provides verified scientific research, space, physics, and medical breakthroughs.`;
+      }
+      return clean;
+    };
+
     // 2. Base SEO Meta Tags (Google Discover & Google News Compliant)
-    const metaDesc = description || 'Stay informed with cutting-edge research, breakthrough discoveries, and the latest developments in science and technology from around the world.';
+    const metaDesc = formatMetaDescription(description);
     const metaKeys = keywords || 'science news, scientific discoveries, space research, astronomy, physics, technology, health';
     const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.href : DEFAULT_DOMAIN);
     const imageUrl = ogImage || DEFAULT_FALLBACK_IMAGE;

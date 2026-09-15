@@ -8,7 +8,7 @@ export default function DisclaimerPage() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead 
         title="Disclaimer - Daily Science News"
-        description="Official Disclaimer for Daily Science News. Important information regarding scientific news, health/medical reporting, external references, and editorial policies."
+        description="Official Disclaimer for Daily Science News covering scientific reporting, health and medical information, external citations, and editorial standards."
         keywords="disclaimer, Daily Science News, medical disclaimer, scientific reporting disclaimer, editorial policy"
         canonicalUrl="https://sciencenewshub.click/disclaimer"
         ogType="website"

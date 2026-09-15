@@ -8,7 +8,7 @@ export default function PrivacyPolicyPage() {
     <div className="min-h-screen flex flex-col bg-background">
       <SEOHead 
         title="Privacy Policy - Daily Science News"
-        description="Official Privacy Policy for Daily Science News. Learn about how we collect, use, and protect your data, including Google AdSense cookies and DART policies."
+        description="Official Privacy Policy for Daily Science News. Learn how we collect, use, and protect your data, including Google AdSense cookies and privacy standards."
         keywords="privacy policy, Daily Science News, Google AdSense cookies, DART cookie, data protection, GDPR, CCPA"
         canonicalUrl="https://sciencenewshub.click/privacy-policy"
         ogType="website"
