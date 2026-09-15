@@ -5,6 +5,7 @@ import BlogPostPage from './components/BlogPostPage.jsx';
 import CategoryPage from './components/CategoryPage.jsx';
 import ArticlePage from './components/ArticlePage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
+import { Quantum_Entanglement_Z_Bosons_CERN_ATLAS } from './data/articles/Quantum_Entanglement_Z_Bosons_CERN_ATLAS.js';
 import { US_Confirms_Weapons_Deployed_Orbit_Space_Force } from './data/articles/US_Confirms_Weapons_Deployed_Orbit_Space_Force.js';
 import { Sony_PlayStation_Store_Credit_Settlement } from './data/articles/Sony_PlayStation_Store_Credit_Settlement.js';
 import { Dario_Amodei_AI_Slowdown_Pace_The_Frontier } from './data/articles/Dario_Amodei_AI_Slowdown_Pace_The_Frontier.js';
@@ -162,6 +163,10 @@ function App() {
         <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
+        <Route path="/physics-space/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
+        <Route path="/physics/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
+        <Route path="/space-physics/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
         <Route path="/article/us-confirms-weapons-deployed-orbit-space-force-troy-meink" element={<ArticlePage article={US_Confirms_Weapons_Deployed_Orbit_Space_Force} />} />
         <Route path="/defense-space/us-confirms-weapons-deployed-orbit-space-force-troy-meink" element={<ArticlePage article={US_Confirms_Weapons_Deployed_Orbit_Space_Force} />} />
         <Route path="/space/us-confirms-weapons-deployed-orbit-space-force-troy-meink" element={<ArticlePage article={US_Confirms_Weapons_Deployed_Orbit_Space_Force} />} />

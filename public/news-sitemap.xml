@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14</news:publication_date>
+      <news:title>Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/us-confirms-weapons-deployed-orbit-space-force-troy-meink</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/sarychev-volcano.jpg</image:loc>
       <image:title>Volcanic Eruptions in the Pacific Ring of Fire Have Been Cooling the Earth for Centuries</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29</news:publication_date>
-      <news:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg</image:loc>
-      <image:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</image:title>
     </image:image>
   </url>
 </urlset>

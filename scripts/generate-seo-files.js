@@ -45,6 +45,8 @@ const LEGACY_SLUG_MAP = {
   "26": "oldest-mummies-southeast-asia",
 
   // CamelCase & Underscore IDs
+  "Quantum_Entanglement_Z_Bosons_CERN_ATLAS": "quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas",
+  "QuantumEntanglementZBosonsCERNATLAS": "quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas",
   "US_Confirms_Weapons_Deployed_Orbit_Space_Force": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
   "USConfirmsWeaponsDeployedOrbitSpaceForce": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
   "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",

@@ -94,7 +94,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (146 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (147 Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/us-confirms-weapons-deployed-orbit-space-force-troy-meink</loc>
     <lastmod>2026-09-14</lastmod>
