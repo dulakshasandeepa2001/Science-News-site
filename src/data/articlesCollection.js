@@ -43,6 +43,7 @@ import { Ohio_Fireball_Meteor_March_2026 } from "./articles/Ohio_Fireball_Meteor
 import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_10000_Satellites.js";
 import { Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
 import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
+import { US_Confirms_Weapons_Deployed_Orbit_Space_Force } from "./articles/US_Confirms_Weapons_Deployed_Orbit_Space_Force.js";
 import { JWST_Chariklo_Asteroid_Ring_Changes } from "./articles/JWST_Chariklo_Asteroid_Ring_Changes.js";
 import { Sony_PlayStation_Store_Credit_Settlement } from "./articles/Sony_PlayStation_Store_Credit_Settlement.js";
 import { Dario_Amodei_AI_Slowdown_Pace_The_Frontier } from "./articles/Dario_Amodei_AI_Slowdown_Pace_The_Frontier.js";
@@ -453,6 +454,7 @@ const quantumComputingArticle = {
 
 // Combine all articles into a single array
 export const articles = [
+  US_Confirms_Weapons_Deployed_Orbit_Space_Force, // September 15, 2026 - US Confirms Weapons Already Deployed in Orbit: How America's Secret Space Arsenal Alters Global Warfare
   JWST_Chariklo_Asteroid_Ring_Changes, // September 14, 2026 - JWST Discovers Chariklo's Rings Are Changing: How a Tiny Asteroid Upends Physics
   Sony_PlayStation_Store_Credit_Settlement, // September 13, 2026 - Sony PlayStation Store Credit Settlement: How to Check Eligibility & Claim
   Dario_Amodei_AI_Slowdown_Pace_The_Frontier, // September 13, 2026 - Dario Amodei AI Slowdown Plan: Anthropic CEO Paces the Frontier

@@ -2,6 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/us-confirms-weapons-deployed-orbit-space-force-troy-meink</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14</news:publication_date>
+      <news:title>US Confirms Weapons Already Deployed in Orbit: How America&apos;s Secret Space Arsenal Alters Global Warfare</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>US Confirms Weapons Already Deployed in Orbit: How America&apos;s Secret Space Arsenal Alters Global Warfare</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/jwst-chariklo-asteroid-ring-system-changes-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13</news:publication_date>
+      <news:title>JWST Discovers Chariklo&apos;s Rings Are Changing: How a Tiny Asteroid Upended Solar System Physics</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>JWST Discovers Chariklo&apos;s Rings Are Changing: How a Tiny Asteroid Upended Solar System Physics</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier</loc>
     <news:news>
       <news:publication>
@@ -719,36 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg</image:loc>
       <image:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/jodrell-bank-observatory-risk</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-28</news:publication_date>
-      <news:title>The Future of Jodrell Bank Observatory at Risk</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>The Future of Jodrell Bank Observatory at Risk</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/earhart-nikumaroro-clue</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27</news:publication_date>
-      <news:title>Clue Found on Nikumaroro Island Regarding Earhart&apos;s Disappearance</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Clue Found on Nikumaroro Island Regarding Earhart&apos;s Disappearance</image:title>
     </image:image>
   </url>
 </urlset>

@@ -45,6 +45,8 @@ const LEGACY_SLUG_MAP = {
   "26": "oldest-mummies-southeast-asia",
 
   // CamelCase & Underscore IDs
+  "US_Confirms_Weapons_Deployed_Orbit_Space_Force": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
+  "USConfirmsWeaponsDeployedOrbitSpaceForce": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
   "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",
   "SpaceX_Starlink_10000_Satellites": "spacex-starlink-10000-satellites",
   "BlueOriginNewGlennExplosion": "blue-origin-new-glenn-explosion",
