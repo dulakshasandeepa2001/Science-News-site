@@ -39,7 +39,19 @@
     <!-- Security & Canonical Tags -->
     <meta name="theme-color" content="#0284c7" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <link rel="canonical" href="https://sciencenewshub.click/" />
+    <link rel="canonical" id="canonical-url" href="https://sciencenewshub.click/" />
+    <script>
+      (function() {
+        try {
+          var link = document.getElementById('canonical-url') || document.querySelector('link[rel="canonical"]');
+          if (link) {
+            var path = window.location.pathname || '';
+            var cleanPath = path === '/' ? '/' : path.replace(/\/+$/, '');
+            link.href = 'https://sciencenewshub.click' + cleanPath;
+          }
+        } catch (e) {}
+      })();
+    </script>
     <link rel="alternate" type="application/rss+xml" title="Science News RSS Feed" href="https://sciencenewshub.click/rss.xml" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://sciencenewshub.click/sitemap.xml" />
 
