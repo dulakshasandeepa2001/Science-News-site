@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16</news:publication_date>
+      <news:title>Rocket Lab Protests NASA&apos;s $700M Mars Orbiter Award to Blue Origin: GAO Dispute</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789539968/Generated_Image_September_16_2026_-_11_53AM_cwfdnl.jpg</image:loc>
+      <image:title>Rocket Lab Protests NASA&apos;s $700M Mars Orbiter Award to Blue Origin: GAO Dispute</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas</loc>
     <news:news>
       <news:publication>

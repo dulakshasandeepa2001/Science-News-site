@@ -94,7 +94,13 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (147 Articles) -->
+  <!-- Published Scientific Articles & Research Reports (148 Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas</loc>
     <lastmod>2026-09-14</lastmod>

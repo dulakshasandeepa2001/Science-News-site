@@ -59,6 +59,8 @@ const LEGACY_SLUG_MAP = {
   "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
   "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
   "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin": "rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
+  "RocketLabMarsOrbiterProtest": "rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
   "JWST_Chariklo_Asteroid_Ring_Changes": "jwst-chariklo-asteroid-ring-system-changes-discovery",
   "JWSTCharikloRings": "jwst-chariklo-asteroid-ring-system-changes-discovery",
   "UK_September_Heatwave_Forecast_2026": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",

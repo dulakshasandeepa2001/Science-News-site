@@ -42,6 +42,7 @@ import MexicanGovernmentDataTheftArticlePage from './components/articles/Mexican
 import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
 import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
 import AnthropicResearcherJacobCoxonArticlePage from './components/articles/AnthropicResearcherJacobCoxonArticlePage.jsx';
+import RocketLabProtestsNASAMarsOrbiterArticlePage from './components/articles/RocketLabProtestsNASAMarsOrbiterArticlePage.jsx';
 import JWSTCharikloRingsArticlePage from './components/articles/JWSTCharikloRingsArticlePage.jsx';
 import UKSeptemberHeatwaveArticlePage from './components/articles/UKSeptemberHeatwaveArticlePage.jsx';
 import SunSwallowedSuperEarthArticlePage from './components/articles/SunSwallowedSuperEarthArticlePage.jsx';
@@ -163,6 +164,10 @@ function App() {
         <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
         <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
         <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
+        <Route path="/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
+        <Route path="/space-astronomy/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
+        <Route path="/space/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
+        <Route path="/space-tech/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
         <Route path="/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
         <Route path="/physics-space/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
         <Route path="/physics/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
