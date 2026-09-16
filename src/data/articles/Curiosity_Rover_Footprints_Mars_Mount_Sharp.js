@@ -87,7 +87,10 @@ Key facts at a glance: The mission and explorer is NASA's Mars Science Laborator
 
 However, the structures spotted within Valle Grande deviate from this standard model. Dr. Michelle Minitti, deputy principal investigator for Curiosity's Mars Hand Lens Imager (MAHLI), stated: "Both of our workspaces this week contained features unlike quite anything we have seen in the past. Pits are not uncommon—when resistant nodules or pebbles weather out of their host rock, they leave behind a void. But the pits of this week were much broader and shallower than past features and were not accompanied by obvious objects that were once in the pits."
 
-The absence of loose pebbles, spherical nodules, or debris fragments within or adjacent to the depressions suggests that a different geological mechanism carved these depressions into the Mount Sharp stratigraphy. This fundamental deviation from known pit-formation models is precisely what makes the discovery so scientifically compelling for the Curiosity science team.`
+The absence of loose pebbles, spherical nodules, or debris fragments within or adjacent to the depressions suggests that a different geological mechanism carved these depressions into the Mount Sharp stratigraphy. This fundamental deviation from known pit-formation models is precisely what makes the discovery so scientifically compelling for the Curiosity science team.`,
+        image: CuriosityRoverValleGrandeImage,
+        imageAlt: "NASA Curiosity rover exploring the rocky slopes of Valle Grande on Mount Sharp inside Gale Crater on Mars",
+        imageCaption: "Curiosity rover deploying its MAHLI camera arm toward layered rock outcrops in Valle Grande, Mount Sharp — where the unusual pit formations were discovered."
       },
       {
         title: "The Analytical Suite: How Curiosity Decoded the Pits",
@@ -97,7 +100,10 @@ Stereo Photogrammetry via MAHLI and Mastcam: The Mars Hand Lens Imager acquired 
 
 Laser-Induced Breakdown Spectroscopy via ChemCam: ChemCam fired pulsed laser bursts across the interior margins of the depressions, vaporizing minute amounts of rock into glowing plasma. By analyzing the atomic emission spectra of this plasma, the instrument decoded the elemental chemistry of the pit walls and surrounding bedrock at sub-millimeter spatial resolution. The laser analysis revealed trace element compositions that varied distinctly from the surrounding host rock.
 
-Spectrometric Verification via APXS: The Alpha Particle X-Ray Spectrometer confirmed that the grey, rough, resistant layers framing the depressions possess a distinct chemical signature compared to the underlying baseline bedrock. The presence of variable chemical compositions across millimeters of rock indicates that the fluid chemistry in Gale Crater fluctuated significantly during sedimentation—a key finding that rules out simple mechanical weathering as the sole formation process.`
+Spectrometric Verification via APXS: The Alpha Particle X-Ray Spectrometer confirmed that the grey, rough, resistant layers framing the depressions possess a distinct chemical signature compared to the underlying baseline bedrock. The presence of variable chemical compositions across millimeters of rock indicates that the fluid chemistry in Gale Crater fluctuated significantly during sedimentation—a key finding that rules out simple mechanical weathering as the sole formation process.`,
+        image: CuriosityChemCamLaserImage,
+        imageAlt: "Curiosity ChemCam laser firing onto Martian bedrock pit producing plasma for spectroscopic analysis with 3D topographic overlay",
+        imageCaption: "ChemCam's pulsed laser fires onto the pit interior, vaporizing rock into plasma. Holographic 3D elevation contours derived from MAHLI stereo photogrammetry overlay the pit surface."
       },
       {
         title: "Geological Hypotheses: How Did the 'Footprints' Form?",
@@ -109,7 +115,10 @@ A secondary hypothesis invokes differential aeolian scour, where fine dust-beari
 
 Two additional hypotheses remain under consideration. Desiccation pores suggest that ancient clay layers dried, contracted, and subsequently were infilled with windblown material—supported by the tightly layered stratigraphy and micro-cracking patterns observed in the surrounding bedrock. Sublimation depressions propose that ancient pockets of volatile ice sublimated directly to gas, leaving void spaces that were later polished by wind—a mechanism consistent with the rapid structural shifts observed over short vertical sections of rock.
 
-As Martian surface conditions transitioned from wetter lacustrine environments to arid desert landscapes, windblown sand polished the pit rims into the broad, smooth indentations visible today. The science team continues integrating data from all four instruments to narrow down which formation mechanism best explains the full suite of chemical, morphological, and stratigraphic observations.`
+As Martian surface conditions transitioned from wetter lacustrine environments to arid desert landscapes, windblown sand polished the pit rims into the broad, smooth indentations visible today. The science team continues integrating data from all four instruments to narrow down which formation mechanism best explains the full suite of chemical, morphological, and stratigraphic observations.`,
+        image: CuriosityBedRockElevationImage,
+        imageAlt: "3D digital elevation model of Martian bedrock footprint pits on Mount Sharp showing dissolution cavity formation hypothesis",
+        imageCaption: "Digital elevation model derived from Mastcam stereo imagery illustrating the four geological hypotheses for pit formation: dissolution, aeolian scour, desiccation, and sublimation."
       },
       {
         title: "Fourteen Years on Mars: Curiosity's Enduring Legacy",
