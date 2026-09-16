@@ -139,6 +139,8 @@ import { Ancient_Supervolcano_Discovered_England_The_Wash } from "./articles/Anc
 import { Saturn_Decagon_Atmosphere_South_Pole_Discovery } from "./articles/Saturn_Decagon_Atmosphere_South_Pole_Discovery.js";
 import { New_Earthquake_Prediction_Model_UC_Riverside } from "./articles/New_Earthquake_Prediction_Model_UC_Riverside.js";
 import { Mathspace_Data_Breach_Australia_NZ } from "./articles/Mathspace_Data_Breach_Australia_NZ.js";
+import { Curiosity_Rover_Footprints_Mars_Mount_Sharp } from "./articles/Curiosity_Rover_Footprints_Mars_Mount_Sharp.js";
+
 
 // Import other individual articles
 import labImage from "../assets/lab.jpg";
@@ -602,4 +604,5 @@ export const articles = [
   Saturn_Decagon_Atmosphere_South_Pole_Discovery,
   New_Earthquake_Prediction_Model_UC_Riverside,
   Mathspace_Data_Breach_Australia_NZ,
+  Curiosity_Rover_Footprints_Mars_Mount_Sharp,
 ];
