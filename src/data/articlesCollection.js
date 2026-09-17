@@ -140,6 +140,7 @@ import { Saturn_Decagon_Atmosphere_South_Pole_Discovery } from "./articles/Satur
 import { New_Earthquake_Prediction_Model_UC_Riverside } from "./articles/New_Earthquake_Prediction_Model_UC_Riverside.js";
 import { Mathspace_Data_Breach_Australia_NZ } from "./articles/Mathspace_Data_Breach_Australia_NZ.js";
 import { Curiosity_Rover_Footprints_Mars_Mount_Sharp } from "./articles/Curiosity_Rover_Footprints_Mars_Mount_Sharp.js";
+import { Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin } from "./articles/Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin.js";
 
 
 // Import other individual articles
@@ -605,4 +606,5 @@ export const articles = [
   New_Earthquake_Prediction_Model_UC_Riverside,
   Mathspace_Data_Breach_Australia_NZ,
   Curiosity_Rover_Footprints_Mars_Mount_Sharp,
+  Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin,
 ];

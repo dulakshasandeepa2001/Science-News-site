@@ -248,7 +248,11 @@ const SLUG_ALIASES = {
   "space-physics/saturn-decagon-atmosphere-south-pole-discovery": "saturn-decagon-atmosphere-south-pole-discovery",
   "space/saturn-decagon-atmosphere-south-pole-discovery": "saturn-decagon-atmosphere-south-pole-discovery",
   "saturn-decagon-south-pole": "saturn-decagon-atmosphere-south-pole-discovery",
-  "saturn-decagon": "saturn-decagon-atmosphere-south-pole-discovery"
+  "saturn-decagon": "saturn-decagon-atmosphere-south-pole-discovery",
+  "space-astronomy/massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact",
+  "space-astronomy-massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact",
+  "mcgetchin-crater-moon-nasa": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact",
+  "new-moon-crater-mcgetchin": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact"
 };
 
 /**
