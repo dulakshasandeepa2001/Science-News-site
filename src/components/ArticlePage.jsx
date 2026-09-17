@@ -27,12 +27,14 @@ import { findArticleBySlugOrId, getArticleSlug, getArticleLink } from '../lib/ar
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import SEOHead from './SEOHead.jsx';
+import NotFoundPage from './NotFoundPage.jsx';
 import fallbackLabImage from '../assets/lab.jpg';
 
 const ArticlePage = ({ article: propArticle }) => {
   const { articleId } = useParams();
   const navigate = useNavigate();
   const [article, setArticle] = useState(propArticle || null);
+  const [isNotFound, setIsNotFound] = useState(false);
   const [copied, setCopied] = useState(false);
   
   useEffect(() => {
@@ -55,8 +57,10 @@ const ArticlePage = ({ article: propArticle }) => {
           navigate(`/article/${canonicalSlug}`, { replace: true });
         }
       } else {
-        navigate('/');
+        setIsNotFound(true);
       }
+    } else {
+      setIsNotFound(true);
     }
   }, [articleId, navigate, propArticle]);
 
@@ -71,6 +75,10 @@ const ArticlePage = ({ article: propArticle }) => {
       setTimeout(() => setCopied(false), 2000);
     }
   };
+
+  if (isNotFound) {
+    return <NotFoundPage />;
+  }
 
   if (!article) {
     return (

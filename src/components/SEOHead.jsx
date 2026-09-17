@@ -16,7 +16,8 @@ export default function SEOHead({
   author = 'Daily Science News',
   category,
   schema,
-  faq
+  faq,
+  noindex = false
 }) {
   useEffect(() => {
     // 1. Update Title
@@ -68,15 +69,26 @@ export default function SEOHead({
     // 2. Base SEO Meta Tags (Google Discover & Google News Compliant)
     const metaDesc = formatMetaDescription(description);
     const metaKeys = keywords || 'science news, scientific discoveries, space research, astronomy, physics, technology, health';
-    const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.href : DEFAULT_DOMAIN);
+    
+    // Normalize current URL to always use canonical apex domain (no www, no hash)
+    let currentUrl = canonicalUrl;
+    if (!currentUrl && typeof window !== 'undefined') {
+      currentUrl = window.location.origin.replace('www.sciencenewshub.click', 'sciencenewshub.click') + window.location.pathname;
+    }
+    if (!currentUrl) currentUrl = DEFAULT_DOMAIN;
+
     const imageUrl = ogImage || DEFAULT_FALLBACK_IMAGE;
 
     setMetaTag('meta[name="description"]', 'name', 'description', metaDesc);
     setMetaTag('meta[name="keywords"]', 'name', 'keywords', metaKeys);
-    // Google Discover Mandatory Robots Tag
-    setMetaTag('meta[name="robots"]', 'name', 'robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
-    setMetaTag('meta[name="googlebot"]', 'name', 'googlebot', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
-    setMetaTag('meta[name="googlebot-news"]', 'name', 'googlebot-news', 'index, follow');
+    
+    // Google Discover & Robots Directives
+    const robotsContent = noindex 
+      ? 'noindex, follow' 
+      : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+    setMetaTag('meta[name="robots"]', 'name', 'robots', robotsContent);
+    setMetaTag('meta[name="googlebot"]', 'name', 'googlebot', robotsContent);
+    setMetaTag('meta[name="googlebot-news"]', 'name', 'googlebot-news', noindex ? 'noindex' : 'index, follow');
     setLinkTag('canonical', currentUrl);
 
     // 3. Open Graph Tags (High Resolution Image Specifications for Google Discover)

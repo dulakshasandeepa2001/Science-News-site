@@ -48,6 +48,7 @@ const CategoryPage = () => {
         keywords={`${formattedCategory} news, ${categoryName} discoveries, science research ${categoryName}`}
         canonicalUrl={`https://sciencenewshub.click/category/${categoryName.toLowerCase()}`}
         ogType="website"
+        noindex={categoryArticles.length === 0 || categoryName.includes('{') || categoryName.includes('}')}
       />
       <Header />
       

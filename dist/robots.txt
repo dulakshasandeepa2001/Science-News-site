@@ -11,4 +11,3 @@ Sitemap: https://sciencenewshub.click/post-sitemap.xml
 Sitemap: https://sciencenewshub.click/page-sitemap.xml
 Sitemap: https://sciencenewshub.click/category-sitemap.xml
 Sitemap: https://sciencenewshub.click/news-sitemap.xml
-Sitemap: https://sciencenewshub.click/rss.xml

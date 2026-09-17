@@ -201,7 +201,9 @@ const LEGACY_SLUG_MAP = {
   "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology",
   "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery",
   "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
-  "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools"
+  "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
+  "Curiosity_Rover_Footprints_Mars_Mount_Sharp": "curiosity-rover-spots-odd-footprints-mars-mount-sharp-discovery",
+  "Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact"
 };
 
 function getSlug(art) {

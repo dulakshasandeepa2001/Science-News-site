@@ -2,6 +2,36 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-17</news:publication_date>
+      <news:title>NASA Discovers Massive New Moon Crater: 222m Asteroid Impact Breakout</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789657455/Generated_Image_September_17_2026_-_8_27PM_aal2qh.jpg</image:loc>
+      <image:title>NASA Discovers Massive New Moon Crater: 222m Asteroid Impact Breakout</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/curiosity-rover-spots-odd-footprints-mars-mount-sharp-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16</news:publication_date>
+      <news:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789582160/Martian-Footprints1-1536x1147_m89rsj.webp</image:loc>
+      <image:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin</loc>
     <news:news>
       <news:publication>
