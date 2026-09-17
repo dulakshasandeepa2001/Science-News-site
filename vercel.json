@@ -1,28 +1,5 @@
 {
   "version": 2,
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.sciencenewshub.click"
-        }
-      ],
-      "destination": "https://sciencenewshub.click/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/category/%7Bsearch_term_string%7D",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/category/{search_term_string}",
-      "destination": "/",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {
       "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico|BingSiteAuth\\.xml)",
