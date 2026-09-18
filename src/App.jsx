@@ -4,282 +4,37 @@ import BlogPage from './components/BlogPage.jsx';
 import BlogPostPage from './components/BlogPostPage.jsx';
 import CategoryPage from './components/CategoryPage.jsx';
 import ArticlePage from './components/ArticlePage.jsx';
-import NotFoundPage from './components/NotFoundPage.jsx';
-import { Quantum_Entanglement_Z_Bosons_CERN_ATLAS } from './data/articles/Quantum_Entanglement_Z_Bosons_CERN_ATLAS.js';
-import { US_Confirms_Weapons_Deployed_Orbit_Space_Force } from './data/articles/US_Confirms_Weapons_Deployed_Orbit_Space_Force.js';
-import { Sony_PlayStation_Store_Credit_Settlement } from './data/articles/Sony_PlayStation_Store_Credit_Settlement.js';
-import { Dario_Amodei_AI_Slowdown_Pace_The_Frontier } from './data/articles/Dario_Amodei_AI_Slowdown_Pace_The_Frontier.js';
-import { When_Is_The_Next_Meteor_Shower_2026_Calendar } from './data/articles/When_Is_The_Next_Meteor_Shower_2026_Calendar.js';
-import AncientForestArticlePage from './components/articles/AncientForestArticlePage.jsx';
-import FloridaPantherArticlePage from './components/articles/FloridaPantherArticlePage.jsx';
-import ZombieVirusArticlePage from './components/articles/ZombieVirusArticlePage.jsx';
-import SonyRobotsArticlePage from './components/articles/SonyRobotsArticlePage.jsx';
-import OrangeSharkArticlePage from './components/articles/OrangeSharkArticlePage.jsx';
-import UranusNewMoonArticlePage from './components/articles/UranusNewMoonArticlePage.jsx';
-import SpacePlaneArticlePage from './components/articles/SpacePlaneArticlePage.jsx';
-import BlackDeathShadowArticlePage from './components/articles/BlackDeathShadowArticlePage.jsx';
-import ChinaARHelmetArticlePage from './components/articles/ChinaARHelmetArticlePage.jsx';
-import AspirinReplacementArticlePage from './components/articles/AspirinReplacementArticlePage.jsx';
-import AtlasCometArticlePage from './components/articles/AtlasCometArticlePage.jsx';
-import ChanganNevoA06ArticlePage from './components/articles/ChanganNevoA06ArticlePage.jsx';
-import RussiaEnteromixVaccineArticlePage from './components/articles/RussiaEnteromixVaccineArticlePage.jsx';
-import CyanobacteriaMarsOxygenArticlePage from './components/articles/CyanobacteriaMarsOxygenArticlePage.jsx';
-import MarsLifeDiscoveryArticlePage from './components/articles/MarsLifeDiscoveryArticlePage.jsx';
-import MilitaryDroneMotherShipArticlePage from './components/articles/MilitaryDroneMotherShipArticlePage.jsx';
-import BritishPilotMarsSimulationArticlePage from './components/articles/BritishPilotMarsSimulationArticlePage.jsx';
-import OldestMummiesSoutheastAsiaArticlePage from './components/articles/OldestMummiesSoutheastAsiaArticlePage.jsx';
-import CleopatraSunkenPortArticlePage from './components/articles/CleopatraSunkenPortArticlePage.jsx';
-import DinosaurFossilCrocodileBoneArticlePage from './components/articles/DinosaurFossilCrocodileBoneArticlePage.jsx';
-import NobelPrizeMedicine2025ArticlePage from './components/articles/NobelPrizeMedicine2025ArticlePage.jsx';
-import NobelPrizePhysics2025ArticlePage from './components/articles/NobelPrizePhysics2025ArticlePage.jsx';
-import NobelPrizeChemistry2025ArticlePage from './components/articles/NobelPrizeChemistry2025ArticlePage.jsx';
-import CelticMetalCoinsDiscoveryArticlePage from './components/articles/CelticMetalCoinsDiscoveryArticlePage.jsx';
-import VolcanicEruptionPredictionMountEtnaArticlePage from './components/articles/VolcanicEruptionPredictionMountEtnaArticlePage.jsx';
-import JapanHTVXCargoISSArticlePage from './components/articles/JapanHTVXCargoISSArticlePage.jsx';
-import Asteroid2025TP5CloseApproachArticlePage from './components/articles/Asteroid2025TP5CloseApproachArticlePage.jsx';
-import SpaceXStarlink10000SatellitesArticlePage from './components/articles/SpaceXStarlink10000SatellitesArticlePage.jsx';
-import MexicanGovernmentDataTheftArticlePage from './components/articles/MexicanGovernmentDataTheftArticlePage.jsx';
-import AtlanticAMOCCollapseRiskArticlePage from './components/articles/AtlanticAMOCCollapseRiskArticlePage.jsx';
-import TimCookAppleCEOTransitionArticlePage from './components/articles/TimCookAppleCEOTransitionArticlePage.jsx';
-import AnthropicResearcherJacobCoxonArticlePage from './components/articles/AnthropicResearcherJacobCoxonArticlePage.jsx';
-import RocketLabProtestsNASAMarsOrbiterArticlePage from './components/articles/RocketLabProtestsNASAMarsOrbiterArticlePage.jsx';
-import JWSTCharikloRingsArticlePage from './components/articles/JWSTCharikloRingsArticlePage.jsx';
-import UKSeptemberHeatwaveArticlePage from './components/articles/UKSeptemberHeatwaveArticlePage.jsx';
-import SunSwallowedSuperEarthArticlePage from './components/articles/SunSwallowedSuperEarthArticlePage.jsx';
-import LGSmartTVPrivacyInvestigationArticlePage from './components/articles/LGSmartTVPrivacyInvestigationArticlePage.jsx';
-import AnthropicClaudeNavierStokesArticlePage from './components/articles/AnthropicClaudeNavierStokesArticlePage.jsx';
-import OpenAINavierStokesArticlePage from './components/articles/OpenAINavierStokesArticlePage.jsx';
-import PS5SystemUpdate14PSSR2ArticlePage from './components/articles/PS5SystemUpdate14PSSR2ArticlePage.jsx';
-import IPhone18ProSpecsPriceUpgradeGuideArticlePage from './components/articles/IPhone18ProSpecsPriceUpgradeGuideArticlePage.jsx';
-import IPhone18ProUpgradeGuideArticlePage from './components/articles/IPhone18ProUpgradeGuideArticlePage.jsx';
-import AppleSeptemberEvent2026ArticlePage from './components/articles/AppleSeptemberEvent2026ArticlePage.jsx';
-import WaterPaintCoatingArticlePage from './components/articles/WaterPaintCoatingArticlePage.jsx';
-import BlueOriginNewGlennExplosionArticlePage from './components/articles/BlueOriginNewGlennExplosionArticlePage.jsx';
-import MoonBaseIBlueOriginMissionArticlePage from './components/articles/MoonBaseIBlueOriginMissionArticlePage.jsx';
-import RedDwarfStarsSwallowingPlanetsArticlePage from './components/articles/RedDwarfStarsSwallowingPlanetsArticlePage.jsx';
-import TRexTinyArmsEvolutionarySacrificeArticlePage from './components/articles/TRexTinyArmsEvolutionarySacrificeArticlePage.jsx';
-import BritishParalympianJohnMcFallAstronautArticlePage from './components/articles/BritishParalympianJohnMcFallAstronautArticlePage.jsx';
-import HumpbackWhalesSoundDiscoveryArticlePage from './components/articles/HumpbackWhalesSoundDiscoveryArticlePage.jsx';
-import Exoplanet_WASP121b_GemstoneRainArticlePage from './components/articles/Exoplanet_WASP121b_GemstoneRainArticlePage.jsx';
-import MavenMarsSpacecraftFinalJourneyArticlePage from './components/articles/MavenMarsSpacecraftFinalJourneyArticlePage.jsx';
-import M87_Black_Hole_Radiation_Jet_XRay_ArticlePage from './components/articles/M87_Black_Hole_Radiation_Jet_XRay_ArticlePage.jsx';
-import OrcasRammingSunfishArticlePage from './components/articles/OrcasRammingSunfishArticlePage.jsx';
-import DoubleStarSystemBothSupernovaeArticlePage from './components/articles/DoubleStarSystemBothSupernovaeArticlePage.jsx';
-import PanAmWreckageDiscoveredArticlePage from './components/articles/PanAmWreckageDiscoveredArticlePage.jsx';
-import LittleRedDotsEarlyUniverseArticlePage from './components/articles/LittleRedDotsEarlyUniverseArticlePage.jsx';
-import EarhartNikumaroroClueArticlePage from './components/articles/EarhartNikumaroroClueArticlePage.jsx';
-import JodrellBankObservatoryRiskArticlePage from './components/articles/JodrellBankObservatoryRiskArticlePage.jsx';
-import EarthBlackBoxTasmaniaArticlePage from './components/articles/EarthBlackBoxTasmaniaArticlePage.jsx';
-import NewAirForceOneServiceArticlePage from './components/articles/NewAirForceOneServiceArticlePage.jsx';
-import SupernovaRemnantMilkyWayArticlePage from './components/articles/SupernovaRemnantMilkyWayArticlePage.jsx';
-import VaquitaDigitalReconstructionArticlePage from './components/articles/VaquitaDigitalReconstructionArticlePage.jsx';
-import ISSOceanCrashPlanArticlePage from './components/articles/ISSOceanCrashPlanArticlePage.jsx';
-import EuclidMilkyWayCenterArticlePage from './components/articles/EuclidMilkyWayCenterArticlePage.jsx';
-import NewMarineSpeciesBrazilArticlePage from './components/articles/NewMarineSpeciesBrazilArticlePage.jsx';
-import SwiftTelescopeRescueArticlePage from './components/articles/SwiftTelescopeRescueArticlePage.jsx';
-import AntarcticTitanosaurFossilArticlePage from './components/articles/AntarcticTitanosaurFossilArticlePage.jsx';
-import LHCShutdownUpgradeArticlePage from './components/articles/LHCShutdownUpgradeArticlePage.jsx';
-import GJ3378bEarthLikePlanetArticlePage from './components/articles/GJ3378bEarthLikePlanetArticlePage.jsx';
-import FermiParadoxAIExplanationArticlePage from './components/articles/FermiParadoxAIExplanationArticlePage.jsx';
-import NuclearSatelliteBOHRArticlePage from './components/articles/NuclearSatelliteBOHRArticlePage.jsx';
-import IndiaSkyrootOrbitalRocketArticlePage from './components/articles/IndiaSkyrootOrbitalRocketArticlePage.jsx';
-import KoalaCryopreservationArticlePage from './components/articles/KoalaCryopreservationArticlePage.jsx';
-import FirstSpaceXRayArticlePage from './components/articles/FirstSpaceXRayArticlePage.jsx';
-import USSpaceForceMeadowlandsArticlePage from './components/articles/USSpaceForceMeadowlandsArticlePage.jsx';
-import PlutoTitanMysterySubstanceArticlePage from './components/articles/PlutoTitanMysterySubstanceArticlePage.jsx';
 import AboutPage from './components/AboutPage.jsx';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage.jsx';
 import ContactPage from './components/ContactPage.jsx';
 import TermsPage from './components/TermsPage.jsx';
 import DisclaimerPage from './components/DisclaimerPage.jsx';
+import NotFoundPage from './components/NotFoundPage.jsx';
 import CookieConsent from './components/CookieConsent.jsx';
-import AfricaFirstLunarMissionArticlePage from './components/articles/AfricaFirstLunarMissionArticlePage.jsx';
-import PacificRingFireVolcanicCoolingArticlePage from './components/articles/PacificRingFireVolcanicCoolingArticlePage.jsx';
-import DinosaurAsteroidHeat17TimesArticlePage from './components/articles/DinosaurAsteroidHeat17TimesArticlePage.jsx';
-import SpaceXRocketMoonCrashArticlePage from './components/articles/SpaceXRocketMoonCrashArticlePage.jsx';
-import WorldReservoirsSedimentation2060ArticlePage from './components/articles/WorldReservoirsSedimentation2060ArticlePage.jsx';
-import InouyeSolarTelescopeArticlePage from './components/articles/InouyeSolarTelescopeArticlePage.jsx';
-import SolarFlareNorthernLightsArticlePage from './components/articles/SolarFlareNorthernLightsArticlePage.jsx';
-import LuxZeplinDarkMatterDiscoveryArticlePage from './components/articles/LuxZeplinDarkMatterDiscoveryArticlePage.jsx';
-import AcademyOfNaturalSciencesMuseumClosureArticlePage from './components/articles/AcademyOfNaturalSciencesMuseumClosureArticlePage.jsx';
-import JamesWebbLHS1140bArticlePage from './components/articles/JamesWebbLHS1140bArticlePage.jsx';
-import MRNAUniversalCancerVaccineArticlePage from './components/articles/MRNAUniversalCancerVaccineArticlePage.jsx';
-import FaultTolerantQuantumProcessorArticlePage from './components/articles/FaultTolerantQuantumProcessorArticlePage.jsx';
-import PerovskiteSiliconTandemSolarArticlePage from './components/articles/PerovskiteSiliconTandemSolarArticlePage.jsx';
-import AncientDNATwoMillionYearHomininArticlePage from './components/articles/AncientDNATwoMillionYearHomininArticlePage.jsx';
-import AncientSupervolcanoDiscoveredEnglandArticlePage from './components/articles/AncientSupervolcanoDiscoveredEnglandArticlePage.jsx';
-import SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage from './components/articles/SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage.jsx';
 import './App.css';
-
 
 function App() {
   return (
     <BrowserRouter>
       <CookieConsent />
       <Routes>
+        {/* Core Publication Hubs */}
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:blogId" element={<BlogPostPage />} />
         <Route path="/category/:categoryName" element={<CategoryPage />} />
+        
+        {/* Trust, Legal & E-E-A-T Editorial Pages */}
         <Route path="/about" element={<AboutPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/disclaimer" element={<DisclaimerPage />} />
-        <Route path="/article/oldest-mummies-southeast-asia" element={<OldestMummiesSoutheastAsiaArticlePage />} />
-        <Route path="/article/cleopatra-sunken-port-discovery" element={<CleopatraSunkenPortArticlePage />} />
-        <Route path="/article/british-pilot-mars-simulation" element={<BritishPilotMarsSimulationArticlePage />} />
-        <Route path="/article/military-drone-mothership" element={<MilitaryDroneMotherShipArticlePage />} />
-        <Route path="/article/mars-life-discovery" element={<MarsLifeDiscoveryArticlePage />} />
-        <Route path="/article/cyanobacteria-mars-oxygen" element={<CyanobacteriaMarsOxygenArticlePage />} />
-        <Route path="/article/russia-enteromix-vaccine" element={<RussiaEnteromixVaccineArticlePage />} />
-        <Route path="/article/changan-nevo-a06" element={<ChanganNevoA06ArticlePage />} />
-        <Route path="/article/atlas-comet" element={<AtlasCometArticlePage />} />
-        <Route path="/article/ancient-forest" element={<AncientForestArticlePage />} />
-        <Route path="/article/florida-panther" element={<FloridaPantherArticlePage />} />
-        <Route path="/article/zombie-virus" element={<ZombieVirusArticlePage />} />
-        <Route path="/article/sony-robots" element={<SonyRobotsArticlePage />} />
-        <Route path="/article/orange-shark" element={<OrangeSharkArticlePage />} />
-        <Route path="/article/uranus-moon" element={<UranusNewMoonArticlePage />} />
-        <Route path="/article/space-plane" element={<SpacePlaneArticlePage />} />
-        <Route path="/article/black-death" element={<BlackDeathShadowArticlePage />} />
-        <Route path="/article/china-ar-helmet" element={<ChinaARHelmetArticlePage />} />
-        <Route path="/article/aspirin-replacement" element={<AspirinReplacementArticlePage />} />
-        <Route path="/article/dinosaur-fossil-crocodile-bone" element={<DinosaurFossilCrocodileBoneArticlePage />} />
-        <Route path="/article/nobel-prize-medicine-2025" element={<NobelPrizeMedicine2025ArticlePage />} />
-        <Route path="/article/nobel-prize-physics-2025" element={<NobelPrizePhysics2025ArticlePage />} />
-        <Route path="/article/nobel-prize-chemistry-2025" element={<NobelPrizeChemistry2025ArticlePage />} />
-        <Route path="/article/celtic-metal-coins-discovery" element={<CelticMetalCoinsDiscoveryArticlePage />} />
-        <Route path="/article/volcanic-eruption-prediction-mount-etna" element={<VolcanicEruptionPredictionMountEtnaArticlePage />} />
-        <Route path="/article/japan-htv-x-cargo-iss" element={<JapanHTVXCargoISSArticlePage />} />
-        <Route path="/article/asteroid-2025-tp5-close-approach" element={<Asteroid2025TP5CloseApproachArticlePage />} />
-        <Route path="/article/spacex-starlink-10000-satellites" element={<SpaceXStarlink10000SatellitesArticlePage />} />
-        <Route path="/article/mexican-government-data-theft-ai" element={<MexicanGovernmentDataTheftArticlePage />} />
-        <Route path="/article/atlantic-amoc-collapse-risk" element={<AtlanticAMOCCollapseRiskArticlePage />} />
-        <Route path="/article/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
-        <Route path="/tech-business/tim-cook-steps-down-john-ternus-new-apple-ceo" element={<TimCookAppleCEOTransitionArticlePage />} />
-        <Route path="/article/tim-cook-apple-ceo-transition" element={<TimCookAppleCEOTransitionArticlePage />} />
-        <Route path="/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
-        <Route path="/tech-security/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
-        <Route path="/technology/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus" element={<LGSmartTVPrivacyInvestigationArticlePage />} />
-        <Route path="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
-        <Route path="/ai-technology/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao" element={<AnthropicClaudeNavierStokesArticlePage />} />
-        <Route path="/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
-        <Route path="/space-astronomy/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
-        <Route path="/space/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
-        <Route path="/space-tech/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin" element={<RocketLabProtestsNASAMarsOrbiterArticlePage />} />
-        <Route path="/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
-        <Route path="/physics-space/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
-        <Route path="/physics/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
-        <Route path="/space-physics/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas" element={<ArticlePage article={Quantum_Entanglement_Z_Bosons_CERN_ATLAS} />} />
-        <Route path="/article/us-confirms-weapons-deployed-orbit-space-force-troy-meink" element={<ArticlePage article={US_Confirms_Weapons_Deployed_Orbit_Space_Force} />} />
-        <Route path="/defense-space/us-confirms-weapons-deployed-orbit-space-force-troy-meink" element={<ArticlePage article={US_Confirms_Weapons_Deployed_Orbit_Space_Force} />} />
-        <Route path="/space/us-confirms-weapons-deployed-orbit-space-force-troy-meink" element={<ArticlePage article={US_Confirms_Weapons_Deployed_Orbit_Space_Force} />} />
-        <Route path="/technology/us-confirms-weapons-deployed-orbit-space-force-troy-meink" element={<ArticlePage article={US_Confirms_Weapons_Deployed_Orbit_Space_Force} />} />
-        <Route path="/article/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
-        <Route path="/space-astronomy/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
-        <Route path="/space/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
-        <Route path="/astrophysics/jwst-chariklo-asteroid-ring-system-changes-discovery" element={<JWSTCharikloRingsArticlePage />} />
-        <Route path="/article/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
-        <Route path="/gaming-tech/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
-        <Route path="/gaming/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
-        <Route path="/technology/sony-playstation-store-credit-settlement-check-eligibility-claim" element={<ArticlePage article={Sony_PlayStation_Store_Credit_Settlement} />} />
-        <Route path="/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage article={Dario_Amodei_AI_Slowdown_Pace_The_Frontier} />} />
-        <Route path="/technology/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage article={Dario_Amodei_AI_Slowdown_Pace_The_Frontier} />} />
-        <Route path="/ai-tech/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier" element={<ArticlePage article={Dario_Amodei_AI_Slowdown_Pace_The_Frontier} />} />
-        <Route path="/article/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage article={When_Is_The_Next_Meteor_Shower_2026_Calendar} />} />
-        <Route path="/space-astronomy/when-is-the-next-meteor-shower-2026-calendar-orionids-geminids" element={<ArticlePage article={When_Is_The_Next_Meteor_Shower_2026_Calendar} />} />
-        <Route path="/article/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
-        <Route path="/environment/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
-        <Route path="/weather/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
-        <Route path="/climate/uk-september-heatwave-forecast-temperatures-met-office-weather-maps" element={<UKSeptemberHeatwaveArticlePage />} />
-        <Route path="/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery" element={<SunSwallowedSuperEarthArticlePage />} />
-        <Route path="/space-astronomy/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery" element={<SunSwallowedSuperEarthArticlePage />} />
-        <Route path="/space/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery" element={<SunSwallowedSuperEarthArticlePage />} />
-        <Route path="/astrophysics/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery" element={<SunSwallowedSuperEarthArticlePage />} />
-        <Route path="/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
-        <Route path="/tech-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
-        <Route path="/technology/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
-        <Route path="/ai-news/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning" element={<AnthropicResearcherJacobCoxonArticlePage />} />
-        <Route path="/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
-        <Route path="/gaming/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
-        <Route path="/technology/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb" element={<PS5SystemUpdate14PSSR2ArticlePage />} />
-        <Route path="/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
-        <Route path="/ai-tech/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
-        <Route path="/technology/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy" element={<OpenAINavierStokesArticlePage />} />
-        <Route path="/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary" element={<IPhone18ProSpecsPriceUpgradeGuideArticlePage />} />
-        <Route path="/tech/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary" element={<IPhone18ProSpecsPriceUpgradeGuideArticlePage />} />
-        <Route path="/technology/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary" element={<IPhone18ProSpecsPriceUpgradeGuideArticlePage />} />
-        <Route path="/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
-        <Route path="/tech/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
-        <Route path="/technology/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview" element={<IPhone18ProUpgradeGuideArticlePage />} />
-        <Route path="/article/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
-        <Route path="/tech-business/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
-        <Route path="/technology/apple-september-event-2026-iphone-18-pro-foldable-preview" element={<AppleSeptemberEvent2026ArticlePage />} />
-        <Route path="/article/apple-september-event-2026" element={<AppleSeptemberEvent2026ArticlePage />} />
-        <Route path="/article/water-paint-coating" element={<WaterPaintCoatingArticlePage />} />
-        <Route path="/article/blue-origin-new-glenn-explosion" element={<BlueOriginNewGlennExplosionArticlePage />} />
-        <Route path="/article/moon-base-i-blue-origin-mission" element={<MoonBaseIBlueOriginMissionArticlePage />} />
-        <Route path="/article/red-dwarf-stars-swallowing-planets" element={<RedDwarfStarsSwallowingPlanetsArticlePage />} />
-        <Route path="/article/t-rex-tiny-arms-evolutionary-sacrifice" element={<TRexTinyArmsEvolutionarySacrificeArticlePage />} />
-        <Route path="/article/british-paralympian-john-mcfall-astronaut" element={<BritishParalympianJohnMcFallAstronautArticlePage />} />
-        <Route path="/article/humpback-whales-sound-discovery" element={<HumpbackWhalesSoundDiscoveryArticlePage />} />
-        <Route path="/article/exoplanet-wasp-121b-gemstone-rain" element={<Exoplanet_WASP121b_GemstoneRainArticlePage />} />
-        <Route path="/article/maven-mars-spacecraft-final-journey" element={<MavenMarsSpacecraftFinalJourneyArticlePage />} />
-        <Route path="/article/m87-black-hole-radiation-jet-xray" element={<M87_Black_Hole_Radiation_Jet_XRay_ArticlePage />} />
-        <Route path="/article/earth-black-box-tasmania" element={<EarthBlackBoxTasmaniaArticlePage />} />
-        <Route path="/article/new-air-force-one" element={<NewAirForceOneServiceArticlePage />} />
-        <Route path="/article/supernova-remnant-milky-way" element={<SupernovaRemnantMilkyWayArticlePage />} />
-        <Route path="/article/vaquita-digital-reconstruction" element={<VaquitaDigitalReconstructionArticlePage />} />
-        <Route path="/article/iss-ocean-crash-plan" element={<ISSOceanCrashPlanArticlePage />} />
-        <Route path="/article/euclid-milky-way-center" element={<EuclidMilkyWayCenterArticlePage />} />
-        <Route path="/article/new-marine-species-brazil" element={<NewMarineSpeciesBrazilArticlePage />} />
-        <Route path="/article/swift-telescope-rescue" element={<SwiftTelescopeRescueArticlePage />} />
-        <Route path="/article/antarctic-titanosaur-fossil" element={<AntarcticTitanosaurFossilArticlePage />} />
-        <Route path="/article/lhc-shutdown-upgrade" element={<LHCShutdownUpgradeArticlePage />} />
-        <Route path="/article/gj-3378b-earth-like-planet" element={<GJ3378bEarthLikePlanetArticlePage />} />
-        <Route path="/article/fermi-paradox-ai-explanation" element={<FermiParadoxAIExplanationArticlePage />} />
-        <Route path="/article/nuclear-satellite-bohr" element={<NuclearSatelliteBOHRArticlePage />} />
-        <Route path="/article/india-skyroot-orbital-rocket" element={<IndiaSkyrootOrbitalRocketArticlePage />} />
-        <Route path="/article/koala-cryopreservation" element={<KoalaCryopreservationArticlePage />} />
-        <Route path="/article/first-space-xray" element={<FirstSpaceXRayArticlePage />} />
-        <Route path="/article/us-space-force-meadowlands" element={<USSpaceForceMeadowlandsArticlePage />} />
-        <Route path="/article/pluto-titan-mystery-substance" element={<PlutoTitanMysterySubstanceArticlePage />} />
-        <Route path="/article/orcas-ramming-sunfish" element={<OrcasRammingSunfishArticlePage />} />
-        <Route path="/article/double-star-system-both-supernovae" element={<DoubleStarSystemBothSupernovaeArticlePage />} />
-        <Route path="/article/pan-am-wreckage-discovered" element={<PanAmWreckageDiscoveredArticlePage />} />
-        <Route path="/article/little-red-dots-early-universe" element={<LittleRedDotsEarlyUniverseArticlePage />} />
-        <Route path="/article/earhart-nikumaroro-clue" element={<EarhartNikumaroroClueArticlePage />} />
-        <Route path="/article/jodrell-bank-observatory-risk" element={<JodrellBankObservatoryRiskArticlePage />} />
-        <Route path="/article/africa-first-lunar-mission-china-2029" element={<AfricaFirstLunarMissionArticlePage />} />
-        <Route path="/article/pacific-ring-fire-volcanic-cooling" element={<PacificRingFireVolcanicCoolingArticlePage />} />
-        <Route path="/article/dinosaur-asteroid-heat-17-times" element={<DinosaurAsteroidHeat17TimesArticlePage />} />
-        <Route path="/article/spacex-rocket-moon-crash-2026" element={<SpaceXRocketMoonCrashArticlePage />} />
-        <Route path="/article/world-reservoirs-sedimentation-2060" element={<WorldReservoirsSedimentation2060ArticlePage />} />
-        <Route path="/article/inouye-solar-telescope-clearest-sun-images" element={<InouyeSolarTelescopeArticlePage />} />
-        <Route path="/article/solar-flare-northern-lights-geomagnetic-storm-forecast" element={<SolarFlareNorthernLightsArticlePage />} />
-        <Route path="/article/lux-zeplin-dark-matter-wimp-particle-discovery" element={<LuxZeplinDarkMatterDiscoveryArticlePage />} />
-        <Route path="/space-physics/lux-zeplin-dark-matter-wimp-particle-discovery" element={<LuxZeplinDarkMatterDiscoveryArticlePage />} />
-        <Route path="/article/lux-zeplin-dark-matter-wimp-discovery" element={<LuxZeplinDarkMatterDiscoveryArticlePage />} />
-        <Route path="/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
-        <Route path="/news-culture/academy-of-natural-sciences-drexel-museum-closure-philadelphia" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
-        <Route path="/article/academy-of-natural-sciences-closing" element={<AcademyOfNaturalSciencesMuseumClosureArticlePage />} />
-        <Route path="/article/james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b" element={<JamesWebbLHS1140bArticlePage />} />
-        <Route path="/article/mrna-universal-cancer-vaccine-phase-3-trials" element={<MRNAUniversalCancerVaccineArticlePage />} />
-        <Route path="/article/fault-tolerant-quantum-processor-1000-qubits-breakthrough" element={<FaultTolerantQuantumProcessorArticlePage />} />
-        <Route path="/article/perovskite-silicon-tandem-solar-cells-shatter-efficiency-record" element={<PerovskiteSiliconTandemSolarArticlePage />} />
-        <Route path="/article/ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa" element={<AncientDNATwoMillionYearHomininArticlePage />} />
-        <Route path="/article/ancient-supervolcano-discovered-england-the-wash-geology" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
-        <Route path="/science-environment/ancient-supervolcano-discovered-england-the-wash-geology" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
-        <Route path="/article/the-wash-supervolcano-discovery-england" element={<AncientSupervolcanoDiscoveredEnglandArticlePage />} />
-        <Route path="/article/saturn-decagon-atmosphere-south-pole-discovery" element={<SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage />} />
-        <Route path="/space-physics/saturn-decagon-atmosphere-south-pole-discovery" element={<SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage />} />
-        <Route path="/article/saturn-decagon-south-pole" element={<SaturnDecagonAtmosphereSouthPoleDiscoveryArticlePage />} />
-        <Route path="/space-astronomy/massive-stars-forming-binary-system-alma-breakthrough" element={<ArticlePage />} />
-        <Route path="/space/massive-stars-forming-binary-system-alma-breakthrough" element={<ArticlePage />} />
-        <Route path="/tech/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing" element={<ArticlePage />} />
-        <Route path="/technology/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing" element={<ArticlePage />} />
+
+        {/* Universal Canonical Article Route (Zero Redirect Multi-Mapping) */}
         <Route path="/article/:articleId" element={<ArticlePage />} />
+
+        {/* 404 Fallback */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
@@ -287,4 +42,3 @@ function App() {
 }
 
 export default App;
-

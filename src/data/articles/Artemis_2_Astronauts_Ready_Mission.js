@@ -55,4 +55,5 @@ const Artemis_2_Astronauts_Ready_Mission = {
   }
 };
 
+export { Artemis_2_Astronauts_Ready_Mission };
 export default Artemis_2_Astronauts_Ready_Mission;

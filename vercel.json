@@ -2,6 +2,14 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/(about|contact|privacy-policy|terms|disclaimer)",
+      "destination": "/$1/index.html"
+    },
+    {
+      "source": "/category/(space|physics|technology|health|biology|environment|archaeology|mathematics)",
+      "destination": "/category/$1/index.html"
+    },
+    {
       "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico|BingSiteAuth\\.xml)",
       "destination": "/$1"
     },

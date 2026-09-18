@@ -1,7 +1,8 @@
 import image4566 from '../../assets/4566.jpg';
 
 export const Mars_Life_Discovery = {
-  id: 23, // Using a new ID
+  id: "mars-life-discovery",
+  slug: "mars-life-discovery",
   title: "The Most Significant Discovery About Life on Mars So Far",
   summary: "NASA's Perseverance rover has collected a rock sample containing features that could be biosignatures of ancient Martian microorganisms, potentially providing first evidence of life on Mars.",
   image: image4566,

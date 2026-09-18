@@ -149,7 +149,12 @@ const LEGACY_SLUG_MAP = {
   "AI_In_Health_Science_Precision_Medicine": "ai-in-health-science-precision-medicine",
   "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health",
   "August_2026_Lunar_Eclipse_Blood_Moon_Guide": "august-2026-lunar-eclipse-blood-moon-guide",
-  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay"
+  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay",
+  "James_Webb_LHS1140b_Biomarkers": "james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b",
+  "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
+  "MRNA_Universal_Cancer_Vaccine_Phase3": "mrna-universal-cancer-vaccine-phase-3-trials",
+  "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
+  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa"
 };
 
 const SLUG_ALIASES = {
@@ -184,57 +189,45 @@ function extractField(content, fieldName) {
     .trim();
 }
 
-function parseAllArticles() {
+function parseCuratedArticles() {
+  const articlesCollectionPath = path.join(rootDir, 'src', 'data', 'articlesCollection.js');
   const articlesDir = path.join(rootDir, 'src', 'data', 'articles');
+  const collectionContent = fs.readFileSync(articlesCollectionPath, 'utf-8');
+
+  const importMatches = [...collectionContent.matchAll(/from\s+["']\.\/articles\/([\w-]+)\.js["']/g)];
+  const fileNames = importMatches.map(m => m[1]);
+
   const articlesList = [];
   const seenSlugs = new Set();
 
-  if (fs.existsSync(articlesDir)) {
-    const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.js') && !f.endsWith('.new'));
+  for (const name of fileNames) {
+    const filePath = path.join(articlesDir, `${name}.js`);
+    if (!fs.existsSync(filePath)) continue;
 
-    for (const file of files) {
-      try {
-        const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
-        const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
-        const id = idMatch ? idMatch[1] : path.basename(file, '.js');
-        const title = extractField(content, 'title') || id.replace(/_/g, ' ');
-        const summary = extractField(content, 'summary') || title;
-        const category = extractField(content, 'category') || 'Science';
-        const date = extractField(content, 'date') || 'August 17, 2026';
-        const slug = extractField(content, 'slug') || null;
+    try {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
+      const id = idMatch ? idMatch[1] : name;
+      const title = extractField(content, 'title') || id.replace(/_/g, ' ');
+      const summary = extractField(content, 'summary') || title;
+      const category = extractField(content, 'category') || 'Science';
+      const date = extractField(content, 'date') || 'August 17, 2026';
+      const slug = extractField(content, 'slug') || null;
 
-        const articleObj = { id, title, summary, category, date, slug };
-        const articleSlug = getSlug(articleObj);
+      const articleObj = { id, title, summary, category, date, slug };
+      const articleSlug = getSlug(articleObj);
 
-        if (!seenSlugs.has(articleSlug)) {
-          seenSlugs.add(articleSlug);
-          articlesList.push(articleObj);
-        }
-      } catch (e) {}
-    }
-  }
-
-  const inlineArticles = [
-    { id: "3", title: "Scientists Uncover Hidden Brain Shortcut to Weight Loss", category: "Health & Medicine", date: "August 10, 2025" },
-    { id: "4", title: "DNA Breakthrough: New Gene Editing Technique Discovered", category: "Health & Medicine", date: "August 9, 2025" },
-    { id: "5", title: "AI System Detects Diseases Before Symptoms Appear", category: "Technology", date: "August 8, 2025" },
-    { id: "6", title: "Quantum Internet Breakthrough: Secure Communication Achieved Over 100km", category: "Technology", date: "August 7, 2025" },
-    { id: "7", title: "New Carbon Capture Technology Removes CO2 at Record Efficiency", category: "Environment", date: "August 6, 2025" },
-    { id: "9", title: "Breakthrough in Quantum Computing Achieves Error Correction Milestone", category: "Technology", date: "August 14, 2025" }
-  ];
-
-  for (const item of inlineArticles) {
-    const slug = getSlug(item);
-    if (!seenSlugs.has(slug)) {
-      seenSlugs.add(slug);
-      articlesList.push(item);
-    }
+      if (!seenSlugs.has(articleSlug)) {
+        seenSlugs.add(articleSlug);
+        articlesList.push(articleObj);
+      }
+    } catch (e) {}
   }
 
   return articlesList;
 }
 
-const articlesList = parseAllArticles();
+const articlesList = parseCuratedArticles();
 const slugMap = new Map();
 articlesList.forEach(a => {
   slugMap.set(getSlug(a), a);
@@ -252,7 +245,8 @@ console.log(`- Total unique slugs: ${slugMap.size}`);
 console.log(`\n2. INDEX.HTML AUDIT:`);
 const indexHtmlContent = fs.readFileSync(path.join(rootDir, 'index.html'), 'utf-8');
 
-const canonicalMatch = indexHtmlContent.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
+const canonicalMatch = indexHtmlContent.match(/<link\s+[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["']/i) ||
+                       indexHtmlContent.match(/<link\s+[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["']/i);
 console.log(`- Head Canonical URL: ${canonicalMatch ? canonicalMatch[1] : 'MISSING'}`);
 
 const allHrefs = [...indexHtmlContent.matchAll(/href=["']([^"']+)["']/g)].map(m => m[1]);

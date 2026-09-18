@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const rootDir = path.join(__dirname, '..');
 const DOMAIN = 'https://sciencenewshub.click';
 const DEFAULT_IMAGE = 'https://sciencenewshub.click/assets/lab.jpg';
 
@@ -19,191 +20,88 @@ function toSlug(text) {
 }
 
 const LEGACY_SLUG_MAP = {
-  // Numeric IDs
-  "1": "spacecraft-black-hole-journey",
-  "2": "einstein-ring-black-hole",
-  "3": "brain-shortcut-weight-loss",
-  "4": "dna-sequencing-breakthrough",
-  "5": "ai-discovers-new-materials",
-  "6": "quantum-internet-milestone",
-  "7": "carbon-capture-technology",
-  "8": "ancient-forest-under-arctic-ice",
-  "9": "quantum-computing-error-correction",
-  "10": "florida-panther-habitat-expansion",
-  "11": "florida-panther-habitat-expansion",
-  "12": "zombie-virus-rabbits-study",
-  "13": "sony-robots",
-  "14": "orange-shark",
-  "15": "british-paralympian-john-mcfall-astronaut",
-  "16": "aspirin-replacement",
-  "20": "changan-nevo-a06",
-  "21": "russia-enteromix-vaccine",
-  "22": "cyanobacteria-mars-oxygen",
-  "23": "mars-life-discovery",
-  "24": "military-drone-mothership",
-  "25": "british-pilot-mars-simulation",
-  "26": "oldest-mummies-southeast-asia",
-
-  // CamelCase & Underscore IDs
-  "Quantum_Entanglement_Z_Bosons_CERN_ATLAS": "quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas",
-  "QuantumEntanglementZBosonsCERNATLAS": "quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas",
-  "US_Confirms_Weapons_Deployed_Orbit_Space_Force": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
-  "USConfirmsWeaponsDeployedOrbitSpaceForce": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
-  "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",
-  "SpaceX_Starlink_10000_Satellites": "spacex-starlink-10000-satellites",
-  "BlueOriginNewGlennExplosion": "blue-origin-new-glenn-explosion",
-  "TRexTinyArmsEvolutionarySacrifice": "t-rex-tiny-arms-evolutionary-sacrifice",
-  "Exoplanet_WASP121b_GemstoneRain": "exoplanet-wasp-121b-gemstone-rain",
-  "Red_Dwarf_Stars_Swallowing_Planets": "red-dwarf-stars-swallowing-planets",
-  "M87_Black_Hole_Radiation_Jet_XRay": "m87-black-hole-radiation-jet-xray",
-  "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
-  "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
-  "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
-  "Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin": "rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
-  "RocketLabMarsOrbiterProtest": "rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
-  "JWST_Chariklo_Asteroid_Ring_Changes": "jwst-chariklo-asteroid-ring-system-changes-discovery",
-  "JWSTCharikloRings": "jwst-chariklo-asteroid-ring-system-changes-discovery",
-  "UK_September_Heatwave_Forecast_2026": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
-  "UKSeptemberHeatwaveForecast": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
-  "Sun_Swallowed_Super_Earth_Discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
-  "SunSwallowedSuperEarth": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
-  "Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score": "apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
-  "AppleWatchSeries12VsWhoopOura": "apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
+  "Curiosity_Rover_Footprints_Mars_Mount_Sharp": "curiosity-rover-spots-odd-footprints-mars-mount-sharp-discovery",
+  "Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-basin",
   "Massive_Stars_Forming_Binary_System_ALMA_Discovery": "massive-stars-forming-binary-system-alma-breakthrough",
-  "MassiveStarsFormingBinarySystemALMA": "massive-stars-forming-binary-system-alma-breakthrough",
-  "Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
-  "AnthropicResearcherJacobCoxon": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
-  "JacobCoxonAnthropicResignation": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
-  "PS5_System_Update_14_PSSR_2_Graphics_Upgrade": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
-  "PS5SystemUpdate14PSSR2": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
+  "UK_September_Heatwave_Forecast_2026": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
+  "BlueOriginNewGlennExplosion": "blue-origin-new-glenn-explosion",
+  "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
+  "JWST_Chariklo_Asteroid_Ring_Changes": "jwst-chariklo-asteroid-ring-system-changes-discovery",
+  "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",
+  "When_Is_The_Next_Meteor_Shower_2026_Calendar": "when-is-the-next-meteor-shower-2026-calendar-orionids-geminids",
+  "Dario_Amodei_AI_Slowdown_Pace_The_Frontier": "dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier",
+  "Sun_Swallowed_Super_Earth_Discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
+  "US_Confirms_Weapons_Deployed_Orbit_Space_Force": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
+  "Quantum_Entanglement_Z_Bosons_CERN_ATLAS": "quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas",
   "OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
-  "OpenAINavierStokesProof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
-  "IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
-  "IPhone18ProSpecsPriceUpgradeGuide": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
-  "IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
-  "IPhone18ProUpgradeGuide": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
-  "Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
-  "AnthropicClaudeNavierStokes": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
-  "LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw": "lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
-  "LGSmartTVPrivacyInvestigation": "lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
-  "Tim_Cook_Apple_CEO_Transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",
-  "Apple_September_Event_2026_Preview": "apple-september-event-2026-iphone-18-pro-foldable-preview",
-  "AppleSeptemberEvent2026Preview": "apple-september-event-2026-iphone-18-pro-foldable-preview",
-  "LUX_ZEPLIN_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
-  "Lux_Zeplin_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
-  "Academy_Of_Natural_Sciences_Museum_Closure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
-  "AcademyOfNaturalSciencesMuseumClosure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
-  "Water_Paint_Coating_Dewpoint": "water-paint-coating-dewpoint",
-  "Wasp_Named_David_Attenborough_Birthday": "wasp-named-david-attenborough",
-  "Tiny_Object_Solar_System_Atmosphere": "tiny-object-solar-system-atmosphere",
-  "Global_Pandemic_Treaty_Delay": "global-pandemic-treaty-delay",
-  "Pluto_Reclassification_Planet_Effort": "pluto-reclassification-planet-effort",
-  "Interstellar_Comet_3I_ATLAS_Origin": "interstellar-comet-3i-atlas-origin",
-  "Giant_Dam_Save_AMOC": "giant-dam-save-amoc",
-  "Scarlet_Fever_Pre_Columbian_America": "scarlet-fever-pre-columbian-america",
-  "Mexican_Government_Data_Theft_AI": "mexican-government-data-theft-ai",
-  "Ohio_Fireball_Meteor_March_2026": "ohio-fireball-meteor-march-2026",
-  "Ohio_Fireball_Meteor_Sonic_Boom_2026": "ohio-fireball-meteor-march-2026",
-  "Artemis_2_Astronauts_Ready_Mission": "artemis-2-astronauts-ready-mission",
-  "Silverpit_Crater_Asteroid_Impact": "silverpit-crater-asteroid-impact",
-  "Prehistoric_Insects_South_America_Amber": "prehistoric-insects-south-america-amber",
-  "Oldest_Mummies_Southeast_Asia": "oldest-mummies-southeast-asia",
-  "Cleopatra_Sunken_Port_Discovery": "cleopatra-sunken-port-discovery",
-  "British_Pilot_Mars_Simulation": "british-pilot-mars-simulation",
-  "Military_Drone_Mother_Ship": "military-drone-mothership",
-  "Mars_Life_Discovery": "mars-life-discovery",
-  "Cyanobacteria_Mars_Oxygen": "cyanobacteria-mars-oxygen",
-  "Russia_Enteromix_Vaccine": "russia-enteromix-vaccine",
-  "Changan_Nevo_A06": "changan-nevo-a06",
-  "Atlas_Comet_Confirmation": "atlas-comet",
-  "Comet_Lemmon_Tail_Disruption": "comet-lemmon-tail-disruption",
-  "Mosquitoes_Iceland_Discovery": "mosquitoes-iceland-discovery",
-  "Ryugu_Asteroid_Water_Discovery": "ryugu-asteroid-water-discovery",
-  "Geomagnetic_Storm_Northern_Lights": "geomagnetic-storm-northern-lights",
-  "Mammoth_RNA_Discovery": "mammoth-rna-discovery",
-  "Skydiver_Sun_Photography": "skydiver-sun-photography",
-  "James_Watson_Passing": "james-watson-passing",
-  "Shenzhou_21_Capsule_Mission": "shenzhou-21-capsule-mission",
-  "NASA_Atlas_Comet_Images": "nasa-atlas-comet-images",
-  "Ancient_Crocodile_Ancestor_Discovery": "ancient-crocodile-ancestor-discovery",
-  "Aspirin_Replacement_Clopidogrel": "aspirin-replacement",
-  "China_AR_Helmet": "china-ar-helmet",
-  "Black_Death_Shadow": "black-death",
-  "Space_Plane_Mission": "space-plane",
-  "Uranus_New_Moon_Discovery": "uranus-moon",
-  "Sony_Humanoid_Robots_Weaknesses": "sony-robots",
-  "Orange_Shark_Discovery": "orange-shark",
-  "Dinosaur_Fossil_Crocodile_Bone": "dinosaur-fossil-crocodile-bone",
-  "Nobel_Prize_Medicine_2025": "nobel-prize-medicine-2025",
-  "Nobel_Prize_Physics_2025": "nobel-prize-physics-2025",
-  "Nobel_Prize_Chemistry_2025": "nobel-prize-chemistry-2025",
-  "Celtic_Metal_Coins_Discovery": "celtic-metal-coins-discovery",
-  "volcanic-eruption-prediction-mount-etna": "volcanic-eruption-prediction-mount-etna",
-  "Volcanic_Eruption_Prediction_Mount_Etna": "volcanic-eruption-prediction-mount-etna",
-  "Artemis_III_Astronauts_Named": "artemis-3-astronauts-named",
-  "Global_Underground_Fungal_Network_Map_Revealed": "global-underground-fungal-network-map",
-  "MAVEN_Mars_Spacecraft_Final_Journey": "maven-mars-spacecraft-final-journey",
-  "Humpback_Whales_Sound_Discovery": "humpback-whales-sound-discovery",
-  "British_Paralympian_John_McFall_Astronaut": "british-paralympian-john-mcfall-astronaut",
-  "Psyche_Spacecraft_Mars_Gravity_Assist": "psyche-spacecraft-mars-gravity-assist",
-  "Orcas_Ramming_Sunfish": "orcas-ramming-sunfish",
-  "Double_Star_System_Both_Supernovae": "double-star-system-both-supernovae",
-  "Pan_Am_Wreckage_Discovered": "pan-am-wreckage-discovered",
-  "Little_Red_Dots_Early_Universe": "little-red-dots-early-universe",
-  "Earhart_Nikumaroro_Clue": "earhart-nikumaroro-clue",
-  "Jodrell_Bank_Observatory_Risk": "jodrell-bank-observatory-risk",
-  "EarthBlackBoxTasmania": "earth-black-box-tasmania",
-  "Earth_Black_Box_Tasmania": "earth-black-box-tasmania",
-  "NewAirForceOneService": "new-air-force-one",
-  "New_Air_Force_One_Service": "new-air-force-one",
-  "Supernova_Remnant_Milky_Way": "supernova-remnant-milky-way",
-  "Vaquita_Digital_Reconstruction": "vaquita-digital-reconstruction",
-  "ISS_Ocean_Crash_Plan": "iss-ocean-crash-plan",
-  "Euclid_Milky_Way_Center": "euclid-milky-way-center",
-  "New_Marine_Species_Brazil": "new-marine-species-brazil",
-  "Swift_Telescope_Rescue": "swift-telescope-rescue",
-  "Antarctic_Titanosaur_Fossil": "antarctic-titanosaur-fossil",
-  "LHC_Shutdown_Upgrade": "lhc-shutdown-upgrade",
-  "GJ_3378b_Earth_Like_Planet": "gj-3378b-earth-like-planet",
-  "Fermi_Paradox_AI_Explanation": "fermi-paradox-ai-explanation",
-  "Nuclear_Satellite_BOHR": "nuclear-satellite-bohr",
-  "India_Skyroot_Orbital_Rocket": "india-skyroot-orbital-rocket",
-  "Koala_Cryopreservation": "koala-cryopreservation",
-  "First_Space_XRay": "first-space-xray",
-  "US_Space_Force_Meadowlands": "us-space-force-meadowlands",
-  "Pluto_Titan_Mystery_Substance": "pluto-titan-mystery-substance",
-  "Africa_First_Lunar_Mission_China_2029": "africa-first-lunar-mission-china-2029",
-  "Pacific_Ring_Of_Fire_Volcanic_Cooling": "pacific-ring-of-fire-volcanic-cooling",
-  "Dinosaur_Asteroid_Heat_17_Times": "dinosaur-asteroid-heat-17-times",
-  "SpaceX_Rocket_Moon_Crash_2026": "spacex-rocket-moon-crash-2026",
-  "World_Reservoirs_Sedimentation_2060": "world-reservoirs-sedimentation-2060",
-  "Inouye_Solar_Telescope_Clearest_Sun_Images": "inouye-solar-telescope-clearest-sun-images",
-  "Black_Hole_Star_Discovery": "first-ever-black-hole-star-discovered-james-webb-space-telescope",
-  "SpaceX_AI_Starmind_Satellites": "spacex-massive-shift-artificial-intelligence-starmind-satellites-2026",
-  "Total_Solar_Eclipse_Europe_2026": "total-solar-eclipse-august-2026-greenland-iceland-spain",
-  "British_Fossil_Collection_Abu_Dhabi": "british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum",
-  "AI_Designed_Virus_Stanford": "ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026",
-  "Cellular_Health_Science_Longevity_Breakthroughs": "cellular-health-science-longevity-breakthroughs",
-  "Gut_Brain_Connection_Microbiome_Health_Science": "gut-brain-connection-microbiome-health-science",
-  "AI_In_Health_Science_Precision_Medicine": "ai-in-health-science-precision-medicine",
-  "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health",
-  "August_2026_Lunar_Eclipse_Blood_Moon_Guide": "august-2026-lunar-eclipse-blood-moon-guide",
-  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay",
-  "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record",
-  "Apollo_12_Moon_Dust_Camera_Mishap": "apollo-12-moon-dust-camera-mishap-untold-story",
   "Solar_Flare_Northern_Lights_Geomagnetic_Storm": "solar-flare-northern-lights-geomagnetic-storm-forecast",
-  "NASA_Nancy_Grace_Roman_Telescope_Launch": "nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy",
-  "James_Webb_LHS1140b_Biomarkers": "james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b",
-  "MRNA_Universal_Cancer_Vaccine_Phase3": "mrna-universal-cancer-vaccine-phase-3-trials",
-  "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
-  "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
-  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa",
+  "Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
+  "TRexTinyArmsEvolutionarySacrifice": "t-rex-tiny-arms-evolutionary-sacrifice",
+  "Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "SpaceX_Starlink_10000_Satellites": "spacex-starlink-10000-satellites",
+  "August_2026_Lunar_Eclipse_Blood_Moon_Guide": "august-2026-lunar-eclipse-blood-moon-guide",
+  "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
+  "Red_Dwarf_Stars_Swallowing_Planets": "red-dwarf-stars-swallowing-planets",
   "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology",
-  "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery",
+  "LUX_ZEPLIN_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "Academy_Of_Natural_Sciences_Museum_Closure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+  "Psyche_Spacecraft_Mars_Gravity_Assist": "psyche-spacecraft-mars-gravity-assist",
+  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay",
+  "NASA_Nancy_Grace_Roman_Telescope_Launch": "nasa-nancy-grace-roman-space-telescope-launch",
   "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
   "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
-  "Curiosity_Rover_Footprints_Mars_Mount_Sharp": "curiosity-rover-spots-odd-footprints-mars-mount-sharp-discovery",
-  "Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact"
+  "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery",
+  "Atlas_Comet_Confirmation": "atlas-comet",
+  "Double_Star_System_Both_Supernovae": "double-star-system-both-supernovae",
+  "Cellular_Health_Science_Longevity_Breakthroughs": "cellular-health-science-longevity-breakthroughs",
+  "Global_Pandemic_Treaty_Delay": "global-pandemic-treaty-delay",
+  "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record",
+  "Pluto_Reclassification_Planet_Effort": "pluto-reclassification-planet-effort",
+  "Prehistoric_Insects_South_America_Amber": "prehistoric-insects-south-america-amber",
+  "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health",
+  "Shenzhou_21_Capsule_Mission": "shenzhou-21-capsule-mission",
+  "AI_In_Health_Science_Precision_Medicine": "ai-in-health-science-precision-medicine",
+  "Gut_Brain_Connection_Microbiome_Health_Science": "gut-brain-connection-microbiome-health-science",
+  "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "Giant_Dam_Save_AMOC": "giant-dam-save-amoc",
+  "Inouye_Solar_Telescope_Clearest_Sun_Images": "inouye-solar-telescope-clearest-sun-images",
+  "Dinosaur_Asteroid_Heat_17_Times": "dinosaur-asteroid-heat-17-times",
+  "Exoplanet_WASP121b_GemstoneRain": "exoplanet-wasp-121b-gemstone-rain",
+  "World_Reservoirs_Sedimentation_2060": "world-reservoirs-sedimentation-2060",
+  "Apollo_12_Moon_Dust_Camera_Mishap": "apollo-12-moon-dust-camera-mishap-untold-story",
+  "Interstellar_Comet_3I_ATLAS_Origin": "interstellar-comet-3i-atlas-origin",
+  "NASA_Atlas_Comet_Images": "nasa-atlas-comet-images",
+  "Pacific_Ring_Of_Fire_Volcanic_Cooling": "pacific-ring-of-fire-volcanic-cooling",
+  "AI_Designed_Virus_Stanford": "ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026",
+  "British_Fossil_Collection_Abu_Dhabi": "british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum",
+  "Black_Hole_Star_Discovery": "first-ever-black-hole-star-discovered-james-webb-space-telescope",
+  "Humpback_Whales_Sound_Discovery": "humpback-whales-sound-discovery",
+  "SpaceX_Rocket_Moon_Crash_2026": "spacex-rocket-moon-crash-2026",
+  "Mammoth_RNA_Discovery": "mammoth-rna-discovery",
+  "Global_Underground_Fungal_Network_Map_Revealed": "global-underground-fungal-network-map",
+  "SpaceX_AI_Starmind_Satellites": "spacex-massive-shift-artificial-intelligence-starmind-satellites-2026",
+  "Artemis_2_Astronauts_Ready_Mission": "artemis-2-astronauts-ready-mission",
+  "M87_Black_Hole_Radiation_Jet_XRay": "m87-black-hole-radiation-jet-xray",
+  "Geomagnetic_Storm_Northern_Lights": "geomagnetic-storm-northern-lights",
+  "Total_Solar_Eclipse_Europe_2026": "total-solar-eclipse-august-2026-greenland-iceland-spain",
+  "Supernova_Remnant_Milky_Way": "supernova-remnant-milky-way",
+  "Swift_Telescope_Rescue": "swift-telescope-rescue",
+  "Africa_First_Lunar_Mission_China_2029": "africa-first-lunar-mission-china-2029",
+  "Little_Red_Dots_Early_Universe": "little-red-dots-early-universe",
+  "Ryugu_Asteroid_Water_Discovery": "ryugu-asteroid-water-discovery",
+  "James_Watson_Passing": "james-watson-passing",
+  "Skydiver_Sun_Photography": "skydiver-sun-photography",
+  "Silverpit_Crater_Asteroid_Impact": "silverpit-crater-asteroid-impact",
+  "Euclid_Milky_Way_Center": "euclid-milky-way-center",
+  "23": "mars-life-discovery",
+  "Mars_Life_Discovery": "mars-life-discovery",
+  "New_Marine_Species_Brazil": "new-marine-species-brazil",
+  "Artemis_III_Astronauts_Named": "artemis-3-astronauts-named",
+  "James_Webb_LHS1140b_Biomarkers": "james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b",
+  "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
+  "MRNA_Universal_Cancer_Vaccine_Phase3": "mrna-universal-cancer-vaccine-phase-3-trials",
+  "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
+  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa"
 };
 
 function getSlug(art) {
@@ -213,34 +111,6 @@ function getSlug(art) {
   if (typeof art.id === 'string' && art.id.length > 0) return toSlug(art.id);
   if (art.title) return toSlug(art.title);
   return `article-${idStr}`;
-}
-
-function formatDateForXml(dateStr) {
-  try {
-    const d = new Date(dateStr);
-    if (!isNaN(d.getTime())) {
-      return d.toISOString().split('T')[0];
-    }
-  } catch (e) {}
-  return new Date().toISOString().split('T')[0];
-}
-
-function formatDateForRss(dateStr) {
-  try {
-    const d = new Date(dateStr);
-    if (!isNaN(d.getTime())) return d.toUTCString();
-  } catch (e) {}
-  return new Date().toUTCString();
-}
-
-function escapeXml(unsafe) {
-  if (!unsafe) return '';
-  return unsafe
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
 }
 
 function extractField(content, fieldName) {
@@ -256,109 +126,379 @@ function extractField(content, fieldName) {
     .trim();
 }
 
-function parseArticleFiles() {
-  const articlesDir = path.join(__dirname, '..', 'src', 'data', 'articles');
+function escapeXml(unsafe) {
+  if (!unsafe) return '';
+  return unsafe
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function formatDateForXml(dateStr) {
+  if (!dateStr) return new Date().toISOString().split('T')[0];
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return new Date().toISOString().split('T')[0];
+  return d.toISOString().split('T')[0];
+}
+
+function formatDateForRss(dateStr) {
+  if (!dateStr) return new Date().toUTCString();
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return new Date().toUTCString();
+  return d.toUTCString();
+}
+
+// Parse curated articles strictly based on articlesCollection.js imports
+function parseCuratedArticles() {
+  const articlesCollectionPath = path.join(rootDir, 'src', 'data', 'articlesCollection.js');
+  const articlesDir = path.join(rootDir, 'src', 'data', 'articles');
+  const collectionContent = fs.readFileSync(articlesCollectionPath, 'utf-8');
+
+  // Extract all import paths: import { ... } from "./articles/<FileName>.js";
+  const importMatches = [...collectionContent.matchAll(/from\s+["']\.\/articles\/([\w-]+)\.js["']/g)];
+  const fileNames = importMatches.map(m => m[1]);
+
   const articlesList = [];
   const seenSlugs = new Set();
 
-  // 1. Parse individual files
-  if (fs.existsSync(articlesDir)) {
-    const files = fs.readdirSync(articlesDir).filter(f => f.endsWith('.js') && !f.endsWith('.new'));
+  for (const name of fileNames) {
+    const filePath = path.join(articlesDir, `${name}.js`);
+    if (!fs.existsSync(filePath)) continue;
 
-    for (const file of files) {
-      try {
-        const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
-        const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
-        const id = idMatch ? idMatch[1] : path.basename(file, '.js');
-        const title = extractField(content, 'title') || id.replace(/_/g, ' ');
-        const summary = extractField(content, 'summary') || title;
-        const category = extractField(content, 'category') || 'Science';
-        const date = extractField(content, 'date') || 'August 17, 2026';
-        const author = extractField(content, 'author') || 'Daily Science News';
-        const image = extractField(content, 'image') || DEFAULT_IMAGE;
-        const slug = extractField(content, 'slug') || null;
+    try {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
+      const id = idMatch ? idMatch[1] : name;
+      const title = extractField(content, 'title') || id.replace(/_/g, ' ');
+      const summary = extractField(content, 'summary') || title;
+      const category = extractField(content, 'category') || 'Science';
+      const date = extractField(content, 'date') || 'August 17, 2026';
+      const author = extractField(content, 'author') || 'Daily Science News';
+      const slug = extractField(content, 'slug') || null;
 
-        const articleObj = { id, title, summary, category, date, author, image, slug };
-        const articleSlug = getSlug(articleObj);
+      // Extract image if URL string
+      const imgMatch = content.match(/image:\s*["'](https?:\/\/[^"']+)["']/);
+      const image = imgMatch ? imgMatch[1] : DEFAULT_IMAGE;
 
-        if (!seenSlugs.has(articleSlug)) {
-          seenSlugs.add(articleSlug);
-          articlesList.push(articleObj);
-        }
-      } catch (e) {
-        console.warn(`Could not parse article file ${file}:`, e.message);
+      const articleObj = { id, title, summary, category, date, author, image, slug };
+      const articleSlug = getSlug(articleObj);
+
+      if (!seenSlugs.has(articleSlug)) {
+        seenSlugs.add(articleSlug);
+        articlesList.push(articleObj);
       }
+    } catch (e) {
+      console.warn(`Could not parse ${name}:`, e.message);
     }
   }
 
-  // 2. Add inline articles from articlesCollection.js if not yet present
-  const inlineArticles = [
+  articlesList.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+  return articlesList;
+}
+
+// Generate static HTML for crawler & AdSense inspection
+function generateStaticPageHtml({
+  title,
+  description,
+  canonicalUrl,
+  heading,
+  subheading,
+  bodyHtml,
+  ogType = 'website'
+}) {
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeXml(title)}</title>
+    <meta name="description" content="${escapeXml(description)}" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="${canonicalUrl}" />
+    <meta property="og:title" content="${escapeXml(title)}" />
+    <meta property="og:description" content="${escapeXml(description)}" />
+    <meta property="og:type" content="${ogType}" />
+    <meta property="og:url" content="${canonicalUrl}" />
+    <meta property="og:site_name" content="Daily Science News" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${escapeXml(title)}" />
+    <meta name="twitter:description" content="${escapeXml(description)}" />
+    <meta name="theme-color" content="#0284c7" />
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9410415611160830" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7715Z65M7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-V7715Z65M7');
+    </script>
+  </head>
+  <body class="min-h-screen bg-background text-foreground antialiased font-sans">
+    <div id="root">
+      <header style="padding: 2.5rem 1.5rem; background: #0f172a; color: #ffffff; text-align: center;">
+        <p style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #38bdf8; margin-bottom: 0.5rem;">Daily Science News</p>
+        <h1 style="font-size: 2.4rem; font-weight: 800; margin-bottom: 0.75rem; line-height: 1.2;">${escapeXml(heading)}</h1>
+        ${subheading ? `<p style="font-size: 1.1rem; color: #94a3b8; max-width: 700px; margin: 0 auto; line-height: 1.6;">${escapeXml(subheading)}</p>` : ''}
+      </header>
+
+      <main style="padding: 2.5rem 1.5rem; max-width: 900px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; color: #1e293b;">
+        ${bodyHtml}
+      </main>
+
+      <footer style="padding: 2rem 1.5rem; background: #0f172a; color: #94a3b8; text-align: center; font-size: 0.9rem; margin-top: 3rem;">
+        <p>&copy; 2026 Daily Science News. Founder &amp; Chief Editor: Dulaksha Sandeepa. All rights reserved.</p>
+        <p style="margin-top: 0.75rem;">
+          <a href="/about" style="color: #60a5fa; margin: 0 8px;">About Us</a> | 
+          <a href="/contact" style="color: #60a5fa; margin: 0 8px;">Contact</a> | 
+          <a href="/privacy-policy" style="color: #60a5fa; margin: 0 8px;">Privacy Policy</a> | 
+          <a href="/terms" style="color: #60a5fa; margin: 0 8px;">Terms</a> | 
+          <a href="/disclaimer" style="color: #60a5fa; margin: 0 8px;">Disclaimer</a>
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>`;
+}
+
+function generateStaticPages(articlesList) {
+  const pages = [
     {
-      id: "3",
-      title: "Scientists Uncover Hidden Brain Shortcut to Weight Loss",
-      summary: "Scientists have uncovered a way to promote weight loss and improve blood sugar control without the unpleasant side effects of current GLP-1 drugs.",
-      category: "Health & Medicine",
-      date: "August 10, 2025",
-      author: "Medical Research Institute",
-      image: DEFAULT_IMAGE
+      filePath: 'about/index.html',
+      canonicalUrl: `${DOMAIN}/about`,
+      title: 'About Us & Editorial Standards - Daily Science News',
+      description: 'Learn about Daily Science News, our editorial methodology, peer-reviewed fact-checking protocols, corrections policy, and founder Dulaksha Sandeepa.',
+      heading: 'About Us & Editorial Standards',
+      subheading: 'Dedicated to explaining verified breakthroughs in space exploration, astrophysics, particle physics, medicine, and planetary climate.',
+      bodyHtml: `
+        <article>
+          <section style="margin-bottom: 2rem; padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+            <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Founder &amp; Chief Editor: Dulaksha Sandeepa</h2>
+            <p style="color: #475569; margin-bottom: 1rem;">Science Explorer &amp; Digital Technology Specialist</p>
+            <p>Daily Science News was founded by Dulaksha Sandeepa to bridge the gap between complex research institutions, planetary telemetry, and science enthusiasts globally. Every published article undergoes rigorous verification against peer-reviewed academic literature.</p>
+          </section>
+
+          <section style="margin-bottom: 2rem;">
+            <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.75rem;">Editorial Verification Standards</h2>
+            <p>We enforce a strict multi-tier factual verification process:</p>
+            <ul style="padding-left: 1.5rem; margin-top: 0.5rem;">
+              <li><strong>Primary Literature:</strong> All reporting is anchored in peer-reviewed scientific studies published in journals such as <em>Nature</em>, <em>Science</em>, <em>The Astrophysical Journal</em>, <em>Lancet</em>, and validated preprints on arXiv.org.</li>
+              <li><strong>Agency Telemetry:</strong> Mission updates are cross-referenced with raw telemetry and official mission logs directly from NASA, ESA, JAXA, and CERN.</li>
+              <li><strong>Context &amp; Limitations:</strong> We transparently detail study sample sizes, confidence intervals, and research limitations.</li>
+            </ul>
+          </section>
+
+          <section style="margin-bottom: 2rem; padding: 1.5rem; background: #eff6ff; border-radius: 12px; border: 1px solid #bfdbfe;">
+            <h2 style="font-size: 1.4rem; font-weight: 700; color: #1e3a8a; margin-bottom: 0.75rem;">Corrections &amp; Updates Policy</h2>
+            <p>Accuracy is essential to scientific integrity. When factual errors or ambiguous statements are identified:</p>
+            <ul style="padding-left: 1.5rem; margin-top: 0.5rem; color: #1e3a8a;">
+              <li>We immediately rectify the inaccurate text.</li>
+              <li>A transparent "Correction Note" is appended to the report detailing the modification and timestamp.</li>
+              <li>Readers can report discrepancies directly to our editorial desk at <a href="mailto:contact@sciencenewshub.click" style="color: #2563eb; font-weight: bold;">contact@sciencenewshub.click</a>.</li>
+            </ul>
+          </section>
+
+          <section style="margin-bottom: 2rem;">
+            <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.75rem;">Responsible AI Transparency Disclosure</h2>
+            <p>We utilize AI tools strictly as research assistants for syntax formatting, data synthesis, and literature scanning. 100% of articles are researched, fact-checked, and approved by human editorial oversight under Dulaksha Sandeepa.</p>
+          </section>
+
+          <section>
+            <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.75rem;">Editorial Independence</h2>
+            <p>Daily Science News operates completely independent of external corporate sponsors, pharmaceutical firms, or aerospace defense contractors. Advertising displayed via Google AdSense adheres strictly to program policies and does not influence our editorial analysis.</p>
+          </section>
+        </article>
+      `
     },
     {
-      id: "4",
-      title: "DNA Breakthrough: New Gene Editing Technique Discovered",
-      summary: "Researchers have developed a revolutionary gene editing technique that could transform how we treat genetic diseases.",
-      category: "Health & Medicine",
-      date: "August 9, 2025",
-      author: "Genetic Research Lab",
-      image: DEFAULT_IMAGE
+      filePath: 'contact/index.html',
+      canonicalUrl: `${DOMAIN}/contact`,
+      title: 'Contact Us - Daily Science News Editorial Desk',
+      description: 'Get in touch with the editorial team at Daily Science News. Send press releases, research tips, editorial corrections, or inquiries to founder Dulaksha Sandeepa.',
+      heading: 'Contact the Editorial Desk',
+      subheading: 'We welcome research submissions, academic press releases, reader feedback, and editorial corrections.',
+      bodyHtml: `
+        <article>
+          <div style="display: grid; gap: 1.5rem;">
+            <div style="padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+              <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Direct Editorial Email</h2>
+              <p style="color: #475569;">For press releases, academic news tips, and editorial correspondence:</p>
+              <p style="font-size: 1.2rem; font-weight: bold; color: #0284c7; margin-top: 0.5rem;">
+                <a href="mailto:contact@sciencenewshub.click" style="color: #0284c7;">contact@sciencenewshub.click</a>
+              </p>
+              <p style="font-size: 0.9rem; color: #64748b; margin-top: 0.5rem;">Direct editor correspondence: sandeepadulaksha93@gmail.com</p>
+            </div>
+
+            <div style="padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+              <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Editorial Response Time</h2>
+              <p style="color: #475569;">Our editorial desk typically reviews inquiries within 24 to 48 business hours. For urgent corrections, please prefix your subject line with <code>[CORRECTION]</code>.</p>
+            </div>
+
+            <div style="padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+              <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Mailing &amp; Publisher Details</h2>
+              <p style="color: #475569;">Daily Science News | Founder &amp; Chief Editor: Dulaksha Sandeepa</p>
+              <p style="color: #475569;">Official Website: <a href="https://sciencenewshub.click" style="color: #0284c7;">https://sciencenewshub.click</a></p>
+            </div>
+          </div>
+        </article>
+      `
     },
     {
-      id: "5",
-      title: "AI System Detects Diseases Before Symptoms Appear",
-      summary: "Researchers develop AI system that can predict diseases years before symptoms appear, potentially revolutionizing preventive healthcare.",
-      category: "Technology",
-      date: "August 8, 2025",
-      author: "Tech Health Institute",
-      image: DEFAULT_IMAGE
+      filePath: 'privacy-policy/index.html',
+      canonicalUrl: `${DOMAIN}/privacy-policy`,
+      title: 'Privacy Policy - Daily Science News',
+      description: 'Privacy policy for Daily Science News, including Google AdSense DART cookie disclosures, GDPR, CCPA, and data privacy rights.',
+      heading: 'Privacy Policy',
+      subheading: 'Last updated: September 2026. Fully compliant with Google AdSense, GDPR, and CCPA standards.',
+      bodyHtml: `
+        <article>
+          <section style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">1. Overview</h2>
+            <p>At Daily Science News (accessible at https://sciencenewshub.click), the privacy of our visitors is of paramount importance. This Privacy Policy details the types of personal data we collect, how it is handled, and your privacy rights.</p>
+          </section>
+
+          <section style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">2. Google AdSense &amp; DART Cookies</h2>
+            <p>Google is a third-party vendor on our site. It uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to https://sciencenewshub.click and other sites on the internet.</p>
+            <p>Users may choose to opt-out of the use of the DART cookie by visiting the Google Ad and Content Network Privacy Policy at: <a href="https://policies.google.com/technologies/ads" style="color: #0284c7;" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></p>
+          </section>
+
+          <section style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">3. Log Files &amp; Analytics</h2>
+            <p>Daily Science News follows standard procedure of using log files and Google Analytics 4 (anonymized IP tracking) to analyze trends, administer the site, and track user engagement. Information collected includes IP addresses, browser types, Internet Service Providers (ISP), date/time stamps, and referring pages.</p>
+          </section>
+
+          <section style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">4. GDPR &amp; CCPA Privacy Rights</h2>
+            <p>Under GDPR and CCPA regulations, visitors have the right to request access to, rectification of, or erasure of their personal data. We do not sell personal information to third parties.</p>
+          </section>
+
+          <section>
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">5. Contact Information</h2>
+            <p>If you have any questions regarding this privacy policy, contact our Data Protection Officer at: <a href="mailto:contact@sciencenewshub.click" style="color: #0284c7;">contact@sciencenewshub.click</a>.</p>
+          </section>
+        </article>
+      `
     },
     {
-      id: "6",
-      title: "Quantum Internet Breakthrough: Secure Communication Achieved Over 100km",
-      summary: "Scientists demonstrate quantum entanglement-based communication over unprecedented distances, bringing quantum internet closer to reality.",
-      category: "Technology",
-      date: "August 7, 2025",
-      author: "Quantum Research Center",
-      image: DEFAULT_IMAGE
+      filePath: 'terms/index.html',
+      canonicalUrl: `${DOMAIN}/terms`,
+      title: 'Terms of Service - Daily Science News',
+      description: 'Terms of service and scientific content disclaimer for Daily Science News readers and subscribers.',
+      heading: 'Terms of Service',
+      subheading: 'Governing user access, intellectual property, and editorial content guidelines.',
+      bodyHtml: `
+        <article>
+          <section style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">1. Acceptance of Terms</h2>
+            <p>By accessing Daily Science News at https://sciencenewshub.click, you agree to be bound by these Terms of Service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws.</p>
+          </section>
+
+          <section style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">2. Intellectual Property &amp; Content Use</h2>
+            <p>All original written reporting and commentary produced by Daily Science News is the intellectual property of Daily Science News. Quoted academic materials, research abstracts, and scientific imagery from NASA, ESA, JAXA, and peer-reviewed journals are credited to their respective institutional copyright holders under fair use educational reporting.</p>
+          </section>
+
+          <section>
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">3. Disclaimer of Liability</h2>
+            <p>While our editorial team endeavors to ensure absolute scientific accuracy, scientific research is constantly evolving. Daily Science News is not liable for errors or omissions resulting from updated academic discoveries.</p>
+          </section>
+        </article>
+      `
     },
     {
-      id: "7",
-      title: "New Carbon Capture Technology Removes CO2 at Record Efficiency",
-      summary: "Revolutionary carbon capture system removes atmospheric CO2 at 300% higher efficiency than current methods, with significantly lower energy costs.",
-      category: "Environment",
-      date: "August 6, 2025",
-      author: "Climate Solutions Institute",
-      image: DEFAULT_IMAGE
-    },
-    {
-      id: "9",
-      title: "Breakthrough in Quantum Computing Achieves Error Correction Milestone",
-      summary: "Scientists have successfully implemented a practical quantum error correction system that makes quantum computers significantly more reliable for real-world applications.",
-      category: "Technology",
-      date: "August 14, 2025",
-      author: "Quantum Research Foundation",
-      image: DEFAULT_IMAGE
+      filePath: 'disclaimer/index.html',
+      canonicalUrl: `${DOMAIN}/disclaimer`,
+      title: 'Medical & Scientific Research Disclaimer - Daily Science News',
+      description: 'Important medical, clinical, and scientific disclaimer regarding health research and technological reports published on Daily Science News.',
+      heading: 'Medical & Research Disclaimer',
+      subheading: 'Important disclosures regarding scientific news, pre-clinical studies, and medical reporting.',
+      bodyHtml: `
+        <article>
+          <div style="padding: 1.5rem; background: #fef2f2; border-radius: 12px; border: 1px solid #fecaca; margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; color: #991b1b; margin-bottom: 0.5rem;">Not Medical or Clinical Advice</h2>
+            <p style="color: #7f1d1d;">The articles, news reports, and analyses published on Daily Science News are created exclusively for educational and informational purposes. They do not constitute professional medical advice, diagnosis, or treatment recommendations.</p>
+          </div>
+
+          <section style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Early-Stage Research Disclosures</h2>
+            <p>Our reporting frequently covers pre-clinical research, animal trials, in-vitro experiments, and early computational models. Findings observed in laboratories do not necessarily translate into human clinical efficacy without formal Phase 3 trials and regulatory approval (FDA, EMA, WHO).</p>
+          </section>
+
+          <section>
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Consult Healthcare Professionals</h2>
+            <p>Always seek the guidance of your physician or qualified healthcare provider with any questions you may have regarding a medical condition or therapeutic intervention.</p>
+          </section>
+        </article>
+      `
     }
   ];
 
-  for (const item of inlineArticles) {
-    const slug = getSlug(item);
-    if (!seenSlugs.has(slug)) {
-      seenSlugs.add(slug);
-      articlesList.push(item);
+  // Category Hub Pages
+  const categories = [
+    { name: 'space', title: 'Space & Astronomy News', desc: 'Verified coverage of NASA missions, JWST observations, lunar exploration, and planetary science discoveries.' },
+    { name: 'physics', title: 'Physics & Quantum Theory Discoveries', desc: 'Frontier research in particle physics, CERN ATLAS experiments, quantum computing, and astrophysics.' },
+    { name: 'technology', title: 'Frontier AI & Technology Research', desc: 'Independent analysis of artificial intelligence safety, autonomous robotics, and computational science.' },
+    { name: 'health', title: 'Health & Cellular Medicine News', desc: 'Peer-reviewed reporting on cellular longevity, oncology breakthroughs, and metabolic clinical science.' },
+    { name: 'biology', title: 'Biology & Natural Sciences', desc: 'Discoveries in genomics, evolutionary paleontology, organism traits, and ecosystem biodiversity.' },
+    { name: 'environment', title: 'Environment & Climate Geophysics', desc: 'Scientific telemetry on Atlantic ocean currents (AMOC), volcanology, and atmospheric dynamics.' },
+    { name: 'archaeology', title: 'Archaeology & Prehistoric History', desc: 'Excavations, ancient hominin genomics, fossil discoveries, and anthropological research.' },
+    { name: 'mathematics', title: 'Mathematics & Theoretical Logic', desc: 'Mathematical proofs, Navier-Stokes millennium problems, and cryptographic theory.' }
+  ];
+
+  for (const cat of categories) {
+    const catArticles = articlesList.filter(a => {
+      const reg = new RegExp(cat.name, 'i');
+      return reg.test(a.category || '');
+    }).slice(0, 10);
+
+    let articlesListHtml = `<ul style="list-style: none; padding: 0; display: grid; gap: 1rem;">`;
+    if (catArticles.length > 0) {
+      for (const art of catArticles) {
+        const slug = getSlug(art);
+        articlesListHtml += `
+          <li style="padding: 1rem; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
+            <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;"><a href="/article/${slug}" style="color: #0284c7; text-decoration: none; font-weight: bold;">${escapeXml(art.title)}</a></h3>
+            <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 0.5rem;">${escapeXml(art.summary || '')}</p>
+            <span style="font-size: 0.8rem; color: #94a3b8;">${escapeXml(art.date || '')} • ${escapeXml(art.author || 'Daily Science News')}</span>
+          </li>
+        `;
+      }
+    } else {
+      articlesListHtml += `<li><p style="color: #64748b;">Explore our latest peer-reviewed reports in this discipline.</p></li>`;
     }
+    articlesListHtml += `</ul>`;
+
+    pages.push({
+      filePath: `category/${cat.name}/index.html`,
+      canonicalUrl: `${DOMAIN}/category/${cat.name}`,
+      title: `${cat.title} - Daily Science News`,
+      description: cat.desc,
+      heading: cat.title,
+      subheading: cat.desc,
+      bodyHtml: `
+        <article>
+          <div style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Curated Research Reports</h2>
+            ${articlesListHtml}
+          </div>
+          <div style="margin-top: 2rem; text-align: center;">
+            <a href="/" style="color: #0284c7; font-weight: bold;">&larr; Return to All Science News</a>
+          </div>
+        </article>
+      `
+    });
   }
 
-  articlesList.sort((a, b) => new Date(b.date) - new Date(a.date));
-  return articlesList;
+  return pages;
 }
 
 function parseBlogFiles() {
@@ -370,15 +510,14 @@ function parseBlogFiles() {
 }
 
 function main() {
-  const articlesList = parseArticleFiles();
+  const articlesList = parseCuratedArticles();
   const blogsList = parseBlogFiles();
   const categories = ['space', 'physics', 'technology', 'health', 'biology', 'environment', 'archaeology', 'mathematics'];
   const today = new Date().toISOString().split('T')[0];
 
-  // 1. Generate Full Comprehensive XML Sitemap (sitemap.xml)
+  // 1. Generate XML Sitemap (sitemap.xml)
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-
   xml += `  <!-- Core Static Pages -->\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/about</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
@@ -390,10 +529,10 @@ function main() {
 
   xml += `\n  <!-- Category Hubs -->\n`;
   for (const cat of categories) {
-    xml += `  <url>\n    <loc>${DOMAIN}/category/${cat}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+    xml += `  <url>\n    <loc>${DOMAIN}/category/${cat}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.85</priority>\n  </url>\n`;
   }
 
-  xml += `\n  <!-- Published Scientific Articles & Research Reports (${articlesList.length} Articles) -->\n`;
+  xml += `\n  <!-- Published Scientific Articles & Research Reports (${articlesList.length} Curated Articles) -->\n`;
   for (const art of articlesList) {
     const slug = getSlug(art);
     const pubDate = formatDateForXml(art.date);
@@ -401,7 +540,7 @@ function main() {
     xml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
     xml += `    <lastmod>${pubDate}</lastmod>\n`;
     xml += `    <changefreq>monthly</changefreq>\n`;
-    xml += `    <priority>0.85</priority>\n`;
+    xml += `    <priority>0.8</priority>\n`;
     xml += `  </url>\n`;
   }
 
@@ -468,14 +607,14 @@ function main() {
   }
   categoryXml += `</urlset>\n`;
 
-  // 6. Generate High-Quality RSS Feed (rss.xml)
+  // 6. Generate RSS Feed (rss.xml)
   let rssXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   rssXml += `<?xml-stylesheet type="text/xsl" href="/rss.xsl"?>\n`;
   rssXml += `<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">\n`;
   rssXml += `  <channel>\n`;
   rssXml += `    <title>Daily Science News</title>\n`;
   rssXml += `    <link>${DOMAIN}</link>\n`;
-  rssXml += `    <description>Latest Scientific Discoveries, Space Exploration Missions, AI Breakthroughs, and Peer-Reviewed Research</description>\n`;
+  rssXml += `    <description>Verified Scientific Discoveries, Space Exploration Missions, and Peer-Reviewed Research</description>\n`;
   rssXml += `    <language>en-us</language>\n`;
   rssXml += `    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>\n`;
   rssXml += `    <atom:link href="${DOMAIN}/rss.xml" rel="self" type="application/rss+xml" />\n`;
@@ -490,9 +629,9 @@ function main() {
     rssXml += `      <link>${link}</link>\n`;
     rssXml += `      <guid isPermaLink="true">${link}</guid>\n`;
     rssXml += `      <pubDate>${pubDate}</pubDate>\n`;
-    rssXml += `      <dc:creator>${escapeXml(art.author)}</dc:creator>\n`;
-    rssXml += `      <category>${escapeXml(art.category)}</category>\n`;
-    rssXml += `      <description>${escapeXml(art.summary)}</description>\n`;
+    rssXml += `      <dc:creator>${escapeXml(art.author || 'Dulaksha Sandeepa')}</dc:creator>\n`;
+    rssXml += `      <category>${escapeXml(art.category || 'Science')}</category>\n`;
+    rssXml += `      <description>${escapeXml(art.summary || '')}</description>\n`;
     rssXml += `      <media:content url="${escapeXml(imgUrl)}" medium="image" width="1200" height="675">\n`;
     rssXml += `        <media:title>${escapeXml(art.title)}</media:title>\n`;
     rssXml += `      </media:content>\n`;
@@ -501,12 +640,13 @@ function main() {
   rssXml += `  </channel>\n`;
   rssXml += `</rss>\n`;
 
-  const dirs = [
-    path.join(__dirname, '..', 'public'),
-    path.join(__dirname, '..', 'dist')
+  // Output directories
+  const targetDirs = [
+    path.join(rootDir, 'public'),
+    path.join(rootDir, 'dist')
   ];
 
-  for (const dir of dirs) {
+  for (const dir of targetDirs) {
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
@@ -518,7 +658,21 @@ function main() {
     fs.writeFileSync(path.join(dir, 'rss.xml'), rssXml, 'utf-8');
   }
 
-  console.log(`✓ Successfully generated sitemaps.org compliant Sitemaps (main, news, post, page, category) and RSS Feed for ${articlesList.length} articles!`);
+  // 7. Prerender Static HTML Pages
+  const staticPages = generateStaticPages(articlesList);
+  for (const page of staticPages) {
+    const htmlContent = generateStaticPageHtml(page);
+    for (const baseDir of targetDirs) {
+      const fullPath = path.join(baseDir, page.filePath);
+      const parentDir = path.dirname(fullPath);
+      if (!fs.existsSync(parentDir)) {
+        fs.mkdirSync(parentDir, { recursive: true });
+      }
+      fs.writeFileSync(fullPath, htmlContent, 'utf-8');
+    }
+  }
+
+  console.log(`✓ Successfully generated sitemaps, RSS feed, and ${staticPages.length} prerendered static HTML pages for ${articlesList.length} curated articles.`);
 }
 
 main();

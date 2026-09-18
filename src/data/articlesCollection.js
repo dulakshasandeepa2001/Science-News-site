@@ -1,610 +1,176 @@
-import { spacecraftArticle } from "./articles/Spacecraft_Black_Hole.js";
-import { einsteinRingArticle } from "./articles/Einstein_Ring_Black_Hole.js";
-import { ancientForestArticle } from "./articles/Ancient_Forest_Discovered_Under_Melting_Arctic_Ice.js";
-import floridaPantherArticle from "./articles/FloridaPantherArticlePage.js";
-import zombieVirusArticle from "./articles/Zombie_Virus_Rabbits.js";
-import { Sony_Humanoid_Robots_Weaknesses } from "./articles/Sony_Humanoid_Robots_Weaknesses.js";
-import { Orange_Shark_Discovery } from "./articles/Orange_Shark_Discovery.js";
-import { Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery.js";
-import { Aspirin_Replacement_Clopidogrel } from "./articles/Aspirin_Replacement_Clopidogrel.js";
-import { Atlas_Comet_Confirmation } from "./articles/Atlas_Comet_Confirmation.js";
-import { Comet_Lemmon_Tail_Disruption } from "./articles/Comet_Lemmon_Tail_Disruption.js";
-import { Mosquitoes_Iceland_Discovery } from "./articles/Mosquitoes_Iceland_Discovery.js";
-import { Ryugu_Asteroid_Water_Discovery } from "./articles/Ryugu_Asteroid_Water_Discovery.js";
-import { Geomagnetic_Storm_Northern_Lights } from "./articles/Geomagnetic_Storm_Northern_Lights.js";
-import { Mammoth_RNA_Discovery } from "./articles/Mammoth_RNA_Discovery.js";
-import { Skydiver_Sun_Photography } from "./articles/Skydiver_Sun_Photography.js";
-import { James_Watson_Passing } from "./articles/James_Watson_Passing.js";
-import { Shenzhou_21_Capsule_Mission } from "./articles/Shenzhou_21_Capsule_Mission.js";
-import { NASA_Atlas_Comet_Images } from "./articles/NASA_Atlas_Comet_Images.js";
-import { Ancient_Crocodile_Ancestor_Discovery } from "./articles/Ancient_Crocodile_Ancestor_Discovery.js";
-import { Changan_Nevo_A06 } from "./articles/Changan_Nevo_A06.js";
-import { Russia_Enteromix_Vaccine } from "./articles/Russia_Enteromix_Vaccine.js";
-import { Cyanobacteria_Mars_Oxygen } from "./articles/Cyanobacteria_Mars_Oxygen.js";
-import { Mars_Life_Discovery } from "./articles/Mars_Life_Discovery.js";
-import { Military_Drone_Mother_Ship } from "./articles/Military_Drone_Mother_Ship.js";
-import { British_Pilot_Mars_Simulation } from "./articles/British_Pilot_Mars_Simulation.js";
-import { Oldest_Mummies_Southeast_Asia } from "./articles/Oldest_Mummies_Southeast_Asia.js";
-import { Cleopatra_Sunken_Port_Discovery } from "./articles/Cleopatra_Sunken_Port_Discovery.js";
+// ============================================================================
+// Curated High-Authority Scientific Articles Collection
+// Daily Science News (sciencenewshub.click)
+// Strict Quality & E-E-A-T AdSense Compliance (Zero Thin / Placeholder Content)
+// ============================================================================
 
-import { Space_Plane_Mission } from "./articles/Space_Plane_Mission.js";
-import { Black_Death_Shadow } from "./articles/Black_Death_Shadow.js";
-import { China_AR_Helmet } from "./articles/China_AR_Helmet.js";
-import Silverpit_Crater_Asteroid_Impact from "./articles/Silverpit_Crater_Asteroid_Impact.js";
-import Prehistoric_Insects_South_America_Amber from "./articles/Prehistoric_Insects_South_America_Amber.js";
-import Artemis_2_Astronauts_Ready_Mission from "./articles/Artemis_2_Astronauts_Ready_Mission.js";
-import { Dinosaur_Fossil_Crocodile_Bone } from "./articles/Dinosaur_Fossil_Crocodile_Bone.js";
-import { Nobel_Prize_Medicine_2025 } from "./articles/Nobel_Prize_Medicine_2025.js";
-import { Nobel_Prize_Physics_2025 } from "./articles/Nobel_Prize_Physics_2025.js";
-import { Nobel_Prize_Chemistry_2025 } from "./articles/Nobel_Prize_Chemistry_2025.js";
-import { Celtic_Metal_Coins_Discovery } from "./articles/Celtic_Metal_Coins_Discovery.js";
-import { Volcanic_Eruption_Prediction_Mount_Etna } from "./articles/Volcanic_Eruption_Prediction_Mount_Etna.js";
-import { Ohio_Fireball_Meteor_March_2026 } from "./articles/Ohio_Fireball_Meteor_March_2026.js";
-import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_10000_Satellites.js";
-import { Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
-import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
-import { Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin } from "./articles/Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin.js";
-import { Quantum_Entanglement_Z_Bosons_CERN_ATLAS } from "./articles/Quantum_Entanglement_Z_Bosons_CERN_ATLAS.js";
-import { US_Confirms_Weapons_Deployed_Orbit_Space_Force } from "./articles/US_Confirms_Weapons_Deployed_Orbit_Space_Force.js";
-import { JWST_Chariklo_Asteroid_Ring_Changes } from "./articles/JWST_Chariklo_Asteroid_Ring_Changes.js";
-import { Sony_PlayStation_Store_Credit_Settlement } from "./articles/Sony_PlayStation_Store_Credit_Settlement.js";
-import { Dario_Amodei_AI_Slowdown_Pace_The_Frontier } from "./articles/Dario_Amodei_AI_Slowdown_Pace_The_Frontier.js";
-import { When_Is_The_Next_Meteor_Shower_2026_Calendar } from "./articles/When_Is_The_Next_Meteor_Shower_2026_Calendar.js";
-import { UK_September_Heatwave_Forecast_2026 } from "./articles/UK_September_Heatwave_Forecast_2026.js";
-import { Sun_Swallowed_Super_Earth_Discovery } from "./articles/Sun_Swallowed_Super_Earth_Discovery.js";
-import { Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction } from "./articles/Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction.js";
-import { Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score } from "./articles/Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score.js";
-import { Massive_Stars_Forming_Binary_System_ALMA_Discovery } from "./articles/Massive_Stars_Forming_Binary_System_ALMA_Discovery.js";
-import { IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary } from "./articles/IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary.js";
-import { PS5_System_Update_14_PSSR_2_Graphics_Upgrade } from "./articles/PS5_System_Update_14_PSSR_2_Graphics_Upgrade.js";
-import { OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof } from "./articles/OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof.js";
-import { IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20 } from "./articles/IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20.js";
-import { Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor } from "./articles/Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor.js";
-import { LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw } from "./articles/LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw.js";
-import { Tim_Cook_Apple_CEO_Transition } from "./articles/Tim_Cook_Apple_CEO_Transition.js";
-import { Apple_September_Event_2026_Preview } from "./articles/Apple_September_Event_2026_Preview.js";
-import { LUX_ZEPLIN_Dark_Matter_WIMP_Discovery } from "./articles/LUX_ZEPLIN_Dark_Matter_WIMP_Discovery.js";
-import { Academy_Of_Natural_Sciences_Museum_Closure } from "./articles/Academy_Of_Natural_Sciences_Museum_Closure.js";
-import { Scarlet_Fever_Pre_Columbian_America } from "./articles/Scarlet_Fever_Pre_Columbian_America.js";
-import { Giant_Dam_Save_AMOC } from "./articles/Giant_Dam_Save_AMOC.js";
-import { Interstellar_Comet_3I_ATLAS_Origin } from "./articles/Interstellar_Comet_3I_ATLAS_Origin.js";
-import { Pluto_Reclassification_Planet_Effort } from "./articles/Pluto_Reclassification_Planet_Effort.js";
-import { Global_Pandemic_Treaty_Delay } from "./articles/Global_Pandemic_Treaty_Delay.js";
-import { Tiny_Object_Solar_System_Atmosphere } from "./articles/Tiny_Object_Solar_System_Atmosphere.js";
-import { Wasp_Named_David_Attenborough_Birthday } from "./articles/Wasp_Named_David_Attenborough_Birthday.js";
-import { Water_Paint_Coating_Dewpoint } from "./articles/Water_Paint_Coating_Dewpoint.js";
-import { BlueOriginNewGlennExplosion } from "./articles/BlueOriginNewGlennExplosion.js";
-import { MoonBaseI_BlueOriginMission } from "./articles/MoonBaseI_BlueOriginMission.js";
-import { Red_Dwarf_Stars_Swallowing_Planets } from "./articles/Red_Dwarf_Stars_Swallowing_Planets.js";
-import { Psyche_Spacecraft_Mars_Gravity_Assist } from "./articles/Psyche_Spacecraft_Mars_Gravity_Assist.js";
-import { TRexTinyArmsEvolutionarySacrifice } from "./articles/TRexTinyArmsEvolutionarySacrifice.js";
-import { British_Paralympian_John_McFall_Astronaut } from "./articles/British_Paralympian_John_McFall_Astronaut.js";
-import { Humpback_Whales_Sound_Discovery } from "./articles/Humpback_Whales_Sound_Discovery.js";
-import { Orcas_Ramming_Sunfish } from "./articles/Orcas_Ramming_Sunfish.js";
-import { Double_Star_System_Both_Supernovae } from "./articles/Double_Star_System_Both_Supernovae.js";
-import { Pan_Am_Wreckage_Discovered } from "./articles/Pan_Am_Wreckage_Discovered.js";
-import { Little_Red_Dots_Early_Universe } from "./articles/Little_Red_Dots_Early_Universe.js";
-import { Earhart_Nikumaroro_Clue } from "./articles/Earhart_Nikumaroro_Clue.js";
-import { Jodrell_Bank_Observatory_Risk } from "./articles/Jodrell_Bank_Observatory_Risk.js";
-import { Exoplanet_WASP121b_GemstoneRain } from "./articles/Exoplanet_WASP121b_GemstoneRain.js";
-import { MAVEN_Mars_Spacecraft_Final_Journey } from "./articles/MAVEN_Mars_Spacecraft_Final_Journey.js";
-import { Artemis_III_Astronauts_Named } from "./articles/Artemis_III_Astronauts_Named.js";
-import { Global_Underground_Fungal_Network_Map_Revealed } from "./articles/Global_Underground_Fungal_Network_Map_Revealed.js";
-import { M87_Black_Hole_Radiation_Jet_XRay } from "./articles/M87_Black_Hole_Radiation_Jet_XRay.js";
-import { Earth_Black_Box_Tasmania } from "./articles/EarthBlackBoxTasmania.js";
-import { New_Air_Force_One_Service } from "./articles/NewAirForceOneService.js";
-import { Supernova_Remnant_Milky_Way } from "./articles/Supernova_Remnant_Milky_Way.js";
-import { Vaquita_Digital_Reconstruction } from "./articles/Vaquita_Digital_Reconstruction.js";
-import { ISS_Ocean_Crash_Plan } from "./articles/ISS_Ocean_Crash_Plan.js";
-import { Euclid_Milky_Way_Center } from "./articles/Euclid_Milky_Way_Center.js";
-import { New_Marine_Species_Brazil } from "./articles/New_Marine_Species_Brazil.js";
-import { Swift_Telescope_Rescue } from "./articles/Swift_Telescope_Rescue.js";
-import { Antarctic_Titanosaur_Fossil } from "./articles/Antarctic_Titanosaur_Fossil.js";
-import { LHC_Shutdown_Upgrade } from "./articles/LHC_Shutdown_Upgrade.js";
-import { GJ_3378b_Earth_Like_Planet } from "./articles/GJ_3378b_Earth_Like_Planet.js";
-import { Fermi_Paradox_AI_Explanation } from "./articles/Fermi_Paradox_AI_Explanation.js";
-import { Nuclear_Satellite_BOHR } from "./articles/Nuclear_Satellite_BOHR.js";
-import { India_Skyroot_Orbital_Rocket } from "./articles/India_Skyroot_Orbital_Rocket.js";
-import { Koala_Cryopreservation } from "./articles/Koala_Cryopreservation.js";
-import { First_Space_XRay } from "./articles/First_Space_XRay.js";
-import { US_Space_Force_Meadowlands } from "./articles/US_Space_Force_Meadowlands.js";
-import { Pluto_Titan_Mystery_Substance } from "./articles/Pluto_Titan_Mystery_Substance.js";
-import { Africa_First_Lunar_Mission_China_2029 } from "./articles/Africa_First_Lunar_Mission_China_2029.js";
-import { Pacific_Ring_Of_Fire_Volcanic_Cooling } from "./articles/Pacific_Ring_Of_Fire_Volcanic_Cooling.js";
-import { Dinosaur_Asteroid_Heat_17_Times } from "./articles/Dinosaur_Asteroid_Heat_17_Times.js";
-import { SpaceX_Rocket_Moon_Crash_2026 } from "./articles/SpaceX_Rocket_Moon_Crash_2026.js";
-import { World_Reservoirs_Sedimentation_2060 } from "./articles/World_Reservoirs_Sedimentation_2060.js";
-import { Inouye_Solar_Telescope_Clearest_Sun_Images } from "./articles/Inouye_Solar_Telescope_Clearest_Sun_Images.js";
-import { Black_Hole_Star_Discovery } from "./articles/Black_Hole_Star_Discovery.js";
-import { SpaceX_AI_Starmind_Satellites } from "./articles/SpaceX_AI_Starmind_Satellites.js";
-import { Total_Solar_Eclipse_Europe_2026 } from "./articles/Total_Solar_Eclipse_Europe_2026.js";
-import { British_Fossil_Collection_Abu_Dhabi } from "./articles/British_Fossil_Collection_Abu_Dhabi.js";
-import { AI_Designed_Virus_Stanford } from "./articles/AI_Designed_Virus_Stanford.js";
-import { Cellular_Health_Science_Longevity_Breakthroughs } from "./articles/Cellular_Health_Science_Longevity_Breakthroughs.js";
-import { Gut_Brain_Connection_Microbiome_Health_Science } from "./articles/Gut_Brain_Connection_Microbiome_Health_Science.js";
-import { AI_In_Health_Science_Precision_Medicine } from "./articles/AI_In_Health_Science_Precision_Medicine.js";
-import { Food_Science_Ultra_Processed_Foods_Metabolic_Health } from "./articles/Food_Science_Ultra_Processed_Foods_Metabolic_Health.js";
-import { August_2026_Lunar_Eclipse_Blood_Moon_Guide } from "./articles/August_2026_Lunar_Eclipse_Blood_Moon_Guide.js";
-import { Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay } from "./articles/Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay.js";
-import { Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record } from "./articles/Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record.js";
-import { Apollo_12_Moon_Dust_Camera_Mishap } from "./articles/Apollo_12_Moon_Dust_Camera_Mishap.js";
-import { Solar_Flare_Northern_Lights_Geomagnetic_Storm } from "./articles/Solar_Flare_Northern_Lights_Geomagnetic_Storm.js";
-import { NASA_Nancy_Grace_Roman_Telescope_Launch } from "./articles/NASA_Nancy_Grace_Roman_Telescope_Launch.js";
-import { James_Webb_LHS1140b_Biomarkers } from "./articles/James_Webb_LHS1140b_Biomarkers.js";
-import { MRNA_Universal_Cancer_Vaccine_Phase3 } from "./articles/MRNA_Universal_Cancer_Vaccine_Phase3.js";
-import { Fault_Tolerant_Quantum_Processor_1000Qubits } from "./articles/Fault_Tolerant_Quantum_Processor_1000Qubits.js";
-import { Perovskite_Silicon_Tandem_Solar_34Percent } from "./articles/Perovskite_Silicon_Tandem_Solar_34Percent.js";
-import { Ancient_DNA_Two_Million_Year_Hominin } from "./articles/Ancient_DNA_Two_Million_Year_Hominin.js";
-import { Ancient_Supervolcano_Discovered_England_The_Wash } from "./articles/Ancient_Supervolcano_Discovered_England_The_Wash.js";
-import { Saturn_Decagon_Atmosphere_South_Pole_Discovery } from "./articles/Saturn_Decagon_Atmosphere_South_Pole_Discovery.js";
-import { New_Earthquake_Prediction_Model_UC_Riverside } from "./articles/New_Earthquake_Prediction_Model_UC_Riverside.js";
-import { Mathspace_Data_Breach_Australia_NZ } from "./articles/Mathspace_Data_Breach_Australia_NZ.js";
 import { Curiosity_Rover_Footprints_Mars_Mount_Sharp } from "./articles/Curiosity_Rover_Footprints_Mars_Mount_Sharp.js";
 import { Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin } from "./articles/Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin.js";
+import { Massive_Stars_Forming_Binary_System_ALMA_Discovery } from "./articles/Massive_Stars_Forming_Binary_System_ALMA_Discovery.js";
+import { UK_September_Heatwave_Forecast_2026 } from "./articles/UK_September_Heatwave_Forecast_2026.js";
+import { BlueOriginNewGlennExplosion } from "./articles/BlueOriginNewGlennExplosion.js";
+import { Asteroid_2025_TP5_Close_Approach } from "./articles/Asteroid_2025_TP5_Close_Approach.js";
+import { JWST_Chariklo_Asteroid_Ring_Changes } from "./articles/JWST_Chariklo_Asteroid_Ring_Changes.js";
+import { MoonBaseI_BlueOriginMission } from "./articles/MoonBaseI_BlueOriginMission.js";
+import { When_Is_The_Next_Meteor_Shower_2026_Calendar } from "./articles/When_Is_The_Next_Meteor_Shower_2026_Calendar.js";
+import { Dario_Amodei_AI_Slowdown_Pace_The_Frontier } from "./articles/Dario_Amodei_AI_Slowdown_Pace_The_Frontier.js";
+import { Sun_Swallowed_Super_Earth_Discovery } from "./articles/Sun_Swallowed_Super_Earth_Discovery.js";
+import { US_Confirms_Weapons_Deployed_Orbit_Space_Force } from "./articles/US_Confirms_Weapons_Deployed_Orbit_Space_Force.js";
+import { Quantum_Entanglement_Z_Bosons_CERN_ATLAS } from "./articles/Quantum_Entanglement_Z_Bosons_CERN_ATLAS.js";
+import { OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof } from "./articles/OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof.js";
+import { Solar_Flare_Northern_Lights_Geomagnetic_Storm } from "./articles/Solar_Flare_Northern_Lights_Geomagnetic_Storm.js";
+import { Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor } from "./articles/Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor.js";
+import { TRexTinyArmsEvolutionarySacrifice } from "./articles/TRexTinyArmsEvolutionarySacrifice.js";
+import { Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction } from "./articles/Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction.js";
+import { SpaceX_Starlink_10000_Satellites } from "./articles/SpaceX_Starlink_10000_Satellites.js";
+import { August_2026_Lunar_Eclipse_Blood_Moon_Guide } from "./articles/August_2026_Lunar_Eclipse_Blood_Moon_Guide.js";
+import { Japan_HTV_X_Cargo_ISS } from "./articles/Japan_HTV_X_Cargo_ISS.js";
+import { Red_Dwarf_Stars_Swallowing_Planets } from "./articles/Red_Dwarf_Stars_Swallowing_Planets.js";
+import { Ancient_Supervolcano_Discovered_England_The_Wash } from "./articles/Ancient_Supervolcano_Discovered_England_The_Wash.js";
+import { LUX_ZEPLIN_Dark_Matter_WIMP_Discovery } from "./articles/LUX_ZEPLIN_Dark_Matter_WIMP_Discovery.js";
+import { Academy_Of_Natural_Sciences_Museum_Closure } from "./articles/Academy_Of_Natural_Sciences_Museum_Closure.js";
+import { Psyche_Spacecraft_Mars_Gravity_Assist } from "./articles/Psyche_Spacecraft_Mars_Gravity_Assist.js";
+import { Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay } from "./articles/Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay.js";
+import { NASA_Nancy_Grace_Roman_Telescope_Launch } from "./articles/NASA_Nancy_Grace_Roman_Telescope_Launch.js";
+import { New_Earthquake_Prediction_Model_UC_Riverside } from "./articles/New_Earthquake_Prediction_Model_UC_Riverside.js";
+import { Mathspace_Data_Breach_Australia_NZ } from "./articles/Mathspace_Data_Breach_Australia_NZ.js";
+import { Saturn_Decagon_Atmosphere_South_Pole_Discovery } from "./articles/Saturn_Decagon_Atmosphere_South_Pole_Discovery.js";
+import { Atlas_Comet_Confirmation } from "./articles/Atlas_Comet_Confirmation.js";
+import { Double_Star_System_Both_Supernovae } from "./articles/Double_Star_System_Both_Supernovae.js";
+import { Cellular_Health_Science_Longevity_Breakthroughs } from "./articles/Cellular_Health_Science_Longevity_Breakthroughs.js";
+import { Global_Pandemic_Treaty_Delay } from "./articles/Global_Pandemic_Treaty_Delay.js";
+import { Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record } from "./articles/Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record.js";
+import { Pluto_Reclassification_Planet_Effort } from "./articles/Pluto_Reclassification_Planet_Effort.js";
+import { Prehistoric_Insects_South_America_Amber } from "./articles/Prehistoric_Insects_South_America_Amber.js";
+import { Food_Science_Ultra_Processed_Foods_Metabolic_Health } from "./articles/Food_Science_Ultra_Processed_Foods_Metabolic_Health.js";
+import { Shenzhou_21_Capsule_Mission } from "./articles/Shenzhou_21_Capsule_Mission.js";
+import { AI_In_Health_Science_Precision_Medicine } from "./articles/AI_In_Health_Science_Precision_Medicine.js";
+import { Gut_Brain_Connection_Microbiome_Health_Science } from "./articles/Gut_Brain_Connection_Microbiome_Health_Science.js";
+import { Atlantic_AMOC_Collapse_Risk } from "./articles/Atlantic_AMOC_Collapse_Risk.js";
+import { Giant_Dam_Save_AMOC } from "./articles/Giant_Dam_Save_AMOC.js";
+import { Inouye_Solar_Telescope_Clearest_Sun_Images } from "./articles/Inouye_Solar_Telescope_Clearest_Sun_Images.js";
+import { Dinosaur_Asteroid_Heat_17_Times } from "./articles/Dinosaur_Asteroid_Heat_17_Times.js";
+import { Exoplanet_WASP121b_GemstoneRain } from "./articles/Exoplanet_WASP121b_GemstoneRain.js";
+import { World_Reservoirs_Sedimentation_2060 } from "./articles/World_Reservoirs_Sedimentation_2060.js";
+import { Apollo_12_Moon_Dust_Camera_Mishap } from "./articles/Apollo_12_Moon_Dust_Camera_Mishap.js";
+import { Interstellar_Comet_3I_ATLAS_Origin } from "./articles/Interstellar_Comet_3I_ATLAS_Origin.js";
+import { NASA_Atlas_Comet_Images } from "./articles/NASA_Atlas_Comet_Images.js";
+import { Pacific_Ring_Of_Fire_Volcanic_Cooling } from "./articles/Pacific_Ring_Of_Fire_Volcanic_Cooling.js";
+import { AI_Designed_Virus_Stanford } from "./articles/AI_Designed_Virus_Stanford.js";
+import { British_Fossil_Collection_Abu_Dhabi } from "./articles/British_Fossil_Collection_Abu_Dhabi.js";
+import { Black_Hole_Star_Discovery } from "./articles/Black_Hole_Star_Discovery.js";
+import { Humpback_Whales_Sound_Discovery } from "./articles/Humpback_Whales_Sound_Discovery.js";
+import { SpaceX_Rocket_Moon_Crash_2026 } from "./articles/SpaceX_Rocket_Moon_Crash_2026.js";
+import { Mammoth_RNA_Discovery } from "./articles/Mammoth_RNA_Discovery.js";
+import { Global_Underground_Fungal_Network_Map_Revealed } from "./articles/Global_Underground_Fungal_Network_Map_Revealed.js";
+import { SpaceX_AI_Starmind_Satellites } from "./articles/SpaceX_AI_Starmind_Satellites.js";
+import { Artemis_2_Astronauts_Ready_Mission } from "./articles/Artemis_2_Astronauts_Ready_Mission.js";
+import { M87_Black_Hole_Radiation_Jet_XRay } from "./articles/M87_Black_Hole_Radiation_Jet_XRay.js";
+import { Geomagnetic_Storm_Northern_Lights } from "./articles/Geomagnetic_Storm_Northern_Lights.js";
+import { Total_Solar_Eclipse_Europe_2026 } from "./articles/Total_Solar_Eclipse_Europe_2026.js";
+import { Supernova_Remnant_Milky_Way } from "./articles/Supernova_Remnant_Milky_Way.js";
+import { Swift_Telescope_Rescue } from "./articles/Swift_Telescope_Rescue.js";
+import { Africa_First_Lunar_Mission_China_2029 } from "./articles/Africa_First_Lunar_Mission_China_2029.js";
+import { Little_Red_Dots_Early_Universe } from "./articles/Little_Red_Dots_Early_Universe.js";
+import { Ryugu_Asteroid_Water_Discovery } from "./articles/Ryugu_Asteroid_Water_Discovery.js";
+import { James_Watson_Passing } from "./articles/James_Watson_Passing.js";
+import { Skydiver_Sun_Photography } from "./articles/Skydiver_Sun_Photography.js";
+import { Silverpit_Crater_Asteroid_Impact } from "./articles/Silverpit_Crater_Asteroid_Impact.js";
+import { Euclid_Milky_Way_Center } from "./articles/Euclid_Milky_Way_Center.js";
+import { Mars_Life_Discovery } from "./articles/Mars_Life_Discovery.js";
+import { New_Marine_Species_Brazil } from "./articles/New_Marine_Species_Brazil.js";
+import { Artemis_III_Astronauts_Named } from "./articles/Artemis_III_Astronauts_Named.js";
+import { James_Webb_LHS1140b_Biomarkers } from "./articles/James_Webb_LHS1140b_Biomarkers.js";
+import { Fault_Tolerant_Quantum_Processor_1000Qubits } from "./articles/Fault_Tolerant_Quantum_Processor_1000Qubits.js";
+import { MRNA_Universal_Cancer_Vaccine_Phase3 } from "./articles/MRNA_Universal_Cancer_Vaccine_Phase3.js";
+import { Perovskite_Silicon_Tandem_Solar_34Percent } from "./articles/Perovskite_Silicon_Tandem_Solar_34Percent.js";
+import { Ancient_DNA_Two_Million_Year_Hominin } from "./articles/Ancient_DNA_Two_Million_Year_Hominin.js";
 
-
-// Import other individual articles
-import labImage from "../assets/lab.jpg";
-import dnaImage from "../assets/dna.jpg";
-import jwstImage from "../assets/jwst.jpg";
-
-// Articles that haven't been moved to individual files yet
-const brainWeightLossArticle = {
-  id: 3,
-  title: "Scientists Uncover Hidden Brain Shortcut to Weight Loss",
-  summary:
-    "Scientists have uncovered a way to promote weight loss and improve blood sugar control without the unpleasant side effects of current GLP-1 drugs.",
-  image: labImage,
-  category: "Health & Medicine",
-  date: "August 10, 2025",
-  author: "Medical Research Institute",
-  readTime: "6 min read",
-  content: {
-    sections: [
-      {
-        title: "The Breakthrough",
-        content:
-          "Scientists have uncovered a way to promote weight loss and improve blood sugar control without the unpleasant side effects of current GLP-1 drugs. By shifting focus from neurons to brain support cells that produce appetite-suppressing molecules, researchers have found a new pathway to combat obesity.",
-      },
-      {
-        title: "Current Drug Limitations",
-        content:
-          "Current weight loss medications like GLP-1 agonists, while effective, often come with significant side effects including nausea, vomiting, and gastrointestinal distress that can limit their use and patient compliance.",
-      },
-      {
-        title: "The New Approach",
-        content:
-          "Instead of targeting neurons directly, this new approach focuses on glial cells - the brain's support cells - which play a crucial role in regulating appetite and metabolism without causing the adverse effects associated with current treatments.",
-      },
-      {
-        title: "Mechanism of Action",
-        content:
-          "The research reveals how these brain support cells produce specific molecules that naturally suppress appetite and regulate blood sugar levels, offering a more targeted and potentially safer approach to weight management.",
-      },
-      {
-        title: "Clinical Implications",
-        content:
-          "This discovery could lead to the development of new weight loss treatments that are more tolerable for patients while maintaining or even improving efficacy compared to current options.",
-      },
-      {
-        title: "Research Methodology",
-        content:
-          "The study employed advanced neuroimaging techniques and molecular biology methods to identify and characterize the specific cellular pathways involved in this newly discovered mechanism.",
-      },
-      {
-        title: "Future Directions",
-        content:
-          "Researchers are now working to develop targeted therapies based on these findings, with clinical trials expected to begin within the next few years.",
-      },
-    ],
-  },
-};
-
-const dnaBreakthroughArticle = {
-  id: 4,
-  title: "DNA Breakthrough: New Gene Editing Technique Discovered",
-  summary:
-    "Researchers have developed a revolutionary gene editing technique that could transform how we treat genetic diseases.",
-  image: dnaImage,
-  category: "Health & Medicine",
-  date: "August 9, 2025",
-  author: "Genetic Research Lab",
-  readTime: "7 min read",
-  content: {
-    sections: [
-      {
-        title: "Revolutionary Discovery",
-        content:
-          "Researchers have developed a revolutionary gene editing technique that surpasses CRISPR in precision and safety. This breakthrough could transform how we treat genetic diseases and opens new possibilities for therapeutic interventions.",
-      },
-      {
-        title: "Beyond CRISPR",
-        content:
-          "While CRISPR has been groundbreaking, this new technique offers improved accuracy with significantly reduced off-target effects, making it safer for clinical applications.",
-      },
-      {
-        title: "Technical Innovation",
-        content:
-          "The new method uses a novel protein complex that can make precise edits to DNA without creating double-strand breaks, reducing the risk of unintended mutations.",
-      },
-      {
-        title: "Clinical Applications",
-        content:
-          "This technique shows particular promise for treating inherited genetic disorders, certain cancers, and other conditions caused by specific genetic mutations.",
-      },
-      {
-        title: "Safety Profile",
-        content:
-          "Extensive testing has shown that this new approach has a much lower risk of off-target effects compared to existing gene editing technologies.",
-      },
-      {
-        title: "Regulatory Pathway",
-        content:
-          "The research team is working with regulatory agencies to establish safety protocols and guidelines for clinical trials of this new gene editing approach.",
-      },
-      {
-        title: "Global Impact",
-        content:
-          "This breakthrough could make gene therapy more accessible worldwide, particularly for rare genetic diseases that currently have limited treatment options.",
-      },
-    ],
-  },
-};
-
-const aiSystemArticle = {
-  id: 5,
-  title: "AI System Detects Diseases Before Symptoms Appear",
-  summary:
-    "Researchers develop AI system that can predict diseases years before symptoms appear, potentially revolutionizing preventive healthcare.",
-  image: labImage,
-  category: "Technology",
-  date: "August 8, 2025",
-  author: "Tech Health Institute",
-  readTime: "5 min read",
-  content: {
-    sections: [
-      {
-        title: "Predictive Power",
-        content:
-          "A groundbreaking AI system has demonstrated the ability to detect disease biomarkers years before symptoms manifest, potentially transforming how we approach preventive healthcare.",
-      },
-      {
-        title: "Data Integration",
-        content:
-          "The system analyzes a combination of genomic data, blood biomarkers, and health history to create personalized risk profiles and early detection mechanisms for various diseases.",
-      },
-      {
-        title: "Clinical Validation",
-        content:
-          "In a five-year study involving over 10,000 participants, the AI successfully predicted the onset of several chronic conditions with accuracy rates exceeding 90%.",
-      },
-      {
-        title: "Privacy Concerns",
-        content:
-          "Researchers have implemented advanced encryption and anonymization techniques to address the significant privacy concerns associated with such predictive health technologies.",
-      },
-      {
-        title: "Healthcare Integration",
-        content:
-          "Medical institutions are beginning to integrate this technology into regular check-ups, potentially creating a new standard for preventive care.",
-      },
-      {
-        title: "Cost Implications",
-        content:
-          "Early economic analyses suggest that widespread adoption could significantly reduce healthcare costs by shifting resources from treatment to prevention.",
-      },
-      {
-        title: "Ethical Considerations",
-        content:
-          "The technology raises important questions about how to handle predictive information, particularly for conditions without current treatment options.",
-      },
-    ],
-  },
-};
-
-const quantumInternetArticle = {
-  id: 6,
-  title:
-    "Quantum Internet Breakthrough: Secure Communication Achieved Over 100km",
-  summary:
-    "Scientists demonstrate quantum entanglement-based communication over unprecedented distances, bringing quantum internet closer to reality.",
-  image: jwstImage,
-  category: "Technology",
-  date: "August 7, 2025",
-  author: "Quantum Research Center",
-  readTime: "6 min read",
-  content: {
-    sections: [
-      {
-        title: "Distance Record",
-        content:
-          "Researchers have successfully demonstrated quantum entanglement-based secure communication over a record distance of 100 kilometers, a major milestone toward developing a practical quantum internet.",
-      },
-      {
-        title: "Entanglement Explained",
-        content:
-          "Quantum entanglement allows particles to remain connected so that actions performed on one affect the other, regardless of distance. This property enables theoretically unhackable communication channels.",
-      },
-      {
-        title: "Technical Challenge",
-        content:
-          "The team overcame the challenge of quantum decoherence—the loss of quantum information due to interaction with the environment—using a novel system of quantum repeaters.",
-      },
-      {
-        title: "Practical Applications",
-        content:
-          "This breakthrough could enable ultra-secure communications for financial institutions, government agencies, and critical infrastructure, providing protection against even quantum computer-based attacks.",
-      },
-      {
-        title: "Global Network",
-        content:
-          "Scientists envision a global quantum internet that would connect quantum computers and sensors, enabling new types of scientific experiments and computational capabilities.",
-      },
-      {
-        title: "Implementation Timeline",
-        content:
-          "Experts suggest that limited quantum networks could be operational within five years, with more comprehensive networks following in the subsequent decade.",
-      },
-      {
-        title: "International Efforts",
-        content:
-          "Research teams across Europe, North America, and Asia are collaborating to establish common protocols and infrastructure for the emerging quantum internet.",
-      },
-    ],
-  },
-};
-
-const carbonCaptureArticle = {
-  id: 7,
-  title: "New Carbon Capture Technology Removes CO2 at Record Efficiency",
-  summary:
-    "Revolutionary carbon capture system removes atmospheric CO2 at 300% higher efficiency than current methods, with significantly lower energy costs.",
-  image: labImage,
-  category: "Environment",
-  date: "August 6, 2025",
-  author: "Climate Solutions Institute",
-  readTime: "5 min read",
-  content: {
-    sections: [
-      {
-        title: "Efficiency Breakthrough",
-        content:
-          "Scientists have developed a revolutionary carbon capture system that removes atmospheric CO2 with 300% greater efficiency than current methods, while consuming significantly less energy.",
-      },
-      {
-        title: "Novel Materials",
-        content:
-          "The system utilizes advanced metal-organic frameworks (MOFs) with unprecedented surface area and CO2 binding affinity, enabling more effective carbon capture at ambient conditions.",
-      },
-      {
-        title: "Energy Requirements",
-        content:
-          "Unlike conventional systems that require substantial energy input, this technology operates with minimal energy consumption, making large-scale deployment more economically viable.",
-      },
-      {
-        title: "Scalability",
-        content:
-          "Initial tests demonstrate that the technology can be scaled from industrial installations to smaller, distributed units that could be deployed in urban environments.",
-      },
-      {
-        title: "Carbon Utilization",
-        content:
-          "The captured carbon can be converted into useful products such as construction materials or synthetic fuels, creating economic incentives for carbon capture.",
-      },
-      {
-        title: "Climate Impact",
-        content:
-          "Climate models suggest that widespread deployment of this technology could significantly contribute to meeting global carbon reduction targets by removing historical emissions.",
-      },
-      {
-        title: "Implementation Strategy",
-        content:
-          "Researchers are collaborating with industry partners to begin pilot installations at power plants and industrial facilities within the next 18 months.",
-      },
-    ],
-  },
-};
-
-const quantumComputingArticle = {
-  id: 9,
-  title:
-    "Breakthrough in Quantum Computing Achieves Error Correction Milestone",
-  summary:
-    "Scientists have successfully implemented a practical quantum error correction system that makes quantum computers significantly more reliable for real-world applications.",
-  image: labImage,
-  category: "Technology",
-  date: "August 14, 2025",
-  author: "Quantum Research Foundation",
-  readTime: "6 min read",
-  content: {
-    sections: [
-      {
-        title: "Major Breakthrough",
-        content:
-          "In what experts are calling a 'watershed moment' for quantum computing, researchers have demonstrated a practical quantum error correction system that dramatically increases the reliability of quantum calculations. This achievement addresses one of the most significant obstacles to making quantum computers useful for real-world applications.",
-      },
-      {
-        title: "The Error Problem",
-        content:
-          "Quantum computers are extremely susceptible to errors caused by environmental noise, which has limited their practical use. Even minor disturbances can cause qubits—the fundamental units of quantum information—to lose their quantum state, a phenomenon known as decoherence.",
-      },
-      {
-        title: "Technical Solution",
-        content:
-          "The new system uses a network of physical qubits working together to create more stable 'logical qubits.' By distributing quantum information across multiple physical qubits in a carefully designed pattern, errors can be detected and corrected without disturbing the quantum calculation itself.",
-      },
-      {
-        title: "Performance Improvements",
-        content:
-          "Tests show that the error-corrected quantum system maintained coherence approximately 50 times longer than previous systems. More importantly, it remained stable enough to complete complex calculations that would have failed on earlier quantum computers.",
-      },
-      {
-        title: "Implications for Industry",
-        content:
-          "This breakthrough could accelerate the timeline for quantum advantage in fields like drug discovery, materials science, and cryptography. Companies in the pharmaceutical and financial sectors have already expressed interest in applying the technology to their most challenging computational problems.",
-      },
-      {
-        title: "Next Steps",
-        content:
-          "The research team is now working to scale the system to handle more qubits while maintaining error correction capabilities. They're also developing standardized interfaces that will make the technology more accessible to researchers without expertise in quantum mechanics.",
-      },
-      {
-        title: "Timeline to Commercialization",
-        content:
-          "While still in the research phase, the team estimates that commercial quantum computing systems incorporating these error correction techniques could be available within 3-5 years, much sooner than previously expected.",
-      },
-    ],
-  },
-};
-
-// Combine all articles into a single array
+// Export the curated collection of comprehensive, authoritative articles
 export const articles = [
-  Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin, // September 16, 2026 - Rocket Lab Challenges NASA's $700 Million Mars Orbiter Award to Blue Origin: Inside the High-Stakes GAO Protest
-  Quantum_Entanglement_Z_Bosons_CERN_ATLAS, // September 15, 2026 - Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes
-  US_Confirms_Weapons_Deployed_Orbit_Space_Force, // September 15, 2026 - US Confirms Weapons Already Deployed in Orbit: How America's Secret Space Arsenal Alters Global Warfare
-  JWST_Chariklo_Asteroid_Ring_Changes, // September 14, 2026 - JWST Discovers Chariklo's Rings Are Changing: How a Tiny Asteroid Upends Physics
-  Sony_PlayStation_Store_Credit_Settlement, // September 13, 2026 - Sony PlayStation Store Credit Settlement: How to Check Eligibility & Claim
-  Dario_Amodei_AI_Slowdown_Pace_The_Frontier, // September 13, 2026 - Dario Amodei AI Slowdown Plan: Anthropic CEO Paces the Frontier
-  When_Is_The_Next_Meteor_Shower_2026_Calendar, // September 13, 2026 - When Is the Next Meteor Shower? 2026 Skywatching Calendar
-  UK_September_Heatwave_Forecast_2026, // September 12, 2026 - UK September Heatwave Forecast, 25°C Maps & Met Office Guide
-  Sun_Swallowed_Super_Earth_Discovery, // September 12, 2026 - Sun Swallowed Super-Earth & Lithium Paradox Discovery
-  Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score, // September 11, 2026 - Apple Watch Series 12 vs Whoop & Oura
-  Massive_Stars_Forming_Binary_System_ALMA_Discovery, // September 10, 2026 - ALMA Massive Stars Binary Discovery
-  IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary, // September 10, 2026 - iPhone 18 Pro Specs, Price & Foldable Dilemma
-  Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction, // September 10, 2026 - Anthropic Whistleblower Jacob Coxon & Extinction Risk
-  PS5_System_Update_14_PSSR_2_Graphics_Upgrade, // September 9, 2026 - PS5 System Update 14.0 & Enhanced PSSR 2.0
-  OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof, // September 9, 2026 - OpenAI Navier-Stokes Millennium Proof & Controversy
-  IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20, // September 8, 2026 - iPhone 18 Pro Upgrade Guide, Foldable & iPhone 20
-  Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor, // September 8, 2026 - Claude Navier-Stokes Rumor & Terence Tao
-  LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw, // September 8, 2026 - LG Smart TV Standby Audio & Network Snooping
-  Apple_September_Event_2026_Preview, // September 5, 2026 - Apple September 9 Keynote Preview
-  Academy_Of_Natural_Sciences_Museum_Closure, // September 1, 2026 - Historic Museum Closure
-  LUX_ZEPLIN_Dark_Matter_WIMP_Discovery, // September 1, 2026 - Dark Matter Breakthrough
-  Tim_Cook_Apple_CEO_Transition, // September 1, 2026 - Breaking Leadership Transition
-  Solar_Flare_Northern_Lights_Geomagnetic_Storm, // August 27, 2026 - Newest article
-  Jodrell_Bank_Observatory_Risk, // July 29, 2026
-  Earhart_Nikumaroro_Clue, // July 28, 2026
-  Little_Red_Dots_Early_Universe, // July 27, 2026
-  Orcas_Ramming_Sunfish, // July 24, 2026
-  Pan_Am_Wreckage_Discovered, // July 23, 2026
-  Double_Star_System_Both_Supernovae, // July 22, 2026
-  India_Skyroot_Orbital_Rocket, // July 20, 2026
-  Koala_Cryopreservation, // July 17, 2026
-  First_Space_XRay, // July 16, 2026
-  US_Space_Force_Meadowlands, // July 14, 2026
-  Pluto_Titan_Mystery_Substance, // July 10, 2026
-  Nuclear_Satellite_BOHR, // July 9, 2026
-  Fermi_Paradox_AI_Explanation, // July 8, 2026
-  GJ_3378b_Earth_Like_Planet, // July 6, 2026
-  LHC_Shutdown_Upgrade, // July 3, 2026
-  Antarctic_Titanosaur_Fossil, // July 2, 2026
-  Swift_Telescope_Rescue, // July 1, 2026
-  New_Marine_Species_Brazil, // June 30, 2026
-  Euclid_Milky_Way_Center, // June 26, 2026
-  ISS_Ocean_Crash_Plan, // June 25, 2026
-  Vaquita_Digital_Reconstruction, // June 24, 2026
-  Supernova_Remnant_Milky_Way, // June 23, 2026
-  New_Air_Force_One_Service, // June 22, 2026
-  Earth_Black_Box_Tasmania, // June 19, 2026
-  M87_Black_Hole_Radiation_Jet_XRay, // June 18, 2026
-  Exoplanet_WASP121b_GemstoneRain, // June 17, 2026
-  MAVEN_Mars_Spacecraft_Final_Journey, // June 5, 2026
-  Humpback_Whales_Sound_Discovery, // June 4, 2026
-  British_Paralympian_John_McFall_Astronaut, // June 3, 2026
-  Red_Dwarf_Stars_Swallowing_Planets, // June 1, 2026
-  BlueOriginNewGlennExplosion, // May 29, 2026
-  MoonBaseI_BlueOriginMission, // May 28, 2026
-  Psyche_Spacecraft_Mars_Gravity_Assist, // May 19, 2026
-  Water_Paint_Coating_Dewpoint, // May 12, 2026
-  Wasp_Named_David_Attenborough_Birthday, // May 8, 2026
-  Tiny_Object_Solar_System_Atmosphere, // May 7, 2026
-  Global_Pandemic_Treaty_Delay, // May 6, 2026
-  Pluto_Reclassification_Planet_Effort, // April 30, 2026
-  Interstellar_Comet_3I_ATLAS_Origin, // April 29, 2026
-  Giant_Dam_Save_AMOC, // April 28, 2026
-  Scarlet_Fever_Pre_Columbian_America, // April 22, 2026
-  Atlantic_AMOC_Collapse_Risk, // April 20, 2026
-  Mexican_Government_Data_Theft_AI, // April 17, 2026
-  SpaceX_Starlink_10000_Satellites, // March 22, 2026
-  Ohio_Fireball_Meteor_March_2026, // March 17, 2026
-  Artemis_2_Astronauts_Ready_Mission, // September 26, 2025
-  Silverpit_Crater_Asteroid_Impact, // September 24, 2025
-  Prehistoric_Insects_South_America_Amber, // September 23, 2025
-  Oldest_Mummies_Southeast_Asia,
-  Cleopatra_Sunken_Port_Discovery,
-  British_Pilot_Mars_Simulation,
-  Military_Drone_Mother_Ship,
-  Mars_Life_Discovery,
-  Cyanobacteria_Mars_Oxygen,
-  Russia_Enteromix_Vaccine,
-  Changan_Nevo_A06,
-  Atlas_Comet_Confirmation,
-  Comet_Lemmon_Tail_Disruption,
-  Mosquitoes_Iceland_Discovery,
-  Ryugu_Asteroid_Water_Discovery,
-  Geomagnetic_Storm_Northern_Lights,
-  Mammoth_RNA_Discovery,
-  Skydiver_Sun_Photography,
-  James_Watson_Passing,
-  Shenzhou_21_Capsule_Mission,
-  NASA_Atlas_Comet_Images,
-  Ancient_Crocodile_Ancestor_Discovery,
-  Aspirin_Replacement_Clopidogrel,
-  China_AR_Helmet,
-  Black_Death_Shadow,
-  Space_Plane_Mission,
-  Uranus_New_Moon_Discovery,
-  spacecraftArticle,
-  einsteinRingArticle,
-  brainWeightLossArticle,
-  dnaBreakthroughArticle,
-  aiSystemArticle,
-  quantumInternetArticle,
-  carbonCaptureArticle,
-  ancientForestArticle,
-  quantumComputingArticle,
-  floridaPantherArticle,
-  zombieVirusArticle,
-  Sony_Humanoid_Robots_Weaknesses,
-  Orange_Shark_Discovery,
-  Dinosaur_Fossil_Crocodile_Bone,
-  Nobel_Prize_Medicine_2025,
-  Nobel_Prize_Physics_2025,
-  Nobel_Prize_Chemistry_2025,
-  Celtic_Metal_Coins_Discovery,
-  Volcanic_Eruption_Prediction_Mount_Etna,
-  TRexTinyArmsEvolutionarySacrifice,
-  Artemis_III_Astronauts_Named,
-  Global_Underground_Fungal_Network_Map_Revealed,
-  Inouye_Solar_Telescope_Clearest_Sun_Images,
-  SpaceX_Rocket_Moon_Crash_2026,
-  World_Reservoirs_Sedimentation_2060,
-  Dinosaur_Asteroid_Heat_17_Times,
-  Pacific_Ring_Of_Fire_Volcanic_Cooling,
-  Africa_First_Lunar_Mission_China_2029,
-  Black_Hole_Star_Discovery,
-  SpaceX_AI_Starmind_Satellites,
-  Total_Solar_Eclipse_Europe_2026,
-  British_Fossil_Collection_Abu_Dhabi,
-  AI_Designed_Virus_Stanford,
-  Cellular_Health_Science_Longevity_Breakthroughs,
-  Gut_Brain_Connection_Microbiome_Health_Science,
-  AI_In_Health_Science_Precision_Medicine,
-  Food_Science_Ultra_Processed_Foods_Metabolic_Health,
-  August_2026_Lunar_Eclipse_Blood_Moon_Guide,
-  Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay,
-  Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record,
-  Apollo_12_Moon_Dust_Camera_Mishap,
-  NASA_Nancy_Grace_Roman_Telescope_Launch,
-  James_Webb_LHS1140b_Biomarkers,
-  MRNA_Universal_Cancer_Vaccine_Phase3,
-  Fault_Tolerant_Quantum_Processor_1000Qubits,
-  Perovskite_Silicon_Tandem_Solar_34Percent,
-  Ancient_DNA_Two_Million_Year_Hominin,
-  Ancient_Supervolcano_Discovered_England_The_Wash,
-  Saturn_Decagon_Atmosphere_South_Pole_Discovery,
-  New_Earthquake_Prediction_Model_UC_Riverside,
-  Mathspace_Data_Breach_Australia_NZ,
+  // 2026 Tier 1 High-Word-Count Deep Science Articles
   Curiosity_Rover_Footprints_Mars_Mount_Sharp,
   Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin,
+  Massive_Stars_Forming_Binary_System_ALMA_Discovery,
+  UK_September_Heatwave_Forecast_2026,
+  BlueOriginNewGlennExplosion,
+  Asteroid_2025_TP5_Close_Approach,
+  JWST_Chariklo_Asteroid_Ring_Changes,
+  MoonBaseI_BlueOriginMission,
+  When_Is_The_Next_Meteor_Shower_2026_Calendar,
+  Dario_Amodei_AI_Slowdown_Pace_The_Frontier,
+  Sun_Swallowed_Super_Earth_Discovery,
+  US_Confirms_Weapons_Deployed_Orbit_Space_Force,
+  Quantum_Entanglement_Z_Bosons_CERN_ATLAS,
+  OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof,
+  Solar_Flare_Northern_Lights_Geomagnetic_Storm,
+  Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor,
+  TRexTinyArmsEvolutionarySacrifice,
+  Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction,
+  SpaceX_Starlink_10000_Satellites,
+  August_2026_Lunar_Eclipse_Blood_Moon_Guide,
+  Japan_HTV_X_Cargo_ISS,
+  Red_Dwarf_Stars_Swallowing_Planets,
+  Ancient_Supervolcano_Discovered_England_The_Wash,
+  LUX_ZEPLIN_Dark_Matter_WIMP_Discovery,
+  Academy_Of_Natural_Sciences_Museum_Closure,
+  Psyche_Spacecraft_Mars_Gravity_Assist,
+  Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay,
+  NASA_Nancy_Grace_Roman_Telescope_Launch,
+  New_Earthquake_Prediction_Model_UC_Riverside,
+  Mathspace_Data_Breach_Australia_NZ,
+  Saturn_Decagon_Atmosphere_South_Pole_Discovery,
+  Atlas_Comet_Confirmation,
+  Double_Star_System_Both_Supernovae,
+  Cellular_Health_Science_Longevity_Breakthroughs,
+  Global_Pandemic_Treaty_Delay,
+  Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record,
+  Pluto_Reclassification_Planet_Effort,
+  Prehistoric_Insects_South_America_Amber,
+  Food_Science_Ultra_Processed_Foods_Metabolic_Health,
+  Shenzhou_21_Capsule_Mission,
+  AI_In_Health_Science_Precision_Medicine,
+  Gut_Brain_Connection_Microbiome_Health_Science,
+  Atlantic_AMOC_Collapse_Risk,
+  Giant_Dam_Save_AMOC,
+  Inouye_Solar_Telescope_Clearest_Sun_Images,
+  Dinosaur_Asteroid_Heat_17_Times,
+  Exoplanet_WASP121b_GemstoneRain,
+  World_Reservoirs_Sedimentation_2060,
+  Apollo_12_Moon_Dust_Camera_Mishap,
+  Interstellar_Comet_3I_ATLAS_Origin,
+  NASA_Atlas_Comet_Images,
+  Pacific_Ring_Of_Fire_Volcanic_Cooling,
+  AI_Designed_Virus_Stanford,
+  British_Fossil_Collection_Abu_Dhabi,
+  Black_Hole_Star_Discovery,
+  Humpback_Whales_Sound_Discovery,
+  SpaceX_Rocket_Moon_Crash_2026,
+  Mammoth_RNA_Discovery,
+  Global_Underground_Fungal_Network_Map_Revealed,
+  SpaceX_AI_Starmind_Satellites,
+  Artemis_2_Astronauts_Ready_Mission,
+  M87_Black_Hole_Radiation_Jet_XRay,
+  Geomagnetic_Storm_Northern_Lights,
+  Total_Solar_Eclipse_Europe_2026,
+  Supernova_Remnant_Milky_Way,
+  Swift_Telescope_Rescue,
+  Africa_First_Lunar_Mission_China_2029,
+  Little_Red_Dots_Early_Universe,
+  Ryugu_Asteroid_Water_Discovery,
+  James_Watson_Passing,
+  Skydiver_Sun_Photography,
+  Silverpit_Crater_Asteroid_Impact,
+  Euclid_Milky_Way_Center,
+  Mars_Life_Discovery,
+  New_Marine_Species_Brazil,
+  Artemis_III_Astronauts_Named,
+  James_Webb_LHS1140b_Biomarkers,
+  Fault_Tolerant_Quantum_Processor_1000Qubits,
+  MRNA_Universal_Cancer_Vaccine_Phase3,
+  Perovskite_Silicon_Tandem_Solar_34Percent,
+  Ancient_DNA_Two_Million_Year_Hominin,
 ];
+
+// Helper export for backwards compatibility
+export default articles;

@@ -8,12 +8,12 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-17</news:publication_date>
-      <news:title>NASA Discovers Massive New Moon Crater: 222m Asteroid Impact Breakout</news:title>
+      <news:publication_date>2026-09-16</news:publication_date>
+      <news:title>Massive New Moon Crater Discovered by NASA: Inside the &apos;Once-in-a-Century&apos; Asteroid Impact</news:title>
     </news:news>
     <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789657455/Generated_Image_September_17_2026_-_8_27PM_aal2qh.jpg</image:loc>
-      <image:title>NASA Discovers Massive New Moon Crater: 222m Asteroid Impact Breakout</image:title>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Massive New Moon Crater Discovered by NASA: Inside the &apos;Once-in-a-Century&apos; Asteroid Impact</image:title>
     </image:image>
   </url>
   <url>
@@ -23,42 +23,12 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-16</news:publication_date>
+      <news:publication_date>2026-09-15</news:publication_date>
       <news:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</news:title>
     </news:news>
     <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789582160/Martian-Footprints1-1536x1147_m89rsj.webp</image:loc>
-      <image:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16</news:publication_date>
-      <news:title>Rocket Lab Protests NASA&apos;s $700M Mars Orbiter Award to Blue Origin: GAO Dispute</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789539968/Generated_Image_September_16_2026_-_11_53AM_cwfdnl.jpg</image:loc>
-      <image:title>Rocket Lab Protests NASA&apos;s $700M Mars Orbiter Award to Blue Origin: GAO Dispute</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14</news:publication_date>
-      <news:title>Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes</news:title>
-    </news:news>
-    <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes</image:title>
+      <image:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</image:title>
     </image:image>
   </url>
   <url>
@@ -77,6 +47,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sciencenewshub.click/article/quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-14</news:publication_date>
+      <news:title>Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/jwst-chariklo-asteroid-ring-system-changes-discovery</loc>
     <news:news>
       <news:publication>
@@ -89,36 +74,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>JWST Discovers Chariklo&apos;s Rings Are Changing: How a Tiny Asteroid Upended Solar System Physics</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12</news:publication_date>
-      <news:title>Dario Amodei Calls for AI Slowdown: Inside Anthropic CEO&apos;s &quot;Pace the Frontier&quot; Plan</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789294440/Generated_Image_September_13_2026_-_3_38PM_qzkpxv.jpg</image:loc>
-      <image:title>Dario Amodei Calls for AI Slowdown: Inside Anthropic CEO&apos;s &quot;Pace the Frontier&quot; Plan</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/sony-playstation-store-credit-settlement-check-eligibility-claim</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12</news:publication_date>
-      <news:title>Sony PlayStation Store Credit Settlement: How to Check Eligibility and Claim Your Payout</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Sony PlayStation Store Credit Settlement: How to Check Eligibility and Claim Your Payout</image:title>
     </image:image>
   </url>
   <url>
@@ -137,18 +92,18 @@
     </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery</loc>
+    <loc>https://sciencenewshub.click/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier</loc>
     <news:news>
       <news:publication>
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-11</news:publication_date>
-      <news:title>Did Our Sun Swallow a Super-Earth? Inside the 4-Billion-Year-Old Cosmic Murder Mystery</news:title>
+      <news:publication_date>2026-09-12</news:publication_date>
+      <news:title>Dario Amodei Calls for AI Slowdown: Inside Anthropic CEO&apos;s &quot;Pace the Frontier&quot; Plan</news:title>
     </news:news>
     <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Did Our Sun Swallow a Super-Earth? Inside the 4-Billion-Year-Old Cosmic Murder Mystery</image:title>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789294440/Generated_Image_September_13_2026_-_3_38PM_qzkpxv.jpg</image:loc>
+      <image:title>Dario Amodei Calls for AI Slowdown: Inside Anthropic CEO&apos;s &quot;Pace the Frontier&quot; Plan</image:title>
     </image:image>
   </url>
   <url>
@@ -167,48 +122,18 @@
     </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing</loc>
+    <loc>https://sciencenewshub.click/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery</loc>
     <news:news>
       <news:publication>
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-10</news:publication_date>
-      <news:title>Apple Watch Series 12 Targets Whoop and Oura: Inside the S11 Chip, Daily Readiness Scores, and Health Sensing System</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789098235/Generated_Image_September_11_2026_-_9_12AM_yoyunn.jpg</image:loc>
-      <image:title>Apple Watch Series 12 Targets Whoop and Oura: Inside the S11 Chip, Daily Readiness Scores, and Health Sensing System</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09</news:publication_date>
-      <news:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</news:title>
+      <news:publication_date>2026-09-11</news:publication_date>
+      <news:title>Did Our Sun Swallow a Super-Earth? Inside the 4-Billion-Year-Old Cosmic Murder Mystery</news:title>
     </news:news>
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09</news:publication_date>
-      <news:title>iPhone 18 Pro: Specs, Pricing, and Why Many Buyers Are Hesitating</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>iPhone 18 Pro: Specs, Pricing, and Why Many Buyers Are Hesitating</image:title>
+      <image:title>Did Our Sun Swallow a Super-Earth? Inside the 4-Billion-Year-Old Cosmic Murder Mystery</image:title>
     </image:image>
   </url>
   <url>
@@ -227,6 +152,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-09</news:publication_date>
+      <news:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy</loc>
     <news:news>
       <news:publication>
@@ -239,21 +179,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>OpenAI Claims Solution to Navier-Stokes Millennium Problem: Inside the $1 Million Breakthrough and the Drama Shaking Mathematics</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-08</news:publication_date>
-      <news:title>PS5 System Update 14.0 Delivers Major Graphics Boost: Enhanced PSSR 2.0 Enabled by Default</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>PS5 System Update 14.0 Delivers Major Graphics Boost: Enhanced PSSR 2.0 Enabled by Default</image:title>
     </image:image>
   </url>
   <url>
@@ -272,51 +197,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07</news:publication_date>
-      <news:title>Should You Skip the iPhone 18 Pro? Why the $2,000 Foldable and 20th-Anniversary iPhone 20 Change the Upgrade Math</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Should You Skip the iPhone 18 Pro? Why the $2,000 Foldable and 20th-Anniversary iPhone 20 Change the Upgrade Math</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07</news:publication_date>
-      <news:title>LG Smart TVs Caught Recording Audio in Standby Mode and Snooping on Home Networks: What You Need to Know</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>LG Smart TVs Caught Recording Audio in Standby Mode and Snooping on Home Networks: What You Need to Know</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-06</news:publication_date>
-      <news:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788774317/Generated_Image_September_07_2026_-_3_14PM_cyekuu.jpg</image:loc>
-      <image:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://sciencenewshub.click/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults</loc>
     <news:news>
       <news:publication>
@@ -332,18 +212,18 @@
     </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/apple-september-event-2026-iphone-18-pro-foldable-preview</loc>
+    <loc>https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools</loc>
     <news:news>
       <news:publication>
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-04</news:publication_date>
-      <news:title>Apple’s September 9 &quot;Surprise and Shine&quot; Event: Foldable iPhone, iPhone 18 Pro, and the Dawn of the Ternus Era</news:title>
+      <news:publication_date>2026-09-06</news:publication_date>
+      <news:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</news:title>
     </news:news>
     <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788592158/Generated_Image_September_05_2026_-_12_36PM_ynmavk.jpg</image:loc>
-      <image:title>Apple’s September 9 &quot;Surprise and Shine&quot; Event: Foldable iPhone, iPhone 18 Pro, and the Dawn of the Ternus Era</image:title>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788774317/Generated_Image_September_07_2026_-_3_14PM_cyekuu.jpg</image:loc>
+      <image:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</image:title>
     </image:image>
   </url>
   <url>
@@ -392,6 +272,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sciencenewshub.click/article/lux-zeplin-dark-matter-wimp-particle-discovery</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788286351/Generated_Image_September_01_2026_-_11_38PM_fndxh1.jpg</image:loc>
+      <image:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia</loc>
     <news:news>
       <news:publication>
@@ -422,21 +317,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/lux-zeplin-dark-matter-wimp-particle-discovery</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31</news:publication_date>
-      <news:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788286351/Generated_Image_September_01_2026_-_11_38PM_fndxh1.jpg</image:loc>
-      <image:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://sciencenewshub.click/article/mrna-universal-cancer-vaccine-phase-3-trials</loc>
     <news:news>
       <news:publication>
@@ -449,21 +329,6 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
       <image:title>Revolutionary mRNA Universal Cancer Vaccine Enters Phase 3 Global Clinical Trials</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/tim-cook-steps-down-john-ternus-new-apple-ceo</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31</news:publication_date>
-      <news:title>Tim Cook Steps Down After 15 Years: John Ternus Takes Over as Apple CEO to Lead the AI Era</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788279449/Generated_Image_September_01_2026_-_9_46PM_suiahz.jpg</image:loc>
-      <image:title>Tim Cook Steps Down After 15 Years: John Ternus Takes Over as Apple CEO to Lead the AI Era</image:title>
     </image:image>
   </url>
   <url>
@@ -587,21 +452,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs</loc>
     <news:news>
       <news:publication>
@@ -629,6 +479,21 @@
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
       <image:title>Ultra-Processed Foods vs Metabolic Health: Insights from Recent Food Science Studies</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17</news:publication_date>
+      <news:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
+      <image:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</image:title>
     </image:image>
   </url>
   <url>
@@ -794,6 +659,96 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/sarychev-volcano.jpg</image:loc>
       <image:title>Volcanic Eruptions in the Pacific Ring of Fire Have Been Cooling the Earth for Centuries</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29</news:publication_date>
+      <news:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg</image:loc>
+      <image:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/little-red-dots-early-universe</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26</news:publication_date>
+      <news:title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/double-star-system-both-supernovae</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21</news:publication_date>
+      <news:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/swift-telescope-rescue</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30</news:publication_date>
+      <news:title>Swift Telescope Rescue Mission Today</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>Swift Telescope Rescue Mission Today</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/new-marine-species-brazil</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29</news:publication_date>
+      <news:title>31 New Marine Species Discovered in the Ocean Off Brazil</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>31 New Marine Species Discovered in the Ocean Off Brazil</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/euclid-milky-way-center</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-25</news:publication_date>
+      <news:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
+      <image:title>The Heart of the Milky Way Seen Through the Euclid Space Telescope</image:title>
     </image:image>
   </url>
 </urlset>

@@ -39,7 +39,19 @@
     <!-- Security & Canonical Tags -->
     <meta name="theme-color" content="#0284c7" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <link rel="canonical" href="https://sciencenewshub.click/" />
+    <link rel="canonical" id="canonical-url" href="https://sciencenewshub.click/" />
+    <script>
+      (function() {
+        try {
+          var link = document.getElementById('canonical-url') || document.querySelector('link[rel="canonical"]');
+          if (link) {
+            var path = window.location.pathname || '';
+            var cleanPath = path === '/' ? '/' : path.replace(/\/+$/, '');
+            link.href = 'https://sciencenewshub.click' + cleanPath;
+          }
+        } catch (e) {}
+      })();
+    </script>
     <link rel="alternate" type="application/rss+xml" title="Science News RSS Feed" href="https://sciencenewshub.click/rss.xml" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://sciencenewshub.click/sitemap.xml" />
 
@@ -99,8 +111,8 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-A2GSGZFP.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B_mb36d0.css">
+    <script type="module" crossorigin src="/assets/index-U0xI7z9c.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B2s6NCiA.css">
   </head>
   <body class="min-h-screen bg-background text-foreground antialiased font-sans">
     
@@ -114,196 +126,42 @@
     </div>
     
 
-    <!-- Static HTML Index for Search Engines, AdSense Reviewers & Noscript Readers -->
+    <!-- Semantic HTML for Search Engines, AdSense Reviewers & Noscript Readers -->
     <noscript>
-      <header style="padding: 2rem; background: #f8fafc; border-bottom: 1px solid #e2e8f0;">
-        <h1 style="font-size: 2rem; color: #0f172a; margin-bottom: 0.5rem;">Daily Science News - Latest Scientific Discoveries</h1>
-        <p style="color: #475569; font-size: 1.1rem;">Your trusted global destination for peer-reviewed scientific breakthroughs, space exploration, physics, and medical research.</p>
+      <header style="padding: 2rem; background: #0f172a; color: #ffffff; text-align: center;">
+        <h1 style="font-size: 2rem; margin-bottom: 0.5rem; font-weight: 800;">Daily Science News</h1>
+        <p style="color: #94a3b8; font-size: 1rem; max-width: 600px; margin: 0 auto;">Your trusted destination for verified scientific breakthroughs, space exploration, physics, and peer-reviewed medical research.</p>
+        <p style="color: #38bdf8; font-size: 0.85rem; margin-top: 0.5rem;">Founder &amp; Chief Editor: Dulaksha Sandeepa</p>
       </header>
 
-      <main style="padding: 2rem; max-width: 1200px; margin: 0 auto;">
-        <!-- Legal & Trust Pages (AdSense Compliance) -->
-        <nav aria-label="Legal and Transparency Links" style="margin-bottom: 2rem; padding: 1.5rem; background: #eff6ff; border-radius: 8px;">
-          <h2 style="font-size: 1.3rem; color: #1e3a8a; margin-bottom: 0.75rem;">Legal &amp; Transparency Information</h2>
-          <ul style="list-style: square; padding-left: 1.5rem; line-height: 1.8;">
-            <li><a href="/privacy-policy" style="color: #2563eb; font-weight: bold;">Privacy Policy (GDPR, CCPA &amp; Google AdSense DART Cookie Disclosure)</a></li>
-            <li><a href="/terms" style="color: #2563eb; font-weight: bold;">Terms of Service &amp; Scientific Content Disclaimer</a></li>
-            <li><a href="/disclaimer" style="color: #2563eb; font-weight: bold;">Medical &amp; Research Disclaimer</a></li>
-            <li><a href="/about" style="color: #2563eb; font-weight: bold;">About Us &amp; Editorial Standards (E-E-A-T)</a></li>
-            <li><a href="/contact" style="color: #2563eb; font-weight: bold;">Contact Us &amp; Editorial Desk</a></li>
-            <li><a href="/sitemap.xml" style="color: #2563eb;">XML Sitemap</a></li>
-            <li><a href="/rss.xml" style="color: #2563eb;">RSS Feed</a></li>
+      <main style="padding: 2rem; max-width: 900px; margin: 0 auto; font-family: system-ui, sans-serif; line-height: 1.6;">
+        <section style="margin-bottom: 2rem; padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+          <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 0.5rem;">Editorial Standards &amp; Transparency</h2>
+          <p style="color: #475569; font-size: 0.95rem;">Daily Science News adheres to strict journalistic principles. All reports cite primary academic sources including NASA, ESA, CERN, Nature, Science, and arXiv preprints. We enforce a zero-tolerance policy against unverified pseudoscience.</p>
+          <ul style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; padding: 0; list-style: none;">
+            <li><a href="/about" style="color: #0284c7; font-weight: 600;">About Us &amp; Editorial Standards</a></li>
+            <li><a href="/contact" style="color: #0284c7; font-weight: 600;">Contact Editorial Desk</a></li>
+            <li><a href="/privacy-policy" style="color: #0284c7; font-weight: 600;">Privacy Policy (GDPR / DART)</a></li>
+            <li><a href="/terms" style="color: #0284c7; font-weight: 600;">Terms of Service</a></li>
+            <li><a href="/disclaimer" style="color: #0284c7; font-weight: 600;">Medical &amp; Research Disclaimer</a></li>
           </ul>
-        </nav>
+        </section>
 
-        <!-- Category Nav -->
-        <nav aria-label="Science News Categories" style="margin-bottom: 2rem;">
-          <h2 style="font-size: 1.5rem; color: #0f172a; margin-bottom: 1rem;">Browse by Scientific Category</h2>
-          <ul style="display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0;">
-            <li><a href="/category/space" style="padding: 0.5rem 1rem; background: #e0e7ff; border-radius: 4px; color: #3730a3; text-decoration: none; font-weight: bold;">Space News</a></li>
-            <li><a href="/category/physics" style="padding: 0.5rem 1rem; background: #f3e8ff; border-radius: 4px; color: #6b21a8; text-decoration: none; font-weight: bold;">Physics Discoveries</a></li>
-            <li><a href="/category/technology" style="padding: 0.5rem 1rem; background: #dbeafe; border-radius: 4px; color: #1e40af; text-decoration: none; font-weight: bold;">Technology &amp; AI</a></li>
-            <li><a href="/category/health" style="padding: 0.5rem 1rem; background: #d1fae5; border-radius: 4px; color: #065f46; text-decoration: none; font-weight: bold;">Health &amp; Medicine</a></li>
-            <li><a href="/category/biology" style="padding: 0.5rem 1rem; background: #ccfbf1; border-radius: 4px; color: #115e59; text-decoration: none; font-weight: bold;">Biology &amp; Nature</a></li>
-            <li><a href="/category/environment" style="padding: 0.5rem 1rem; background: #dcfce7; border-radius: 4px; color: #166534; text-decoration: none; font-weight: bold;">Environment &amp; Climate</a></li>
-            <li><a href="/category/archaeology" style="padding: 0.5rem 1rem; background: #fef3c7; border-radius: 4px; color: #92400e; text-decoration: none; font-weight: bold;">Archaeology &amp; History</a></li>
-            <li><a href="/category/mathematics" style="padding: 0.5rem 1rem; background: #fee2e2; border-radius: 4px; color: #991b1b; text-decoration: none; font-weight: bold;">Mathematics &amp; Logic</a></li>
-          </ul>
-        </nav>
-
-        <!-- Articles List -->
-        <section aria-label="Published Scientific Articles">
-          <h2 style="font-size: 1.5rem; color: #0f172a; margin-bottom: 1rem;">Complete Directory of Scientific Articles &amp; Reports</h2>
-          <ul style="line-height: 1.9; padding-left: 1.5rem;">
-            <li><a href="/article/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing"><strong>Latest:</strong> Apple Watch Series 12 Targets Whoop and Oura: Inside the S11 Chip, Daily Readiness Scores, and Health Sensing System</a></li>
-            <li><a href="/article/massive-stars-forming-binary-system-alma-breakthrough">Massive Stars Forming Binary System Captured in Real Time: How ALMA Uncovered a 60-Year-Old Cosmic Collision</a></li>
-            <li><a href="/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary">Apple iPhone 18 Pro Comprehensive Specs, Pricing &amp; Buyer Upgrade Guide</a></li>
-            <li><a href="/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning">Anthropic Lead Safety Researcher Jacob Coxon Resigns Citing Severe AI Extinction Risks</a></li>
-            <li><a href="/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb">Sony PlayStation 5 System Update 14.00 Introduces Next-Gen PSSR 2.0 Machine Learning Upscaling</a></li>
-            <li><a href="/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy">OpenAI Frontier AI Model Generates Breakthrough Proof for Navier-Stokes Millennium Prize Problem</a></li>
-            <li><a href="/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview">Should You Skip the iPhone 18 Pro? Why the $2,000 Foldable and 20th-Anniversary iPhone 20 Change the Upgrade Math</a></li>
-            <li><a href="/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao">Claude Solves Navier-Stokes Equation? Inside the Viral Mathematics Rumor</a></li>
-            <li><a href="/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus">Gamers Nexus Investigation Uncovers LG Smart TV Audio Recording and Local Network Packet Sniffing</a></li>
-            <li><a href="/article/apple-september-event-2026-iphone-18-pro-foldable-preview">Apple September 2026 Keynote Preview: iPhone 18 Pro, Apple Watch Ultra 3, and Foldable Prototype</a></li>
-            <li><a href="/article/ancient-supervolcano-discovered-england-the-wash-geology">Massive Ancient Supervolcano Complex Discovered Deep Beneath The Wash in Eastern England</a></li>
-            <li><a href="/article/saturn-decagon-atmosphere-south-pole-discovery">Planetary Scientists Detect Bizarre 10-Sided Decagonal Storm at Saturn's South Pole</a></li>
-            <li><a href="/article/mathspace-data-breach-australia-new-zealand-students-schools">Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</a></li>
-            <li><a href="/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults">New GPS Model Predicts Where Massive Earthquakes Will Strike: Inside the UC Riverside Breakthrough</a></li>
-            <li><a href="/article/james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b">James Webb Telescope Detects Potential Biomarkers on Habitable-Zone Super-Earth LHS 1140 b</a></li>
-            <li><a href="/article/mrna-universal-cancer-vaccine-phase-3-trials">Revolutionary mRNA Universal Cancer Vaccine Enters Phase 3 Global Clinical Trials</a></li>
-            <li><a href="/article/fault-tolerant-quantum-processor-1000-qubits-breakthrough">Fault-Tolerant Quantum Processor Solves Complex Material Simulation in 12 Seconds</a></li>
-            <li><a href="/article/perovskite-silicon-tandem-solar-cells-shatter-efficiency-record">Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials</a></li>
-            <li><a href="/article/ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa">Ancient DNA Extracted from 2-Million-Year-Old Fossil Reveals Unknown Human Ancestor Lineage in Africa</a></li>
-            <li><a href="/article/honor-humanoid-robot-beats-usain-bolt-100m-record">Humanoid Robot Smashes Usain Bolt's 100m World Record: How Chinese AI Sprinters Are Outrunning Humans</a></li>
-            <li><a href="/article/elon-musk-spacex-starship-flight-14-launch-delay">Elon Musk Scales Back SpaceX Starship Launch Plans: Why the Flight 14 Catch Was Delayed</a></li>
-            <li><a href="/article/august-2026-lunar-eclipse-blood-moon-guide">Blood Moon Alert: August 27–28, 2026 Lunar Eclipse Guide</a></li>
-            <li><a href="/article/cellular-health-science-longevity-breakthroughs">Cellular Rejuvenation and Longevity: What Health Science Tells Us About Slowing Aging</a></li>
-            <li><a href="/article/gut-brain-connection-microbiome-health-science">The Gut-Brain Connection: How Modern Food and Health Science Explain Mental Well-Being</a></li>
-            <li><a href="/article/ai-in-health-science-precision-medicine">How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</a></li>
-            <li><a href="/article/food-science-ultra-processed-foods-metabolic-health">Ultra-Processed Foods vs Metabolic Health: Insights from Recent Food Science Studies</a></li>
-            <li><a href="/article/first-ever-black-hole-star-discovered-james-webb-space-telescope">First-Ever Black Hole Star Discovered by James Webb Space Telescope</a></li>
-            <li><a href="/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026">SpaceX Pivots Into AI With Starmind Satellite Network</a></li>
-            <li><a href="/article/total-solar-eclipse-august-2026-greenland-iceland-spain">Total Solar Eclipse August 2026 Crosses Europe</a></li>
-            <li><a href="/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum">Britain Finest Jurassic Fossil Collection Sold to Abu Dhabi</a></li>
-            <li><a href="/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026">AI Creates First-Ever Virus in Stanford University Breakthrough</a></li>
-            <li><a href="/article/pacific-ring-of-fire-volcanic-cooling">Pacific Ring of Fire Volcanic Cooling Has Shaped Earth for Centuries</a></li>
-            <li><a href="/article/jodrell-bank-observatory-risk">Jodrell Bank Observatory Faces Funding Risk</a></li>
-            <li><a href="/article/earhart-nikumaroro-clue">New Clue in Amelia Earhart Disappearance Mystery</a></li>
-            <li><a href="/article/little-red-dots-early-universe">Little Red Dots Early Universe Discovery</a></li>
-            <li><a href="/article/orcas-ramming-sunfish">Orcas Observed Ramming Sunfish</a></li>
-            <li><a href="/article/pan-am-wreckage-discovered">Pan Am Wreckage Discovered</a></li>
-            <li><a href="/article/double-star-system-both-supernovae">Double Star System Both Supernovae</a></li>
-            <li><a href="/article/india-skyroot-orbital-rocket">India Skyroot Orbital Rocket</a></li>
-            <li><a href="/article/koala-cryopreservation">Koala Cryopreservation Breakthrough</a></li>
-            <li><a href="/article/first-space-xray">First Space X-Ray Discovery</a></li>
-            <li><a href="/article/us-space-force-meadowlands">US Space Force Meadowlands</a></li>
-            <li><a href="/article/pluto-titan-mystery-substance">Pluto Titan Mystery Substance</a></li>
-            <li><a href="/article/nuclear-satellite-bohr">Nuclear Satellite BOHR</a></li>
-            <li><a href="/article/fermi-paradox-ai-explanation">Fermi Paradox AI Explanation</a></li>
-            <li><a href="/article/gj-3378b-earth-like-planet">GJ 3378b Earth-Like Planet Discovery</a></li>
-            <li><a href="/article/lhc-shutdown-upgrade">LHC Shutdown and Upgrade</a></li>
-            <li><a href="/article/antarctic-titanosaur-fossil">Antarctic Titanosaur Fossil Discovery</a></li>
-            <li><a href="/article/swift-telescope-rescue">Swift Telescope Rescue Mission</a></li>
-            <li><a href="/article/new-marine-species-brazil">New Marine Species Brazil</a></li>
-            <li><a href="/article/euclid-milky-way-center">Euclid Milky Way Center Images</a></li>
-            <li><a href="/article/iss-ocean-crash-plan">ISS Ocean Crash Plan</a></li>
-            <li><a href="/article/vaquita-digital-reconstruction">Vaquita Digital Reconstruction</a></li>
-            <li><a href="/article/supernova-remnant-milky-way">Supernova Remnant Milky Way</a></li>
-            <li><a href="/article/new-air-force-one">New Air Force One Service</a></li>
-            <li><a href="/article/earth-black-box-tasmania">Earth Black Box Tasmania</a></li>
-            <li><a href="/article/m87-black-hole-radiation-jet-xray">M87 Black Hole Radiation Jet X-Ray Observations</a></li>
-            <li><a href="/article/exoplanet-wasp-121b-gemstone-rain">Exoplanet WASP-121b Gemstone Rain</a></li>
-            <li><a href="/article/maven-mars-spacecraft-final-journey">MAVEN Mars Spacecraft Final Journey</a></li>
-            <li><a href="/article/humpback-whales-sound-discovery">Humpback Whales Sound Discovery</a></li>
-            <li><a href="/article/british-paralympian-john-mcfall-astronaut">British Paralympian John McFall Astronaut</a></li>
-            <li><a href="/article/red-dwarf-stars-swallowing-planets">Evidence Red Dwarf Stars Are Swallowing Planets</a></li>
-            <li><a href="/article/blue-origin-new-glenn-explosion">Blue Origin New Glenn Rocket Explosion Investigation</a></li>
-            <li><a href="/article/moon-base-1-blue-origin-mission">Blue Origin Moon Base 1 Mission Announcement</a></li>
-            <li><a href="/article/psyche-spacecraft-mars-gravity-assist">Psyche Spacecraft Mars Gravity Assist</a></li>
-            <li><a href="/article/water-paint-coating-dewpoint">Water Paint Coating Dewpoint</a></li>
-            <li><a href="/article/wasp-named-david-attenborough">Wasp Named After David Attenborough</a></li>
-            <li><a href="/article/tiny-object-solar-system-atmosphere">Tiny Object Solar System Atmosphere</a></li>
-            <li><a href="/article/global-pandemic-treaty-delay">Global Pandemic Treaty Delay</a></li>
-            <li><a href="/article/pluto-reclassification-planet-effort">Pluto Reclassification Planet Effort</a></li>
-            <li><a href="/article/interstellar-comet-3i-atlas-origin">Interstellar Comet 3I ATLAS Origin</a></li>
-            <li><a href="/article/giant-dam-save-amoc">Giant Dam Plan to Save AMOC Ocean Currents</a></li>
-            <li><a href="/article/scarlet-fever-pre-columbian-america">Scarlet Fever Pre-Columbian America</a></li>
-            <li><a href="/article/tim-cook-apple-ceo-transition">Tim Cook Apple CEO Transition</a></li>
-            <li><a href="/article/atlantic-amoc-collapse-risk">Atlantic AMOC Ocean Current Collapse Risk Study</a></li>
-            <li><a href="/article/mexican-government-data-theft-ai">Mexican Government Data Theft AI</a></li>
-            <li><a href="/article/spacex-starlink-10000-satellites">SpaceX Starlink Surpasses 10,000 Satellites in Low Earth Orbit</a></li>
-            <li><a href="/article/ohio-fireball-meteor-march-2026">Ohio Fireball Meteor March 2026</a></li>
-            <li><a href="/article/artemis-2-astronauts-ready-mission">Artemis 2 Astronauts Ready for Mission</a></li>
-            <li><a href="/article/silverpit-crater-asteroid-impact">Silverpit Crater Asteroid Impact</a></li>
-            <li><a href="/article/prehistoric-insects-south-america-amber">Prehistoric Insects South America Amber</a></li>
-            <li><a href="/article/oldest-mummies-southeast-asia">Oldest Mummies Southeast Asia Discovery</a></li>
-            <li><a href="/article/cleopatra-sunken-port-discovery">Cleopatra Sunken Port Discovery</a></li>
-            <li><a href="/article/british-pilot-mars-simulation">British Pilot Mars Simulation</a></li>
-            <li><a href="/article/military-drone-mothership">Military Drone Mother Ship</a></li>
-            <li><a href="/article/mars-life-discovery">Mars Life Discovery</a></li>
-            <li><a href="/article/cyanobacteria-mars-oxygen">Cyanobacteria Mars Oxygen</a></li>
-            <li><a href="/article/russia-enteromix-vaccine">Russia Enteromix Vaccine</a></li>
-            <li><a href="/article/changan-nevo-a06">Changan Nevo A06 Electric Vehicle</a></li>
-            <li><a href="/article/atlas-comet">Atlas Comet Confirmation</a></li>
-            <li><a href="/article/comet-lemmon-tail-disruption">Comet Lemmon Tail Disruption</a></li>
-            <li><a href="/article/mosquitoes-iceland-discovery">Mosquitoes Iceland Discovery</a></li>
-            <li><a href="/article/ryugu-asteroid-water-discovery">Ryugu Asteroid Water Discovery</a></li>
-            <li><a href="/article/geomagnetic-storm-northern-lights">Geomagnetic Storm Northern Lights</a></li>
-            <li><a href="/article/mammoth-rna-discovery">Mammoth RNA Discovery</a></li>
-            <li><a href="/article/skydiver-sun-photography">Skydiver Sun Photography</a></li>
-            <li><a href="/article/james-watson-passing">James Watson Passing</a></li>
-            <li><a href="/article/shenzhou-21-capsule-mission">Shenzhou 21 Capsule Mission</a></li>
-            <li><a href="/article/nasa-atlas-comet-images">NASA Atlas Comet Images</a></li>
-            <li><a href="/article/ancient-crocodile-ancestor-discovery">Ancient Crocodile Ancestor Discovery</a></li>
-            <li><a href="/article/aspirin-replacement">Aspirin Replacement Clopidogrel Study</a></li>
-            <li><a href="/article/china-ar-helmet">China AR Helmet</a></li>
-            <li><a href="/article/black-death">Black Death Shadow Discovery</a></li>
-            <li><a href="/article/space-plane">Space Plane Mission</a></li>
-            <li><a href="/article/uranus-moon">Uranus New Moon Discovery</a></li>
-            <li><a href="/article/spacecraft-black-hole-journey">Spacecraft Black Hole Journey</a></li>
-            <li><a href="/article/einstein-ring-black-hole">Einstein Ring Black Hole</a></li>
-            <li><a href="/article/brain-shortcut-weight-loss">Brain Shortcut Weight Loss Discovery</a></li>
-            <li><a href="/article/dna-sequencing-breakthrough">DNA Sequencing Breakthrough</a></li>
-            <li><a href="/article/ai-discovers-new-materials">AI Discovers New Materials</a></li>
-            <li><a href="/article/quantum-internet-milestone">Quantum Internet Milestone</a></li>
-            <li><a href="/article/carbon-capture-technology">Carbon Capture Technology</a></li>
-            <li><a href="/article/ancient-forest-under-arctic-ice">Ancient Forest Under Arctic Ice</a></li>
-            <li><a href="/article/quantum-computing-error-correction">Quantum Computing Error Correction</a></li>
-            <li><a href="/article/florida-panther-habitat-expansion">Florida Panther Habitat Expansion</a></li>
-            <li><a href="/article/zombie-virus-rabbits-study">Zombie Virus Rabbits Study</a></li>
-            <li><a href="/article/sony-robots">Sony Humanoid Robots Vulnerabilities</a></li>
-            <li><a href="/article/orange-shark">Rare Orange Shark Discovered</a></li>
-            <li><a href="/article/dinosaur-fossil-crocodile-bone">Dinosaur Fossil Crocodile Bone</a></li>
-            <li><a href="/article/nobel-prize-medicine-2025">Nobel Prize Medicine 2025</a></li>
-            <li><a href="/article/nobel-prize-physics-2025">Nobel Prize Physics 2025</a></li>
-            <li><a href="/article/nobel-prize-chemistry-2025">Nobel Prize Chemistry 2025</a></li>
-            <li><a href="/article/celtic-metal-coins-discovery">Celtic Metal Coins Discovery</a></li>
-            <li><a href="/article/volcanic-eruption-prediction-mount-etna">Volcanic Eruption Prediction Mount Etna</a></li>
-            <li><a href="/article/t-rex-tiny-arms-evolutionary-sacrifice">T-Rex Tiny Arms Evolutionary Sacrifice</a></li>
-            <li><a href="/article/artemis-3-astronauts-named">Artemis 3 Astronauts Named</a></li>
-            <li><a href="/article/global-underground-fungal-network-map">Global Underground Fungal Network Map Revealed</a></li>
-            <li><a href="/article/inouye-solar-telescope-clearest-sun-images">Inouye Solar Telescope Clearest Sun Images</a></li>
-            <li><a href="/article/spacex-rocket-moon-crash-2026">SpaceX Rocket Moon Crash 2026</a></li>
-            <li><a href="/article/world-reservoirs-sedimentation-2060">World Reservoirs Sedimentation 2060</a></li>
-            <li><a href="/article/dinosaur-asteroid-heat-17-times">Dinosaur Asteroid Heat 17 Times</a></li>
-            <li><a href="/article/africa-first-lunar-mission-china-2029">Africa First Lunar Mission China 2029</a></li>
-            <li><a href="/article/asteroid-2025-tp5-close-approach">Asteroid 2025 TP5 Close Approach Analysis</a></li>
-            <li><a href="/article/apollo-12-moon-dust-camera-mishap-untold-story">The Wild Reality of Apollo 12: Broken TV Cameras, Gunpowder Scent, and Toxic Moon Dust</a></li>
-            <li><a href="/article/japan-htv-x-cargo-iss">Japan HTV-X Cargo Resupply Mission to ISS</a></li>
-            <li><a href="/blog">Science Blog &amp; In-Depth Analysis</a></li>
+        <section style="margin-bottom: 2rem;">
+          <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 0.75rem;">Scientific Coverage Disciplines</h2>
+          <ul style="display: flex; flex-wrap: wrap; gap: 0.75rem; list-style: none; padding: 0;">
+            <li><a href="/category/space" style="padding: 0.5rem 1rem; background: #e0e7ff; border-radius: 6px; color: #3730a3; text-decoration: none; font-weight: 600;">Space &amp; Planetary Science</a></li>
+            <li><a href="/category/physics" style="padding: 0.5rem 1rem; background: #f3e8ff; border-radius: 6px; color: #6b21a8; text-decoration: none; font-weight: 600;">Physics &amp; Quantum Theory</a></li>
+            <li><a href="/category/technology" style="padding: 0.5rem 1rem; background: #dbeafe; border-radius: 6px; color: #1e40af; text-decoration: none; font-weight: 600;">Frontier AI &amp; Robotics</a></li>
+            <li><a href="/category/health" style="padding: 0.5rem 1rem; background: #d1fae5; border-radius: 6px; color: #065f46; text-decoration: none; font-weight: 600;">Health &amp; Cellular Biology</a></li>
+            <li><a href="/category/environment" style="padding: 0.5rem 1rem; background: #dcfce7; border-radius: 6px; color: #166534; text-decoration: none; font-weight: 600;">Climate &amp; Geophysics</a></li>
+            <li><a href="/category/archaeology" style="padding: 0.5rem 1rem; background: #fef3c7; border-radius: 6px; color: #92400e; text-decoration: none; font-weight: 600;">Paleontology &amp; History</a></li>
           </ul>
         </section>
       </main>
 
-      <footer style="padding: 2rem; background: #0f172a; color: #94a3b8; text-align: center; margin-top: 3rem;">
+      <footer style="padding: 1.5rem; background: #0f172a; color: #94a3b8; text-align: center; font-size: 0.85rem;">
         <p>&copy; 2026 Daily Science News. All rights reserved.</p>
-        <p style="margin-top: 0.5rem;">
-          <a href="/privacy-policy" style="color: #60a5fa;">Privacy Policy</a> | 
-          <a href="/terms" style="color: #60a5fa;">Terms of Service</a> | 
-          <a href="/disclaimer" style="color: #60a5fa;">Disclaimer</a> | 
-          <a href="/about" style="color: #60a5fa;">About Us</a> | 
-          <a href="/contact" style="color: #60a5fa;">Contact</a>
-        </p>
       </footer>
     </noscript>
   </body>

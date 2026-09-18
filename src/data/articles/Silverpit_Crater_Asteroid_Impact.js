@@ -51,4 +51,5 @@ const Silverpit_Crater_Asteroid_Impact = {
   }
 };
 
+export { Silverpit_Crater_Asteroid_Impact };
 export default Silverpit_Crater_Asteroid_Impact;
