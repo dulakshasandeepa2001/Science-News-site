@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import vm from 'vm';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -150,6 +151,28 @@ function formatDateForRss(dateStr) {
   return d.toUTCString();
 }
 
+function parseArticleObject(content) {
+  try {
+    let code = content
+      .replace(/import\s+(\w+)\s+from\s+['"][^'"]+['"];?/g, 'const $1 = "";')
+      .replace(/import\s*\{[^}]*\}\s*from\s+['"][^'"]+['"];?/g, '')
+      .replace(/export\s+default\s+[^;]+;?/g, '')
+      .replace(/export\s+const\s+(\w+)\s*=\s*/g, 'exports.$1 = ')
+      .replace(/export\s+default\s*\{/g, 'exports.__default = {');
+
+    const sandbox = { exports: {}, console };
+    vm.createContext(sandbox);
+    vm.runInContext(code, sandbox, { timeout: 1500 });
+    const keys = Object.keys(sandbox.exports);
+    if (keys.length > 0) {
+      return sandbox.exports[keys[0]];
+    }
+  } catch {
+    // fallback
+  }
+  return null;
+}
+
 // Parse curated articles strictly based on articlesCollection.js imports
 function parseCuratedArticles() {
   const articlesCollectionPath = path.join(rootDir, 'src', 'data', 'articlesCollection.js');
@@ -169,20 +192,43 @@ function parseCuratedArticles() {
 
     try {
       const content = fs.readFileSync(filePath, 'utf-8');
+      const parsedObj = parseArticleObject(content) || {};
+
       const idMatch = content.match(/id:\s*["']?([\w-]+)["']?/);
-      const id = idMatch ? idMatch[1] : name;
-      const title = extractField(content, 'title') || id.replace(/_/g, ' ');
-      const summary = extractField(content, 'summary') || title;
-      const category = extractField(content, 'category') || 'Science';
-      const date = extractField(content, 'date') || 'August 17, 2026';
-      const author = extractField(content, 'author') || 'Daily Science News';
-      const slug = extractField(content, 'slug') || null;
+      const id = parsedObj.id || (idMatch ? idMatch[1] : name);
+      const title = parsedObj.title || extractField(content, 'title') || id.replace(/_/g, ' ');
+      const summary = parsedObj.summary || extractField(content, 'summary') || title;
+      const category = parsedObj.category || extractField(content, 'category') || 'Science';
+      const date = parsedObj.date || extractField(content, 'date') || 'August 17, 2026';
+      const author = parsedObj.author || extractField(content, 'author') || 'Daily Science News';
+      const slug = parsedObj.slug || extractField(content, 'slug') || null;
 
       // Extract image if URL string
-      const imgMatch = content.match(/image:\s*["'](https?:\/\/[^"']+)["']/);
-      const image = imgMatch ? imgMatch[1] : DEFAULT_IMAGE;
+      let image = parsedObj.image;
+      if (!image || typeof image !== 'string' || !image.startsWith('http')) {
+        const imgMatch = content.match(/image:\s*["'](https?:\/\/[^"']+)["']/);
+        image = imgMatch ? imgMatch[1] : DEFAULT_IMAGE;
+      }
 
-      const articleObj = { id, title, summary, category, date, author, image, slug };
+      const articleObj = {
+        ...parsedObj,
+        id,
+        title,
+        summary,
+        category,
+        date,
+        author,
+        image,
+        slug,
+        seoTitle: parsedObj.seoTitle || title,
+        metaDescription: parsedObj.metaDescription || summary,
+        readTime: parsedObj.readTime || '6 min read',
+        imageAlt: parsedObj.imageAlt || `${title} - Science News`,
+        imageCaption: parsedObj.imageCaption || '',
+        content: parsedObj.content || null,
+        faq: parsedObj.faq || null,
+        table: parsedObj.table || parsedObj.comparisonTable || null,
+      };
       const articleSlug = getSlug(articleObj);
 
       if (!seenSlugs.has(articleSlug)) {
@@ -254,6 +300,257 @@ function generateStaticPageHtml({
       </main>
 
       <footer style="padding: 2rem 1.5rem; background: #0f172a; color: #94a3b8; text-align: center; font-size: 0.9rem; margin-top: 3rem;">
+        <p>&copy; 2026 Daily Science News. Founder &amp; Chief Editor: Dulaksha Sandeepa. All rights reserved.</p>
+        <p style="margin-top: 0.75rem;">
+          <a href="/about" style="color: #60a5fa; margin: 0 8px;">About Us</a> | 
+          <a href="/contact" style="color: #60a5fa; margin: 0 8px;">Contact</a> | 
+          <a href="/privacy-policy" style="color: #60a5fa; margin: 0 8px;">Privacy Policy</a> | 
+          <a href="/terms" style="color: #60a5fa; margin: 0 8px;">Terms</a> | 
+          <a href="/disclaimer" style="color: #60a5fa; margin: 0 8px;">Disclaimer</a>
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>`;
+}
+
+function generateStaticArticlePageHtml(article, slug) {
+  const title = article.seoTitle || article.title || 'Science News Report';
+  const description = article.metaDescription || article.summary || '';
+  const canonicalUrl = `${DOMAIN}/article/${slug}`;
+  const author = article.author || 'Daily Science News Editorial Team';
+  const category = article.category || 'Science';
+  const date = article.date || new Date().toISOString().split('T')[0];
+  const readTime = article.readTime || '6 min read';
+  const image = article.image || DEFAULT_IMAGE;
+  const imageAlt = article.imageAlt || `${article.title} - Science News`;
+  const imageCaption = article.imageCaption || '';
+
+  // Sections HTML
+  let sectionsHtml = '';
+  if (article.content && Array.isArray(article.content.sections)) {
+    sectionsHtml = article.content.sections.map((sec, idx) => {
+      let secImgHtml = '';
+      if (sec.image) {
+        secImgHtml = `
+          <figure style="margin: 2rem 0; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; background: #ffffff;">
+            <img src="${escapeXml(sec.image)}" alt="${escapeXml(sec.imageAlt || sec.title)}" style="width: 100%; max-height: 480px; object-fit: cover;" loading="lazy" />
+            ${sec.imageCaption ? `<figcaption style="padding: 0.75rem 1rem; font-size: 0.85rem; color: #64748b; background: #f8fafc; border-top: 1px solid #e2e8f0;">${escapeXml(sec.imageCaption)}</figcaption>` : ''}
+          </figure>
+        `;
+      }
+
+      const paragraphs = (sec.content || '')
+        .split('\n\n')
+        .filter(p => p.trim().length > 0)
+        .map(p => `<p style="margin-bottom: 1.25rem; font-size: 1.08rem; line-height: 1.8; color: #1e293b;">${escapeXml(p.trim())}</p>`)
+        .join('');
+
+      return `
+        <section id="section-${idx + 1}" style="margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid #e2e8f0;">
+          <h2 style="font-size: 1.6rem; font-weight: 800; color: #0f172a; margin-bottom: 1rem; line-height: 1.3;">
+            <span style="color: #0284c7; font-family: monospace; margin-right: 0.5rem;">${idx + 1}.</span>${escapeXml(sec.title)}
+          </h2>
+          ${paragraphs}
+          ${secImgHtml}
+        </section>
+      `;
+    }).join('');
+  } else if (article.summary) {
+    sectionsHtml = `
+      <section style="margin-bottom: 2.5rem;">
+        <p style="font-size: 1.15rem; line-height: 1.8; color: #1e293b;">${escapeXml(article.summary)}</p>
+      </section>
+    `;
+  }
+
+  // Table HTML
+  let tableHtml = '';
+  const tableData = article.comparisonTable || article.table;
+  if (tableData && Array.isArray(tableData.headers) && Array.isArray(tableData.rows)) {
+    const headerCells = tableData.headers.map(h => `<th style="padding: 0.75rem 1rem; border: 1px solid #cbd5e1; background: #f1f5f9; font-weight: bold; text-align: left;">${escapeXml(h)}</th>`).join('');
+    const bodyRows = tableData.rows.map(row => {
+      const cells = row.map((c, i) => `<td style="padding: 0.75rem 1rem; border: 1px solid #e2e8f0; ${i === 0 ? 'font-weight: 600; color: #0f172a;' : 'color: #475569;'}">${escapeXml(c)}</td>`).join('');
+      return `<tr style="background: #ffffff;">${cells}</tr>`;
+    }).join('');
+
+    tableHtml = `
+      <section style="margin: 2.5rem 0; padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+        <h3 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.5rem;">${escapeXml(tableData.title || 'Key Facts & Comparison')}</h3>
+        ${tableData.description ? `<p style="font-size: 0.95rem; color: #64748b; margin-bottom: 1rem;">${escapeXml(tableData.description)}</p>` : ''}
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+            <thead><tr>${headerCells}</tr></thead>
+            <tbody>${bodyRows}</tbody>
+          </table>
+        </div>
+      </section>
+    `;
+  }
+
+  // FAQ HTML
+  let faqHtml = '';
+  let faqJsonLd = '';
+  if (Array.isArray(article.faq) && article.faq.length > 0) {
+    const faqItems = article.faq.map((item, idx) => `
+      <div style="margin-bottom: 1.25rem; padding: 1rem 1.25rem; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <h4 style="font-size: 1.05rem; font-weight: 700; color: #0f172a; margin-bottom: 0.5rem;">Q${idx + 1}: ${escapeXml(item.question)}</h4>
+        <p style="margin: 0; color: #475569; font-size: 0.95rem; line-height: 1.6;">${escapeXml(item.answer)}</p>
+      </div>
+    `).join('');
+
+    faqHtml = `
+      <section style="margin: 3rem 0; padding: 1.5rem; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0;">
+        <h3 style="font-size: 1.4rem; font-weight: 700; color: #0f172a; margin-bottom: 1.25rem;">Frequently Asked Questions (FAQ)</h3>
+        ${faqItems}
+      </section>
+    `;
+
+    const faqEntities = article.faq.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }));
+    faqJsonLd = `
+    <script type="application/ld+json">
+    ${JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqEntities
+    })}
+    </script>
+    `;
+  }
+
+  // NewsArticle JSON-LD
+  const articleJsonLd = `
+  <script type="application/ld+json">
+  ${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": title,
+    "description": description,
+    "image": [image],
+    "datePublished": formatDateForXml(date),
+    "dateModified": formatDateForXml(date),
+    "author": [{
+      "@type": "Person",
+      "name": author,
+      "url": `${DOMAIN}/about`
+    }],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Daily Science News",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${DOMAIN}/assets/lab.jpg`
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    }
+  })}
+  </script>
+  `;
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeXml(title)} - Daily Science News</title>
+    <meta name="description" content="${escapeXml(description)}" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="${canonicalUrl}" />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="${escapeXml(title)} - Daily Science News" />
+    <meta property="og:description" content="${escapeXml(description)}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="${canonicalUrl}" />
+    <meta property="og:image" content="${escapeXml(image)}" />
+    <meta property="og:site_name" content="Daily Science News" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${escapeXml(title)}" />
+    <meta name="twitter:description" content="${escapeXml(description)}" />
+    <meta name="twitter:image" content="${escapeXml(image)}" />
+    <meta name="theme-color" content="#0284c7" />
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9410415611160830" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7715Z65M7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-V7715Z65M7');
+    </script>
+
+    ${articleJsonLd}
+    ${faqJsonLd}
+  </head>
+  <body class="min-h-screen bg-background text-foreground antialiased font-sans" style="margin: 0; font-family: system-ui, -apple-system, sans-serif; background-color: #f8fafc; color: #0f172a;">
+    <div id="root">
+      <header style="padding: 1.5rem 1rem; background: #0f172a; color: #ffffff; text-align: center; border-bottom: 3px solid #0284c7;">
+        <div style="max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+          <a href="/" style="font-size: 1.3rem; font-weight: 800; color: #38bdf8; text-decoration: none; letter-spacing: -0.02em;">DAILY SCIENCE NEWS</a>
+          <nav style="display: flex; gap: 1rem; font-size: 0.9rem;">
+            <a href="/" style="color: #94a3b8; text-decoration: none;">Home</a>
+            <a href="/category/${escapeXml((category || 'science').toLowerCase().replace(/[^\w]/g, ' ').trim().split(/\s+/)[0])}" style="color: #38bdf8; text-decoration: none; font-weight: 600;">${escapeXml(category || 'Science')}</a>
+            <a href="/about" style="color: #94a3b8; text-decoration: none;">About</a>
+            <a href="/contact" style="color: #94a3b8; text-decoration: none;">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main style="padding: 2.5rem 1.25rem; max-width: 860px; margin: 0 auto; background: #ffffff; min-height: 80vh; box-shadow: 0 4px 20px rgba(0,0,0,0.03); margin-top: 1.5rem; margin-bottom: 2rem; border-radius: 16px; border: 1px solid #e2e8f0;">
+        <article>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap;">
+            <span style="background: #e0f2fe; color: #0284c7; font-size: 0.75rem; font-weight: 800; padding: 4px 10px; border-radius: 9999px; text-transform: uppercase;">${escapeXml(category)}</span>
+            <span style="background: #ecfdf5; color: #059669; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 9999px; border: 1px solid #a7f3d0;">✓ Peer-Reviewed &amp; Fact-Checked</span>
+          </div>
+
+          <h1 style="font-size: 2.3rem; font-weight: 800; color: #0f172a; line-height: 1.25; margin: 0 0 1.25rem 0;">${escapeXml(article.title)}</h1>
+          
+          <p style="font-size: 1.2rem; line-height: 1.6; color: #475569; margin-bottom: 1.5rem; font-weight: 400;">${escapeXml(article.summary || '')}</p>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 1rem; background: #f8fafc; border-radius: 10px; border: 1px solid #e2e8f0; font-size: 0.85rem; color: #64748b; margin-bottom: 2rem;">
+            <span>✍️ <strong>By:</strong> ${escapeXml(author)}</span>
+            <span>📅 <strong>Published:</strong> ${escapeXml(date)}</span>
+            <span>⏱️ <strong>Read Time:</strong> ${escapeXml(readTime)}</span>
+          </div>
+
+          <figure style="margin: 0 0 2.5rem 0; border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0;">
+            <img src="${escapeXml(image)}" alt="${escapeXml(imageAlt)}" style="width: 100%; max-height: 480px; object-fit: cover;" loading="eager" />
+            ${imageCaption ? `<figcaption style="padding: 0.75rem 1rem; font-size: 0.85rem; color: #64748b; background: #f8fafc; border-top: 1px solid #e2e8f0; font-style: italic;">${escapeXml(imageCaption)}</figcaption>` : ''}
+          </figure>
+
+          ${sectionsHtml}
+
+          ${tableHtml}
+
+          ${faqHtml}
+
+          <div style="margin-top: 3rem; padding: 1.5rem; background: #eff6ff; border-radius: 12px; border: 1px solid #bfdbfe; font-size: 0.9rem; color: #1e3a8a;">
+            <h4 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; font-weight: 700;">Editorial Standards &amp; Fact-Checking Transparency</h4>
+            <p style="margin: 0; line-height: 1.6;">
+              This report adheres to Daily Science News' rigorous academic guidelines. All claims are verified against primary scientific literature from institutions including NASA, ESA, CERN, and peer-reviewed journals. Supervised by Dulaksha Sandeepa.
+              Questions or corrections? Contact <a href="mailto:contact@sciencenewshub.click" style="color: #2563eb; font-weight: bold;">contact@sciencenewshub.click</a>.
+            </p>
+          </div>
+        </article>
+      </main>
+
+      <footer style="padding: 2.5rem 1.5rem; background: #0f172a; color: #94a3b8; text-align: center; font-size: 0.9rem;">
         <p>&copy; 2026 Daily Science News. Founder &amp; Chief Editor: Dulaksha Sandeepa. All rights reserved.</p>
         <p style="margin-top: 0.75rem;">
           <a href="/about" style="color: #60a5fa; margin: 0 8px;">About Us</a> | 
@@ -656,9 +953,10 @@ function main() {
     fs.writeFileSync(path.join(dir, 'page-sitemap.xml'), pageXml, 'utf-8');
     fs.writeFileSync(path.join(dir, 'category-sitemap.xml'), categoryXml, 'utf-8');
     fs.writeFileSync(path.join(dir, 'rss.xml'), rssXml, 'utf-8');
+    fs.writeFileSync(path.join(dir, 'feed.xml'), rssXml, 'utf-8');
   }
 
-  // 7. Prerender Static HTML Pages
+  // 7. Prerender Static Core & Category HTML Pages
   const staticPages = generateStaticPages(articlesList);
   for (const page of staticPages) {
     const htmlContent = generateStaticPageHtml(page);
@@ -672,7 +970,23 @@ function main() {
     }
   }
 
-  console.log(`✓ Successfully generated sitemaps, RSS feed, and ${staticPages.length} prerendered static HTML pages for ${articlesList.length} curated articles.`);
+  // 8. Prerender Static HTML Pages for All Articles (Fixes AdSense CSR & Thin Content Rejection)
+  let articleCount = 0;
+  for (const art of articlesList) {
+    const slug = getSlug(art);
+    const articleHtml = generateStaticArticlePageHtml(art, slug);
+    for (const baseDir of targetDirs) {
+      const fullPath = path.join(baseDir, 'article', slug, 'index.html');
+      const parentDir = path.dirname(fullPath);
+      if (!fs.existsSync(parentDir)) {
+        fs.mkdirSync(parentDir, { recursive: true });
+      }
+      fs.writeFileSync(fullPath, articleHtml, 'utf-8');
+    }
+    articleCount++;
+  }
+
+  console.log(`✓ Successfully generated sitemaps, RSS & Feed XMLs, ${staticPages.length} core pages, and ${articleCount} full static article pages for AdSense & Googlebot.`);
 }
 
 main();

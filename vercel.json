@@ -1,6 +1,11 @@
 {
   "version": 2,
+  "trailingSlash": false,
   "rewrites": [
+    {
+      "source": "/article/:slug",
+      "destination": "/article/:slug/index.html"
+    },
     {
       "source": "/(about|contact|privacy-policy|terms|disclaimer)",
       "destination": "/$1/index.html"
@@ -10,8 +15,12 @@
       "destination": "/category/$1/index.html"
     },
     {
-      "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico|BingSiteAuth\\.xml)",
+      "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|feed\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico|BingSiteAuth\\.xml)",
       "destination": "/$1"
+    },
+    {
+      "source": "/feed.xml",
+      "destination": "/rss.xml"
     },
     {
       "source": "/assets/(.*)",
@@ -81,6 +90,19 @@
     },
     {
       "source": "/rss.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/feed.xml",
       "headers": [
         {
           "key": "Content-Type",
