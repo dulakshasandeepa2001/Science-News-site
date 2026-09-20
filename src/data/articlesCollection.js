@@ -85,9 +85,13 @@ import { Fault_Tolerant_Quantum_Processor_1000Qubits } from "./articles/Fault_To
 import { MRNA_Universal_Cancer_Vaccine_Phase3 } from "./articles/MRNA_Universal_Cancer_Vaccine_Phase3.js";
 import { Perovskite_Silicon_Tandem_Solar_34Percent } from "./articles/Perovskite_Silicon_Tandem_Solar_34Percent.js";
 import { Ancient_DNA_Two_Million_Year_Hominin } from "./articles/Ancient_DNA_Two_Million_Year_Hominin.js";
+import { Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders } from "./articles/Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders.js";
 
 // Export the curated collection of comprehensive, authoritative articles
 export const articles = [
+  // Breaking September 20, 2026 Abyssal Marine Biology Discovery
+  Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders,
+
   // 2026 Tier 1 High-Word-Count Deep Science Articles
   Curiosity_Rover_Footprints_Mars_Mount_Sharp,
   Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin,

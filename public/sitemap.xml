@@ -94,7 +94,13 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (81 Curated Articles) -->
+  <!-- Published Scientific Articles & Research Reports (82 Curated Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/bizarre-deep-sea-creatures-hitchhiking-giant-sea-spiders-deep-blue-sea</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/massive-new-moon-crater-discovered-nasa-lro-mcgetchin-asteroid-impact</loc>
     <lastmod>2026-09-16</lastmod>
