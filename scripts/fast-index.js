@@ -9,9 +9,9 @@
  * Zero external dependencies: Uses native Node.js https & crypto modules.
  */
 
-import fs from 'fs';
-import path from 'path';
-import https from 'https';
+import fs from 'fs'; // this is use for read the files 
+import path from 'path'; //  this line use for connect the correct folders 
+import https from 'https'; // 
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 
