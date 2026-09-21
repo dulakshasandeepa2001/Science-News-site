@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+service-account*.json
+*.key.json
+google-indexing-key.json
