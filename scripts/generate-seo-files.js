@@ -102,7 +102,8 @@ const LEGACY_SLUG_MAP = {
   "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
   "MRNA_Universal_Cancer_Vaccine_Phase3": "mrna-universal-cancer-vaccine-phase-3-trials",
   "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
-  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa"
+  "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa",
+  "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security"
 };
 
 function getSlug(art) {

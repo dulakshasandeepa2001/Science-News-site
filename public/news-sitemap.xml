@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/typesafe-jev-ai-system-one-model-agent-decisions-security</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-21</news:publication_date>
+      <news:title>TypeSafe Jev AI: The &quot;System One&quot; Model Revolutionizing Agent Decisions (and Prompt Injection Risks)</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1790083744/Generated_Image_September_22_2026_-_6_55PM_g9v1os.jpg</image:loc>
+      <image:title>TypeSafe Jev AI: The &quot;System One&quot; Model Revolutionizing Agent Decisions (and Prompt Injection Risks)</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/bizarre-deep-sea-creatures-hitchhiking-giant-sea-spiders-deep-blue-sea</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
       <image:title>Swift Telescope Rescue Mission Today</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/new-marine-species-brazil</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-29</news:publication_date>
-      <news:title>31 New Marine Species Discovered in the Ocean Off Brazil</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>31 New Marine Species Discovered in the Ocean Off Brazil</image:title>
     </image:image>
   </url>
 </urlset>

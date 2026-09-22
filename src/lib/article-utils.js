@@ -197,11 +197,17 @@ const LEGACY_SLUG_MAP = {
   "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology",
   "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery",
   "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
-  "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools"
+  "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
+  "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security",
+  "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "tech/typesafe-jev-ai-system-one-model-agent-decisions-security": "typesafe-jev-ai-system-one-model-agent-decisions-security",
+  "technology/typesafe-jev-ai-system-one-model-agent-decisions-security": "typesafe-jev-ai-system-one-model-agent-decisions-security",
+  "jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
+  "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "space-astronomy/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
   "space/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
   "astrophysics/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
