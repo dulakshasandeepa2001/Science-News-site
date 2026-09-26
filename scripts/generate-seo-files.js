@@ -21,6 +21,7 @@ function toSlug(text) {
 }
 
 const LEGACY_SLUG_MAP = {
+  "FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters": "fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records",
   "Curiosity_Rover_Footprints_Mars_Mount_Sharp": "curiosity-rover-spots-odd-footprints-mars-mount-sharp-discovery",
   "Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-basin",
   "Massive_Stars_Forming_Binary_System_ALMA_Discovery": "massive-stars-forming-binary-system-alma-breakthrough",

@@ -4,6 +4,7 @@
 // Strict Quality & E-E-A-T AdSense Compliance (Zero Thin / Placeholder Content)
 // ============================================================================
 
+import { FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters } from "./articles/FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters.js";
 import { TypeSafe_Jev_AI_System_One_Model_Agent_Decisions } from "./articles/TypeSafe_Jev_AI_System_One_Model_Agent_Decisions.js";
 import { Curiosity_Rover_Footprints_Mars_Mount_Sharp } from "./articles/Curiosity_Rover_Footprints_Mars_Mount_Sharp.js";
 import { Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin } from "./articles/Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin.js";
@@ -90,6 +91,9 @@ import { Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders } from "./articles/Dee
 
 // Export the curated collection of comprehensive, authoritative articles
 export const articles = [
+  // Breaking September 26, 2026 National Security & Cybersecurity
+  FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters,
+
   // Breaking September 22, 2026 Frontier AI Architecture & Security
   TypeSafe_Jev_AI_System_One_Model_Agent_Decisions,
 

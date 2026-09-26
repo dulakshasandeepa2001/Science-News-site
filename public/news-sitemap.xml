@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25</news:publication_date>
+      <news:title>The FBI Data Breach Is a Counterintelligence Disaster: ShinyHunters Hack Exposes Secret Hacking Unit, Sensitive Medical Records &amp; Covert Operatives</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/fbi-data-breach-counterintelligence-disaster.jpg</image:loc>
+      <image:title>The FBI Data Breach Is a Counterintelligence Disaster: ShinyHunters Hack Exposes Secret Hacking Unit, Sensitive Medical Records &amp; Covert Operatives</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/typesafe-jev-ai-system-one-model-agent-decisions-security</loc>
     <news:news>
       <news:publication>
@@ -734,21 +749,6 @@
     <image:image>
       <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/k8P7EueKPxAydxj6mGvTGP.jpg</image:loc>
       <image:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/swift-telescope-rescue</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-30</news:publication_date>
-      <news:title>Swift Telescope Rescue Mission Today</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/lab.jpg</image:loc>
-      <image:title>Swift Telescope Rescue Mission Today</image:title>
     </image:image>
   </url>
 </urlset>
