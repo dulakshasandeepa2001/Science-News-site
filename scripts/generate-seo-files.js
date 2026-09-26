@@ -436,7 +436,7 @@ function generateStaticArticlePageHtml(article, slug) {
     "@type": "NewsArticle",
     "headline": title,
     "description": description,
-    "image": [image],
+    "image": Array.isArray(article.images) && article.images.length > 0 ? article.images : [image],
     "datePublished": formatDateForXml(date),
     "dateModified": formatDateForXml(date),
     "author": [{

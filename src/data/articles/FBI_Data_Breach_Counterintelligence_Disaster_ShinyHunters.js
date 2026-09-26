@@ -5,16 +5,28 @@ export const FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters = {
   summary:
     "In what intelligence veterans compare to the catastrophic 2015 OPM breach, cybercriminal syndicate ShinyHunters has reportedly breached FBI infrastructure, compromising thousands of employee dossiers, psychiatric evaluations, and members of the bureau’s secretive Remote Operations Unit (ROU). Here is the full forensic breakdown of the counterintelligence fallout.",
   image:
-    "https://sciencenewshub.click/assets/fbi-data-breach-counterintelligence-disaster.jpg",
+    "https://sciencenewshub.click/assets/images/fbi-data-breach-shinyhunters-remote-operations-unit.webp",
+  imageAlt:
+    "FBI cyber command center interface displaying security alert warnings during the massive ShinyHunters data breach",
+  imageTitle:
+    "FBI Data Breach: Secret Remote Operations Unit and Medical Records Exposed",
+  imageCaption:
+    "A counterintelligence catastrophe: Threat group ShinyHunters compromises FBI applicant portals, medical archives, and elite Remote Operations Unit (ROU) operatives.",
+  images: [
+    "https://sciencenewshub.click/assets/images/fbi-data-breach-shinyhunters-remote-operations-unit.webp",
+    "https://sciencenewshub.click/assets/images/fbi-medlink-psychiatric-evaluations-stolen-records.webp",
+    "https://sciencenewshub.click/assets/images/covert-fbi-agent-doxxing-threat-surveillance.webp"
+  ],
   category: "Technology",
   date: "September 26, 2026",
-  author: "Cybersecurity & National Intelligence Desk",
+  author: "Dulaksha Sandeepa",
+  authorRole: "Lead Cybersecurity & Intelligence Analyst",
   readTime: "9 min read",
   keywords:
-    "fbi data breach, shinyhunters fbi hack, fbi remote operations unit rou exposed, fbi medical records breach, counterintelligence disaster, fbijobs breach, fbi cyber attack 2026, 404 media fbi hack, reuters shinyhunters fbi, fbi psychiatric records stolen, opm breach comparison",
+    "fbi data breach, shinyhunters hack, remote operations unit exposed, fbi psychiatric evaluations leak, medlink breach, fbi employee dossiers stolen, fbi covert operatives exposed, swatting doxxing fbi agents, counterintelligence disaster, opm breach comparison",
   slug: "fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records",
   metaDescription:
-    "ShinyHunters FBI data breach exposes psychiatric files, covert operatives, and the secretive Remote Operations Unit (ROU) in a historic counterintelligence disaster.",
+    "ShinyHunters breaches FBI contractor portals, exposing the secretive Remote Operations Unit (ROU) and employee psychiatric records in a historic counterintelligence disaster.",
   canonicalUrl:
     "https://sciencenewshub.click/article/fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records",
   schemaType: "NewsArticle",
@@ -32,6 +44,14 @@ The intrusion appears to have breached multiple entry points and contractor-oper
       },
       {
         title: "Forensic Authentication: What Stolen Files Reveal",
+        image:
+          "https://sciencenewshub.click/assets/images/fbi-medlink-psychiatric-evaluations-stolen-records.webp",
+        imageAlt:
+          "Classified FBI MedLink clinical documents, ECG prints, and psychiatric evaluations compromised in ShinyHunters hack",
+        imageTitle:
+          "Stolen FBI Medical Dossiers: The Anatomy of a Blackmail Vector",
+        imageCaption:
+          "Beyond standard identity theft: The exfiltration of psychiatric and medical clearance records gives foreign intelligence operatives unprecedented leverage for coercion and recruitment.",
         content: `To substantiate their claims, ShinyHunters circulated a sample file spanning approximately 5,000 alleged FBI employees and applicants to independent journalists and technical analysts. 
 
 The documents contain granular personal identifiable information (PII), including:
@@ -73,6 +93,14 @@ Foreign adversaries can exploit this compromised data across several critical op
       },
       {
         title: "Physical Security Threats: Doxxing, Swatting, and the Data-to-Violence Pipeline",
+        image:
+          "https://sciencenewshub.click/assets/images/covert-fbi-agent-doxxing-threat-surveillance.webp",
+        imageAlt:
+          "Federal investigator targeted by digital tracking and physical surveillance following FBI data breach",
+        imageTitle:
+          "From Leaked Data to Physical Danger: The Threat Facing Federal Agents",
+        imageCaption:
+          "The data-to-violence pipeline: Exposed residential addresses and family details place active-duty federal agents at immediate risk of doxxing, swatting, and hostile foreign tracking.",
         content: `Beyond the international espionage chessboard, the breach presents an acute, life-threatening danger to FBI special agents, analysts, and their families on domestic soil.
 
 Public servants across the United States have faced an alarming surge in targeted harassment, doxxing, and politically motivated intimidation. When law enforcement officers' residential addresses and family details leak onto cybercrime forums, threat actors immediately exploit them through:
