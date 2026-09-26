@@ -4,3 +4,4 @@ dist/
 service-account*.json
 *.key.json
 google-indexing-key.json
+alert-config*.json

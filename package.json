@@ -8,6 +8,7 @@
     "build": "node scripts/generate-seo-files.js && vite build",
     "build:seo": "node scripts/generate-seo-files.js",
     "index:fast": "node scripts/fast-index.js",
+    "index:monitor": "node scripts/index-monitor.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
