@@ -47,4 +47,5 @@ const Ohio_Fireball_Meteor_Sonic_Boom_2026 = {
   }
 };
 
+export { Ohio_Fireball_Meteor_Sonic_Boom_2026 };
 export default Ohio_Fireball_Meteor_Sonic_Boom_2026;

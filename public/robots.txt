@@ -1,16 +1,17 @@
 User-agent: *
 Allow: /
-Disallow: /search
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
 
 User-agent: Mediapartners-Google
 Allow: /
 
-User-agent: Googlebot-Image
-Allow: /
-
-
 Sitemap: https://sciencenewshub.click/sitemap.xml
+Sitemap: https://sciencenewshub.click/news-sitemap.xml
 Sitemap: https://sciencenewshub.click/post-sitemap.xml
 Sitemap: https://sciencenewshub.click/page-sitemap.xml
 Sitemap: https://sciencenewshub.click/category-sitemap.xml
-Sitemap: https://sciencenewshub.click/news-sitemap.xml

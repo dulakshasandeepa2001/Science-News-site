@@ -7,7 +7,7 @@
       "destination": "/article/:slug/index.html"
     },
     {
-      "source": "/(about|contact|privacy-policy|terms|disclaimer)",
+      "source": "/(about|contact|privacy-policy|terms|disclaimer|blog)",
       "destination": "/$1/index.html"
     },
     {
@@ -15,12 +15,8 @@
       "destination": "/category/$1/index.html"
     },
     {
-      "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|feed\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico|BingSiteAuth\\.xml)",
+      "source": "/(sitemap\\.xml|news-sitemap\\.xml|post-sitemap\\.xml|page-sitemap\\.xml|category-sitemap\\.xml|rss\\.xml|feed\\.xml|robots\\.txt|llms\\.txt|favicon\\.ico|BingSiteAuth\\.xml|8d7f3e2b9c1a4e5f60718293a4b5c6d7\\.txt)",
       "destination": "/$1"
-    },
-    {
-      "source": "/feed.xml",
-      "destination": "/rss.xml"
     },
     {
       "source": "/assets/(.*)",

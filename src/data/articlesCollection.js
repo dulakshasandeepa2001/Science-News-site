@@ -89,6 +89,73 @@ import { Perovskite_Silicon_Tandem_Solar_34Percent } from "./articles/Perovskite
 import { Ancient_DNA_Two_Million_Year_Hominin } from "./articles/Ancient_DNA_Two_Million_Year_Hominin.js";
 import { Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders } from "./articles/Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders.js";
 
+// Archive & Specialty Scientific Discoveries (Fully Restored for Complete Indexing Coverage)
+import { Ancient_Crocodile_Ancestor_Discovery as art_Ancient_Crocodile_Ancestor_Discovery } from "./articles/Ancient_Crocodile_Ancestor_Discovery.js";
+import { ancientForestArticle as art_Ancient_Forest_Discovered_Under_Melting_Arctic_Ice } from "./articles/Ancient_Forest_Discovered_Under_Melting_Arctic_Ice.js";
+import { Antarctic_Titanosaur_Fossil as art_Antarctic_Titanosaur_Fossil } from "./articles/Antarctic_Titanosaur_Fossil.js";
+import { Apple_September_Event_2026_Preview as art_Apple_September_Event_2026_Preview } from "./articles/Apple_September_Event_2026_Preview.js";
+import { Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score as art_Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score } from "./articles/Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score.js";
+import { Aspirin_Replacement_Clopidogrel as art_Aspirin_Replacement_Clopidogrel } from "./articles/Aspirin_Replacement_Clopidogrel.js";
+import { Black_Death_Shadow as art_Black_Death_Shadow } from "./articles/Black_Death_Shadow.js";
+import { British_Paralympian_John_McFall_Astronaut as art_British_Paralympian_John_McFall_Astronaut } from "./articles/British_Paralympian_John_McFall_Astronaut.js";
+import { British_Pilot_Mars_Simulation as art_British_Pilot_Mars_Simulation } from "./articles/British_Pilot_Mars_Simulation.js";
+import { Celtic_Metal_Coins_Discovery as art_Celtic_Metal_Coins_Discovery } from "./articles/Celtic_Metal_Coins_Discovery.js";
+import { Changan_Nevo_A06 as art_Changan_Nevo_A06 } from "./articles/Changan_Nevo_A06.js";
+import { China_AR_Helmet as art_China_AR_Helmet } from "./articles/China_AR_Helmet.js";
+import { Cleopatra_Sunken_Port_Discovery as art_Cleopatra_Sunken_Port_Discovery } from "./articles/Cleopatra_Sunken_Port_Discovery.js";
+import { Comet_Lemmon_Tail_Disruption as art_Comet_Lemmon_Tail_Disruption } from "./articles/Comet_Lemmon_Tail_Disruption.js";
+import { Cyanobacteria_Mars_Oxygen as art_Cyanobacteria_Mars_Oxygen } from "./articles/Cyanobacteria_Mars_Oxygen.js";
+import { Dinosaur_Fossil_Crocodile_Bone as art_Dinosaur_Fossil_Crocodile_Bone } from "./articles/Dinosaur_Fossil_Crocodile_Bone.js";
+import { Earhart_Nikumaroro_Clue as art_Earhart_Nikumaroro_Clue } from "./articles/Earhart_Nikumaroro_Clue.js";
+import { Earth_Black_Box_Tasmania as art_EarthBlackBoxTasmania } from "./articles/EarthBlackBoxTasmania.js";
+import { einsteinRingArticle as art_Einstein_Ring_Black_Hole } from "./articles/Einstein_Ring_Black_Hole.js";
+import { Fermi_Paradox_AI_Explanation as art_Fermi_Paradox_AI_Explanation } from "./articles/Fermi_Paradox_AI_Explanation.js";
+import { First_Space_XRay as art_First_Space_XRay } from "./articles/First_Space_XRay.js";
+import { floridaPantherArticle as art_FloridaPantherArticlePage } from "./articles/FloridaPantherArticlePage.js";
+import { floridaPantherArticle as art_Florida_Panther } from "./articles/Florida_Panther.js";
+import { GJ_3378b_Earth_Like_Planet as art_GJ_3378b_Earth_Like_Planet } from "./articles/GJ_3378b_Earth_Like_Planet.js";
+import { India_Skyroot_Orbital_Rocket as art_India_Skyroot_Orbital_Rocket } from "./articles/India_Skyroot_Orbital_Rocket.js";
+import { IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary as art_IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary } from "./articles/IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary.js";
+import { IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20 as art_IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20 } from "./articles/IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20.js";
+import { ISS_Ocean_Crash_Plan as art_ISS_Ocean_Crash_Plan } from "./articles/ISS_Ocean_Crash_Plan.js";
+import { Jodrell_Bank_Observatory_Risk as art_Jodrell_Bank_Observatory_Risk } from "./articles/Jodrell_Bank_Observatory_Risk.js";
+import { Koala_Cryopreservation as art_Koala_Cryopreservation } from "./articles/Koala_Cryopreservation.js";
+import { LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw as art_LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw } from "./articles/LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw.js";
+import { LHC_Shutdown_Upgrade as art_LHC_Shutdown_Upgrade } from "./articles/LHC_Shutdown_Upgrade.js";
+import { MAVEN_Mars_Spacecraft_Final_Journey as art_MAVEN_Mars_Spacecraft_Final_Journey } from "./articles/MAVEN_Mars_Spacecraft_Final_Journey.js";
+import { Mexican_Government_Data_Theft_AI as art_Mexican_Government_Data_Theft_AI } from "./articles/Mexican_Government_Data_Theft_AI.js";
+import { Military_Drone_Mother_Ship as art_Military_Drone_Mother_Ship } from "./articles/Military_Drone_Mother_Ship.js";
+import { Mosquitoes_Iceland_Discovery as art_Mosquitoes_Iceland_Discovery } from "./articles/Mosquitoes_Iceland_Discovery.js";
+import { New_Air_Force_One_Service as art_NewAirForceOneService } from "./articles/NewAirForceOneService.js";
+import { Nobel_Prize_Chemistry_2025 as art_Nobel_Prize_Chemistry_2025 } from "./articles/Nobel_Prize_Chemistry_2025.js";
+import { Nobel_Prize_Medicine_2025 as art_Nobel_Prize_Medicine_2025 } from "./articles/Nobel_Prize_Medicine_2025.js";
+import { Nobel_Prize_Physics_2025 as art_Nobel_Prize_Physics_2025 } from "./articles/Nobel_Prize_Physics_2025.js";
+import { Nuclear_Satellite_BOHR as art_Nuclear_Satellite_BOHR } from "./articles/Nuclear_Satellite_BOHR.js";
+import { Ohio_Fireball_Meteor_March_2026 as art_Ohio_Fireball_Meteor_March_2026 } from "./articles/Ohio_Fireball_Meteor_March_2026.js";
+import { Ohio_Fireball_Meteor_Sonic_Boom_2026 as art_Ohio_Fireball_Meteor_Sonic_Boom_2026 } from "./articles/Ohio_Fireball_Meteor_Sonic_Boom_2026.js";
+import { Oldest_Mummies_Southeast_Asia as art_Oldest_Mummies_Southeast_Asia } from "./articles/Oldest_Mummies_Southeast_Asia.js";
+import { Orange_Shark_Discovery as art_Orange_Shark_Discovery } from "./articles/Orange_Shark_Discovery.js";
+import { Orcas_Ramming_Sunfish as art_Orcas_Ramming_Sunfish } from "./articles/Orcas_Ramming_Sunfish.js";
+import { Pan_Am_Wreckage_Discovered as art_Pan_Am_Wreckage_Discovered } from "./articles/Pan_Am_Wreckage_Discovered.js";
+import { Pluto_Titan_Mystery_Substance as art_Pluto_Titan_Mystery_Substance } from "./articles/Pluto_Titan_Mystery_Substance.js";
+import { PS5_System_Update_14_PSSR_2_Graphics_Upgrade as art_PS5_System_Update_14_PSSR_2_Graphics_Upgrade } from "./articles/PS5_System_Update_14_PSSR_2_Graphics_Upgrade.js";
+import { Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin as art_Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin } from "./articles/Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin.js";
+import { Russia_Enteromix_Vaccine as art_Russia_Enteromix_Vaccine } from "./articles/Russia_Enteromix_Vaccine.js";
+import { Scarlet_Fever_Pre_Columbian_America as art_Scarlet_Fever_Pre_Columbian_America } from "./articles/Scarlet_Fever_Pre_Columbian_America.js";
+import { Sony_Humanoid_Robots_Weaknesses as art_Sony_Humanoid_Robots_Weaknesses } from "./articles/Sony_Humanoid_Robots_Weaknesses.js";
+import { Sony_PlayStation_Store_Credit_Settlement as art_Sony_PlayStation_Store_Credit_Settlement } from "./articles/Sony_PlayStation_Store_Credit_Settlement.js";
+import { spacecraftArticle as art_Spacecraft_Black_Hole } from "./articles/Spacecraft_Black_Hole.js";
+import { Space_Plane_Mission as art_Space_Plane_Mission } from "./articles/Space_Plane_Mission.js";
+import { Tim_Cook_Apple_CEO_Transition as art_Tim_Cook_Apple_CEO_Transition } from "./articles/Tim_Cook_Apple_CEO_Transition.js";
+import { Tiny_Object_Solar_System_Atmosphere as art_Tiny_Object_Solar_System_Atmosphere } from "./articles/Tiny_Object_Solar_System_Atmosphere.js";
+import { Uranus_New_Moon_Discovery as art_Uranus_New_Moon_Discovery } from "./articles/Uranus_New_Moon_Discovery.js";
+import { US_Space_Force_Meadowlands as art_US_Space_Force_Meadowlands } from "./articles/US_Space_Force_Meadowlands.js";
+import { Vaquita_Digital_Reconstruction as art_Vaquita_Digital_Reconstruction } from "./articles/Vaquita_Digital_Reconstruction.js";
+import { Volcanic_Eruption_Prediction_Mount_Etna as art_Volcanic_Eruption_Prediction_Mount_Etna } from "./articles/Volcanic_Eruption_Prediction_Mount_Etna.js";
+import { Wasp_Named_David_Attenborough_Birthday as art_Wasp_Named_David_Attenborough_Birthday } from "./articles/Wasp_Named_David_Attenborough_Birthday.js";
+import { Water_Paint_Coating_Dewpoint as art_Water_Paint_Coating_Dewpoint } from "./articles/Water_Paint_Coating_Dewpoint.js";
+import { zombieVirusArticle as art_Zombie_Virus_Rabbits } from "./articles/Zombie_Virus_Rabbits.js";
+
 // Export the curated collection of comprehensive, authoritative articles
 export const articles = [
   // Breaking September 26, 2026 National Security & Cybersecurity
@@ -182,6 +249,72 @@ export const articles = [
   MRNA_Universal_Cancer_Vaccine_Phase3,
   Perovskite_Silicon_Tandem_Solar_34Percent,
   Ancient_DNA_Two_Million_Year_Hominin,
+  // Restored Articles & Discoveries
+  art_Ancient_Crocodile_Ancestor_Discovery,
+  art_Ancient_Forest_Discovered_Under_Melting_Arctic_Ice,
+  art_Antarctic_Titanosaur_Fossil,
+  art_Apple_September_Event_2026_Preview,
+  art_Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score,
+  art_Aspirin_Replacement_Clopidogrel,
+  art_Black_Death_Shadow,
+  art_British_Paralympian_John_McFall_Astronaut,
+  art_British_Pilot_Mars_Simulation,
+  art_Celtic_Metal_Coins_Discovery,
+  art_Changan_Nevo_A06,
+  art_China_AR_Helmet,
+  art_Cleopatra_Sunken_Port_Discovery,
+  art_Comet_Lemmon_Tail_Disruption,
+  art_Cyanobacteria_Mars_Oxygen,
+  art_Dinosaur_Fossil_Crocodile_Bone,
+  art_Earhart_Nikumaroro_Clue,
+  art_EarthBlackBoxTasmania,
+  art_Einstein_Ring_Black_Hole,
+  art_Fermi_Paradox_AI_Explanation,
+  art_First_Space_XRay,
+  art_FloridaPantherArticlePage,
+  art_Florida_Panther,
+  art_GJ_3378b_Earth_Like_Planet,
+  art_India_Skyroot_Orbital_Rocket,
+  art_IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary,
+  art_IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20,
+  art_ISS_Ocean_Crash_Plan,
+  art_Jodrell_Bank_Observatory_Risk,
+  art_Koala_Cryopreservation,
+  art_LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw,
+  art_LHC_Shutdown_Upgrade,
+  art_MAVEN_Mars_Spacecraft_Final_Journey,
+  art_Mexican_Government_Data_Theft_AI,
+  art_Military_Drone_Mother_Ship,
+  art_Mosquitoes_Iceland_Discovery,
+  art_NewAirForceOneService,
+  art_Nobel_Prize_Chemistry_2025,
+  art_Nobel_Prize_Medicine_2025,
+  art_Nobel_Prize_Physics_2025,
+  art_Nuclear_Satellite_BOHR,
+  art_Ohio_Fireball_Meteor_March_2026,
+  art_Ohio_Fireball_Meteor_Sonic_Boom_2026,
+  art_Oldest_Mummies_Southeast_Asia,
+  art_Orange_Shark_Discovery,
+  art_Orcas_Ramming_Sunfish,
+  art_Pan_Am_Wreckage_Discovered,
+  art_Pluto_Titan_Mystery_Substance,
+  art_PS5_System_Update_14_PSSR_2_Graphics_Upgrade,
+  art_Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin,
+  art_Russia_Enteromix_Vaccine,
+  art_Scarlet_Fever_Pre_Columbian_America,
+  art_Sony_Humanoid_Robots_Weaknesses,
+  art_Sony_PlayStation_Store_Credit_Settlement,
+  art_Spacecraft_Black_Hole,
+  art_Space_Plane_Mission,
+  art_Tim_Cook_Apple_CEO_Transition,
+  art_Tiny_Object_Solar_System_Atmosphere,
+  art_Uranus_New_Moon_Discovery,
+  art_US_Space_Force_Meadowlands,
+  art_Vaquita_Digital_Reconstruction,
+  art_Volcanic_Eruption_Prediction_Mount_Etna,
+  art_Wasp_Named_David_Attenborough_Birthday,
+  art_Water_Paint_Coating_Dewpoint,
+  art_Zombie_Virus_Rabbits,
 ];
 
 // Helper export for backwards compatibility

@@ -21,90 +21,189 @@ function toSlug(text) {
 }
 
 const LEGACY_SLUG_MAP = {
-  "FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters": "fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records",
-  "Curiosity_Rover_Footprints_Mars_Mount_Sharp": "curiosity-rover-spots-odd-footprints-mars-mount-sharp-discovery",
-  "Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin": "massive-new-moon-crater-discovered-nasa-lro-mcgetchin-basin",
-  "Massive_Stars_Forming_Binary_System_ALMA_Discovery": "massive-stars-forming-binary-system-alma-breakthrough",
-  "UK_September_Heatwave_Forecast_2026": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
-  "BlueOriginNewGlennExplosion": "blue-origin-new-glenn-explosion",
-  "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
-  "JWST_Chariklo_Asteroid_Ring_Changes": "jwst-chariklo-asteroid-ring-system-changes-discovery",
-  "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",
-  "When_Is_The_Next_Meteor_Shower_2026_Calendar": "when-is-the-next-meteor-shower-2026-calendar-orionids-geminids",
-  "Dario_Amodei_AI_Slowdown_Pace_The_Frontier": "dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier",
-  "Sun_Swallowed_Super_Earth_Discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
-  "US_Confirms_Weapons_Deployed_Orbit_Space_Force": "us-confirms-weapons-deployed-orbit-space-force-troy-meink",
-  "Quantum_Entanglement_Z_Bosons_CERN_ATLAS": "quantum-entanglement-z-bosons-confirmed-cern-large-hadron-collider-atlas",
-  "OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
-  "Solar_Flare_Northern_Lights_Geomagnetic_Storm": "solar-flare-northern-lights-geomagnetic-storm-forecast",
-  "Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
-  "TRexTinyArmsEvolutionarySacrifice": "t-rex-tiny-arms-evolutionary-sacrifice",
-  "Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
-  "SpaceX_Starlink_10000_Satellites": "spacex-starlink-10000-satellites",
-  "August_2026_Lunar_Eclipse_Blood_Moon_Guide": "august-2026-lunar-eclipse-blood-moon-guide",
-  "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
-  "Red_Dwarf_Stars_Swallowing_Planets": "red-dwarf-stars-swallowing-planets",
-  "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology",
-  "LUX_ZEPLIN_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
-  "Academy_Of_Natural_Sciences_Museum_Closure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
-  "Psyche_Spacecraft_Mars_Gravity_Assist": "psyche-spacecraft-mars-gravity-assist",
-  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay",
-  "NASA_Nancy_Grace_Roman_Telescope_Launch": "nasa-nancy-grace-roman-space-telescope-launch",
-  "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
-  "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
-  "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery",
-  "Atlas_Comet_Confirmation": "atlas-comet",
-  "Double_Star_System_Both_Supernovae": "double-star-system-both-supernovae",
-  "Cellular_Health_Science_Longevity_Breakthroughs": "cellular-health-science-longevity-breakthroughs",
-  "Global_Pandemic_Treaty_Delay": "global-pandemic-treaty-delay",
-  "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record",
-  "Pluto_Reclassification_Planet_Effort": "pluto-reclassification-planet-effort",
-  "Prehistoric_Insects_South_America_Amber": "prehistoric-insects-south-america-amber",
-  "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health",
-  "Shenzhou_21_Capsule_Mission": "shenzhou-21-capsule-mission",
-  "AI_In_Health_Science_Precision_Medicine": "ai-in-health-science-precision-medicine",
-  "Gut_Brain_Connection_Microbiome_Health_Science": "gut-brain-connection-microbiome-health-science",
-  "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
-  "Giant_Dam_Save_AMOC": "giant-dam-save-amoc",
-  "Inouye_Solar_Telescope_Clearest_Sun_Images": "inouye-solar-telescope-clearest-sun-images",
-  "Dinosaur_Asteroid_Heat_17_Times": "dinosaur-asteroid-heat-17-times",
-  "Exoplanet_WASP121b_GemstoneRain": "exoplanet-wasp-121b-gemstone-rain",
-  "World_Reservoirs_Sedimentation_2060": "world-reservoirs-sedimentation-2060",
-  "Apollo_12_Moon_Dust_Camera_Mishap": "apollo-12-moon-dust-camera-mishap-untold-story",
-  "Interstellar_Comet_3I_ATLAS_Origin": "interstellar-comet-3i-atlas-origin",
-  "NASA_Atlas_Comet_Images": "nasa-atlas-comet-images",
-  "Pacific_Ring_Of_Fire_Volcanic_Cooling": "pacific-ring-of-fire-volcanic-cooling",
-  "AI_Designed_Virus_Stanford": "ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026",
-  "British_Fossil_Collection_Abu_Dhabi": "british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum",
-  "Black_Hole_Star_Discovery": "first-ever-black-hole-star-discovered-james-webb-space-telescope",
-  "Humpback_Whales_Sound_Discovery": "humpback-whales-sound-discovery",
-  "SpaceX_Rocket_Moon_Crash_2026": "spacex-rocket-moon-crash-2026",
-  "Mammoth_RNA_Discovery": "mammoth-rna-discovery",
-  "Global_Underground_Fungal_Network_Map_Revealed": "global-underground-fungal-network-map",
-  "SpaceX_AI_Starmind_Satellites": "spacex-massive-shift-artificial-intelligence-starmind-satellites-2026",
-  "Artemis_2_Astronauts_Ready_Mission": "artemis-2-astronauts-ready-mission",
-  "M87_Black_Hole_Radiation_Jet_XRay": "m87-black-hole-radiation-jet-xray",
-  "Geomagnetic_Storm_Northern_Lights": "geomagnetic-storm-northern-lights",
-  "Total_Solar_Eclipse_Europe_2026": "total-solar-eclipse-august-2026-greenland-iceland-spain",
-  "Supernova_Remnant_Milky_Way": "supernova-remnant-milky-way",
-  "Swift_Telescope_Rescue": "swift-telescope-rescue",
-  "Africa_First_Lunar_Mission_China_2029": "africa-first-lunar-mission-china-2029",
-  "Little_Red_Dots_Early_Universe": "little-red-dots-early-universe",
-  "Ryugu_Asteroid_Water_Discovery": "ryugu-asteroid-water-discovery",
-  "James_Watson_Passing": "james-watson-passing",
-  "Skydiver_Sun_Photography": "skydiver-sun-photography",
-  "Silverpit_Crater_Asteroid_Impact": "silverpit-crater-asteroid-impact",
-  "Euclid_Milky_Way_Center": "euclid-milky-way-center",
+  // Numeric IDs
+  "1": "spacecraft-black-hole-journey",
+  "2": "einstein-ring-black-hole",
+  "3": "brain-shortcut-weight-loss",
+  "4": "dna-sequencing-breakthrough",
+  "5": "ai-discovers-new-materials",
+  "6": "quantum-internet-milestone",
+  "7": "carbon-capture-technology",
+  "8": "ancient-forest-under-arctic-ice",
+  "9": "quantum-computing-error-correction",
+  "10": "florida-panther-habitat-expansion",
+  "11": "florida-panther-habitat-expansion",
+  "12": "zombie-virus-rabbits-study",
+  "13": "sony-robots",
+  "14": "orange-shark",
+  "15": "british-paralympian-john-mcfall-astronaut",
+  "16": "aspirin-replacement",
+  "20": "changan-nevo-a06",
+  "21": "russia-enteromix-vaccine",
+  "22": "cyanobacteria-mars-oxygen",
   "23": "mars-life-discovery",
+  "24": "military-drone-mothership",
+  "25": "british-pilot-mars-simulation",
+  "26": "oldest-mummies-southeast-asia",
+
+  // CamelCase & Underscore IDs
+  "MoonBaseI_BlueOriginMission": "moon-base-1-blue-origin-mission",
+  "SpaceX_Starlink_10000_Satellites": "spacex-starlink-10000-satellites",
+  "BlueOriginNewGlennExplosion": "blue-origin-new-glenn-explosion",
+  "TRexTinyArmsEvolutionarySacrifice": "t-rex-tiny-arms-evolutionary-sacrifice",
+  "Exoplanet_WASP121b_GemstoneRain": "exoplanet-wasp-121b-gemstone-rain",
+  "Red_Dwarf_Stars_Swallowing_Planets": "red-dwarf-stars-swallowing-planets",
+  "M87_Black_Hole_Radiation_Jet_XRay": "m87-black-hole-radiation-jet-xray",
+  "Asteroid_2025_TP5_Close_Approach": "asteroid-2025-tp5-close-approach",
+  "Japan_HTV_X_Cargo_ISS": "japan-htv-x-cargo-iss",
+  "Atlantic_AMOC_Collapse_Risk": "atlantic-amoc-collapse-risk",
+  "Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin": "rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
+  "RocketLabMarsOrbiterProtest": "rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
+  "RocketLabProtestsNASA": "rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
+  "JWST_Chariklo_Asteroid_Ring_Changes": "jwst-chariklo-asteroid-ring-system-changes-discovery",
+  "JWSTCharikloRings": "jwst-chariklo-asteroid-ring-system-changes-discovery",
+  "CharikloRingSystemChanges": "jwst-chariklo-asteroid-ring-system-changes-discovery",
+  "UK_September_Heatwave_Forecast_2026": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
+  "UKSeptemberHeatwaveForecast": "uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
+  "Sun_Swallowed_Super_Earth_Discovery": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
+  "SunSwallowedSuperEarth": "sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
+  "Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score": "apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
+  "AppleWatchSeries12VsWhoopOura": "apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
+  "Massive_Stars_Forming_Binary_System_ALMA_Discovery": "massive-stars-forming-binary-system-alma-breakthrough",
+  "MassiveStarsFormingBinarySystemALMA": "massive-stars-forming-binary-system-alma-breakthrough",
+  "Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "AnthropicResearcherJacobCoxon": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "JacobCoxonAnthropicResignation": "anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+  "PS5_System_Update_14_PSSR_2_Graphics_Upgrade": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
+  "PS5SystemUpdate14PSSR2": "ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
+  "OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
+  "OpenAINavierStokesProof": "openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
+  "IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
+  "IPhone18ProSpecsPriceUpgradeGuide": "iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
+  "IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
+  "IPhone18ProUpgradeGuide": "iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
+  "Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
+  "AnthropicClaudeNavierStokes": "anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
+  "LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw": "lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
+  "LGSmartTVPrivacyInvestigation": "lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
+  "Tim_Cook_Apple_CEO_Transition": "tim-cook-steps-down-john-ternus-new-apple-ceo",
+  "Apple_September_Event_2026_Preview": "apple-september-event-2026-iphone-18-pro-foldable-preview",
+  "AppleSeptemberEvent2026Preview": "apple-september-event-2026-iphone-18-pro-foldable-preview",
+  "LUX_ZEPLIN_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "Lux_Zeplin_Dark_Matter_WIMP_Discovery": "lux-zeplin-dark-matter-wimp-particle-discovery",
+  "Academy_Of_Natural_Sciences_Museum_Closure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+  "AcademyOfNaturalSciencesMuseumClosure": "academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+  "Water_Paint_Coating_Dewpoint": "water-paint-coating-dewpoint",
+  "Wasp_Named_David_Attenborough_Birthday": "wasp-named-david-attenborough",
+  "Tiny_Object_Solar_System_Atmosphere": "tiny-object-solar-system-atmosphere",
+  "Global_Pandemic_Treaty_Delay": "global-pandemic-treaty-delay",
+  "Pluto_Reclassification_Planet_Effort": "pluto-reclassification-planet-effort",
+  "Interstellar_Comet_3I_ATLAS_Origin": "interstellar-comet-3i-atlas-origin",
+  "Giant_Dam_Save_AMOC": "giant-dam-save-amoc",
+  "Scarlet_Fever_Pre_Columbian_America": "scarlet-fever-pre-columbian-america",
+  "Mexican_Government_Data_Theft_AI": "mexican-government-data-theft-ai",
+  "Ohio_Fireball_Meteor_March_2026": "ohio-fireball-meteor-march-2026",
+  "Ohio_Fireball_Meteor_Sonic_Boom_2026": "ohio-fireball-meteor-march-2026",
+  "Artemis_2_Astronauts_Ready_Mission": "artemis-2-astronauts-ready-mission",
+  "Silverpit_Crater_Asteroid_Impact": "silverpit-crater-asteroid-impact",
+  "Prehistoric_Insects_South_America_Amber": "prehistoric-insects-south-america-amber",
+  "Oldest_Mummies_Southeast_Asia": "oldest-mummies-southeast-asia",
+  "Cleopatra_Sunken_Port_Discovery": "cleopatra-sunken-port-discovery",
+  "British_Pilot_Mars_Simulation": "british-pilot-mars-simulation",
+  "Military_Drone_Mother_Ship": "military-drone-mothership",
   "Mars_Life_Discovery": "mars-life-discovery",
-  "New_Marine_Species_Brazil": "new-marine-species-brazil",
+  "Cyanobacteria_Mars_Oxygen": "cyanobacteria-mars-oxygen",
+  "Russia_Enteromix_Vaccine": "russia-enteromix-vaccine",
+  "Changan_Nevo_A06": "changan-nevo-a06",
+  "Atlas_Comet_Confirmation": "atlas-comet",
+  "Comet_Lemmon_Tail_Disruption": "comet-lemmon-tail-disruption",
+  "Mosquitoes_Iceland_Discovery": "mosquitoes-iceland-discovery",
+  "Ryugu_Asteroid_Water_Discovery": "ryugu-asteroid-water-discovery",
+  "Geomagnetic_Storm_Northern_Lights": "geomagnetic-storm-northern-lights",
+  "Mammoth_RNA_Discovery": "mammoth-rna-discovery",
+  "Skydiver_Sun_Photography": "skydiver-sun-photography",
+  "James_Watson_Passing": "james-watson-passing",
+  "Shenzhou_21_Capsule_Mission": "shenzhou-21-capsule-mission",
+  "NASA_Atlas_Comet_Images": "nasa-atlas-comet-images",
+  "Ancient_Crocodile_Ancestor_Discovery": "ancient-crocodile-ancestor-discovery",
+  "Aspirin_Replacement_Clopidogrel": "aspirin-replacement",
+  "China_AR_Helmet": "china-ar-helmet",
+  "Black_Death_Shadow": "black-death",
+  "Space_Plane_Mission": "space-plane",
+  "Uranus_New_Moon_Discovery": "uranus-moon",
+  "Sony_Humanoid_Robots_Weaknesses": "sony-robots",
+  "Orange_Shark_Discovery": "orange-shark",
+  "Dinosaur_Fossil_Crocodile_Bone": "dinosaur-fossil-crocodile-bone",
+  "Nobel_Prize_Medicine_2025": "nobel-prize-medicine-2025",
+  "Nobel_Prize_Physics_2025": "nobel-prize-physics-2025",
+  "Nobel_Prize_Chemistry_2025": "nobel-prize-chemistry-2025",
+  "Celtic_Metal_Coins_Discovery": "celtic-metal-coins-discovery",
+  "volcanic-eruption-prediction-mount-etna": "volcanic-eruption-prediction-mount-etna",
+  "Volcanic_Eruption_Prediction_Mount_Etna": "volcanic-eruption-prediction-mount-etna",
   "Artemis_III_Astronauts_Named": "artemis-3-astronauts-named",
+  "Global_Underground_Fungal_Network_Map_Revealed": "global-underground-fungal-network-map",
+  "MAVEN_Mars_Spacecraft_Final_Journey": "maven-mars-spacecraft-final-journey",
+  "Humpback_Whales_Sound_Discovery": "humpback-whales-sound-discovery",
+  "British_Paralympian_John_McFall_Astronaut": "british-paralympian-john-mcfall-astronaut",
+  "Psyche_Spacecraft_Mars_Gravity_Assist": "psyche-spacecraft-mars-gravity-assist",
+  "Orcas_Ramming_Sunfish": "orcas-ramming-sunfish",
+  "Double_Star_System_Both_Supernovae": "double-star-system-both-supernovae",
+  "Pan_Am_Wreckage_Discovered": "pan-am-wreckage-discovered",
+  "Little_Red_Dots_Early_Universe": "little-red-dots-early-universe",
+  "Earhart_Nikumaroro_Clue": "earhart-nikumaroro-clue",
+  "Jodrell_Bank_Observatory_Risk": "jodrell-bank-observatory-risk",
+  "EarthBlackBoxTasmania": "earth-black-box-tasmania",
+  "Earth_Black_Box_Tasmania": "earth-black-box-tasmania",
+  "NewAirForceOneService": "new-air-force-one",
+  "New_Air_Force_One_Service": "new-air-force-one",
+  "Supernova_Remnant_Milky_Way": "supernova-remnant-milky-way",
+  "Vaquita_Digital_Reconstruction": "vaquita-digital-reconstruction",
+  "ISS_Ocean_Crash_Plan": "iss-ocean-crash-plan",
+  "Euclid_Milky_Way_Center": "euclid-milky-way-center",
+  "New_Marine_Species_Brazil": "new-marine-species-brazil",
+  "Swift_Telescope_Rescue": "swift-telescope-rescue",
+  "Antarctic_Titanosaur_Fossil": "antarctic-titanosaur-fossil",
+  "LHC_Shutdown_Upgrade": "lhc-shutdown-upgrade",
+  "GJ_3378b_Earth_Like_Planet": "gj-3378b-earth-like-planet",
+  "Fermi_Paradox_AI_Explanation": "fermi-paradox-ai-explanation",
+  "Nuclear_Satellite_BOHR": "nuclear-satellite-bohr",
+  "India_Skyroot_Orbital_Rocket": "india-skyroot-orbital-rocket",
+  "Koala_Cryopreservation": "koala-cryopreservation",
+  "First_Space_XRay": "first-space-xray",
+  "US_Space_Force_Meadowlands": "us-space-force-meadowlands",
+  "Pluto_Titan_Mystery_Substance": "pluto-titan-mystery-substance",
+  "Africa_First_Lunar_Mission_China_2029": "africa-first-lunar-mission-china-2029",
+  "Pacific_Ring_Of_Fire_Volcanic_Cooling": "pacific-ring-of-fire-volcanic-cooling",
+  "Dinosaur_Asteroid_Heat_17_Times": "dinosaur-asteroid-heat-17-times",
+  "SpaceX_Rocket_Moon_Crash_2026": "spacex-rocket-moon-crash-2026",
+  "World_Reservoirs_Sedimentation_2060": "world-reservoirs-sedimentation-2060",
+  "Inouye_Solar_Telescope_Clearest_Sun_Images": "inouye-solar-telescope-clearest-sun-images",
+  "Black_Hole_Star_Discovery": "first-ever-black-hole-star-discovered-james-webb-space-telescope",
+  "SpaceX_AI_Starmind_Satellites": "spacex-massive-shift-artificial-intelligence-starmind-satellites-2026",
+  "Total_Solar_Eclipse_Europe_2026": "total-solar-eclipse-august-2026-greenland-iceland-spain",
+  "British_Fossil_Collection_Abu_Dhabi": "british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum",
+  "AI_Designed_Virus_Stanford": "ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026",
+  "Cellular_Health_Science_Longevity_Breakthroughs": "cellular-health-science-longevity-breakthroughs",
+  "Gut_Brain_Connection_Microbiome_Health_Science": "gut-brain-connection-microbiome-health-science",
+  "AI_In_Health_Science_Precision_Medicine": "ai-in-health-science-precision-medicine",
+  "Food_Science_Ultra_Processed_Foods_Metabolic_Health": "food-science-ultra-processed-foods-metabolic-health",
+  "August_2026_Lunar_Eclipse_Blood_Moon_Guide": "august-2026-lunar-eclipse-blood-moon-guide",
+  "Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay": "elon-musk-spacex-starship-flight-14-launch-delay",
+  "Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record": "honor-humanoid-robot-beats-usain-bolt-100m-record",
+  "Apollo_12_Moon_Dust_Camera_Mishap": "apollo-12-moon-dust-camera-mishap-untold-story",
+  "Solar_Flare_Northern_Lights_Geomagnetic_Storm": "solar-flare-northern-lights-geomagnetic-storm-forecast",
+  "NASA_Nancy_Grace_Roman_Telescope_Launch": "nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy",
   "James_Webb_LHS1140b_Biomarkers": "james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b",
-  "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
   "MRNA_Universal_Cancer_Vaccine_Phase3": "mrna-universal-cancer-vaccine-phase-3-trials",
+  "Fault_Tolerant_Quantum_Processor_1000Qubits": "fault-tolerant-quantum-processor-1000-qubits-breakthrough",
   "Perovskite_Silicon_Tandem_Solar_34Percent": "perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
   "Ancient_DNA_Two_Million_Year_Hominin": "ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa",
-  "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security"
+  "Ancient_Supervolcano_Discovered_England_The_Wash": "ancient-supervolcano-discovered-england-the-wash-geology",
+  "Saturn_Decagon_Atmosphere_South_Pole_Discovery": "saturn-decagon-atmosphere-south-pole-discovery",
+  "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
+  "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
+  "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security",
+  "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security"
 };
 
 function getSlug(art) {
@@ -151,6 +250,13 @@ function formatDateForRss(dateStr) {
   const d = new Date(dateStr);
   if (isNaN(d.getTime())) return new Date().toUTCString();
   return d.toUTCString();
+}
+
+function formatDateForNewsXml(dateStr) {
+  if (!dateStr) return new Date().toISOString();
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return new Date().toISOString();
+  return d.toISOString();
 }
 
 function parseArticleObject(content) {
@@ -738,6 +844,43 @@ function generateStaticPages(articlesList) {
           </section>
         </article>
       `
+    },
+    {
+      filePath: 'blog/index.html',
+      canonicalUrl: `${DOMAIN}/blog`,
+      title: 'Science Blog & Research Essays - Daily Science News',
+      description: 'Explore in-depth scientific essays, analysis of cosmological paradoxes, mathematical theory, and scientific methodology.',
+      heading: 'Science Blog & In-Depth Exploration',
+      subheading: 'Long-form editorial reflections, conceptual deep dives, and perspectives on emerging scientific frontiers.',
+      bodyHtml: `
+        <article>
+          <div style="margin-bottom: 2rem;">
+            <p style="font-size: 1.1rem; line-height: 1.8; color: #334155;">
+              Welcome to the Daily Science News editorial essay desk. Beyond our breaking science telemetry, our blog features deep conceptual explorations of mathematics, astrophysics, biotechnology, and scientific history.
+            </p>
+          </div>
+          <div style="display: grid; gap: 1.5rem;">
+            <div style="padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+              <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;"><a href="/blog/prime-numbers-cryptography" style="color: #0284c7; text-decoration: none;">Prime Numbers in Modern Cryptography</a></h2>
+              <p style="color: #475569;">An examination of how prime number distribution safeguards global financial infrastructure and post-quantum cryptographic security.</p>
+              <span style="font-size: 0.85rem; color: #94a3b8;">Published August 12, 2025</span>
+            </div>
+            <div style="padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+              <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;"><a href="/blog/exoplanets-search-life" style="color: #0284c7; text-decoration: none;">The Search for Life on Exoplanets</a></h2>
+              <p style="color: #475569;">Spectroscopic biomarker detection, atmospheric biosignatures, and habitable zones in nearby red dwarf star systems.</p>
+              <span style="font-size: 0.85rem; color: #94a3b8;">Published August 10, 2025</span>
+            </div>
+            <div style="padding: 1.5rem; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+              <h2 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;"><a href="/blog/crispr-gene-editing" style="color: #0284c7; text-decoration: none;">CRISPR Gene Editing Revolutions</a></h2>
+              <p style="color: #475569;">How prime editing, base editing, and CRISPR-Cas9 are rewriting genomic medicine and therapeutic oncology.</p>
+              <span style="font-size: 0.85rem; color: #94a3b8;">Published August 08, 2025</span>
+            </div>
+          </div>
+          <div style="margin-top: 2.5rem; text-align: center;">
+            <a href="/" style="color: #0284c7; font-weight: bold; text-decoration: none;">&larr; Return to All Breaking Science News</a>
+          </div>
+        </article>
+      `
     }
   ];
 
@@ -850,12 +993,21 @@ function main() {
   xml += `</urlset>\n`;
 
   // 2. Generate Google News Sitemap (news-sitemap.xml)
+  // Google News guidelines: Only include articles published within the last 48 hours (or freshest 10 if none)
+  const nowMs = Date.now();
+  const fortyEightHoursMs = 48 * 60 * 60 * 1000;
+  const recentArticles = articlesList.filter(art => {
+    const pubTime = new Date(art.date).getTime();
+    return !isNaN(pubTime) && (nowMs - pubTime) <= fortyEightHoursMs && (nowMs - pubTime) >= -86400000;
+  });
+  const newsArticles = recentArticles.length >= 2 ? recentArticles : articlesList.slice(0, 10);
+
   let newsXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   newsXml += `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n`;
   newsXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
-  for (const art of articlesList.slice(0, 50)) {
+  for (const art of newsArticles) {
     const slug = getSlug(art);
-    const pubDate = formatDateForXml(art.date);
+    const pubDate = formatDateForNewsXml(art.date);
     const imgUrl = art.image || DEFAULT_IMAGE;
     newsXml += `  <url>\n`;
     newsXml += `    <loc>${DOMAIN}/article/${slug}</loc>\n`;
@@ -988,7 +1140,40 @@ function main() {
     articleCount++;
   }
 
-  console.log(`✓ Successfully generated sitemaps, RSS & Feed XMLs, ${staticPages.length} core pages, and ${articleCount} full static article pages for AdSense & Googlebot.`);
+  // 9. Generate Static Redirect HTML for Legacy URLs in LEGACY_SLUG_MAP
+  let redirectCount = 0;
+  for (const [legacySlug, canonicalSlug] of Object.entries(LEGACY_SLUG_MAP)) {
+    if (legacySlug.toLowerCase() === canonicalSlug.toLowerCase()) continue;
+
+    const targetUrl = `${DOMAIN}/article/${canonicalSlug}`;
+    const redirectHtml = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="${targetUrl}" />
+    <meta http-equiv="refresh" content="0; url=${targetUrl}" />
+    <title>Redirecting to ${escapeXml(canonicalSlug)} - Daily Science News</title>
+    <script>window.location.replace("${targetUrl}");</script>
+  </head>
+  <body style="font-family: system-ui, -apple-system, sans-serif; padding: 2rem; text-align: center; color: #334155;">
+    <p>This report has moved to: <a href="${targetUrl}" style="color: #0284c7; font-weight: bold;">${targetUrl}</a>.</p>
+    <p>If you are not redirected automatically, please click the link above.</p>
+  </body>
+</html>`;
+
+    for (const baseDir of targetDirs) {
+      const fullPath = path.join(baseDir, 'article', legacySlug, 'index.html');
+      const parentDir = path.dirname(fullPath);
+      if (!fs.existsSync(parentDir)) {
+        fs.mkdirSync(parentDir, { recursive: true });
+      }
+      fs.writeFileSync(fullPath, redirectHtml, 'utf-8');
+    }
+    redirectCount++;
+  }
+
+  console.log(`✓ Successfully generated sitemaps, RSS & Feed XMLs, ${staticPages.length} core pages, ${articleCount} full static article pages, and ${redirectCount} legacy redirect pages for Googlebot.`);
 }
 
 main();

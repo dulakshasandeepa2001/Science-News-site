@@ -8,7 +8,7 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-25</news:publication_date>
+      <news:publication_date>2026-09-25T18:30:00.000Z</news:publication_date>
       <news:title>The FBI Data Breach Is a Counterintelligence Disaster: ShinyHunters Hack Exposes Secret Hacking Unit, Sensitive Medical Records &amp; Covert Operatives</news:title>
     </news:news>
     <image:image>
@@ -23,7 +23,7 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-21</news:publication_date>
+      <news:publication_date>2026-09-21T18:30:00.000Z</news:publication_date>
       <news:title>TypeSafe Jev AI: The &quot;System One&quot; Model Revolutionizing Agent Decisions (and Prompt Injection Risks)</news:title>
     </news:news>
     <image:image>
@@ -38,7 +38,7 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-19</news:publication_date>
+      <news:publication_date>2026-09-19T18:30:00.000Z</news:publication_date>
       <news:title>Bizarre Deep Sea Creatures Caught Hitchhiking on Giant Sea Spiders in the Deep Blue Sea</news:title>
     </news:news>
     <image:image>
@@ -53,7 +53,7 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-16</news:publication_date>
+      <news:publication_date>2026-09-16T18:30:00.000Z</news:publication_date>
       <news:title>Massive New Moon Crater Discovered by NASA: Inside the &apos;Once-in-a-Century&apos; Asteroid Impact</news:title>
     </news:news>
     <image:image>
@@ -68,12 +68,27 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-15</news:publication_date>
+      <news:publication_date>2026-09-15T18:30:00.000Z</news:publication_date>
       <news:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</news:title>
     </news:news>
     <image:image>
       <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789582160/Martian-Footprints1-1536x1147_m89rsj.webp</image:loc>
       <image:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sciencenewshub.click/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-15T18:30:00.000Z</news:publication_date>
+      <news:title>Rocket Lab Challenges NASA&apos;s $700 Million Mars Orbiter Award to Blue Origin: Inside the High-Stakes GAO Protest</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789539968/Generated_Image_September_16_2026_-_11_53AM_cwfdnl.jpg</image:loc>
+      <image:title>Rocket Lab Challenges NASA&apos;s $700 Million Mars Orbiter Award to Blue Origin: Inside the High-Stakes GAO Protest</image:title>
     </image:image>
   </url>
   <url>
@@ -83,7 +98,7 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-14</news:publication_date>
+      <news:publication_date>2026-09-14T18:30:00.000Z</news:publication_date>
       <news:title>US Confirms Weapons Already Deployed in Orbit: How America&apos;s Secret Space Arsenal Alters Global Warfare</news:title>
     </news:news>
     <image:image>
@@ -98,7 +113,7 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-14</news:publication_date>
+      <news:publication_date>2026-09-14T18:30:00.000Z</news:publication_date>
       <news:title>Quantum Entanglement Confirmed in Z Bosons at the Large Hadron Collider: How CERN Proved Quantum Mechanics at Trillion-Electron-Volt Extremes</news:title>
     </news:news>
     <image:image>
@@ -113,7 +128,7 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-13</news:publication_date>
+      <news:publication_date>2026-09-13T18:30:00.000Z</news:publication_date>
       <news:title>JWST Discovers Chariklo&apos;s Rings Are Changing: How a Tiny Asteroid Upended Solar System Physics</news:title>
     </news:news>
     <image:image>
@@ -128,627 +143,12 @@
         <news:name>Daily Science News</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-12</news:publication_date>
+      <news:publication_date>2026-09-12T18:30:00.000Z</news:publication_date>
       <news:title>When Is the Next Meteor Shower? 6 Celestial Displays Lighting the Sky Before 2027</news:title>
     </news:news>
     <image:image>
       <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789292300/Generated_Image_September_13_2026_-_3_05PM_m3liou.jpg</image:loc>
       <image:title>When Is the Next Meteor Shower? 6 Celestial Displays Lighting the Sky Before 2027</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/dario-amodei-ai-slowdown-warning-plan-anthropic-pace-the-frontier</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12</news:publication_date>
-      <news:title>Dario Amodei Calls for AI Slowdown: Inside Anthropic CEO&apos;s &quot;Pace the Frontier&quot; Plan</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789294440/Generated_Image_September_13_2026_-_3_38PM_qzkpxv.jpg</image:loc>
-      <image:title>Dario Amodei Calls for AI Slowdown: Inside Anthropic CEO&apos;s &quot;Pace the Frontier&quot; Plan</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/uk-september-heatwave-forecast-temperatures-met-office-weather-maps</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11</news:publication_date>
-      <news:title>UK September Heatwave Forecast: Will Temperatures Hit 25°C as Record-Breaking Summer 2026 Lingers?</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789214287/Generated_Image_September_12_2026_-_5_04PM_pxheil.jpg</image:loc>
-      <image:title>UK September Heatwave Forecast: Will Temperatures Hit 25°C as Record-Breaking Summer 2026 Lingers?</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11</news:publication_date>
-      <news:title>Did Our Sun Swallow a Super-Earth? Inside the 4-Billion-Year-Old Cosmic Murder Mystery</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789211268/Generated_Image_September_12_2026_-_4_36PM_1_ildu1a.jpg</image:loc>
-      <image:title>Did Our Sun Swallow a Super-Earth? Inside the 4-Billion-Year-Old Cosmic Murder Mystery</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/massive-stars-forming-binary-system-alma-breakthrough</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09</news:publication_date>
-      <news:title>Massive Stars Forming Binary System Captured in Real Time: How ALMA Uncovered a 60-Year-Old Cosmic Collision</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789055848/Generated_Image_September_10_2026_-_9_25PM_z9mr1s.jpg</image:loc>
-      <image:title>Massive Stars Forming Binary System Captured in Real Time: How ALMA Uncovered a 60-Year-Old Cosmic Collision</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09</news:publication_date>
-      <news:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1789030438/Generated_Image_September_10_2026_-_2_23PM_jgxxwn.jpg</image:loc>
-      <image:title>Why Anthropic Researcher Jacob Coxon Resigned: Inside the Shocking 10% AI Extinction Warning</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-08</news:publication_date>
-      <news:title>OpenAI Claims Solution to Navier-Stokes Millennium Problem: Inside the $1 Million Breakthrough and the Drama Shaking Mathematics</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788921540/Generated_Image_September_09_2026_-_8_06AM_urs15l.jpg</image:loc>
-      <image:title>OpenAI Claims Solution to Navier-Stokes Millennium Problem: Inside the $1 Million Breakthrough and the Drama Shaking Mathematics</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07</news:publication_date>
-      <news:title>Did Claude Solve the Navier-Stokes Millennium Problem? Inside the Viral Rumor and Terence Tao’s Clarification</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788859616/Generated_Image_September_08_2026_-_2_55PM_wprhqz.jpg</image:loc>
-      <image:title>Did Claude Solve the Navier-Stokes Millennium Problem? Inside the Viral Rumor and Terence Tao’s Clarification</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-06</news:publication_date>
-      <news:title>New GPS Model Predicts Where Massive Earthquakes Will Strike: Inside the UC Riverside Breakthrough</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788772396/Generated_Image_September_07_2026_-_2_42PM_arxxme.jpg</image:loc>
-      <image:title>New GPS Model Predicts Where Massive Earthquakes Will Strike: Inside the UC Riverside Breakthrough</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/mathspace-data-breach-australia-new-zealand-students-schools</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-06</news:publication_date>
-      <news:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788774317/Generated_Image_September_07_2026_-_3_14PM_cyekuu.jpg</image:loc>
-      <image:title>Mathspace Data Breach: Over 1 Million Student and School Accounts Exposed in Australia and New Zealand</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ancient-supervolcano-discovered-england-the-wash-geology</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-03</news:publication_date>
-      <news:title>Ancient Supervolcano Discovered Buried Beneath England: Inside the 454-Million-Year Mystery</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788460628/Generated_Image_September_04_2026_-_12_06AM_f9ctvh.jpg</image:loc>
-      <image:title>Ancient Supervolcano Discovered Buried Beneath England: Inside the 454-Million-Year Mystery</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/saturn-decagon-atmosphere-south-pole-discovery</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-03</news:publication_date>
-      <news:title>Astronomers Detect a Giant 10-Sided &apos;Decagon&apos; in Saturn&apos;s Atmosphere</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788461127/Generated_Image_September_04_2026_-_12_15AM_a1etkg.jpg</image:loc>
-      <image:title>Astronomers Detect a Giant 10-Sided &apos;Decagon&apos; in Saturn&apos;s Atmosphere</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-01</news:publication_date>
-      <news:title>James Webb Telescope Detects Potential Biomarkers on Habitable-Zone Super-Earth LHS 1140 b</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>James Webb Telescope Detects Potential Biomarkers on Habitable-Zone Super-Earth LHS 1140 b</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/lux-zeplin-dark-matter-wimp-particle-discovery</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31</news:publication_date>
-      <news:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788286351/Generated_Image_September_01_2026_-_11_38PM_fndxh1.jpg</image:loc>
-      <image:title>First Direct Evidence of Dark Matter? LUX-ZEPLIN Lab Detects Possible WIMP Collision</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31</news:publication_date>
-      <news:title>Philadelphia’s Academy of Natural Sciences Museum to Close After Nearly 200 Years: Inside the Landmark Decision</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788286860/Generated_Image_September_01_2026_-_11_50PM_l6j7dp.jpg</image:loc>
-      <image:title>Philadelphia’s Academy of Natural Sciences Museum to Close After Nearly 200 Years: Inside the Landmark Decision</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/fault-tolerant-quantum-processor-1000-qubits-breakthrough</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31</news:publication_date>
-      <news:title>Fault-Tolerant Quantum Processor Solves Complex Material Simulation in 12 Seconds</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>Fault-Tolerant Quantum Processor Solves Complex Material Simulation in 12 Seconds</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/mrna-universal-cancer-vaccine-phase-3-trials</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31</news:publication_date>
-      <news:title>Revolutionary mRNA Universal Cancer Vaccine Enters Phase 3 Global Clinical Trials</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>Revolutionary mRNA Universal Cancer Vaccine Enters Phase 3 Global Clinical Trials</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30</news:publication_date>
-      <news:title>NASA Nancy Grace Roman Space Telescope Launches to Unravel Dark Energy</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1788163071/Generated_Image_August_31_2026_-_1_26PM_w3m6aq.jpg</image:loc>
-      <image:title>NASA Nancy Grace Roman Space Telescope Launches to Unravel Dark Energy</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/perovskite-silicon-tandem-solar-cells-shatter-efficiency-record</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30</news:publication_date>
-      <news:title>Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1545208942-e1c9c916524b?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>Perovskite-Silicon Tandem Solar Cells Shatter 34% Efficiency Record in Commercial Field Trials</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-29</news:publication_date>
-      <news:title>Ancient DNA Extracted from 2-Million-Year-Old Fossil Reveals Unknown Human Ancestor Lineage in Africa</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>Ancient DNA Extracted from 2-Million-Year-Old Fossil Reveals Unknown Human Ancestor Lineage in Africa</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/solar-flare-northern-lights-geomagnetic-storm-forecast</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26</news:publication_date>
-      <news:title>Solar Flare Sparks Northern Lights: When and Where to Watch the Upcoming Aurora Display</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787852831/Generated_Image_August_27_2026_-_11_12PM_dukdgw.jpg</image:loc>
-      <image:title>Solar Flare Sparks Northern Lights: When and Where to Watch the Upcoming Aurora Display</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/apollo-12-moon-dust-camera-mishap-untold-story</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-23</news:publication_date>
-      <news:title>The Wild Reality of Apollo 12: Broken TV Cameras, Gunpowder Scent, and Toxic Moon Dust</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787544141/Generated_Image_August_24_2026_-_9_29AM_iwol7b.jpg</image:loc>
-      <image:title>The Wild Reality of Apollo 12: Broken TV Cameras, Gunpowder Scent, and Toxic Moon Dust</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/honor-humanoid-robot-beats-usain-bolt-100m-record</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-22</news:publication_date>
-      <news:title>Humanoid Robot Smashes Usain Bolt&apos;s 100m World Record: How Chinese AI Sprinters Are Outrunning Humans</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787488799/Generated_Image_August_23_2026_-_6_08PM_d0q9tk.jpg</image:loc>
-      <image:title>Humanoid Robot Smashes Usain Bolt&apos;s 100m World Record: How Chinese AI Sprinters Are Outrunning Humans</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/august-2026-lunar-eclipse-blood-moon-guide</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>Blood Moon Alert: August 27–28, 2026 Lunar Eclipse Guide for North America</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787335006/Generated_Image_August_21_2026_-_11_25PM_fpkcwz.jpg</image:loc>
-      <image:title>Blood Moon Alert: August 27–28, 2026 Lunar Eclipse Guide for North America</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/elon-musk-spacex-starship-flight-14-launch-delay</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-21</news:publication_date>
-      <news:title>Elon Musk Scales Back SpaceX Starship Launch Plans: Why the Flight 14 Catch Was Delayed</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://res.cloudinary.com/dib0fble7/image/upload/v1787400165/Generated_Image_August_22_2026_-_5_31PM_nlxuk2.jpg</image:loc>
-      <image:title>Elon Musk Scales Back SpaceX Starship Launch Plans: Why the Flight 14 Catch Was Delayed</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/cellular-health-science-longevity-breakthroughs</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>Cellular Rejuvenation and Longevity: What Health Science Tells Us About Slowing Aging</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>Cellular Rejuvenation and Longevity: What Health Science Tells Us About Slowing Aging</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/food-science-ultra-processed-foods-metabolic-health</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>Ultra-Processed Foods vs Metabolic Health: Insights from Recent Food Science Studies</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>Ultra-Processed Foods vs Metabolic Health: Insights from Recent Food Science Studies</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ai-in-health-science-precision-medicine</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>How AI Is Transforming Health Science: From Early Disease Detection to Precision Medicine</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/gut-brain-connection-microbiome-health-science</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>The Gut-Brain Connection: How Modern Food and Health Science Explain Mental Well-Being</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>The Gut-Brain Connection: How Modern Food and Health Science Explain Mental Well-Being</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/first-ever-black-hole-star-discovered-james-webb-space-telescope</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16</news:publication_date>
-      <news:title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/Black-Hole-Star-Hed.webp</image:loc>
-      <image:title>First-Ever Black Hole Star Discovered by James Webb Space Telescope</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13</news:publication_date>
-      <news:title>SpaceX Gears Up for a Massive Shift Into Artificial Intelligence with Starmind Satellite Network</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/gSbSdisEFG8AZZ2kTdJGBV-scaled.jpg</image:loc>
-      <image:title>SpaceX Gears Up for a Massive Shift Into Artificial Intelligence with Starmind Satellite Network</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/total-solar-eclipse-august-2026-greenland-iceland-spain</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-11</news:publication_date>
-      <news:title>Total Solar Eclipse August 2026 Crosses Greenland, Iceland, and Spain</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/260805-eclipse-texas-nasa-ch-1252-a1b785.webp</image:loc>
-      <image:title>Total Solar Eclipse August 2026 Crosses Greenland, Iceland, and Spain</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>One of Britain&apos;s Finest Jurassic Fossil Collections Sold to Abu Dhabi Natural History Museum</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/2585-ezgif.com-avif-to-jpg-converter.jpg</image:loc>
-      <image:title>One of Britain&apos;s Finest Jurassic Fossil Collections Sold to Abu Dhabi Natural History Museum</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-09</news:publication_date>
-      <news:title>Artificial Intelligence Used to Create a Virus for the First Time in Stanford University Breakthrough</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&amp;fit=crop&amp;w=1200&amp;q=80</image:loc>
-      <image:title>Artificial Intelligence Used to Create a Virus for the First Time in Stanford University Breakthrough</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/inouye-solar-telescope-clearest-sun-images</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-06</news:publication_date>
-      <news:title>World&apos;s Most Powerful Solar Telescope Releases Clearest-Ever Images of the Sun&apos;s Surface</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/main-inouye-image-horizontal.jpg</image:loc>
-      <image:title>World&apos;s Most Powerful Solar Telescope Releases Clearest-Ever Images of the Sun&apos;s Surface</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/world-reservoirs-sedimentation-2060</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05</news:publication_date>
-      <news:title>More Than Half the World&apos;s Reservoirs Face Inactivation by 2060 Due to Sedimentation Crisis</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/Longtan_Dam1.jpg</image:loc>
-      <image:title>More Than Half the World&apos;s Reservoirs Face Inactivation by 2060 Due to Sedimentation Crisis</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/spacex-rocket-moon-crash-2026</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04</news:publication_date>
-      <news:title>SpaceX Falcon 9 Upper Stage Crashes Into the Moon — Creating a 27-Meter Crater</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/images.jpg</image:loc>
-      <image:title>SpaceX Falcon 9 Upper Stage Crashes Into the Moon — Creating a 27-Meter Crater</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/dinosaur-asteroid-heat-17-times</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-03</news:publication_date>
-      <news:title>Dinosaur-Killing Asteroid Impact Released Heat 17 Times Greater Than Maximum Human Tolerance, New Study Reveals</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/08/081524_cg_ruthenium-asteroid_feat.webp</image:loc>
-      <image:title>Dinosaur-Killing Asteroid Impact Released Heat 17 Times Greater Than Maximum Human Tolerance, New Study Reveals</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/pacific-ring-of-fire-volcanic-cooling</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30</news:publication_date>
-      <news:title>Volcanic Eruptions in the Pacific Ring of Fire Have Been Cooling the Earth for Centuries</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/sarychev-volcano.jpg</image:loc>
-      <image:title>Volcanic Eruptions in the Pacific Ring of Fire Have Been Cooling the Earth for Centuries</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/africa-first-lunar-mission-china-2029</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29</news:publication_date>
-      <news:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/Mt8chLNrnBSHAWv4t6PbMA.jpg</image:loc>
-      <image:title>Africa&apos;s First Lunar Mission to Be Carried to the Moon by China in 2029</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/little-red-dots-early-universe</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26</news:publication_date>
-      <news:title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/VxT2dht5HNYDRBgk6bYeKR.png</image:loc>
-      <image:title>What Are the Mysterious &apos;Little Red Dots&apos; from the Early Universe?</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/double-star-system-both-supernovae</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21</news:publication_date>
-      <news:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://www.vidusara.lk/wp-content/uploads/2026/07/k8P7EueKPxAydxj6mGvTGP.jpg</image:loc>
-      <image:title>Double Star System Where Both Stars Exploded as Supernovae Discovered for the First Time</image:title>
     </image:image>
   </url>
 </urlset>

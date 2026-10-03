@@ -35,4 +35,5 @@ const floridaPantherArticle = {
   }
 };
 
+export { floridaPantherArticle };
 export default floridaPantherArticle;
