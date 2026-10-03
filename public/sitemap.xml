@@ -94,7 +94,13 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (147 Curated Articles) -->
+  <!-- Published Scientific Articles & Research Reports (148 Curated Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/beta-pictoris-b-first-radio-signal-exoplanet-magnetic-field</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records</loc>
     <lastmod>2026-09-25</lastmod>

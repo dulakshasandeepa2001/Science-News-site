@@ -313,9 +313,16 @@ function parseCuratedArticles() {
 
       // Extract image if URL string
       let image = parsedObj.image;
-      if (!image || typeof image !== 'string' || !image.startsWith('http')) {
+      if (image && typeof image === 'string' && image.startsWith('/')) {
+        image = DOMAIN + image;
+      } else if (!image || typeof image !== 'string' || !image.startsWith('http')) {
         const imgMatch = content.match(/image:\s*["'](https?:\/\/[^"']+)["']/);
-        image = imgMatch ? imgMatch[1] : DEFAULT_IMAGE;
+        if (imgMatch) {
+          image = imgMatch[1];
+        } else {
+          const relImgMatch = content.match(/image:\s*["'](\/[^"']+)["']/);
+          image = relImgMatch ? (DOMAIN + relImgMatch[1]) : DEFAULT_IMAGE;
+        }
       }
 
       const articleObj = {
