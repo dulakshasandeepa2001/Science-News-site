@@ -4,6 +4,7 @@
 // Strict Quality & E-E-A-T AdSense Compliance (Zero Thin / Placeholder Content)
 // ============================================================================
 
+import { Cybersecurity_Tips_2026_AI_Voice_Cloning_Deepfake_Verification } from "./articles/Cybersecurity_Tips_2026_AI_Voice_Cloning_Deepfake_Verification.js";
 import { Beta_Pictoris_b_First_Radio_Signal_Exoplanet } from "./articles/Beta_Pictoris_b_First_Radio_Signal_Exoplanet.js";
 import { FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters } from "./articles/FBI_Data_Breach_Counterintelligence_Disaster_ShinyHunters.js";
 import { TypeSafe_Jev_AI_System_One_Model_Agent_Decisions } from "./articles/TypeSafe_Jev_AI_System_One_Model_Agent_Decisions.js";
@@ -159,6 +160,9 @@ import { zombieVirusArticle as art_Zombie_Virus_Rabbits } from "./articles/Zombi
 
 // Export the curated collection of comprehensive, authoritative articles
 export const articles = [
+  // Trending October 5, 2026 Cybersecurity Awareness Month Feature
+  Cybersecurity_Tips_2026_AI_Voice_Cloning_Deepfake_Verification,
+
   // Breaking October 3, 2026 Space & Astrophysics Milestone
   Beta_Pictoris_b_First_Radio_Signal_Exoplanet,
 
