@@ -94,7 +94,13 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Published Scientific Articles & Research Reports (149 Curated Articles) -->
+  <!-- Published Scientific Articles & Research Reports (150 Curated Articles) -->
+  <url>
+    <loc>https://sciencenewshub.click/article/first-evidence-second-generation-planet-dead-star-white-dwarf</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://sciencenewshub.click/article/cybersecurity-tips-2026-ai-voice-cloning-deepfake-verification</loc>
     <lastmod>2026-10-04</lastmod>
