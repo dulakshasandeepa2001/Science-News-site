@@ -111,5 +111,907 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/article/1",
+      "destination": "/article/spacecraft-black-hole-journey",
+      "permanent": true
+    },
+    {
+      "source": "/article/2",
+      "destination": "/article/einstein-ring-black-hole",
+      "permanent": true
+    },
+    {
+      "source": "/article/3",
+      "destination": "/article/brain-shortcut-weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/article/4",
+      "destination": "/article/dna-sequencing-breakthrough",
+      "permanent": true
+    },
+    {
+      "source": "/article/5",
+      "destination": "/article/ai-discovers-new-materials",
+      "permanent": true
+    },
+    {
+      "source": "/article/6",
+      "destination": "/article/quantum-internet-milestone",
+      "permanent": true
+    },
+    {
+      "source": "/article/7",
+      "destination": "/article/carbon-capture-technology",
+      "permanent": true
+    },
+    {
+      "source": "/article/8",
+      "destination": "/article/ancient-forest-under-arctic-ice",
+      "permanent": true
+    },
+    {
+      "source": "/article/9",
+      "destination": "/article/quantum-computing-error-correction",
+      "permanent": true
+    },
+    {
+      "source": "/article/10",
+      "destination": "/article/florida-panther-habitat-expansion",
+      "permanent": true
+    },
+    {
+      "source": "/article/11",
+      "destination": "/article/florida-panther-habitat-expansion",
+      "permanent": true
+    },
+    {
+      "source": "/article/12",
+      "destination": "/article/zombie-virus-rabbits-study",
+      "permanent": true
+    },
+    {
+      "source": "/article/13",
+      "destination": "/article/sony-robots",
+      "permanent": true
+    },
+    {
+      "source": "/article/14",
+      "destination": "/article/orange-shark",
+      "permanent": true
+    },
+    {
+      "source": "/article/15",
+      "destination": "/article/british-paralympian-john-mcfall-astronaut",
+      "permanent": true
+    },
+    {
+      "source": "/article/16",
+      "destination": "/article/aspirin-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/article/20",
+      "destination": "/article/changan-nevo-a06",
+      "permanent": true
+    },
+    {
+      "source": "/article/21",
+      "destination": "/article/russia-enteromix-vaccine",
+      "permanent": true
+    },
+    {
+      "source": "/article/22",
+      "destination": "/article/cyanobacteria-mars-oxygen",
+      "permanent": true
+    },
+    {
+      "source": "/article/23",
+      "destination": "/article/mars-life-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/24",
+      "destination": "/article/military-drone-mothership",
+      "permanent": true
+    },
+    {
+      "source": "/article/25",
+      "destination": "/article/british-pilot-mars-simulation",
+      "permanent": true
+    },
+    {
+      "source": "/article/26",
+      "destination": "/article/oldest-mummies-southeast-asia",
+      "permanent": true
+    },
+    {
+      "source": "/article/MoonBaseI_BlueOriginMission",
+      "destination": "/article/moon-base-1-blue-origin-mission",
+      "permanent": true
+    },
+    {
+      "source": "/article/SpaceX_Starlink_10000_Satellites",
+      "destination": "/article/spacex-starlink-10000-satellites",
+      "permanent": true
+    },
+    {
+      "source": "/article/BlueOriginNewGlennExplosion",
+      "destination": "/article/blue-origin-new-glenn-explosion",
+      "permanent": true
+    },
+    {
+      "source": "/article/TRexTinyArmsEvolutionarySacrifice",
+      "destination": "/article/t-rex-tiny-arms-evolutionary-sacrifice",
+      "permanent": true
+    },
+    {
+      "source": "/article/Exoplanet_WASP121b_GemstoneRain",
+      "destination": "/article/exoplanet-wasp-121b-gemstone-rain",
+      "permanent": true
+    },
+    {
+      "source": "/article/Red_Dwarf_Stars_Swallowing_Planets",
+      "destination": "/article/red-dwarf-stars-swallowing-planets",
+      "permanent": true
+    },
+    {
+      "source": "/article/M87_Black_Hole_Radiation_Jet_XRay",
+      "destination": "/article/m87-black-hole-radiation-jet-xray",
+      "permanent": true
+    },
+    {
+      "source": "/article/Asteroid_2025_TP5_Close_Approach",
+      "destination": "/article/asteroid-2025-tp5-close-approach",
+      "permanent": true
+    },
+    {
+      "source": "/article/Japan_HTV_X_Cargo_ISS",
+      "destination": "/article/japan-htv-x-cargo-iss",
+      "permanent": true
+    },
+    {
+      "source": "/article/Atlantic_AMOC_Collapse_Risk",
+      "destination": "/article/atlantic-amoc-collapse-risk",
+      "permanent": true
+    },
+    {
+      "source": "/article/Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin",
+      "destination": "/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
+      "permanent": true
+    },
+    {
+      "source": "/article/RocketLabMarsOrbiterProtest",
+      "destination": "/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
+      "permanent": true
+    },
+    {
+      "source": "/article/RocketLabProtestsNASA",
+      "destination": "/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin",
+      "permanent": true
+    },
+    {
+      "source": "/article/JWST_Chariklo_Asteroid_Ring_Changes",
+      "destination": "/article/jwst-chariklo-asteroid-ring-system-changes-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/JWSTCharikloRings",
+      "destination": "/article/jwst-chariklo-asteroid-ring-system-changes-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/CharikloRingSystemChanges",
+      "destination": "/article/jwst-chariklo-asteroid-ring-system-changes-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/UK_September_Heatwave_Forecast_2026",
+      "destination": "/article/uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
+      "permanent": true
+    },
+    {
+      "source": "/article/UKSeptemberHeatwaveForecast",
+      "destination": "/article/uk-september-heatwave-forecast-temperatures-met-office-weather-maps",
+      "permanent": true
+    },
+    {
+      "source": "/article/Sun_Swallowed_Super_Earth_Discovery",
+      "destination": "/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/SunSwallowedSuperEarth",
+      "destination": "/article/sun-swallowed-super-earth-planet-chemical-fingerprint-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score",
+      "destination": "/article/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
+      "permanent": true
+    },
+    {
+      "source": "/article/AppleWatchSeries12VsWhoopOura",
+      "destination": "/article/apple-watch-series-12-vs-whoop-oura-readiness-score-health-sensing",
+      "permanent": true
+    },
+    {
+      "source": "/article/Massive_Stars_Forming_Binary_System_ALMA_Discovery",
+      "destination": "/article/massive-stars-forming-binary-system-alma-breakthrough",
+      "permanent": true
+    },
+    {
+      "source": "/article/MassiveStarsFormingBinarySystemALMA",
+      "destination": "/article/massive-stars-forming-binary-system-alma-breakthrough",
+      "permanent": true
+    },
+    {
+      "source": "/article/Anthropic_Researcher_Jacob_Coxon_Resigns_AI_Extinction",
+      "destination": "/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+      "permanent": true
+    },
+    {
+      "source": "/article/AnthropicResearcherJacobCoxon",
+      "destination": "/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+      "permanent": true
+    },
+    {
+      "source": "/article/JacobCoxonAnthropicResignation",
+      "destination": "/article/anthropic-researcher-jacob-coxon-resigns-ai-extinction-warning",
+      "permanent": true
+    },
+    {
+      "source": "/article/PS5_System_Update_14_PSSR_2_Graphics_Upgrade",
+      "destination": "/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
+      "permanent": true
+    },
+    {
+      "source": "/article/PS5SystemUpdate14PSSR2",
+      "destination": "/article/ps5-system-update-14-pssr-2-graphics-upgrade-ps5-pro-2tb",
+      "permanent": true
+    },
+    {
+      "source": "/article/OpenAI_Navier_Stokes_Millennium_Problem_Lean_Proof",
+      "destination": "/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
+      "permanent": true
+    },
+    {
+      "source": "/article/OpenAINavierStokesProof",
+      "destination": "/article/openai-solves-navier-stokes-millennium-problem-lean-proof-controversy",
+      "permanent": true
+    },
+    {
+      "source": "/article/IPhone_18_Pro_Specs_Price_Upgrade_Guide_Foldable_Anniversary",
+      "destination": "/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
+      "permanent": true
+    },
+    {
+      "source": "/article/IPhone18ProSpecsPriceUpgradeGuide",
+      "destination": "/article/iphone-18-pro-specs-price-upgrade-guide-foldable-anniversary",
+      "permanent": true
+    },
+    {
+      "source": "/article/IPhone_18_Pro_Upgrade_Guide_Foldable_IPhone_20",
+      "destination": "/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
+      "permanent": true
+    },
+    {
+      "source": "/article/IPhone18ProUpgradeGuide",
+      "destination": "/article/iphone-18-pro-upgrade-guide-foldable-iphone-20-preview",
+      "permanent": true
+    },
+    {
+      "source": "/article/Anthropic_Claude_Navier_Stokes_Terence_Tao_Rumor",
+      "destination": "/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
+      "permanent": true
+    },
+    {
+      "source": "/article/AnthropicClaudeNavierStokes",
+      "destination": "/article/anthropic-claude-navier-stokes-millennium-problem-rumor-terence-tao",
+      "permanent": true
+    },
+    {
+      "source": "/article/LG_Smart_TV_Standby_Audio_Recording_Privacy_Flaw",
+      "destination": "/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
+      "permanent": true
+    },
+    {
+      "source": "/article/LGSmartTVPrivacyInvestigation",
+      "destination": "/article/lg-smart-tv-standby-audio-recording-home-network-snooping-gamers-nexus",
+      "permanent": true
+    },
+    {
+      "source": "/article/Tim_Cook_Apple_CEO_Transition",
+      "destination": "/article/tim-cook-steps-down-john-ternus-new-apple-ceo",
+      "permanent": true
+    },
+    {
+      "source": "/article/Apple_September_Event_2026_Preview",
+      "destination": "/article/apple-september-event-2026-iphone-18-pro-foldable-preview",
+      "permanent": true
+    },
+    {
+      "source": "/article/AppleSeptemberEvent2026Preview",
+      "destination": "/article/apple-september-event-2026-iphone-18-pro-foldable-preview",
+      "permanent": true
+    },
+    {
+      "source": "/article/LUX_ZEPLIN_Dark_Matter_WIMP_Discovery",
+      "destination": "/article/lux-zeplin-dark-matter-wimp-particle-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Lux_Zeplin_Dark_Matter_WIMP_Discovery",
+      "destination": "/article/lux-zeplin-dark-matter-wimp-particle-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Academy_Of_Natural_Sciences_Museum_Closure",
+      "destination": "/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+      "permanent": true
+    },
+    {
+      "source": "/article/AcademyOfNaturalSciencesMuseumClosure",
+      "destination": "/article/academy-of-natural-sciences-drexel-museum-closure-philadelphia",
+      "permanent": true
+    },
+    {
+      "source": "/article/Water_Paint_Coating_Dewpoint",
+      "destination": "/article/water-paint-coating-dewpoint",
+      "permanent": true
+    },
+    {
+      "source": "/article/Wasp_Named_David_Attenborough_Birthday",
+      "destination": "/article/wasp-named-david-attenborough",
+      "permanent": true
+    },
+    {
+      "source": "/article/Tiny_Object_Solar_System_Atmosphere",
+      "destination": "/article/tiny-object-solar-system-atmosphere",
+      "permanent": true
+    },
+    {
+      "source": "/article/Global_Pandemic_Treaty_Delay",
+      "destination": "/article/global-pandemic-treaty-delay",
+      "permanent": true
+    },
+    {
+      "source": "/article/Pluto_Reclassification_Planet_Effort",
+      "destination": "/article/pluto-reclassification-planet-effort",
+      "permanent": true
+    },
+    {
+      "source": "/article/Interstellar_Comet_3I_ATLAS_Origin",
+      "destination": "/article/interstellar-comet-3i-atlas-origin",
+      "permanent": true
+    },
+    {
+      "source": "/article/Giant_Dam_Save_AMOC",
+      "destination": "/article/giant-dam-save-amoc",
+      "permanent": true
+    },
+    {
+      "source": "/article/Scarlet_Fever_Pre_Columbian_America",
+      "destination": "/article/scarlet-fever-pre-columbian-america",
+      "permanent": true
+    },
+    {
+      "source": "/article/Mexican_Government_Data_Theft_AI",
+      "destination": "/article/mexican-government-data-theft-ai",
+      "permanent": true
+    },
+    {
+      "source": "/article/Ohio_Fireball_Meteor_March_2026",
+      "destination": "/article/ohio-fireball-meteor-march-2026",
+      "permanent": true
+    },
+    {
+      "source": "/article/Ohio_Fireball_Meteor_Sonic_Boom_2026",
+      "destination": "/article/ohio-fireball-meteor-march-2026",
+      "permanent": true
+    },
+    {
+      "source": "/article/Artemis_2_Astronauts_Ready_Mission",
+      "destination": "/article/artemis-2-astronauts-ready-mission",
+      "permanent": true
+    },
+    {
+      "source": "/article/Silverpit_Crater_Asteroid_Impact",
+      "destination": "/article/silverpit-crater-asteroid-impact",
+      "permanent": true
+    },
+    {
+      "source": "/article/Prehistoric_Insects_South_America_Amber",
+      "destination": "/article/prehistoric-insects-south-america-amber",
+      "permanent": true
+    },
+    {
+      "source": "/article/Oldest_Mummies_Southeast_Asia",
+      "destination": "/article/oldest-mummies-southeast-asia",
+      "permanent": true
+    },
+    {
+      "source": "/article/Cleopatra_Sunken_Port_Discovery",
+      "destination": "/article/cleopatra-sunken-port-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/British_Pilot_Mars_Simulation",
+      "destination": "/article/british-pilot-mars-simulation",
+      "permanent": true
+    },
+    {
+      "source": "/article/Military_Drone_Mother_Ship",
+      "destination": "/article/military-drone-mothership",
+      "permanent": true
+    },
+    {
+      "source": "/article/Mars_Life_Discovery",
+      "destination": "/article/mars-life-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Cyanobacteria_Mars_Oxygen",
+      "destination": "/article/cyanobacteria-mars-oxygen",
+      "permanent": true
+    },
+    {
+      "source": "/article/Russia_Enteromix_Vaccine",
+      "destination": "/article/russia-enteromix-vaccine",
+      "permanent": true
+    },
+    {
+      "source": "/article/Changan_Nevo_A06",
+      "destination": "/article/changan-nevo-a06",
+      "permanent": true
+    },
+    {
+      "source": "/article/Atlas_Comet_Confirmation",
+      "destination": "/article/atlas-comet",
+      "permanent": true
+    },
+    {
+      "source": "/article/Comet_Lemmon_Tail_Disruption",
+      "destination": "/article/comet-lemmon-tail-disruption",
+      "permanent": true
+    },
+    {
+      "source": "/article/Mosquitoes_Iceland_Discovery",
+      "destination": "/article/mosquitoes-iceland-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Ryugu_Asteroid_Water_Discovery",
+      "destination": "/article/ryugu-asteroid-water-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Geomagnetic_Storm_Northern_Lights",
+      "destination": "/article/geomagnetic-storm-northern-lights",
+      "permanent": true
+    },
+    {
+      "source": "/article/Mammoth_RNA_Discovery",
+      "destination": "/article/mammoth-rna-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Skydiver_Sun_Photography",
+      "destination": "/article/skydiver-sun-photography",
+      "permanent": true
+    },
+    {
+      "source": "/article/James_Watson_Passing",
+      "destination": "/article/james-watson-passing",
+      "permanent": true
+    },
+    {
+      "source": "/article/Shenzhou_21_Capsule_Mission",
+      "destination": "/article/shenzhou-21-capsule-mission",
+      "permanent": true
+    },
+    {
+      "source": "/article/NASA_Atlas_Comet_Images",
+      "destination": "/article/nasa-atlas-comet-images",
+      "permanent": true
+    },
+    {
+      "source": "/article/Ancient_Crocodile_Ancestor_Discovery",
+      "destination": "/article/ancient-crocodile-ancestor-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Aspirin_Replacement_Clopidogrel",
+      "destination": "/article/aspirin-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/article/China_AR_Helmet",
+      "destination": "/article/china-ar-helmet",
+      "permanent": true
+    },
+    {
+      "source": "/article/Black_Death_Shadow",
+      "destination": "/article/black-death",
+      "permanent": true
+    },
+    {
+      "source": "/article/Space_Plane_Mission",
+      "destination": "/article/space-plane",
+      "permanent": true
+    },
+    {
+      "source": "/article/Uranus_New_Moon_Discovery",
+      "destination": "/article/uranus-moon",
+      "permanent": true
+    },
+    {
+      "source": "/article/Sony_Humanoid_Robots_Weaknesses",
+      "destination": "/article/sony-robots",
+      "permanent": true
+    },
+    {
+      "source": "/article/Orange_Shark_Discovery",
+      "destination": "/article/orange-shark",
+      "permanent": true
+    },
+    {
+      "source": "/article/Dinosaur_Fossil_Crocodile_Bone",
+      "destination": "/article/dinosaur-fossil-crocodile-bone",
+      "permanent": true
+    },
+    {
+      "source": "/article/Nobel_Prize_Medicine_2025",
+      "destination": "/article/nobel-prize-medicine-2025",
+      "permanent": true
+    },
+    {
+      "source": "/article/Nobel_Prize_Physics_2025",
+      "destination": "/article/nobel-prize-physics-2025",
+      "permanent": true
+    },
+    {
+      "source": "/article/Nobel_Prize_Chemistry_2025",
+      "destination": "/article/nobel-prize-chemistry-2025",
+      "permanent": true
+    },
+    {
+      "source": "/article/Celtic_Metal_Coins_Discovery",
+      "destination": "/article/celtic-metal-coins-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/Volcanic_Eruption_Prediction_Mount_Etna",
+      "destination": "/article/volcanic-eruption-prediction-mount-etna",
+      "permanent": true
+    },
+    {
+      "source": "/article/Artemis_III_Astronauts_Named",
+      "destination": "/article/artemis-3-astronauts-named",
+      "permanent": true
+    },
+    {
+      "source": "/article/Global_Underground_Fungal_Network_Map_Revealed",
+      "destination": "/article/global-underground-fungal-network-map",
+      "permanent": true
+    },
+    {
+      "source": "/article/MAVEN_Mars_Spacecraft_Final_Journey",
+      "destination": "/article/maven-mars-spacecraft-final-journey",
+      "permanent": true
+    },
+    {
+      "source": "/article/Humpback_Whales_Sound_Discovery",
+      "destination": "/article/humpback-whales-sound-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/British_Paralympian_John_McFall_Astronaut",
+      "destination": "/article/british-paralympian-john-mcfall-astronaut",
+      "permanent": true
+    },
+    {
+      "source": "/article/Psyche_Spacecraft_Mars_Gravity_Assist",
+      "destination": "/article/psyche-spacecraft-mars-gravity-assist",
+      "permanent": true
+    },
+    {
+      "source": "/article/Orcas_Ramming_Sunfish",
+      "destination": "/article/orcas-ramming-sunfish",
+      "permanent": true
+    },
+    {
+      "source": "/article/Double_Star_System_Both_Supernovae",
+      "destination": "/article/double-star-system-both-supernovae",
+      "permanent": true
+    },
+    {
+      "source": "/article/Pan_Am_Wreckage_Discovered",
+      "destination": "/article/pan-am-wreckage-discovered",
+      "permanent": true
+    },
+    {
+      "source": "/article/Little_Red_Dots_Early_Universe",
+      "destination": "/article/little-red-dots-early-universe",
+      "permanent": true
+    },
+    {
+      "source": "/article/Earhart_Nikumaroro_Clue",
+      "destination": "/article/earhart-nikumaroro-clue",
+      "permanent": true
+    },
+    {
+      "source": "/article/Jodrell_Bank_Observatory_Risk",
+      "destination": "/article/jodrell-bank-observatory-risk",
+      "permanent": true
+    },
+    {
+      "source": "/article/EarthBlackBoxTasmania",
+      "destination": "/article/earth-black-box-tasmania",
+      "permanent": true
+    },
+    {
+      "source": "/article/Earth_Black_Box_Tasmania",
+      "destination": "/article/earth-black-box-tasmania",
+      "permanent": true
+    },
+    {
+      "source": "/article/NewAirForceOneService",
+      "destination": "/article/new-air-force-one",
+      "permanent": true
+    },
+    {
+      "source": "/article/New_Air_Force_One_Service",
+      "destination": "/article/new-air-force-one",
+      "permanent": true
+    },
+    {
+      "source": "/article/Supernova_Remnant_Milky_Way",
+      "destination": "/article/supernova-remnant-milky-way",
+      "permanent": true
+    },
+    {
+      "source": "/article/Vaquita_Digital_Reconstruction",
+      "destination": "/article/vaquita-digital-reconstruction",
+      "permanent": true
+    },
+    {
+      "source": "/article/ISS_Ocean_Crash_Plan",
+      "destination": "/article/iss-ocean-crash-plan",
+      "permanent": true
+    },
+    {
+      "source": "/article/Euclid_Milky_Way_Center",
+      "destination": "/article/euclid-milky-way-center",
+      "permanent": true
+    },
+    {
+      "source": "/article/New_Marine_Species_Brazil",
+      "destination": "/article/new-marine-species-brazil",
+      "permanent": true
+    },
+    {
+      "source": "/article/Swift_Telescope_Rescue",
+      "destination": "/article/swift-telescope-rescue",
+      "permanent": true
+    },
+    {
+      "source": "/article/Antarctic_Titanosaur_Fossil",
+      "destination": "/article/antarctic-titanosaur-fossil",
+      "permanent": true
+    },
+    {
+      "source": "/article/LHC_Shutdown_Upgrade",
+      "destination": "/article/lhc-shutdown-upgrade",
+      "permanent": true
+    },
+    {
+      "source": "/article/GJ_3378b_Earth_Like_Planet",
+      "destination": "/article/gj-3378b-earth-like-planet",
+      "permanent": true
+    },
+    {
+      "source": "/article/Fermi_Paradox_AI_Explanation",
+      "destination": "/article/fermi-paradox-ai-explanation",
+      "permanent": true
+    },
+    {
+      "source": "/article/Nuclear_Satellite_BOHR",
+      "destination": "/article/nuclear-satellite-bohr",
+      "permanent": true
+    },
+    {
+      "source": "/article/India_Skyroot_Orbital_Rocket",
+      "destination": "/article/india-skyroot-orbital-rocket",
+      "permanent": true
+    },
+    {
+      "source": "/article/Koala_Cryopreservation",
+      "destination": "/article/koala-cryopreservation",
+      "permanent": true
+    },
+    {
+      "source": "/article/First_Space_XRay",
+      "destination": "/article/first-space-xray",
+      "permanent": true
+    },
+    {
+      "source": "/article/US_Space_Force_Meadowlands",
+      "destination": "/article/us-space-force-meadowlands",
+      "permanent": true
+    },
+    {
+      "source": "/article/Pluto_Titan_Mystery_Substance",
+      "destination": "/article/pluto-titan-mystery-substance",
+      "permanent": true
+    },
+    {
+      "source": "/article/Africa_First_Lunar_Mission_China_2029",
+      "destination": "/article/africa-first-lunar-mission-china-2029",
+      "permanent": true
+    },
+    {
+      "source": "/article/Pacific_Ring_Of_Fire_Volcanic_Cooling",
+      "destination": "/article/pacific-ring-of-fire-volcanic-cooling",
+      "permanent": true
+    },
+    {
+      "source": "/article/Dinosaur_Asteroid_Heat_17_Times",
+      "destination": "/article/dinosaur-asteroid-heat-17-times",
+      "permanent": true
+    },
+    {
+      "source": "/article/SpaceX_Rocket_Moon_Crash_2026",
+      "destination": "/article/spacex-rocket-moon-crash-2026",
+      "permanent": true
+    },
+    {
+      "source": "/article/World_Reservoirs_Sedimentation_2060",
+      "destination": "/article/world-reservoirs-sedimentation-2060",
+      "permanent": true
+    },
+    {
+      "source": "/article/Inouye_Solar_Telescope_Clearest_Sun_Images",
+      "destination": "/article/inouye-solar-telescope-clearest-sun-images",
+      "permanent": true
+    },
+    {
+      "source": "/article/Black_Hole_Star_Discovery",
+      "destination": "/article/first-ever-black-hole-star-discovered-james-webb-space-telescope",
+      "permanent": true
+    },
+    {
+      "source": "/article/SpaceX_AI_Starmind_Satellites",
+      "destination": "/article/spacex-massive-shift-artificial-intelligence-starmind-satellites-2026",
+      "permanent": true
+    },
+    {
+      "source": "/article/Total_Solar_Eclipse_Europe_2026",
+      "destination": "/article/total-solar-eclipse-august-2026-greenland-iceland-spain",
+      "permanent": true
+    },
+    {
+      "source": "/article/British_Fossil_Collection_Abu_Dhabi",
+      "destination": "/article/british-jurassic-coast-fossil-collection-sold-abu-dhabi-natural-history-museum",
+      "permanent": true
+    },
+    {
+      "source": "/article/AI_Designed_Virus_Stanford",
+      "destination": "/article/ai-creates-virus-first-time-stanford-university-bacteriophage-breakthrough-2026",
+      "permanent": true
+    },
+    {
+      "source": "/article/Cellular_Health_Science_Longevity_Breakthroughs",
+      "destination": "/article/cellular-health-science-longevity-breakthroughs",
+      "permanent": true
+    },
+    {
+      "source": "/article/Gut_Brain_Connection_Microbiome_Health_Science",
+      "destination": "/article/gut-brain-connection-microbiome-health-science",
+      "permanent": true
+    },
+    {
+      "source": "/article/AI_In_Health_Science_Precision_Medicine",
+      "destination": "/article/ai-in-health-science-precision-medicine",
+      "permanent": true
+    },
+    {
+      "source": "/article/Food_Science_Ultra_Processed_Foods_Metabolic_Health",
+      "destination": "/article/food-science-ultra-processed-foods-metabolic-health",
+      "permanent": true
+    },
+    {
+      "source": "/article/August_2026_Lunar_Eclipse_Blood_Moon_Guide",
+      "destination": "/article/august-2026-lunar-eclipse-blood-moon-guide",
+      "permanent": true
+    },
+    {
+      "source": "/article/Elon_Musk_SpaceX_Starship_Flight_14_Launch_Delay",
+      "destination": "/article/elon-musk-spacex-starship-flight-14-launch-delay",
+      "permanent": true
+    },
+    {
+      "source": "/article/Honor_Humanoid_Robot_Beats_Usain_Bolt_100m_Record",
+      "destination": "/article/honor-humanoid-robot-beats-usain-bolt-100m-record",
+      "permanent": true
+    },
+    {
+      "source": "/article/Apollo_12_Moon_Dust_Camera_Mishap",
+      "destination": "/article/apollo-12-moon-dust-camera-mishap-untold-story",
+      "permanent": true
+    },
+    {
+      "source": "/article/Solar_Flare_Northern_Lights_Geomagnetic_Storm",
+      "destination": "/article/solar-flare-northern-lights-geomagnetic-storm-forecast",
+      "permanent": true
+    },
+    {
+      "source": "/article/NASA_Nancy_Grace_Roman_Telescope_Launch",
+      "destination": "/article/nasa-nancy-grace-roman-space-telescope-launch-falcon-heavy",
+      "permanent": true
+    },
+    {
+      "source": "/article/James_Webb_LHS1140b_Biomarkers",
+      "destination": "/article/james-webb-telescope-detects-biomarkers-super-earth-lhs-1140b",
+      "permanent": true
+    },
+    {
+      "source": "/article/MRNA_Universal_Cancer_Vaccine_Phase3",
+      "destination": "/article/mrna-universal-cancer-vaccine-phase-3-trials",
+      "permanent": true
+    },
+    {
+      "source": "/article/Fault_Tolerant_Quantum_Processor_1000Qubits",
+      "destination": "/article/fault-tolerant-quantum-processor-1000-qubits-breakthrough",
+      "permanent": true
+    },
+    {
+      "source": "/article/Perovskite_Silicon_Tandem_Solar_34Percent",
+      "destination": "/article/perovskite-silicon-tandem-solar-cells-shatter-efficiency-record",
+      "permanent": true
+    },
+    {
+      "source": "/article/Ancient_DNA_Two_Million_Year_Hominin",
+      "destination": "/article/ancient-dna-2-million-year-fossil-unknown-human-ancestor-africa",
+      "permanent": true
+    },
+    {
+      "source": "/article/Ancient_Supervolcano_Discovered_England_The_Wash",
+      "destination": "/article/ancient-supervolcano-discovered-england-the-wash-geology",
+      "permanent": true
+    },
+    {
+      "source": "/article/Saturn_Decagon_Atmosphere_South_Pole_Discovery",
+      "destination": "/article/saturn-decagon-atmosphere-south-pole-discovery",
+      "permanent": true
+    },
+    {
+      "source": "/article/New_Earthquake_Prediction_Model_UC_Riverside",
+      "destination": "/article/new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
+      "permanent": true
+    },
+    {
+      "source": "/article/Mathspace_Data_Breach_Australia_NZ",
+      "destination": "/article/mathspace-data-breach-australia-new-zealand-students-schools",
+      "permanent": true
+    },
+    {
+      "source": "/article/TypeSafe_Jev_AI_System_One_Model_Agent_Decisions",
+      "destination": "/article/typesafe-jev-ai-system-one-model-agent-decisions-security",
+      "permanent": true
+    },
+    {
+      "source": "/article/typesafe-jev-ai",
+      "destination": "/article/typesafe-jev-ai-system-one-model-agent-decisions-security",
+      "permanent": true
+    },
+    {
+      "source": "/article/Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209",
+      "destination": "/article/first-evidence-second-generation-planet-dead-star-white-dwarf",
+      "permanent": true
+    }
   ]
 }
