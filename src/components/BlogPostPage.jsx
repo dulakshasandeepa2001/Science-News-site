@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button.jsx';
 import { Card, CardContent } from '@/components/ui/card.jsx';
@@ -7,11 +7,13 @@ import { blogs } from '../data/blogsCollection.js';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import SEOHead from './SEOHead.jsx';
+import NotFoundPage from './NotFoundPage.jsx';
 
 const BlogPostPage = () => {
   const { blogId } = useParams();
   const navigate = useNavigate();
   const [blog, setBlog] = useState(null);
+  const [isNotFound, setIsNotFound] = useState(false);
   const [copied, setCopied] = useState(false);
   
   useEffect(() => {
@@ -20,10 +22,12 @@ const BlogPostPage = () => {
       if (foundBlog) {
         setBlog(foundBlog);
       } else {
-        navigate('/blog');
+        setIsNotFound(true);
       }
+    } else {
+      setIsNotFound(true);
     }
-  }, [blogId, navigate]);
+  }, [blogId]);
 
   const handleCopyLink = () => {
     if (navigator.clipboard) {
@@ -32,6 +36,10 @@ const BlogPostPage = () => {
       setTimeout(() => setCopied(false), 2000);
     }
   };
+
+  if (isNotFound) {
+    return <NotFoundPage />;
+  }
 
   if (!blog) {
     return (

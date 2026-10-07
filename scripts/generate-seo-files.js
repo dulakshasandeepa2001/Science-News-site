@@ -358,17 +358,8 @@ function parseCuratedArticles() {
   return articlesList;
 }
 
-function parseBlogFiles() {
-  return [
-    { id: 'prime-numbers-cryptography', title: 'Prime Numbers in Modern Cryptography', date: 'August 12, 2025' },
-    { id: 'exoplanets-search-life', title: 'The Search for Life on Exoplanets', date: 'August 10, 2025' },
-    { id: 'crispr-gene-editing', title: 'CRISPR Gene Editing Revolutions', date: 'August 08, 2025' }
-  ];
-}
-
 function main() {
   const articlesList = parseCuratedArticles();
-  const blogsList = parseBlogFiles();
   const categories = ['space', 'physics', 'technology', 'health', 'biology', 'environment', 'archaeology', 'mathematics'];
   const today = new Date().toISOString().split('T')[0];
 
@@ -382,7 +373,6 @@ function main() {
   xml += `  <url>\n    <loc>${DOMAIN}/privacy-policy</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/terms</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/disclaimer</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
-  xml += `  <url>\n    <loc>${DOMAIN}/blog</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
 
   xml += `\n  <!-- Category Hubs -->\n`;
   for (const cat of categories) {
@@ -399,11 +389,6 @@ function main() {
     xml += `    <changefreq>monthly</changefreq>\n`;
     xml += `    <priority>0.8</priority>\n`;
     xml += `  </url>\n`;
-  }
-
-  xml += `\n  <!-- Blog Posts -->\n`;
-  for (const blog of blogsList) {
-    xml += `  <url>\n    <loc>${DOMAIN}/blog/${blog.id}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
   }
   xml += `</urlset>\n`;
 
@@ -449,15 +434,12 @@ function main() {
     const pubDate = formatDateForXml(art.date);
     postXml += `  <url>\n    <loc>${DOMAIN}/article/${slug}</loc>\n    <lastmod>${pubDate}</lastmod>\n  </url>\n`;
   }
-  for (const blog of blogsList) {
-    postXml += `  <url>\n    <loc>${DOMAIN}/blog/${blog.id}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`;
-  }
   postXml += `</urlset>\n`;
 
   // 4. Generate Page Sitemap (page-sitemap.xml)
   let pageXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   pageXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  const corePages = ['', 'about', 'contact', 'privacy-policy', 'terms', 'disclaimer', 'blog'];
+  const corePages = ['', 'about', 'contact', 'privacy-policy', 'terms', 'disclaimer'];
   for (const p of corePages) {
     const url = p ? `${DOMAIN}/${p}` : `${DOMAIN}/`;
     pageXml += `  <url>\n    <loc>${url}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`;

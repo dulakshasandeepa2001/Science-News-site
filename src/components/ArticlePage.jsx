@@ -52,10 +52,6 @@ const ArticlePage = ({ article: propArticle }) => {
       const foundArticle = findArticleBySlugOrId(articles, targetSlug);
       if (foundArticle) {
         setArticle(foundArticle);
-        const canonicalSlug = getArticleSlug(foundArticle);
-        if (articleId && articleId !== canonicalSlug) {
-          navigate(`/article/${canonicalSlug}`, { replace: true });
-        }
       } else {
         setIsNotFound(true);
       }
