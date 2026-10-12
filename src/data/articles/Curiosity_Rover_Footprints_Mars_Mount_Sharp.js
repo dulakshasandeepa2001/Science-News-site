@@ -1,7 +1,7 @@
-const CuriosityFootprintsHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789582160/Martian-Footprints1-1536x1147_m89rsj.webp";
-const CuriosityRoverValleGrandeImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789582166/Generated_Image_September_16_2026_-_11_34PM_epacyq.jpg";
-const CuriosityChemCamLaserImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789582158/Generated_Image_September_16_2026_-_11_35PM_oy8lsx.jpg";
-const CuriosityBedRockElevationImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789582147/Generated_Image_September_16_2026_-_11_36PM_y6vttt.jpg";
+const CuriosityFootprintsHeroImage = "https://sciencenewshub.click/assets/images/curiosity-rover-footprints-mars-mount-sharp.webp";
+const CuriosityRoverValleGrandeImage = "https://sciencenewshub.click/assets/images/curiosity-rover-footprints-mars-mount-sharp.webp";
+const CuriosityChemCamLaserImage = "https://sciencenewshub.click/assets/images/curiosity-rover-footprints-mars-mount-sharp.webp";
+const CuriosityBedRockElevationImage = "https://sciencenewshub.click/assets/images/curiosity-rover-footprints-mars-mount-sharp.webp";
 
 export const Curiosity_Rover_Footprints_Mars_Mount_Sharp = {
   id: "Curiosity_Rover_Footprints_Mars_Mount_Sharp",

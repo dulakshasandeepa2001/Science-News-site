@@ -5,7 +5,7 @@ export const When_Is_The_Next_Meteor_Shower_2026_Calendar = {
   seoTitle: "When Is the Next Meteor Shower? 2026 Fall & Winter Skywatching Calendar",
   category: "Space",
   date: "September 13, 2026",
-  image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789292300/Generated_Image_September_13_2026_-_3_05PM_m3liou.jpg",
+  image: "https://sciencenewshub.click/assets/images/when-is-the-next-meteor-shower-2026-calendar.webp",
   readTime: "8 min read",
   author: "Astrophysics & Skywatching Editorial Staff",
   summary: "Wondering if there is a meteor shower tonight? While the August Perseids have concluded, the final four months of 2026 deliver an extraordinary sequence of night sky events: six major meteor showers, Halley's Orionids, Taurid fireballs, the 120/hr Geminids under moonless skies, a four-planet alignment, and the Beaver Supermoon.",
@@ -57,7 +57,7 @@ From the fireball-rich Taurid twins to the prolific Geminids—which arrive unde
       },
       {
         title: "2. October: The Early Draconids and Halley's Orionids",
-        image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789292295/Generated_Image_September_13_2026_-_3_06PM_le5p8c.jpg",
+        image: "https://sciencenewshub.click/assets/images/when-is-the-next-meteor-shower-2026-calendar.webp",
         imageAlt: "Vibrant shooting stars from the Orionid meteor shower streaking across the autumn night sky near the constellation Orion",
         imageCaption: "Fast Orionid meteors produced by debris from Halley's Comet leave persistent glowing ionization trails across the constellation Orion.",
         content: `October initiates the primary meteor season with two contrasting displays: one best viewed at sunset, and the other originating from the most famous comet in astronomical history.
@@ -95,7 +95,7 @@ Beyond shooting stars, November features two additional sky milestones:
       },
       {
         title: "4. December: The Marquee Geminids and the Solstice Ursids",
-        image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789292274/Generated_Image_September_13_2026_-_3_06PM_1_a9ggkl.jpg",
+        image: "https://sciencenewshub.click/assets/images/when-is-the-next-meteor-shower-2026-calendar.webp",
         imageAlt: "Prolific Geminid meteor shower producing 120 meteors per hour under dark rural skies in December",
         imageCaption: "The Geminids deliver up to 120 multicolored shooting stars per hour, crowned the king of annual meteor showers under moonless skies.",
         content: `December delivers the most active meteor shower of the entire year, concluding with a display timed alongside the Winter Solstice.

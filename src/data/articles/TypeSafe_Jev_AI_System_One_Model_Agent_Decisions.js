@@ -1,4 +1,4 @@
-const HeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1790083744/Generated_Image_September_22_2026_-_6_55PM_g9v1os.jpg";
+const HeroImage = "https://sciencenewshub.click/assets/images/typesafe-jev-ai-system-one-model-agent-decisions.webp";
 
 export const TypeSafe_Jev_AI_System_One_Model_Agent_Decisions = {
   id: "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions",

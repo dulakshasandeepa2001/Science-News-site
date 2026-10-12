@@ -1,6 +1,6 @@
-const RocketLabMarsHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789539968/Generated_Image_September_16_2026_-_11_53AM_cwfdnl.jpg";
-const BlueOriginBlueRingMarsImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789539964/Generated_Image_September_16_2026_-_11_54AM_lng1ou.jpg";
-const DeepSpaceMissionControlImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789539959/Generated_Image_September_16_2026_-_11_54AM_1_wadwtx.jpg";
+const RocketLabMarsHeroImage = "https://sciencenewshub.click/assets/images/rocket-lab-protests-nasa-mars-orbiter.webp";
+const BlueOriginBlueRingMarsImage = "https://sciencenewshub.click/assets/images/rocket-lab-protests-nasa-mars-orbiter.webp";
+const DeepSpaceMissionControlImage = "https://sciencenewshub.click/assets/images/rocket-lab-protests-nasa-mars-orbiter.webp";
 
 export const Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin = {
   id: "Rocket_Lab_Protests_NASA_Mars_Orbiter_Blue_Origin",

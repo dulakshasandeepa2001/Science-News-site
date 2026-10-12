@@ -1,6 +1,6 @@
-const JWSTCharikloHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789388867/Generated_Image_September_14_2026_-_5_56PM_dxbcph.jpg";
-const JWSTCharikloOccultationImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789388858/Generated_Image_September_14_2026_-_5_55PM_bgmdki.jpg";
-const JWSTCharikloShepherdMoonImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789388847/Generated_Image_September_14_2026_-_5_55PM_1_btcbqv.jpg";
+const JWSTCharikloHeroImage = "https://sciencenewshub.click/assets/images/jwst-chariklo-asteroid-rings-ice-discovery.webp";
+const JWSTCharikloOccultationImage = "https://sciencenewshub.click/assets/images/jwst-chariklo-asteroid-rings-ice-discovery.webp";
+const JWSTCharikloShepherdMoonImage = "https://sciencenewshub.click/assets/images/jwst-chariklo-asteroid-rings-ice-discovery.webp";
 
 export const JWST_Chariklo_Asteroid_Ring_Changes = {
   id: "JWST_Chariklo_Asteroid_Ring_Changes",

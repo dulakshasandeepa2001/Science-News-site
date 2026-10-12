@@ -5,7 +5,7 @@ export const Apple_Watch_Series_12_Vs_Whoop_Oura_Readiness_Score = {
   seoTitle: "Apple Watch Series 12 vs Whoop & Oura: Readiness Score & S11 Chip",
   category: "Technology",
   date: "September 11, 2026",
-  image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789098235/Generated_Image_September_11_2026_-_9_12AM_yoyunn.jpg",
+  image: "https://sciencenewshub.click/assets/images/apple-watch-series-12-vs-whoop-oura-readiness.webp",
   readTime: "8 min read",
   author: "Wearable Technology & Biometrics Strategy Desk",
   summary: "Apple has officially unveiled the Apple Watch Series 12, powered by the breakthrough S11 processor and an all-new Health Sensing System. By introducing 5-second continuous heart-rate tracking, a 0-10 daily Readiness Score, and clinical Quest Diagnostics lab integration with no monthly subscription fees, Apple takes direct aim at Whoop and Oura.",
@@ -58,7 +58,7 @@ Pre-orders for the Apple Watch Series 12 open immediately starting at $399, with
       },
       {
         title: "Daily Readiness Score, Biological Health Age & Quest Diagnostics Lab Integration",
-        image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789098220/Generated_Image_September_11_2026_-_9_12AM_1_sdw5cx.jpg",
+        image: "https://sciencenewshub.click/assets/images/apple-watch-series-12-vs-whoop-oura-readiness.webp",
         imageAlt: "Apple Watch Series 12 displaying 0-10 Daily Readiness Score and Longevity Health Age dashboard",
         imageCaption: "The all-new Daily Readiness Score on watchOS 27 benchmarks training strain, overnight vitals, and HRV trends into an intuitive 0-10 recovery index.",
         content: `To directly counter Whoop's Recovery Score and Oura's Readiness Index, Apple developed its proprietary Readiness Score using longitudinal data gathered from over 500,000 participants in the Apple Heart and Movement Study in partnership with cardiologists and exercise physiologists.

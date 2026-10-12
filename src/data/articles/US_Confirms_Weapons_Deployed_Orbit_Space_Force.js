@@ -1,6 +1,6 @@
-const SpaceWeaponsHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789479237/Generated_Image_September_15_2026_-_6_58PM_hpolp5.jpg";
-const SpaceWeaponsTechDiagramImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789479230/Generated_Image_September_15_2026_-_6_59PM_yckoey.jpg";
-const SpaceWeaponsDeterrenceImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789479224/Generated_Image_September_15_2026_-_7_02PM_sou2jc.jpg";
+const SpaceWeaponsHeroImage = "https://sciencenewshub.click/assets/images/us-confirms-weapons-deployed-orbit-space-force.webp";
+const SpaceWeaponsTechDiagramImage = "https://sciencenewshub.click/assets/images/us-confirms-weapons-deployed-orbit-space-force.webp";
+const SpaceWeaponsDeterrenceImage = "https://sciencenewshub.click/assets/images/us-confirms-weapons-deployed-orbit-space-force.webp";
 
 export const US_Confirms_Weapons_Deployed_Orbit_Space_Force = {
   id: "US_Confirms_Weapons_Deployed_Orbit_Space_Force",

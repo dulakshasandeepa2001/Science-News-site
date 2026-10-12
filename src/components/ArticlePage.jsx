@@ -270,6 +270,10 @@ const ArticlePage = ({ article: propArticle }) => {
                       className="w-full h-auto max-h-[480px] object-cover"
                       loading="lazy"
                       referrerPolicy="no-referrer"
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = fallbackLabImage;
+                      }}
                     />
                     {section.imageCaption && (
                       <figcaption className="text-xs text-muted-foreground bg-muted/50 px-4 py-2.5 border-t">

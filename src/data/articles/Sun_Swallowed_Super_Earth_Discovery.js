@@ -1,6 +1,6 @@
-const SunSwallowedSuperEarthHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789211268/Generated_Image_September_12_2026_-_4_36PM_1_ildu1a.jpg";
-const SunSwallowedSuperEarthConvectionImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789211431/Generated_Image_September_12_2026_-_4_39PM_cfuv0r.jpg";
-const SunSwallowedSuperEarthOrbitImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789211306/Generated_Image_September_12_2026_-_4_37PM_fbixuq.jpg";
+const SunSwallowedSuperEarthHeroImage = "https://sciencenewshub.click/assets/images/sun-swallowed-super-earth-planetary-cannibalism.webp";
+const SunSwallowedSuperEarthConvectionImage = "https://sciencenewshub.click/assets/images/sun-swallowed-super-earth-planetary-cannibalism.webp";
+const SunSwallowedSuperEarthOrbitImage = "https://sciencenewshub.click/assets/images/sun-swallowed-super-earth-planetary-cannibalism.webp";
 
 export const Sun_Swallowed_Super_Earth_Discovery = {
   id: "Sun_Swallowed_Super_Earth_Discovery",

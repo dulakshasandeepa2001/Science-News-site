@@ -1,8 +1,8 @@
-const HeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789894760/Generated_Image_September_20_2026_-_2_26PM_r9f5s7.jpg";
+const HeroImage = "https://sciencenewshub.click/assets/images/deep-sea-creatures-hitchhiking-giant-sea-spiders.webp";
 const MidArticleImage = "https://www.sciencealert.com/images/2026/09/whee.jpg";
 const SpecimenImage = "https://www.sciencealert.com/images/2026/09/hitchers.jpg";
 const ScienceAlertHeroImage = "https://www.sciencealert.com/images/2026/09/Tiny-amphipods-clinging-to-the-limbs-of-a-giant-sea-spider.jpg";
-const SecondaryCloudinary = "https://res.cloudinary.com/dib0fble7/image/upload/v1789894755/Generated_Image_September_20_2026_-_2_27PM_wu5kqj.jpg";
+const SecondaryCloudinary = "https://sciencenewshub.click/assets/images/deep-sea-creatures-hitchhiking-giant-sea-spiders.webp";
 
 export const Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders = {
   id: "Deep_Sea_Creatures_Hitchhiking_Giant_Sea_Spiders",

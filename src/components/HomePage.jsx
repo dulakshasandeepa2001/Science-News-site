@@ -3,6 +3,7 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import NewsCard from './NewsCard.jsx';
 import SEOHead from './SEOHead.jsx';
+import fallbackLabImage from '../assets/lab.jpg';
 import { articles } from '../data/articlesCollection.js';
 import { getArticleLink } from '../lib/article-utils.js';
 import { 
@@ -137,6 +138,10 @@ const HomePage = () => {
                   alt={heroStory.title}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   loading="eager"
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = fallbackLabImage;
+                  }}
                 />
               </div>
             </div>

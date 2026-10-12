@@ -1,6 +1,6 @@
-const PlayStationSettlementHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789319130/Generated_Image_September_13_2026_-_10_27PM_wxtbiy.jpg";
-const PlayStationMarketplaceImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789319102/Generated_Image_September_13_2026_-_10_28PM_wz9nxj.jpg";
-const PlayStationDeactivatedClaimImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789318896/Generated_Image_September_13_2026_-_10_30PM_jzanl1.jpg";
+const PlayStationSettlementHeroImage = "https://sciencenewshub.click/assets/images/sony-playstation-store-credit-settlement.webp";
+const PlayStationMarketplaceImage = "https://sciencenewshub.click/assets/images/sony-playstation-store-credit-settlement.webp";
+const PlayStationDeactivatedClaimImage = "https://sciencenewshub.click/assets/images/sony-playstation-store-credit-settlement.webp";
 
 export const Sony_PlayStation_Store_Credit_Settlement = {
   id: "Sony_PlayStation_Store_Credit_Settlement",

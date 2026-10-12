@@ -1,5 +1,5 @@
-const CERNCollisionHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789481053/Generated_Image_September_15_2026_-_7_24PM_vgxiun.jpg";
-const QuantumEntanglementDecayImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789481042/Generated_Image_September_15_2026_-_7_32PM_trplj7.jpg";
+const CERNCollisionHeroImage = "https://sciencenewshub.click/assets/images/quantum-entanglement-z-bosons-cern-atlas.webp";
+const QuantumEntanglementDecayImage = "https://sciencenewshub.click/assets/images/quantum-entanglement-z-bosons-cern-atlas.webp";
 
 export const Quantum_Entanglement_Z_Bosons_CERN_ATLAS = {
   id: "Quantum_Entanglement_Z_Bosons_CERN_ATLAS",

@@ -1,6 +1,6 @@
-const HeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789657455/Generated_Image_September_17_2026_-_8_27PM_aal2qh.jpg";
-const CraterGeologyImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789657451/Generated_Image_September_17_2026_-_8_27PM_1_setwiv.jpg";
-const LROSpacecraftImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789657449/Generated_Image_September_17_2026_-_8_27PM_2_wsbnys.jpg";
+const HeroImage = "https://sciencenewshub.click/assets/images/massive-new-moon-crater-discovered-nasa-lro.webp";
+const CraterGeologyImage = "https://sciencenewshub.click/assets/images/massive-new-moon-crater-discovered-nasa-lro.webp";
+const LROSpacecraftImage = "https://sciencenewshub.click/assets/images/massive-new-moon-crater-discovered-nasa-lro.webp";
 
 export const Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin = {
   id: "Massive_New_Moon_Crater_Discovered_NASA_LRO_McGetchin",

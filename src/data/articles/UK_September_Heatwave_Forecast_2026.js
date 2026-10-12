@@ -1,5 +1,5 @@
-const UKHeatwaveHeroImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789214287/Generated_Image_September_12_2026_-_5_04PM_pxheil.jpg";
-const UKHeatwaveMapImage = "https://res.cloudinary.com/dib0fble7/image/upload/v1789214271/Generated_Image_September_12_2026_-_5_08PM_db4w2y.jpg";
+const UKHeatwaveHeroImage = "https://sciencenewshub.click/assets/images/uk-september-heatwave-forecast-2026.webp";
+const UKHeatwaveMapImage = "https://sciencenewshub.click/assets/images/uk-september-heatwave-forecast-2026.webp";
 
 export const UK_September_Heatwave_Forecast_2026 = {
   id: "UK_September_Heatwave_Forecast_2026",

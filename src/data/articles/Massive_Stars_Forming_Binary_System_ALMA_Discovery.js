@@ -5,7 +5,7 @@ export const Massive_Stars_Forming_Binary_System_ALMA_Discovery = {
   seoTitle: "Massive Stars Forming Binary System Captured by ALMA in Historic First",
   category: "Space",
   date: "September 10, 2026",
-  image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789055848/Generated_Image_September_10_2026_-_9_25PM_z9mr1s.jpg",
+  image: "https://sciencenewshub.click/assets/images/massive-stars-forming-binary-system-alma.webp",
   readTime: "8 min read",
   author: "Astrophysics & Space Science Editorial Staff",
   summary: "In an unprecedented astrophysical milestone that challenges textbook models of stellar evolution, international astronomers using the ALMA radio telescope array have directly observed massive stars forming a binary system in real time within protostellar system IRAS 07299−1651, revealing a chaotic cosmic collision that occurred just 60 years ago.",
@@ -41,7 +41,7 @@ When an international team of astrophysicists turned the high-resolution eyes of
       },
       {
         title: "Reconstructing 3D Motion Across 8 Years of Multi-Wavelength Observations",
-        image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789055843/Generated_Image_September_10_2026_-_9_26PM_ykuvzy.jpg",
+        image: "https://sciencenewshub.click/assets/images/massive-stars-forming-binary-system-alma.webp",
         imageAlt: "ALMA 3D orbital reconstruction of massive infant stars forming a binary system with misaligned accretion disks and supersonic plasma jets",
         imageCaption: "Artist representation and ALMA millimeter interferometry visualization demonstrating the chaotic gravitational encounter and misaligned accretion disks within IRAS 07299−1651.",
         content: `To unravel why the stellar accretion disks were violently misaligned, researchers embarked on an intensive eight-year observation campaign (2016–2024), orchestrating a global fleet of cutting-edge ground and space telescopes:
@@ -66,7 +66,7 @@ Remarkably, despite the violent gravitational tidal forces experienced during th
       },
       {
         title: "Accretion Disks, High-Speed Plasma Jets, and Shock Dynamics",
-        image: "https://res.cloudinary.com/dib0fble7/image/upload/v1789056053/Generated_Image_September_10_2026_-_9_30PM_vmia1a.jpg",
+        image: "https://sciencenewshub.click/assets/images/massive-stars-forming-binary-system-alma.webp",
         imageAlt: "High-speed relativistic plasma jets and misaligned accretion disks radiating intense shockwaves in massive binary star system IRAS 07299−1651",
         imageCaption: "Astrophysical simulation detailing supersonic bipolar plasma jets and shockwave turbulence driven by misaligned accretion disks during the close gravitational encounter.",
         content: `The multi-wavelength observations provided unprecedented insight into how massive protostars behave when subjected to extreme gravitational disturbances. 
