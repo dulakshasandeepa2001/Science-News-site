@@ -204,6 +204,11 @@ const LEGACY_SLUG_MAP = {
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "Tesla_Roadster_Flying_Car_Reality": "tesla-roadster-flying-car-reality-engineering-breakdown",
+  "tesla-roadster-flying-car": "tesla-roadster-flying-car-reality-engineering-breakdown",
+  "tesla-roadster-flying": "tesla-roadster-flying-car-reality-engineering-breakdown",
+  "tesla-roadster": "tesla-roadster-flying-car-reality-engineering-breakdown",
+  "technology/tesla-roadster-flying-car-reality-engineering-breakdown": "tesla-roadster-flying-car-reality-engineering-breakdown",
   "tech/typesafe-jev-ai-system-one-model-agent-decisions-security": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "technology/typesafe-jev-ai-system-one-model-agent-decisions-security": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",

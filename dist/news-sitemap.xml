@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/tesla-roadster-flying-car-reality-engineering-breakdown</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T18:30:00.000Z</news:publication_date>
+      <news:title>Can the Tesla Roadster Actually Fly? The Engineering, Physics, and Market Reality Behind Elon Musk&apos;s Demo</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/images/elon_pinocchio_tesla_lie.jpg</image:loc>
+      <image:title>Can the Tesla Roadster Actually Fly? The Engineering, Physics, and Market Reality Behind Elon Musk&apos;s Demo</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/first-evidence-second-generation-planet-dead-star-white-dwarf</loc>
     <news:news>
       <news:publication>
@@ -134,21 +149,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/images/rocket-lab-protests-nasa-mars-orbiter.webp</image:loc>
       <image:title>Rocket Lab Challenges NASA&apos;s $700 Million Mars Orbiter Award to Blue Origin: Inside the High-Stakes GAO Protest</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/us-confirms-weapons-deployed-orbit-space-force-troy-meink</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T18:30:00.000Z</news:publication_date>
-      <news:title>US Confirms Weapons Already Deployed in Orbit: How America&apos;s Secret Space Arsenal Alters Global Warfare</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/us-confirms-weapons-deployed-orbit-space-force.webp</image:loc>
-      <image:title>US Confirms Weapons Already Deployed in Orbit: How America&apos;s Secret Space Arsenal Alters Global Warfare</image:title>
     </image:image>
   </url>
 </urlset>
