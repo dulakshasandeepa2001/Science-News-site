@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-19T18:30:00.000Z</news:publication_date>
+      <news:title>Inside the Radical Plan to Turn San Francisco&apos;s Shuttered Downtown Mall into an AI Data Center and Urban Living Lab</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/images/sf_mall_ai_data_center_hero.jpg</image:loc>
+      <image:title>Inside the Radical Plan to Turn San Francisco&apos;s Shuttered Downtown Mall into an AI Data Center and Urban Living Lab</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/tesla-roadster-flying-car-reality-engineering-breakdown</loc>
     <news:news>
       <news:publication>
@@ -134,21 +149,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/images/curiosity-rover-footprints-mars-mount-sharp.webp</image:loc>
       <image:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/rocket-lab-protests-nasa-700m-mars-orbiter-contract-blue-origin</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T18:30:00.000Z</news:publication_date>
-      <news:title>Rocket Lab Challenges NASA&apos;s $700 Million Mars Orbiter Award to Blue Origin: Inside the High-Stakes GAO Protest</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/rocket-lab-protests-nasa-mars-orbiter.webp</image:loc>
-      <image:title>Rocket Lab Challenges NASA&apos;s $700 Million Mars Orbiter Award to Blue Origin: Inside the High-Stakes GAO Protest</image:title>
     </image:image>
   </url>
 </urlset>

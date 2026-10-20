@@ -204,7 +204,8 @@ const LEGACY_SLUG_MAP = {
   "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
   "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
-  "Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209": "first-evidence-second-generation-planet-dead-star-white-dwarf"
+  "Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209": "first-evidence-second-generation-planet-dead-star-white-dwarf",
+  "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy"
 };
 
 function getSlug(art) {

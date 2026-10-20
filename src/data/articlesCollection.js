@@ -4,6 +4,7 @@
 // Strict Quality & E-E-A-T AdSense Compliance (Zero Thin / Placeholder Content)
 // ============================================================================
 
+import { San_Francisco_Mall_AI_Data_Center_Controversy } from "./articles/San_Francisco_Mall_AI_Data_Center_Controversy.js";
 import { Tesla_Roadster_Flying_Car_Reality } from "./articles/Tesla_Roadster_Flying_Car_Reality.js";
 import { Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209 } from "./articles/Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209.js";
 import { Cybersecurity_Tips_2026_AI_Voice_Cloning_Deepfake_Verification } from "./articles/Cybersecurity_Tips_2026_AI_Voice_Cloning_Deepfake_Verification.js";
@@ -162,7 +163,10 @@ import { zombieVirusArticle as art_Zombie_Virus_Rabbits } from "./articles/Zombi
 
 // Export the curated collection of comprehensive, authoritative articles
 export const articles = [
-  // Breaking October 6, 2026 Space & Exoplanet Discovery (Nature Astronomy)
+  // Breaking October 20, 2026 AI Infrastructure & Urban Computing Controversy
+  San_Francisco_Mall_AI_Data_Center_Controversy,
+
+  // Breaking October 17, 2026 Automotive Engineering Deep Dive
   Tesla_Roadster_Flying_Car_Reality,
   Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209,
 

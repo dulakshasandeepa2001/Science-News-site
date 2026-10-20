@@ -199,11 +199,16 @@ const LEGACY_SLUG_MAP = {
   "New_Earthquake_Prediction_Model_UC_Riverside": "new-earthquake-prediction-model-uc-riverside-kamchatka-faults",
   "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
   "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security",
-  "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security"
+  "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
+  "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
+  "san-francisco-mall-ai-data-center": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
+  "sf-mall-ai-data-center": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
+  "technology/san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
   "Tesla_Roadster_Flying_Car_Reality": "tesla-roadster-flying-car-reality-engineering-breakdown",
   "tesla-roadster-flying-car": "tesla-roadster-flying-car-reality-engineering-breakdown",
   "tesla-roadster-flying": "tesla-roadster-flying-car-reality-engineering-breakdown",
