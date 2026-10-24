@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/spacex-falcon-9-starlink-vandenberg-record-26th-booster-flight</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T18:30:00.000Z</news:publication_date>
+      <news:title>SpaceX Falcon 9 Targets Record-Setting 26th Booster Flight: Starlink Mission Ready for Liftoff from Vandenberg SLC-4E</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/images/spacex-falcon-9-slc4e-pad.jpg</image:loc>
+      <image:title>SpaceX Falcon 9 Targets Record-Setting 26th Booster Flight: Starlink Mission Ready for Liftoff from Vandenberg SLC-4E</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy</loc>
     <news:news>
       <news:publication>
@@ -134,21 +149,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/images/massive-new-moon-crater-discovered-nasa-lro.webp</image:loc>
       <image:title>Massive New Moon Crater Discovered by NASA: Inside the &apos;Once-in-a-Century&apos; Asteroid Impact</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/curiosity-rover-spots-odd-footprints-mars-mount-sharp-discovery</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T18:30:00.000Z</news:publication_date>
-      <news:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/curiosity-rover-footprints-mars-mount-sharp.webp</image:loc>
-      <image:title>Curiosity Rover Spots Odd &apos;Footprints&apos; on Mars: What NASA&apos;s Latest Discovery Means</image:title>
     </image:image>
   </url>
 </urlset>
