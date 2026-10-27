@@ -4,6 +4,7 @@
 // Strict Quality & E-E-A-T AdSense Compliance (Zero Thin / Placeholder Content)
 // ============================================================================
 
+import { Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide } from "./articles/Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide.js";
 import { Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model } from "./articles/Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model.js";
 import { OpenAI_Offline_Training_RedTeam_Sandbox_Escape } from "./articles/OpenAI_Offline_Training_RedTeam_Sandbox_Escape.js";
 import { SpaceX_Falcon9_Starlink_Record_26th_Flight } from "./articles/SpaceX_Falcon9_Starlink_Record_26th_Flight.js";
@@ -167,6 +168,8 @@ import { zombieVirusArticle as art_Zombie_Virus_Rabbits } from "./articles/Zombi
 // Export the curated collection of comprehensive, authoritative articles
 export const articles = [
   // Breaking October 24, 2026 Frontier AI Security & Air-Gapped Training
+  // Trending Skywatching & Moon Phase Guide (October 27, 2026)
+  Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide,
   Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model,
   OpenAI_Offline_Training_RedTeam_Sandbox_Escape,
   // Breaking October 20, 2026 AI Infrastructure & Urban Computing Controversy

@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T18:30:00.000Z</news:publication_date>
+      <news:title>Is It a Full Moon Today? Current Moon Phase, What You Can See Tonight &amp; Next Full Moon Dates (2026–2027)</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/images/full-moon-tonight-hunters-moon-october-2026.jpg</image:loc>
+      <image:title>Is It a Full Moon Today? Current Moon Phase, What You Can See Tonight &amp; Next Full Moon Dates (2026–2027)</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model</loc>
     <news:news>
       <news:publication>
@@ -14,141 +29,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/images/single-positron-quantum-cyclotron-northwestern-lab.jpg</image:loc>
       <image:title>Scientists Trap and Tame a Single Particle of Antimatter for Months: One-Positron Quantum Cyclotron Paves Way for Standard Model&apos;s Toughest CPT Symmetry Test</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/openai-resumes-training-offline-cpu-cache-sidechannel-sandbox-escape</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T18:30:00.000Z</news:publication_date>
-      <news:title>Inside OpenAI&apos;s &apos;Offline World&apos;: Why Frontier AI Models Are Being Trained Without the Internet</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/openai_airgap_training.jpg</image:loc>
-      <image:title>Inside OpenAI&apos;s &apos;Offline World&apos;: Why Frontier AI Models Are Being Trained Without the Internet</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/spacex-falcon-9-starlink-vandenberg-record-26th-booster-flight</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T18:30:00.000Z</news:publication_date>
-      <news:title>SpaceX Falcon 9 Targets Record-Setting 26th Booster Flight: Starlink Mission Ready for Liftoff from Vandenberg SLC-4E</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/spacex-falcon-9-slc4e-pad.jpg</image:loc>
-      <image:title>SpaceX Falcon 9 Targets Record-Setting 26th Booster Flight: Starlink Mission Ready for Liftoff from Vandenberg SLC-4E</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-19T18:30:00.000Z</news:publication_date>
-      <news:title>Inside the Radical Plan to Turn San Francisco&apos;s Shuttered Downtown Mall into an AI Data Center and Urban Living Lab</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/sf_mall_ai_data_center_hero.jpg</image:loc>
-      <image:title>Inside the Radical Plan to Turn San Francisco&apos;s Shuttered Downtown Mall into an AI Data Center and Urban Living Lab</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/tesla-roadster-flying-car-reality-engineering-breakdown</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-16T18:30:00.000Z</news:publication_date>
-      <news:title>Can the Tesla Roadster Actually Fly? The Engineering, Physics, and Market Reality Behind Elon Musk&apos;s Demo</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/elon_pinocchio_tesla_lie.jpg</image:loc>
-      <image:title>Can the Tesla Roadster Actually Fly? The Engineering, Physics, and Market Reality Behind Elon Musk&apos;s Demo</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/first-evidence-second-generation-planet-dead-star-white-dwarf</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-05T18:30:00.000Z</news:publication_date>
-      <news:title>First-Ever Evidence of a Second-Generation Planet Detected Around Dead Star: White Dwarf HS 0209+0832</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/second-generation-planet-white-dwarf-hs-0209.jpg</image:loc>
-      <image:title>First-Ever Evidence of a Second-Generation Planet Detected Around Dead Star: White Dwarf HS 0209+0832</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/cybersecurity-tips-2026-ai-voice-cloning-deepfake-verification</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-04T18:30:00.000Z</news:publication_date>
-      <news:title>Cybersecurity Tips for 2026: Why 99.9% of People Fall for AI Voice Clones &amp; The New Zero-Trust Verification Rules</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/cybersecurity-tips-2026-ai-voice-cloning-deepfake-threat.webp</image:loc>
-      <image:title>Cybersecurity Tips for 2026: Why 99.9% of People Fall for AI Voice Clones &amp; The New Zero-Trust Verification Rules</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/beta-pictoris-b-first-radio-signal-exoplanet-magnetic-field</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-02T18:30:00.000Z</news:publication_date>
-      <news:title>Radio Signal Detected from Alien Planet for First Time: Inside Beta Pictoris b&apos;s Colossal Magnetic Field</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/beta-pictoris-b-radio-signal-exoplanet-aurora.jpg</image:loc>
-      <image:title>Radio Signal Detected from Alien Planet for First Time: Inside Beta Pictoris b&apos;s Colossal Magnetic Field</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T18:30:00.000Z</news:publication_date>
-      <news:title>The FBI Data Breach Is a Counterintelligence Disaster: ShinyHunters Hack Exposes Secret Hacking Unit, Sensitive Medical Records &amp; Covert Operatives</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/fbi-data-breach-shinyhunters-remote-operations-unit.webp</image:loc>
-      <image:title>The FBI Data Breach Is a Counterintelligence Disaster: ShinyHunters Hack Exposes Secret Hacking Unit, Sensitive Medical Records &amp; Covert Operatives</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/typesafe-jev-ai-system-one-model-agent-decisions-security</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-21T18:30:00.000Z</news:publication_date>
-      <news:title>TypeSafe Jev AI: The &quot;System One&quot; Model Revolutionizing Agent Decisions (and Prompt Injection Risks)</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/typesafe-jev-ai-system-one-model-agent-decisions.webp</image:loc>
-      <image:title>TypeSafe Jev AI: The &quot;System One&quot; Model Revolutionizing Agent Decisions (and Prompt Injection Risks)</image:title>
     </image:image>
   </url>
 </urlset>

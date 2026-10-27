@@ -201,11 +201,24 @@ const LEGACY_SLUG_MAP = {
   "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
-  "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model"
+  "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
+  "Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "is-it-a-full-moon-today": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "is-it-a-full-moon-tonight": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "is-it-a-full-moon-today-tonight": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "is-there-a-full-moon-today": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "what-moon-phase-is-it-today": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "what-moon-phase-is-it-tonight": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "moon-phase-today": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "next-full-moon": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "when-is-the-next-full-moon": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "was-it-a-full-moon-yesterday": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "space/is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
   "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
   "single-positron-quantum-cyclotron": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
   "trapped-antimatter-standard-model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
