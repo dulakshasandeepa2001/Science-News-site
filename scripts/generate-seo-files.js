@@ -205,7 +205,8 @@ const LEGACY_SLUG_MAP = {
   "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209": "first-evidence-second-generation-planet-dead-star-white-dwarf",
-  "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy"
+  "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
+  "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model"
 };
 
 function getSlug(art) {

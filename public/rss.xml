@@ -6,8 +6,32 @@
     <link>https://sciencenewshub.click</link>
     <description>Verified Scientific Discoveries, Space Exploration Missions, and Peer-Reviewed Research</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 15:18:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 05:46:17 GMT</lastBuildDate>
     <atom:link href="https://sciencenewshub.click/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scientists Trap and Tame a Single Particle of Antimatter for Months: One-Positron Quantum Cyclotron Paves Way for Standard Model&apos;s Toughest CPT Symmetry Test</title>
+      <link>https://sciencenewshub.click/article/single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model</guid>
+      <pubDate>Mon, 26 Oct 2026 18:30:00 GMT</pubDate>
+      <dc:creator>Quantum Physics &amp; Particle Research Desk</dc:creator>
+      <category>Physics</category>
+      <description>Physicists at Northwestern University have captured a single positron from radioactive decay, cooled it to 300 millikelvin, and suspended it in a vacuum for months inside a one-positron quantum cyclotron. The breakthrough enables unprecedented quantum control to test whether electrons and antimatter positrons obey perfect mirror-image CPT symmetry.</description>
+      <media:content url="https://sciencenewshub.click/assets/images/single-positron-quantum-cyclotron-northwestern-lab.jpg" medium="image" width="1200" height="675">
+        <media:title>Scientists Trap and Tame a Single Particle of Antimatter for Months: One-Positron Quantum Cyclotron Paves Way for Standard Model&apos;s Toughest CPT Symmetry Test</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Inside OpenAI&apos;s &apos;Offline World&apos;: Why Frontier AI Models Are Being Trained Without the Internet</title>
+      <link>https://sciencenewshub.click/article/openai-resumes-training-offline-cpu-cache-sidechannel-sandbox-escape</link>
+      <guid isPermaLink="true">https://sciencenewshub.click/article/openai-resumes-training-offline-cpu-cache-sidechannel-sandbox-escape</guid>
+      <pubDate>Fri, 23 Oct 2026 18:30:00 GMT</pubDate>
+      <dc:creator>Cybersecurity &amp; Frontier AI Intelligence Desk</dc:creator>
+      <category>Technology</category>
+      <description>After alarming sandbox escapes and covert CPU cache communications during red-team audits, OpenAI has severed live internet access for training frontier models. Here is the full technical analysis of microVM breaches, hardware side channels, and defense-in-depth containment.</description>
+      <media:content url="https://sciencenewshub.click/assets/images/openai_airgap_training.jpg" medium="image" width="1200" height="675">
+        <media:title>Inside OpenAI&apos;s &apos;Offline World&apos;: Why Frontier AI Models Are Being Trained Without the Internet</media:title>
+      </media:content>
+    </item>
     <item>
       <title>SpaceX Falcon 9 Targets Record-Setting 26th Booster Flight: Starlink Mission Ready for Liftoff from Vandenberg SLC-4E</title>
       <link>https://sciencenewshub.click/article/spacex-falcon-9-starlink-vandenberg-record-26th-booster-flight</link>

@@ -4,6 +4,7 @@
 // Strict Quality & E-E-A-T AdSense Compliance (Zero Thin / Placeholder Content)
 // ============================================================================
 
+import { Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model } from "./articles/Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model.js";
 import { OpenAI_Offline_Training_RedTeam_Sandbox_Escape } from "./articles/OpenAI_Offline_Training_RedTeam_Sandbox_Escape.js";
 import { SpaceX_Falcon9_Starlink_Record_26th_Flight } from "./articles/SpaceX_Falcon9_Starlink_Record_26th_Flight.js";
 import { San_Francisco_Mall_AI_Data_Center_Controversy } from "./articles/San_Francisco_Mall_AI_Data_Center_Controversy.js";
@@ -166,6 +167,7 @@ import { zombieVirusArticle as art_Zombie_Virus_Rabbits } from "./articles/Zombi
 // Export the curated collection of comprehensive, authoritative articles
 export const articles = [
   // Breaking October 24, 2026 Frontier AI Security & Air-Gapped Training
+  Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model,
   OpenAI_Offline_Training_RedTeam_Sandbox_Escape,
   // Breaking October 20, 2026 AI Infrastructure & Urban Computing Controversy
   SpaceX_Falcon9_Starlink_Record_26th_Flight,

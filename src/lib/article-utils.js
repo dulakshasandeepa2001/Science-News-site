@@ -200,11 +200,16 @@ const LEGACY_SLUG_MAP = {
   "Mathspace_Data_Breach_Australia_NZ": "mathspace-data-breach-australia-new-zealand-students-schools",
   "TypeSafe_Jev_AI_System_One_Model_Agent_Decisions": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
-  "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy"
+  "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
+  "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
+  "single-positron-quantum-cyclotron": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
+  "trapped-antimatter-standard-model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
+  "physics/single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
   "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
   "san-francisco-mall-ai-data-center": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
   "sf-mall-ai-data-center": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
