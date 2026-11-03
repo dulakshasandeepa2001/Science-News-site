@@ -207,7 +207,8 @@ const LEGACY_SLUG_MAP = {
   "Second_Generation_Planet_Dead_Star_White_Dwarf_HS0209": "first-evidence-second-generation-planet-dead-star-white-dwarf",
   "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
   "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
-  "Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide"
+  "Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "Voyager_1_Communications_Pause_One_Light_Day_Milestone": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone"
 };
 
 function getSlug(art) {

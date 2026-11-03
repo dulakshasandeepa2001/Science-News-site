@@ -2,6 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
+    <loc>https://sciencenewshub.click/article/voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Daily Science News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T18:30:00.000Z</news:publication_date>
+      <news:title>Voyager 1 Recovers from Brief Signal Outage 16 Billion Miles Away as Humanity&apos;s Farthest Spacecraft Nears Historic One-Light-Day Milestone</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://sciencenewshub.click/assets/images/voyager-1-spacecraft-interstellar-one-light-day.jpg</image:loc>
+      <image:title>Voyager 1 Recovers from Brief Signal Outage 16 Billion Miles Away as Humanity&apos;s Farthest Spacecraft Nears Historic One-Light-Day Milestone</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sciencenewshub.click/article/is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide</loc>
     <news:news>
       <news:publication>
@@ -134,21 +149,6 @@
     <image:image>
       <image:loc>https://sciencenewshub.click/assets/images/beta-pictoris-b-radio-signal-exoplanet-aurora.jpg</image:loc>
       <image:title>Radio Signal Detected from Alien Planet for First Time: Inside Beta Pictoris b&apos;s Colossal Magnetic Field</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://sciencenewshub.click/article/fbi-data-breach-counterintelligence-disaster-shinyhunters-hack-medical-records</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Daily Science News</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T18:30:00.000Z</news:publication_date>
-      <news:title>The FBI Data Breach Is a Counterintelligence Disaster: ShinyHunters Hack Exposes Secret Hacking Unit, Sensitive Medical Records &amp; Covert Operatives</news:title>
-    </news:news>
-    <image:image>
-      <image:loc>https://sciencenewshub.click/assets/images/fbi-data-breach-shinyhunters-remote-operations-unit.webp</image:loc>
-      <image:title>The FBI Data Breach Is a Counterintelligence Disaster: ShinyHunters Hack Exposes Secret Hacking Unit, Sensitive Medical Records &amp; Covert Operatives</image:title>
     </image:image>
   </url>
 </urlset>

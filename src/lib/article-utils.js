@@ -202,11 +202,23 @@ const LEGACY_SLUG_MAP = {
   "typesafe-jev-ai": "typesafe-jev-ai-system-one-model-agent-decisions-security",
   "San_Francisco_Mall_AI_Data_Center_Controversy": "san-francisco-shuttered-mall-ai-data-center-bloomingdales-controversy",
   "Single_Positron_Quantum_Cyclotron_Antimatter_Standard_Model": "single-positron-quantum-cyclotron-trapped-antimatter-cpt-symmetry-standard-model",
-  "Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide"
+  "Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
+  "Voyager_1_Communications_Pause_One_Light_Day_Milestone": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone"
 };
 
 // Aliases mapping common slug variations to primary canonical slug
 const SLUG_ALIASES = {
+  "Voyager_1_Communications_Pause_One_Light_Day_Milestone": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "voyager-1-signal-outage-nasa": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "voyager-1-signal-outage": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "where-is-voyager-1-now": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "where-is-voyager-1": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "how-far-is-voyager-1-from-earth": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "how-far-is-voyager-1": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "voyager-1-one-light-day": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "when-will-voyager-1-be-a-light-day-away": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "voyager-1-thrusters": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
+  "space/voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone": "voyager-1-signal-outage-one-light-day-distance-earth-interstellar-milestone",
   "Moon_Phase_Today_Is_It_A_Full_Moon_Tonight_Guide": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
   "is-it-a-full-moon-today": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
   "is-it-a-full-moon-tonight": "is-it-a-full-moon-today-moon-phase-tonight-next-full-moon-calendar-guide",
