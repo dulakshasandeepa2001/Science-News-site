@@ -52,20 +52,27 @@ export default function NewsletterSubscription({
         console.warn('Could not save to localStorage:', localErr);
       }
 
-      // 2. Submit to MailerLite if an action URL is configured
-      if (NEWSLETTER_CONFIG.mailerLiteActionUrl) {
+      // 2. Submit to Brevo (or MailerLite) if an action URL is configured
+      const externalEndpoint = NEWSLETTER_CONFIG.brevoFormActionUrl || NEWSLETTER_CONFIG.mailerLiteActionUrl;
+      if (externalEndpoint) {
         try {
           const formData = new FormData();
-          formData.append('fields[email]', cleanEmail);
+          // Brevo standard field names
+          formData.append('EMAIL', cleanEmail);
           formData.append('email', cleanEmail);
+          formData.append('email_address_check', '');
+          formData.append('locale', 'en');
+          formData.append('html_type', 'simple');
+          // MailerLite field fallback
+          formData.append('fields[email]', cleanEmail);
 
-          await fetch(NEWSLETTER_CONFIG.mailerLiteActionUrl, {
+          await fetch(externalEndpoint, {
             method: 'POST',
             body: formData,
-            mode: 'no-cors' // MailerLite endpoints often require no-cors or JSONP from external domains
+            mode: 'no-cors' // external domains allow CORS-less POST submission
           });
-        } catch (mlErr) {
-          console.warn('MailerLite direct submission notice:', mlErr);
+        } catch (extErr) {
+          console.warn('External newsletter provider submission notice:', extErr);
         }
       }
 
@@ -82,7 +89,7 @@ export default function NewsletterSubscription({
               access_key: NEWSLETTER_CONFIG.web3FormsAccessKey,
               subject: `[Science News Alert] New Subscriber for Article Updates: ${cleanEmail}`,
               email: cleanEmail,
-              message: `New reader subscribed to automated article updates!\n\nSubscriber Email: ${cleanEmail}\nSubscription Source: ${source}\nTimestamp: ${new Date().toISOString()}\n\nAdd this email to your MailerLite subscriber list or RSS automation campaign.`,
+              message: `New reader subscribed to automated article updates!\n\nSubscriber Email: ${cleanEmail}\nSubscription Source: ${source}\nTimestamp: ${new Date().toISOString()}\n\nAdd this email to your Brevo contact list or automated RSS campaign.`,
               to_email: NEWSLETTER_CONFIG.ownerEmail,
               from_name: 'Science News Alert System'
             })
@@ -248,3 +255,4 @@ export default function NewsletterSubscription({
     </div>
   );
 }
+
