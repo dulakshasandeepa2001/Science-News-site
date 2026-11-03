@@ -52,27 +52,24 @@ export default function NewsletterSubscription({
         console.warn('Could not save to localStorage:', localErr);
       }
 
-      // 2. Submit to Brevo (or MailerLite) if an action URL is configured
-      const externalEndpoint = NEWSLETTER_CONFIG.brevoFormActionUrl || NEWSLETTER_CONFIG.mailerLiteActionUrl;
+      // 2. Submit to Brevo if an action URL is configured
+      const externalEndpoint = NEWSLETTER_CONFIG.brevoFormActionUrl;
       if (externalEndpoint) {
         try {
-          const formData = new FormData();
-          // Brevo standard field names
-          formData.append('EMAIL', cleanEmail);
-          formData.append('email', cleanEmail);
-          formData.append('email_address_check', '');
-          formData.append('locale', 'en');
-          formData.append('html_type', 'simple');
-          // MailerLite field fallback
-          formData.append('fields[email]', cleanEmail);
+          const params = new URLSearchParams();
+          params.append('EMAIL', cleanEmail);
+          params.append('email_address_check', '');
+          params.append('locale', 'en');
 
           await fetch(externalEndpoint, {
             method: 'POST',
-            body: formData,
-            mode: 'no-cors' // external domains allow CORS-less POST submission
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: params.toString()
           });
         } catch (extErr) {
-          console.warn('External newsletter provider submission notice:', extErr);
+          console.warn('Brevo subscription notice:', extErr);
         }
       }
 
