@@ -3,6 +3,7 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import NewsCard from './NewsCard.jsx';
 import SEOHead from './SEOHead.jsx';
+import NewsletterSubscription from './NewsletterSubscription.jsx';
 import { articles } from '../data/articlesCollection.js';
 import { getArticleLink } from '../lib/article-utils.js';
 
@@ -96,26 +97,12 @@ const CategoryPage = () => {
 
       {/* Newsletter Section */}
       <section className="bg-muted/50 py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h3 className="text-3xl font-bold mb-4">Stay Updated on {formattedCategory}</h3>
-          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Subscribe to our newsletter and never miss the latest {formattedCategory.toLowerCase()} discoveries and breakthroughs.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input 
-              type="email" 
-              placeholder="Enter your email address" 
-              className="flex-1 px-4 py-3 border rounded-lg bg-background"
-              aria-label="Email address for newsletter subscription"
-            />
-            <button 
-              type="submit"
-              className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
+        <NewsletterSubscription 
+          variant="section"
+          title={`Stay Updated on ${formattedCategory}`}
+          description={`Subscribe to get instant email alerts when new verified ${formattedCategory.toLowerCase()} discoveries and breakthroughs are published.`}
+          source={`category-${categoryName}`}
+        />
       </section>
 
       <Footer />

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import NewsletterSubscription from './NewsletterSubscription.jsx';
 import { Beaker, Facebook, Twitter, Linkedin, Mail, ArrowUpRight } from 'lucide-react';
 
 const Footer = () => {
@@ -68,24 +69,7 @@ const Footer = () => {
 
           {/* Column 4: Newsletter */}
           <div>
-            <h3 className="font-bold text-base mb-4 tracking-wide text-foreground">Stay Informed</h3>
-            <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-              Get the latest scientific breakthroughs delivered straight to your inbox.
-            </p>
-            <form onSubmit={(e) => e.preventDefault()} className="space-y-2">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="w-full px-3.5 py-2.5 text-sm border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary/50"
-                required
-              />
-              <button 
-                type="submit" 
-                className="w-full px-4 py-2.5 bg-primary text-primary-foreground font-semibold rounded-lg text-sm hover:bg-primary/90 transition-colors shadow-sm active:scale-[0.98]"
-              >
-                Subscribe Free
-              </button>
-            </form>
+            <NewsletterSubscription variant="compact" source="footer" />
           </div>
 
         </div>

@@ -3,6 +3,7 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import NewsCard from './NewsCard.jsx';
 import SEOHead from './SEOHead.jsx';
+import NewsletterSubscription from './NewsletterSubscription.jsx';
 import fallbackLabImage from '../assets/lab.jpg';
 import { articles } from '../data/articlesCollection.js';
 import { getArticleLink } from '../lib/article-utils.js';
@@ -400,35 +401,14 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Newsletter Section */}
+      {/* Newsletter & Automated Article Alert Section */}
       <section className="bg-background py-16 border-t">
-        <div className="container mx-auto px-4 text-center max-w-2xl">
-          <h3 className="text-2xl md:text-3xl font-extrabold text-foreground mb-3">
-            Stay Ahead of Scientific Progress
-          </h3>
-          <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
-            Join over 10,000 science enthusiasts, researchers, and students receiving weekly breakdowns of verified peer-reviewed discoveries.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={(e) => e.preventDefault()}>
-            <input 
-              type="email" 
-              placeholder="Enter your email address" 
-              className="flex-1 px-4 py-3 text-sm border rounded-xl bg-card focus:outline-none focus:ring-2 focus:ring-primary"
-              aria-label="Email address for science newsletter"
-              required
-            />
-            <button 
-              type="submit"
-              className="px-6 py-3 bg-primary text-primary-foreground rounded-xl hover:bg-primary/90 font-semibold text-sm transition-all shadow-sm"
-            >
-              Subscribe
-            </button>
-          </form>
-          <p className="text-xs text-muted-foreground/70 mt-3">
-            Zero spam. Unsubscribe at any time. Respecting your privacy under our{' '}
-            <Link to="/privacy-policy" className="underline hover:text-foreground">Privacy Policy</Link>.
-          </p>
-        </div>
+        <NewsletterSubscription 
+          variant="section"
+          title="Stay Ahead of Scientific Progress"
+          description="Join over 10,000 science enthusiasts, researchers, and students receiving instant email alerts whenever verified breakthroughs and discoveries are published."
+          source="homepage"
+        />
       </section>
 
       <Footer />
