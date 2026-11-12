@@ -4,6 +4,7 @@
 
 ## Core Pages
 - [Home](https://sciencenewshub.click/): The main landing page featuring latest discoveries and breaking scientific news.
+- [Health Tools Directory](https://sciencenewshub.click/health-tools): Clinical and scientific interactive health tools hub hosting peer-reviewed biometric calculators and health screeners.
 - [BMI & BRI Calculator](https://sciencenewshub.click/bmi-calculator): Free, clinical interactive Body Mass Index (BMI), Body Roundness Index (BRI), Ponderal Index, WHO Asian cutoffs, and GLP-1 weight loss medication eligibility calculator.
 - [About Us](https://sciencenewshub.click/about): Editorial board, founder biography, mission statement, and E-E-A-T credentials.
 - [Contact Us](https://sciencenewshub.click/contact): Direct editorial contact methods, inquiry forms, and communications.

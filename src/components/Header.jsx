@@ -90,55 +90,14 @@ const Header = () => {
             Health &amp; Medicine
           </Link>
 
-          {/* Health Tools Main Category with Subcategory Dropdown */}
-          <div 
-            className="relative"
-            onMouseEnter={() => setIsHealthToolsOpen(true)}
-            onMouseLeave={() => setIsHealthToolsOpen(false)}
+          {/* Health Tools Hub Page Direct Navigation Link */}
+          <Link 
+            to="/health-tools" 
+            className="flex items-center gap-1.5 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
           >
-            <button
-              type="button"
-              onClick={() => setIsHealthToolsOpen(!isHealthToolsOpen)}
-              className="flex items-center gap-1.5 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 cursor-pointer focus:outline-none"
-              aria-expanded={isHealthToolsOpen}
-            >
-              <Activity className="h-4 w-4 text-emerald-500" />
-              <span>Health Tools</span>
-              <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${isHealthToolsOpen ? 'rotate-180' : ''}`} />
-            </button>
-
-            {isHealthToolsOpen && (
-              <div className="absolute top-full left-0 mt-1.5 w-80 rounded-2xl border bg-card/98 backdrop-blur-xl p-3 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200 z-50">
-                <div className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground px-2 py-1 flex items-center justify-between border-b pb-1.5">
-                  <span>Clinical Health Tools</span>
-                  <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">2026 Interactive</span>
-                </div>
-                
-                <Link
-                  to="/bmi-calculator"
-                  onClick={() => setIsHealthToolsOpen(false)}
-                  className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-muted/80 transition-all group mt-1.5"
-                >
-                  <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500/20 transition-colors shrink-0 mt-0.5">
-                    <Scale className="h-4 w-4" />
-                  </div>
-                  <div className="space-y-0.5">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-sm font-bold text-foreground group-hover:text-primary transition-colors">
-                        BMI &amp; BRI Calculator
-                      </span>
-                      <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-primary/10 text-primary">
-                        Smart
-                      </span>
-                    </div>
-                    <p className="text-[11px] text-muted-foreground leading-snug">
-                      Body Mass Index, Body Roundness &amp; GLP-1 screening.
-                    </p>
-                  </div>
-                </Link>
-              </div>
-            )}
-          </div>
+            <Activity className="h-4 w-4 text-emerald-500" />
+            <span>Health Tools</span>
+          </Link>
 
           <Link 
             to="/category/technology" 
@@ -250,11 +209,11 @@ const Header = () => {
             {/* Health Tools Section */}
             <div className="space-y-2 pt-2 border-t">
               <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground px-3 flex items-center gap-1.5">
-                <Activity className="h-3.5 w-3.5 text-emerald-500" /> Health Tools
+                <Activity className="h-3.5 w-3.5 text-emerald-500" /> Health Tools Directory
               </span>
               <div className="grid gap-1.5 pt-1">
                 <Link
-                  to="/bmi-calculator"
+                  to="/health-tools"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-between px-3 py-2.5 rounded-xl border bg-emerald-500/5 border-emerald-500/20 hover:bg-emerald-500/10 transition-all text-sm font-semibold"
                 >
@@ -264,13 +223,13 @@ const Header = () => {
                     </div>
                     <div>
                       <div className="flex items-center gap-1.5">
-                        <span className="text-foreground">BMI &amp; BRI Calculator</span>
+                        <span className="text-foreground">Health Tools Directory</span>
                         <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400">
-                          Smart Tool
+                          Hub
                         </span>
                       </div>
                       <p className="text-[11px] text-muted-foreground font-normal">
-                        Body Mass Index, Ponderal Index &amp; GLP-1 Screening
+                        Explore BMI, BRI, Ponderal &amp; GLP-1 Calculators
                       </p>
                     </div>
                   </div>

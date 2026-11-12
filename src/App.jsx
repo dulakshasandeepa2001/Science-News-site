@@ -10,6 +10,7 @@ import ContactPage from './components/ContactPage.jsx';
 import TermsPage from './components/TermsPage.jsx';
 import DisclaimerPage from './components/DisclaimerPage.jsx';
 import BMICalculatorPage from './components/BMICalculatorPage.jsx';
+import HealthToolsHubPage from './components/HealthToolsHubPage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
 import CookieConsent from './components/CookieConsent.jsx';
 import './App.css';
@@ -33,6 +34,8 @@ function App() {
         <Route path="/disclaimer" element={<DisclaimerPage />} />
 
         {/* Interactive Health & Clinical Utilities */}
+        <Route path="/health-tools" element={<HealthToolsHubPage />} />
+        <Route path="/tools" element={<HealthToolsHubPage />} />
         <Route path="/bmi-calculator" element={<BMICalculatorPage />} />
         <Route path="/tools/bmi-calculator" element={<BMICalculatorPage />} />
 

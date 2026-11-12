@@ -267,6 +267,17 @@ Calculate yours at: https://sciencenewshub.click/bmi-calculator`;
 
       <main className="flex-1 container mx-auto px-4 py-8 md:py-12 max-w-6xl space-y-10">
         
+        {/* Navigation Breadcrumb to Health Tools Hub */}
+        <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs font-semibold text-muted-foreground">
+          <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+          <span>/</span>
+          <Link to="/health-tools" className="hover:text-primary transition-colors text-primary font-bold">
+            Health Tools
+          </Link>
+          <span>/</span>
+          <span className="text-foreground">BMI &amp; BRI Calculator</span>
+        </nav>
+
         {/* Page Hero Header */}
         <section className="text-center max-w-3xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-bold tracking-wide uppercase">
@@ -1081,3 +1092,4 @@ Calculate yours at: https://sciencenewshub.click/bmi-calculator`;
     </div>
   );
 }
+
