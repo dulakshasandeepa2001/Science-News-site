@@ -373,6 +373,7 @@ function main() {
   xml += `  <!-- Core Static Pages -->\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/about</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${DOMAIN}/bmi-calculator</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/contact</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/privacy-policy</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${DOMAIN}/terms</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
@@ -443,7 +444,7 @@ function main() {
   // 4. Generate Page Sitemap (page-sitemap.xml)
   let pageXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   pageXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  const corePages = ['', 'about', 'contact', 'privacy-policy', 'terms', 'disclaimer'];
+  const corePages = ['', 'about', 'contact', 'bmi-calculator', 'privacy-policy', 'terms', 'disclaimer'];
   for (const p of corePages) {
     const url = p ? `${DOMAIN}/${p}` : `${DOMAIN}/`;
     pageXml += `  <url>\n    <loc>${url}</loc>\n    <lastmod>${today}</lastmod>\n  </url>\n`;

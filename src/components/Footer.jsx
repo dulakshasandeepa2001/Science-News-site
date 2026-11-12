@@ -56,7 +56,8 @@ const Footer = () => {
             <h3 className="font-bold text-base mb-4 tracking-wide text-foreground">Quick Links</h3>
             <ul className="space-y-2.5 text-sm font-medium">
               <li><Link to="/" className="text-muted-foreground hover:text-primary transition-colors">Home Page</Link></li>
-              <li><Link to="/about" className="text-muted-foreground hover:text-primary transition-colors font-semibold text-primary">About Us &amp; Founder</Link></li>
+              <li><Link to="/bmi-calculator" className="text-muted-foreground hover:text-primary transition-colors font-semibold text-primary">BMI &amp; BRI Calculator</Link></li>
+              <li><Link to="/about" className="text-muted-foreground hover:text-primary transition-colors font-semibold">About Us &amp; Founder</Link></li>
               <li><Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">Contact Us</Link></li>
               <li><Link to="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</Link></li>

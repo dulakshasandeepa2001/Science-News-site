@@ -9,6 +9,7 @@ import PrivacyPolicyPage from './components/PrivacyPolicyPage.jsx';
 import ContactPage from './components/ContactPage.jsx';
 import TermsPage from './components/TermsPage.jsx';
 import DisclaimerPage from './components/DisclaimerPage.jsx';
+import BMICalculatorPage from './components/BMICalculatorPage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
 import CookieConsent from './components/CookieConsent.jsx';
 import './App.css';
@@ -30,6 +31,10 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/disclaimer" element={<DisclaimerPage />} />
+
+        {/* Interactive Health & Clinical Utilities */}
+        <Route path="/bmi-calculator" element={<BMICalculatorPage />} />
+        <Route path="/tools/bmi-calculator" element={<BMICalculatorPage />} />
 
         {/* Universal Canonical Article Route (Zero Redirect Multi-Mapping) */}
         <Route path="/article/:articleId" element={<ArticlePage />} />
