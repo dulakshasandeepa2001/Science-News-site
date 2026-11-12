@@ -1,11 +1,24 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button.jsx';
-import { Search, Menu, X, Beaker, Sparkles, BookOpen, Compass, ChevronRight } from 'lucide-react';
+import { 
+  Search, 
+  Menu, 
+  X, 
+  Beaker, 
+  Sparkles, 
+  BookOpen, 
+  Compass, 
+  ChevronRight, 
+  ChevronDown, 
+  Activity, 
+  Scale 
+} from 'lucide-react';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isHealthToolsOpen, setIsHealthToolsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
 
@@ -21,13 +34,12 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'BMI Calculator', path: '/bmi-calculator' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'About Us', path: '/about' },
-    { name: 'Contact', path: '/contact' },
     { name: 'Space & Physics', path: '/category/space' },
     { name: 'Health & Medicine', path: '/category/health' },
     { name: 'Technology', path: '/category/technology' },
+    { name: 'Blog', path: '/blog' },
+    { name: 'About Us', path: '/about' },
+    { name: 'Contact', path: '/contact' },
   ];
 
   const categoryLinks = [
@@ -56,16 +68,98 @@ const Header = () => {
         </div>
         
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-7">
-          {navLinks.map((link) => (
-            <Link 
-              key={link.path} 
-              to={link.path} 
-              className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+        <nav className="hidden lg:flex items-center gap-6">
+          <Link 
+            to="/" 
+            className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+          >
+            Home
+          </Link>
+
+          <Link 
+            to="/category/space" 
+            className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+          >
+            Space &amp; Physics
+          </Link>
+
+          <Link 
+            to="/category/health" 
+            className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+          >
+            Health &amp; Medicine
+          </Link>
+
+          {/* Health Tools Main Category with Subcategory Dropdown */}
+          <div 
+            className="relative"
+            onMouseEnter={() => setIsHealthToolsOpen(true)}
+            onMouseLeave={() => setIsHealthToolsOpen(false)}
+          >
+            <button
+              type="button"
+              onClick={() => setIsHealthToolsOpen(!isHealthToolsOpen)}
+              className="flex items-center gap-1.5 text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 cursor-pointer focus:outline-none"
+              aria-expanded={isHealthToolsOpen}
             >
-              {link.name}
-            </Link>
-          ))}
+              <Activity className="h-4 w-4 text-emerald-500" />
+              <span>Health Tools</span>
+              <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${isHealthToolsOpen ? 'rotate-180' : ''}`} />
+            </button>
+
+            {isHealthToolsOpen && (
+              <div className="absolute top-full left-0 mt-1.5 w-80 rounded-2xl border bg-card/98 backdrop-blur-xl p-3 shadow-2xl animate-in fade-in slide-in-from-top-2 duration-200 z-50">
+                <div className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground px-2 py-1 flex items-center justify-between border-b pb-1.5">
+                  <span>Clinical Health Tools</span>
+                  <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">2026 Interactive</span>
+                </div>
+                
+                <Link
+                  to="/bmi-calculator"
+                  onClick={() => setIsHealthToolsOpen(false)}
+                  className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-muted/80 transition-all group mt-1.5"
+                >
+                  <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500/20 transition-colors shrink-0 mt-0.5">
+                    <Scale className="h-4 w-4" />
+                  </div>
+                  <div className="space-y-0.5">
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-sm font-bold text-foreground group-hover:text-primary transition-colors">
+                        BMI &amp; BRI Calculator
+                      </span>
+                      <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-primary/10 text-primary">
+                        Smart
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-muted-foreground leading-snug">
+                      Body Mass Index, Body Roundness &amp; GLP-1 screening.
+                    </p>
+                  </div>
+                </Link>
+              </div>
+            )}
+          </div>
+
+          <Link 
+            to="/category/technology" 
+            className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+          >
+            Technology
+          </Link>
+
+          <Link 
+            to="/blog" 
+            className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+          >
+            Blog
+          </Link>
+
+          <Link 
+            to="/about" 
+            className="text-sm font-semibold text-muted-foreground hover:text-primary transition-colors py-1 relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+          >
+            About Us
+          </Link>
         </nav>
 
         {/* Action Controls */}
@@ -149,6 +243,38 @@ const Header = () => {
                     <span>Science Blog</span>
                   </div>
                   <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Health Tools Section */}
+            <div className="space-y-2 pt-2 border-t">
+              <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground px-3 flex items-center gap-1.5">
+                <Activity className="h-3.5 w-3.5 text-emerald-500" /> Health Tools
+              </span>
+              <div className="grid gap-1.5 pt-1">
+                <Link
+                  to="/bmi-calculator"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-xl border bg-emerald-500/5 border-emerald-500/20 hover:bg-emerald-500/10 transition-all text-sm font-semibold"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <div className="p-1.5 rounded-lg bg-emerald-500/10 text-emerald-600 dark:text-emerald-400">
+                      <Scale className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-foreground">BMI &amp; BRI Calculator</span>
+                        <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400">
+                          Smart Tool
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-muted-foreground font-normal">
+                        Body Mass Index, Ponderal Index &amp; GLP-1 Screening
+                      </p>
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground shrink-0" />
                 </Link>
               </div>
             </div>
