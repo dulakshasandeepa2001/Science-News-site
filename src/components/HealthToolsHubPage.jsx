@@ -6,17 +6,10 @@ import SEOHead from './SEOHead.jsx';
 import { 
   Scale, 
   Activity, 
-  HeartPulse, 
-  Sparkles, 
-  Calculator, 
   ArrowRight, 
   ShieldCheck, 
   CheckCircle2, 
-  TrendingUp, 
-  Flame, 
-  Ruler, 
-  Stethoscope,
-  Info
+  Sparkles
 } from 'lucide-react';
 
 export default function HealthToolsHubPage() {
@@ -29,7 +22,7 @@ export default function HealthToolsHubPage() {
       path: '/bmi-calculator',
       icon: Scale,
       color: 'text-emerald-500 bg-emerald-500/10 border-emerald-500/20 group-hover:bg-emerald-500/20',
-      description: 'Comprehensive body composition calculator supporting Metric and Imperial units, Ponderal Index, WHO Asian cutoffs, and FDA GLP-1 weight loss medication eligibility screening (Ozempic/Wegovy).',
+      description: 'Comprehensive clinical body composition calculator supporting Metric and Imperial units, Ponderal Index, WHO Asian cutoffs, and FDA GLP-1 weight loss medication eligibility screening (Ozempic/Wegovy).',
       features: [
         'Real-time Metric (kg/cm) & Imperial (lbs/ft-in) calculation',
         'Live color gauge meter with animated indicator needle',
@@ -38,40 +31,6 @@ export default function HealthToolsHubPage() {
         'GLP-1 (Ozempic/Wegovy) & Bariatric clinical screening checklist'
       ],
       ctaText: 'Launch BMI & BRI Calculator'
-    },
-    {
-      id: 'bmr-calculator',
-      title: 'Basal Metabolic Rate (BMR) & TDEE Calculator',
-      badge: 'Coming Soon',
-      status: 'upcoming',
-      path: '/bmi-calculator', // fallback to tools
-      icon: Flame,
-      color: 'text-amber-500 bg-amber-500/10 border-amber-500/20',
-      description: 'Determine your resting metabolic rate and total daily energy expenditure based on the revised Harris-Benedict and Mifflin-St Jeor clinical equations.',
-      features: [
-        'Mifflin-St Jeor physiological metabolic formula',
-        'Activity multiplier for sedentary to extreme training',
-        'Daily calorie deficit estimation for fat loss',
-        'Macronutrient energy ratio breakdowns (Protein, Carbs, Fats)'
-      ],
-      ctaText: 'Use Within BMI Tool'
-    },
-    {
-      id: 'whtr-screener',
-      title: 'Waist-to-Height Ratio (WHtR) Visceral Fat Screener',
-      badge: 'Integrated into BMI Tool',
-      status: 'integrated',
-      path: '/bmi-calculator',
-      icon: Ruler,
-      color: 'text-indigo-500 bg-indigo-500/10 border-indigo-500/20',
-      description: 'Central adiposity screening tool used by cardiologist associations to assess hidden visceral organ fat and early cardiovascular risk markers.',
-      features: [
-        'Simple "Keep Your Waist to Less Than Half Your Height" metric',
-        'Visceral abdominal adipose tissue risk stratification',
-        'Direct correlation with early insulin resistance',
-        'Fully integrated into our 2026 Smart Health Calculator'
-      ],
-      ctaText: 'Calculate on Smart Tool'
     }
   ];
 
@@ -80,7 +39,7 @@ export default function HealthToolsHubPage() {
     "@type": "CollectionPage",
     "name": "Scientific Health & Clinical Tools Directory",
     "url": "https://sciencenewshub.click/health-tools",
-    "description": "Evidence-based clinical health calculators, body mass index tools, and metabolic assessment utilities published by Daily Science News.",
+    "description": "Evidence-based clinical health calculators and body mass index tools published by Daily Science News.",
     "publisher": {
       "@type": "Organization",
       "name": "Daily Science News",
@@ -98,12 +57,13 @@ export default function HealthToolsHubPage() {
         ogType="website"
         schema={hubSchema}
       />
+
       <Header />
 
-      <main className="flex-1 container mx-auto px-4 py-8 md:py-14 max-w-6xl space-y-12">
+      <main className="flex-1 container mx-auto px-4 py-8 md:py-14 max-w-4xl space-y-10">
         
         {/* Hub Hero Header */}
-        <section className="text-center max-w-3xl mx-auto space-y-4">
+        <section className="text-center max-w-2xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 text-xs font-bold tracking-wide uppercase">
             <Activity size={14} /> Clinical Utilities &amp; Health Directory
           </div>
@@ -117,8 +77,8 @@ export default function HealthToolsHubPage() {
           </p>
         </section>
 
-        {/* Directory Grid of Tool Cards */}
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Directory Card - Centered Premium Showcase */}
+        <section className="max-w-2xl mx-auto w-full">
           {tools.map((tool) => {
             const IconComponent = tool.icon;
             const isLive = tool.status === 'active';
@@ -126,28 +86,23 @@ export default function HealthToolsHubPage() {
             return (
               <div 
                 key={tool.id} 
-                className={`flex flex-col justify-between p-6 sm:p-7 rounded-3xl border bg-card shadow-sm hover:shadow-xl transition-all duration-300 group relative overflow-hidden ${
-                  isLive ? 'border-emerald-500/30 hover:border-emerald-500/60' : 'hover:border-primary/40'
-                }`}
+                className="flex flex-col justify-between p-6 sm:p-8 rounded-3xl border border-emerald-500/30 bg-card shadow-sm hover:shadow-xl hover:border-emerald-500/60 transition-all duration-300 group relative overflow-hidden"
               >
                 {/* Top Header & Icon */}
                 <div className="space-y-4">
                   <div className="flex items-start justify-between gap-3">
-                    <div className={`p-3.5 rounded-2xl border transition-colors ${tool.color}`}>
-                      <IconComponent className="h-6 w-6" />
+                    <div className={`p-4 rounded-2xl border transition-colors ${tool.color}`}>
+                      <IconComponent className="h-7 w-7" />
                     </div>
                     
-                    <span className={`text-[11px] font-bold px-2.5 py-1 rounded-full ${
-                      isLive 
-                        ? 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30' 
-                        : 'bg-muted text-muted-foreground border'
-                    }`}>
+                    <span className="text-[11px] font-bold px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 flex items-center gap-1.5">
+                      <Sparkles size={12} />
                       {tool.badge}
                     </span>
                   </div>
 
                   <div>
-                    <h2 className="text-lg sm:text-xl font-extrabold text-foreground group-hover:text-primary transition-colors">
+                    <h2 className="text-xl sm:text-2xl font-black text-foreground group-hover:text-primary transition-colors">
                       {tool.title}
                     </h2>
                     <p className="text-xs sm:text-sm text-muted-foreground mt-2 leading-relaxed">
@@ -156,14 +111,14 @@ export default function HealthToolsHubPage() {
                   </div>
 
                   {/* Bullet features */}
-                  <div className="pt-2 border-t space-y-2">
+                  <div className="pt-3 border-t space-y-2.5">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground block">
                       Core Capabilities
                     </span>
-                    <ul className="space-y-1.5 text-xs text-muted-foreground">
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-muted-foreground">
                       {tool.features.map((feat, fIdx) => (
                         <li key={fIdx} className="flex items-start gap-2">
-                          <CheckCircle2 size={13} className="text-emerald-500 shrink-0 mt-0.5" />
+                          <CheckCircle2 size={14} className="text-emerald-500 shrink-0 mt-0.5" />
                           <span>{feat}</span>
                         </li>
                       ))}
@@ -172,17 +127,13 @@ export default function HealthToolsHubPage() {
                 </div>
 
                 {/* Bottom CTA Button */}
-                <div className="pt-6 mt-4 border-t">
+                <div className="pt-6 mt-6 border-t">
                   <Link
                     to={tool.path}
-                    className={`w-full py-3 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-sm active:scale-95 ${
-                      isLive
-                        ? 'bg-primary text-primary-foreground hover:bg-primary/90 shadow-md'
-                        : 'bg-muted text-foreground hover:bg-muted/80 border'
-                    }`}
+                    className="w-full py-3.5 px-5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-md active:scale-95"
                   >
                     <span>{tool.ctaText}</span>
-                    <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight size={16} className="group-hover:translate-x-1.5 transition-transform" />
                   </Link>
                 </div>
 
@@ -192,7 +143,7 @@ export default function HealthToolsHubPage() {
         </section>
 
         {/* E-E-A-T Clinical Standards Banner */}
-        <section className="p-6 sm:p-8 rounded-3xl bg-muted/40 border space-y-4">
+        <section className="p-6 sm:p-8 rounded-3xl bg-muted/40 border space-y-4 max-w-2xl mx-auto">
           <div className="flex items-center gap-2 text-primary font-bold text-sm">
             <ShieldCheck size={18} /> Evidence-Based Methodology &amp; Clinical Sources
           </div>
