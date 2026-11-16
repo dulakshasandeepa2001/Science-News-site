@@ -9,11 +9,31 @@ import {
   ArrowRight, 
   ShieldCheck, 
   CheckCircle2, 
-  Sparkles
+  Sparkles,
+  Droplets,
+  Calendar
 } from 'lucide-react';
 
 export default function HealthToolsHubPage() {
   const tools = [
+    {
+      id: 'period-calculator',
+      title: 'Period Calculator & Ovulation Calendar',
+      badge: '2026 Interactive • New',
+      status: 'active',
+      path: '/period-calculator',
+      icon: Droplets,
+      color: 'text-rose-500 bg-rose-500/10 border-rose-500/20 group-hover:bg-rose-500/20',
+      description: 'Scientific menstrual cycle predictor estimating future period start dates, 6-day fertile window, peak ovulation timing, and evidence-based dysmenorrhea cramp relief protocols.',
+      features: [
+        'Interactive calendar view matching cycle days and flow timeline',
+        '6-month predictive cycle schedule with estimated conception due dates',
+        'Peak ovulation day calculation (14-day luteal phase model)',
+        'Evidence-based dysmenorrhea pain relief guide (NSAIDs, Heat, Yoga, Diet)',
+        'Clinical ACOG & NHS symptom checklists and red flag indicators'
+      ],
+      ctaText: 'Launch Period & Ovulation Calculator'
+    },
     {
       id: 'bmi-calculator',
       title: 'Smart BMI & Body Roundness Index (BRI) Calculator',
@@ -60,7 +80,7 @@ export default function HealthToolsHubPage() {
 
       <Header />
 
-      <main className="flex-1 container mx-auto px-4 py-8 md:py-14 max-w-4xl space-y-10">
+      <main className="flex-1 container mx-auto px-4 py-8 md:py-14 max-w-5xl space-y-10">
         
         {/* Hub Hero Header */}
         <section className="text-center max-w-2xl mx-auto space-y-4">
@@ -77,8 +97,8 @@ export default function HealthToolsHubPage() {
           </p>
         </section>
 
-        {/* Directory Card - Centered Premium Showcase */}
-        <section className="max-w-2xl mx-auto w-full">
+        {/* Directory Cards Grid */}
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
           {tools.map((tool) => {
             const IconComponent = tool.icon;
             const isLive = tool.status === 'active';

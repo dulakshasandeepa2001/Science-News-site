@@ -209,11 +209,35 @@ const Header = () => {
             {/* Health Tools Section */}
             <div className="space-y-2 pt-2 border-t">
               <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground px-3 flex items-center gap-1.5">
-                <Activity className="h-3.5 w-3.5 text-emerald-500" /> Health Tools Directory
+                <Activity className="h-3.5 w-3.5 text-emerald-500" /> Clinical &amp; Health Tools
               </span>
               <div className="grid gap-1.5 pt-1">
                 <Link
-                  to="/health-tools"
+                  to="/period-calculator"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-3 py-2.5 rounded-xl border bg-rose-500/5 border-rose-500/20 hover:bg-rose-500/10 transition-all text-sm font-semibold"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <div className="p-1.5 rounded-lg bg-rose-500/10 text-rose-600 dark:text-rose-400">
+                      <Sparkles className="h-4 w-4" />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-foreground">Period &amp; Ovulation Calculator</span>
+                        <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-rose-500/20 text-rose-600 dark:text-rose-400">
+                          New
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-muted-foreground font-normal">
+                        Track cycle dates, fertile window &amp; ovulation
+                      </p>
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground shrink-0" />
+                </Link>
+
+                <Link
+                  to="/bmi-calculator"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-between px-3 py-2.5 rounded-xl border bg-emerald-500/5 border-emerald-500/20 hover:bg-emerald-500/10 transition-all text-sm font-semibold"
                 >
@@ -223,13 +247,10 @@ const Header = () => {
                     </div>
                     <div>
                       <div className="flex items-center gap-1.5">
-                        <span className="text-foreground">Health Tools Directory</span>
-                        <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400">
-                          Hub
-                        </span>
+                        <span className="text-foreground">BMI &amp; BRI Calculator</span>
                       </div>
                       <p className="text-[11px] text-muted-foreground font-normal">
-                        Explore BMI, BRI, Ponderal &amp; GLP-1 Calculators
+                        BMI, BRI, Ponderal &amp; GLP-1 Eligibility
                       </p>
                     </div>
                   </div>

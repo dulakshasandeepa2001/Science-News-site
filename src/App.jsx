@@ -10,6 +10,7 @@ import ContactPage from './components/ContactPage.jsx';
 import TermsPage from './components/TermsPage.jsx';
 import DisclaimerPage from './components/DisclaimerPage.jsx';
 import BMICalculatorPage from './components/BMICalculatorPage.jsx';
+import PeriodCalculatorPage from './components/PeriodCalculatorPage.jsx';
 import HealthToolsHubPage from './components/HealthToolsHubPage.jsx';
 import NotFoundPage from './components/NotFoundPage.jsx';
 import CookieConsent from './components/CookieConsent.jsx';
@@ -38,6 +39,10 @@ function App() {
         <Route path="/tools" element={<HealthToolsHubPage />} />
         <Route path="/bmi-calculator" element={<BMICalculatorPage />} />
         <Route path="/tools/bmi-calculator" element={<BMICalculatorPage />} />
+        <Route path="/period-calculator" element={<PeriodCalculatorPage />} />
+        <Route path="/tools/period-calculator" element={<PeriodCalculatorPage />} />
+        <Route path="/menses-calculator" element={<PeriodCalculatorPage />} />
+        <Route path="/ovulation-calculator" element={<PeriodCalculatorPage />} />
 
         {/* Universal Canonical Article Route (Zero Redirect Multi-Mapping) */}
         <Route path="/article/:articleId" element={<ArticlePage />} />

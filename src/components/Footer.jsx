@@ -57,6 +57,7 @@ const Footer = () => {
             <ul className="space-y-2.5 text-sm font-medium">
               <li><Link to="/" className="text-muted-foreground hover:text-primary transition-colors">Home Page</Link></li>
               <li><Link to="/health-tools" className="text-muted-foreground hover:text-primary transition-colors font-semibold text-primary">Health Tools Directory</Link></li>
+              <li><Link to="/period-calculator" className="text-muted-foreground hover:text-primary transition-colors text-rose-500 font-semibold">Period &amp; Ovulation Calculator</Link></li>
               <li><Link to="/bmi-calculator" className="text-muted-foreground hover:text-primary transition-colors">BMI &amp; BRI Calculator</Link></li>
               <li><Link to="/about" className="text-muted-foreground hover:text-primary transition-colors font-semibold">About Us &amp; Founder</Link></li>
               <li><Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">Contact Us</Link></li>
