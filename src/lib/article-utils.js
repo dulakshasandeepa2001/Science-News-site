@@ -15,6 +15,26 @@ export function toSlug(text) {
     .replace(/-+/g, '-');      // collapse multiple hyphens
 }
 
+// Helper to normalize image URLs so local static assets load relatively on any host/preview
+export function getSafeImageUrl(url) {
+  if (!url) return '';
+  if (typeof url === 'string') {
+    if (url.startsWith('https://sciencenewshub.click/assets/')) {
+      return url.replace('https://sciencenewshub.click/assets/', '/assets/');
+    }
+    if (url.startsWith('http://sciencenewshub.click/assets/')) {
+      return url.replace('http://sciencenewshub.click/assets/', '/assets/');
+    }
+    if (url.startsWith('https://sciencenewshub.click/images/')) {
+      return url.replace('https://sciencenewshub.click/images/', '/images/');
+    }
+    if (url.startsWith('http://sciencenewshub.click/images/')) {
+      return url.replace('http://sciencenewshub.click/images/', '/images/');
+    }
+  }
+  return url;
+}
+
 // Map of legacy IDs (numeric, CamelCase, or underscore strings) to clean SEO slugs
 const LEGACY_SLUG_MAP = {
   // Numeric IDs

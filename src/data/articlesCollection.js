@@ -167,7 +167,7 @@ import { Water_Paint_Coating_Dewpoint as art_Water_Paint_Coating_Dewpoint } from
 import { zombieVirusArticle as art_Zombie_Virus_Rabbits } from "./articles/Zombie_Virus_Rabbits.js";
 
 // Export the curated collection of comprehensive, authoritative articles
-export const articles = [
+const rawArticles = [
   // Breaking November 2026 Deep Space Milestone & Signal Recovery
   Voyager_1_Communications_Pause_One_Light_Day_Milestone,
   // Trending Skywatching & Moon Phase Guide (October 27, 2026)
@@ -346,6 +346,47 @@ export const articles = [
   art_Water_Paint_Coating_Dewpoint,
   art_Zombie_Virus_Rabbits,
 ];
+
+// Helper export for backwards compatibility
+// Helper to normalize image URLs so local static assets load relatively on any host/preview
+const sanitizeImageUrl = (img) => {
+  if (typeof img === 'string') {
+    if (img.startsWith('https://sciencenewshub.click/assets/')) {
+      return img.replace('https://sciencenewshub.click/assets/', '/assets/');
+    }
+    if (img.startsWith('http://sciencenewshub.click/assets/')) {
+      return img.replace('http://sciencenewshub.click/assets/', '/assets/');
+    }
+    if (img.startsWith('https://sciencenewshub.click/images/')) {
+      return img.replace('https://sciencenewshub.click/images/', '/images/');
+    }
+    if (img.startsWith('http://sciencenewshub.click/images/')) {
+      return img.replace('http://sciencenewshub.click/images/', '/images/');
+    }
+  }
+  return img;
+};
+
+// Export normalized articles collection ensuring all asset images load locally/relatively
+export const articles = rawArticles.map((art) => {
+  if (!art) return art;
+  const newArt = { ...art };
+  if (newArt.image) {
+    newArt.image = sanitizeImageUrl(newArt.image);
+  }
+  if (newArt.content && Array.isArray(newArt.content.sections)) {
+    newArt.content = {
+      ...newArt.content,
+      sections: newArt.content.sections.map((sec) => {
+        if (sec && sec.image) {
+          return { ...sec, image: sanitizeImageUrl(sec.image) };
+        }
+        return sec;
+      })
+    };
+  }
+  return newArt;
+});
 
 // Helper export for backwards compatibility
 export default articles;

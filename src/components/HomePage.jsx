@@ -6,7 +6,7 @@ import SEOHead from './SEOHead.jsx';
 import NewsletterSubscription from './NewsletterSubscription.jsx';
 import fallbackLabImage from '../assets/lab.jpg';
 import { articles } from '../data/articlesCollection.js';
-import { getArticleLink } from '../lib/article-utils.js';
+import { getArticleLink, getSafeImageUrl } from '../lib/article-utils.js';
 import { 
   Clock, 
   User, 
@@ -135,7 +135,7 @@ const HomePage = () => {
 
               <div className="md:col-span-5 relative aspect-[16/10] md:aspect-[4/3] rounded-2xl overflow-hidden shadow-md">
                 <img 
-                  src={heroStory.image} 
+                  src={getSafeImageUrl(heroStory.image)} 
                   alt={heroStory.title}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   loading="eager"

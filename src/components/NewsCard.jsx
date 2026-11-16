@@ -1,5 +1,6 @@
 import { Clock, User, Sparkles, Calendar, ArrowRight } from 'lucide-react';
 import fallbackLabImage from '../assets/lab.jpg';
+import { getSafeImageUrl } from '../lib/article-utils.js';
 
 const getRelativeTimeString = (dateStr) => {
   try {
@@ -48,7 +49,7 @@ const NewsCard = ({ article, highlighted = false }) => {
       {/* Article Image Container */}
       <div className="relative overflow-hidden aspect-[16/9] sm:aspect-[16/10]">
         <img 
-          src={article.image} 
+          src={getSafeImageUrl(article.image)} 
           alt={article.title}
           loading="lazy"
           referrerPolicy="no-referrer"

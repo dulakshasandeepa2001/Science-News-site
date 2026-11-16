@@ -23,7 +23,7 @@ import {
   TableProperties
 } from 'lucide-react';
 import { articles } from '../data/articlesCollection.js';
-import { findArticleBySlugOrId, getArticleSlug, getArticleLink } from '../lib/article-utils.js';
+import { findArticleBySlugOrId, getArticleSlug, getArticleLink, getSafeImageUrl } from '../lib/article-utils.js';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import SEOHead from './SEOHead.jsx';
@@ -205,7 +205,7 @@ const ArticlePage = ({ article: propArticle }) => {
             {/* Featured Image */}
             <figure className="relative overflow-hidden rounded-2xl border shadow-md">
               <img 
-                src={article.image} 
+                src={getSafeImageUrl(article.image)} 
                 alt={article.imageAlt || `${article.title} - Scientific Discovery Coverage`}
                 className="w-full h-72 md:h-[440px] object-cover"
                 loading="eager"
@@ -265,7 +265,7 @@ const ArticlePage = ({ article: propArticle }) => {
                 {section.image && (
                   <figure className="my-6 rounded-2xl overflow-hidden border shadow-md bg-card">
                     <img 
-                      src={section.image} 
+                      src={getSafeImageUrl(section.image)} 
                       alt={section.imageAlt || `${section.title} - Scientific Discovery Coverage`}
                       className="w-full h-auto max-h-[480px] object-cover"
                       loading="lazy"
