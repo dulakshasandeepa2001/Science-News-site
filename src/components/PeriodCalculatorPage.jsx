@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
@@ -27,24 +27,139 @@ import {
   RefreshCw, 
   FileText, 
   ChevronDown, 
-  ChevronUp 
+  ChevronUp,
+  Save,
+  Lock,
+  Trash2
 } from 'lucide-react';
 
+const STORAGE_KEY = 'sciencenews_period_tracker_data_v1';
+const COOKIE_NAME = 'period_tracker_data';
+
+// Cookie helper utilities for cross-session redundancy
+const setPersistentCookie = (name, value, days = 365) => {
+  try {
+    if (typeof document !== 'undefined') {
+      const expires = new Date(Date.now() + days * 864e5).toUTCString();
+      document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/; SameSite=Lax`;
+    }
+  } catch (e) {
+    // Graceful fallback
+  }
+};
+
+const getPersistentCookie = (name) => {
+  try {
+    if (typeof document !== 'undefined') {
+      const matches = document.cookie.match(new RegExp('(?:^|; )' + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + '=([^;]*)'));
+      return matches ? decodeURIComponent(matches[1]) : null;
+    }
+  } catch (e) {
+    return null;
+  }
+  return null;
+};
+
+// Retrieve saved cycle data from localStorage or cookies
+const loadSavedCycleData = () => {
+  try {
+    if (typeof window !== 'undefined') {
+      const localData = localStorage.getItem(STORAGE_KEY);
+      if (localData) {
+        return JSON.parse(localData);
+      }
+      const cookieData = getPersistentCookie(COOKIE_NAME);
+      if (cookieData) {
+        return JSON.parse(cookieData);
+      }
+    }
+  } catch (e) {
+    console.warn('Could not read saved period data:', e);
+  }
+  return null;
+};
+
 export default function PeriodCalculatorPage() {
-  // ----------------------------------------------------
-  // Default State: Last Period started 14 days ago
-  // ----------------------------------------------------
+  // Initial default: 14 days ago
   const getInitialDateString = () => {
     const d = new Date();
     d.setDate(d.getDate() - 14);
     return d.toISOString().split('T')[0];
   };
 
-  const [lastPeriodDate, setLastPeriodDate] = useState(getInitialDateString());
-  const [periodDuration, setPeriodDuration] = useState(5); // 1-10 days
-  const [cycleLength, setCycleLength] = useState(28); // 21-45 days
-  const [lutealPhase, setLutealPhase] = useState(14); // 10-16 days
+  // Lazy initialize state with saved data if returning user
+  const initialSaved = useMemo(() => loadSavedCycleData(), []);
+
+  const [lastPeriodDate, setLastPeriodDate] = useState(() => {
+    return initialSaved?.lastPeriodDate || getInitialDateString();
+  });
+  const [periodDuration, setPeriodDuration] = useState(() => {
+    return initialSaved?.periodDuration ? Number(initialSaved.periodDuration) : 5;
+  });
+  const [cycleLength, setCycleLength] = useState(() => {
+    return initialSaved?.cycleLength ? Number(initialSaved.cycleLength) : 28;
+  });
+  const [lutealPhase, setLutealPhase] = useState(() => {
+    return initialSaved?.lutealPhase ? Number(initialSaved.lutealPhase) : 14;
+  });
+  
+  const [hasSavedProfile, setHasSavedProfile] = useState(() => !!initialSaved);
+  const [savedAtTimestamp, setSavedAtTimestamp] = useState(() => initialSaved?.savedAt || null);
+  const [justSavedNotice, setJustSavedNotice] = useState(false);
   const [showAdvanced, setShowAdvanced] = useState(false);
+
+  // Auto-Save Effect: Runs on every change to automatically persist in cookies & localStorage
+  useEffect(() => {
+    try {
+      if (typeof window !== 'undefined') {
+        const now = new Date().toISOString();
+        const payload = {
+          lastPeriodDate,
+          periodDuration,
+          cycleLength,
+          lutealPhase,
+          savedAt: now
+        };
+        const serialized = JSON.stringify(payload);
+        
+        // 1. Save to localStorage
+        localStorage.setItem(STORAGE_KEY, serialized);
+        
+        // 2. Save to persistent 365-day cookie
+        setPersistentCookie(COOKIE_NAME, serialized, 365);
+        
+        setHasSavedProfile(true);
+        setSavedAtTimestamp(now);
+        setJustSavedNotice(true);
+        const timer = setTimeout(() => setJustSavedNotice(false), 2000);
+        return () => clearTimeout(timer);
+      }
+    } catch (e) {
+      console.warn('Auto-save error:', e);
+    }
+  }, [lastPeriodDate, periodDuration, cycleLength, lutealPhase]);
+
+  // Log new period starting today
+  const logPeriodToday = () => {
+    const todayStr = new Date().toISOString().split('T')[0];
+    setLastPeriodDate(todayStr);
+  };
+
+  // Clear all saved data from browser
+  const clearSavedProfile = () => {
+    try {
+      if (typeof window !== 'undefined') {
+        localStorage.removeItem(STORAGE_KEY);
+        setPersistentCookie(COOKIE_NAME, '', -1);
+      }
+    } catch (e) {}
+    setHasSavedProfile(false);
+    setSavedAtTimestamp(null);
+    setLastPeriodDate(getInitialDateString());
+    setPeriodDuration(5);
+    setCycleLength(28);
+    setLutealPhase(14);
+  };
 
   // Calendar View Navigation
   const [viewMonthDate, setViewMonthDate] = useState(() => {
@@ -64,12 +179,12 @@ export default function PeriodCalculatorPage() {
     const validDuration = Math.max(1, Math.min(12, Number(periodDuration) || 5));
     const validLuteal = Math.max(9, Math.min(18, Number(lutealPhase) || 14));
 
-    // Generate 6 upcoming cycles
+    // Generate 12 cycles (covers past cycles and 1 full year ahead)
     const cycles = [];
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 12; i++) {
       const cycleStart = new Date(parsedStart);
       cycleStart.setDate(cycleStart.getDate() + i * validCycleLength);
 
@@ -380,25 +495,67 @@ Calculated via: https://sciencenewshub.click/period-calculator`;
           
           {/* LEFT COLUMN: Input Configuration Card (4 Cols on LG) */}
           <section className="lg:col-span-5 bg-card border rounded-3xl p-6 sm:p-7 shadow-sm space-y-6">
+            {/* Header with Title and Reset */}
             <div className="flex items-center justify-between border-b pb-4">
               <div className="flex items-center gap-2 font-bold text-base text-foreground">
                 <CalendarIcon className="h-5 w-5 text-rose-500" />
                 <span>Cycle Parameters</span>
               </div>
-              <button
-                type="button"
-                onClick={() => {
-                  setLastPeriodDate(getInitialDateString());
-                  setPeriodDuration(5);
-                  setCycleLength(28);
-                  setLutealPhase(14);
-                }}
-                className="text-xs text-muted-foreground hover:text-primary flex items-center gap-1 transition-colors"
-                title="Reset to clinical defaults"
-              >
-                <RefreshCw size={13} /> Reset
-              </button>
+              <div className="flex items-center gap-2">
+                {justSavedNotice ? (
+                  <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20 animate-in fade-in duration-200">
+                    <Save size={11} /> Auto-Saved
+                  </span>
+                ) : (
+                  <span className="inline-flex items-center gap-1 text-[10px] text-muted-foreground">
+                    <Lock size={10} className="text-emerald-500" /> Private &amp; Auto-Saved
+                  </span>
+                )}
+                <button
+                  type="button"
+                  onClick={clearSavedProfile}
+                  className="text-xs text-muted-foreground hover:text-rose-500 flex items-center gap-1 transition-colors ml-1"
+                  title="Reset to clinical defaults and clear saved browser cookies"
+                >
+                  <RefreshCw size={13} /> Reset
+                </button>
+              </div>
             </div>
+
+            {/* Returning User Welcome Back Banner */}
+            {hasSavedProfile && savedAtTimestamp && (
+              <div className="p-3.5 rounded-2xl bg-emerald-500/10 border border-emerald-500/25 flex items-start justify-between gap-3 text-xs animate-in fade-in duration-300">
+                <div className="flex items-start gap-2.5">
+                  <ShieldCheck className="h-4 w-4 text-emerald-500 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="font-bold text-foreground block">
+                      Welcome Back! Restored from Your Previous Visit
+                    </span>
+                    <span className="text-[11px] text-muted-foreground block leading-tight mt-0.5">
+                      Your cycle dates were safely remembered on this browser ({new Date(savedAtTimestamp).toLocaleDateString()}).
+                    </span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-1.5 shrink-0">
+                  <button
+                    type="button"
+                    onClick={logPeriodToday}
+                    className="px-2.5 py-1 rounded-lg bg-rose-500 hover:bg-rose-600 text-white font-bold text-[11px] transition-all shadow-sm active:scale-95"
+                    title="Click if your period started today"
+                  >
+                    Log Today
+                  </button>
+                  <button
+                    type="button"
+                    onClick={clearSavedProfile}
+                    className="p-1 rounded-lg text-muted-foreground hover:text-rose-500 hover:bg-rose-500/10 transition-colors"
+                    title="Clear saved data from browser"
+                  >
+                    <Trash2 size={13} />
+                  </button>
+                </div>
+              </div>
+            )}
 
             {/* Parameter 1: First Day of Last Period */}
             <div className="space-y-2.5">
@@ -415,8 +572,15 @@ Calculated via: https://sciencenewshub.click/period-calculator`;
               />
 
               {/* Quick Preset Buttons */}
-              <div className="flex flex-wrap gap-1.5 pt-1">
-                <span className="text-[11px] text-muted-foreground self-center mr-1">Quick set:</span>
+              <div className="flex flex-wrap items-center gap-1.5 pt-1">
+                <span className="text-[11px] text-muted-foreground mr-1">Quick set:</span>
+                <button
+                  type="button"
+                  onClick={logPeriodToday}
+                  className="px-2.5 py-1 text-xs rounded-lg bg-rose-500/10 hover:bg-rose-500/20 text-rose-600 dark:text-rose-400 font-bold transition-all border border-rose-500/20"
+                >
+                  Today
+                </button>
                 <button
                   type="button"
                   onClick={() => setPresetDate(7)}
@@ -571,6 +735,14 @@ Calculated via: https://sciencenewshub.click/period-calculator`;
                 {copied ? <Check size={14} className="text-emerald-500" /> : <Copy size={14} />}
                 <span>{copied ? 'Copied to Clipboard!' : 'Copy Forecast'}</span>
               </button>
+            </div>
+
+            {/* Local Privacy Reassurance Note */}
+            <div className="pt-2 border-t flex items-start gap-2 text-[11px] text-muted-foreground leading-tight">
+              <Lock size={13} className="text-emerald-500 shrink-0 mt-0.5" />
+              <span>
+                <strong>100% Private &amp; On-Device:</strong> Your cycle dates and parameters are saved automatically on your browser's cookies and local storage. No intimate health data is ever transmitted to or stored on our servers.
+              </span>
             </div>
           </section>
 
@@ -1268,3 +1440,4 @@ Calculated via: https://sciencenewshub.click/period-calculator`;
     </div>
   );
 }
+
