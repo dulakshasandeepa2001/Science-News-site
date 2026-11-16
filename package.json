@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-seo-files.js && vite build",
+    "build": "node scripts/generate-seo-files.js && vite build && node -e \"const fs=require('fs'); ['dist/_redirects','public/_redirects'].forEach(f=>{try{fs.unlinkSync(f)}catch(e){}})\"",
     "build:seo": "node scripts/generate-seo-files.js",
     "index:fast": "node scripts/fast-index.js",
     "index:monitor": "node scripts/index-monitor.js",

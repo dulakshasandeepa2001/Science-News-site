@@ -9,6 +9,14 @@ const rootDir = path.join(__dirname, '..');
 const DOMAIN = 'https://sciencenewshub.click';
 const DEFAULT_IMAGE = 'https://sciencenewshub.click/assets/lab.jpg';
 
+// Remove any stale _redirects from build output cache
+for (const dir of ['dist', 'public']) {
+  const redirectsPath = path.join(rootDir, dir, '_redirects');
+  if (fs.existsSync(redirectsPath)) {
+    try { fs.unlinkSync(redirectsPath); } catch (_) {}
+  }
+}
+
 function toSlug(text) {
   if (!text) return '';
   return text
